@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: 【挨踢生涯】 | My Octopress Blog]]></title>
+  <title><![CDATA[Category: 【挨踢生涯】 | lmmsoft’s blog]]></title>
   <link href="http://lmmsoft.github.io/blog/categories/[(ai-ti-sheng-ya-)]/atom.xml" rel="self"/>
   <link href="http://lmmsoft.github.io/"/>
-  <updated>2016-06-23T00:39:08+08:00</updated>
+  <updated>2016-06-23T01:01:57+08:00</updated>
   <id>http://lmmsoft.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[lmm333]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
