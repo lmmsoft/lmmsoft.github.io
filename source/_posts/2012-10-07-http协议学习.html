@@ -1,0 +1,124 @@
+---
+layout: post
+title: HTTP协议学习
+categories:
+- 【学习笔记】
+tags:
+- markdown
+published: true
+comments: true
+---
+<p><p>第一次尝试用markdown写博客，嘿嘿<br />
+编辑的时候注意选择HTML源码模式，并选中“This post is formatted with Markdown”</p></p>
+
+<p><h1>HTTP协议</h1></p>
+
+<p><h2>1.特点</h2></p>
+
+<p><ol>
+<li>支持客户/服务器模式</li>
+<li>简单快速</li>
+<li>灵活，可传输任意数据类型，用content-type标记</li>
+<li>无连接</li>
+<li>无状态
+<!--more--></li>
+</ol></p>
+
+<p><h2>2.请求</h2></p>
+
+<p><h3>请求由三部分组成</h3></p>
+
+<p><ol>
+<li>请求行</li>
+<li>消息报头</li>
+<li>请求正文</li>
+</ol></p>
+
+<p><h3>请求行</h3></p>
+
+<p><strong>格式</strong> Method URL HTTP-version &#92;r&#92;n</p>
+
+<p><strong>eg</strong> GET /a.html HTTP/1.1 &#92;r&#92;n</p>
+
+<p><h2>3.响应</h2></p>
+
+<p><h3>响应由三部分组成</h3></p>
+
+<p><ol>
+<li>状态行</li>
+<li>消息报头</li>
+<li>响应正文</li>
+</ol></p>
+
+<p><h3>状态行</h3></p>
+
+<p><strong>格式</strong>version status-code phrase &#92;r&#92;n</p>
+
+<p><strong>eg</strong> HTTP/1.1 200 OK</p>
+
+<p><h3>状态码</h3></p>
+
+<p><strong>1XX</strong>提示信息，请求已接受，继续处理</p>
+
+<p><strong>2XX</strong>成功</p>
+
+<p><pre><code>200 OK
+</code></pre></p>
+
+<p><strong>3XX</strong>重定向</p>
+
+<p><strong>4XX</strong>客户端错误</p>
+
+<p><pre><code>400 bad request 请求有误
+401 unauthorized
+403 forbidden 拒绝服务
+404 not found
+</code></pre></p>
+
+<p><strong>5XX</strong>服务器端错误</p>
+
+<p><pre><code>500 internal server error 服务器发生不可预知错误
+503 server unavailable 服务器当前不能处理请求，等一会
+</code></pre></p>
+
+<p><h2>消息报头</h2></p>
+
+<p>包含：普通报头、请求报头、响应报头、实体报头</p>
+
+<p><h3>普通报头</h3></p>
+
+<p><ol>
+<li>cache-control</li>
+<li>date</li>
+<li>connection</li>
+</ol></p>
+
+<p><h3>请求报头</h3></p>
+
+<p><pre><code>accept //类型信息
+accept=charset //gb2312
+accept-encoding //gzip.deflate
+accept-language //zh-cn
+authorization
+host //被请求资源的主机和端口号
+user-agent //可选，浏览器信息
+</code></pre></p>
+
+<p><h3>响应报头</h3></p>
+
+<p><pre><code>location //重定向
+server //服务器版本
+www-authenticate
+</code></pre></p>
+
+<p><h3>实体报头</h3></p>
+
+<p><pre><code>content-encoding
+content-language
+content-length //正文长度
+content-type //eg:text/html
+last-modified
+expires //过期时间，用于缓存
+GMT
+</code></pre>
+</p>

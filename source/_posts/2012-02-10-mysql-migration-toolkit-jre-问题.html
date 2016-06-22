@@ -1,0 +1,31 @@
+---
+layout: post
+title: MySQL Migration Toolkit  jre 问题
+categories:
+- 修电脑
+tags: []
+published: true
+comments: true
+---
+<p>刚才遇到了 Migration Toolkit failed with JRE 1.5 的问题，去网上查了一下。</p>
+
+<p>我本地的jre出问题了，升级为1.7，还是不行</p>
+
+<p>官网说对新版本的jre支持不好，建议换旧版本，还说这些功能即将加入了workbench5.2，建议使用workbench，真晕</p>
+
+<p>也有网友指出64位的jre可能不支持，换32位的就行。</p>
+
+<p>捣鼓了半天，终于能用了，办法是用参数指定jvm的目录</p>
+
+<p>我指定了netbeans里面自带的jdk，这样也不必把装好的jdk1.7删掉</p>
+
+<p>方法：</p>
+
+<p>在MySQLMigrationTool.exe的目录里面新建MySQLMigrationTool.cmd<br />
+编辑内容为
+<pre class="brush:bash">cd
+MySQLMigrationTool.exe -jvm "C:\NetBeans7\jdk6\jre\bin\client\jvm.dll"</pre>
+&nbsp;</p>
+
+<p>其中双引号内为jvm.dll所在的地址<br />
+双击运行即可</p>

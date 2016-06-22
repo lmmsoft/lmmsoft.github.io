@@ -1,0 +1,23 @@
+---
+layout: post
+title: chrome USB耳机没有声音
+categories:
+- 修电脑
+tags: []
+published: true
+comments: true
+---
+<p>这个问题困扰我很久了，搜了好多网页，终于解决：</p>
+
+<p>情况：USB耳机下chrome无声，IE有声，chrome的silverlight的视频也有声音，就是flash没声音，比如视频网站/豆瓣fm等。经过[声音-合成器]检查，flash的声音只出现在系统默认声源(扬声器、普通耳机)里，设置usb耳机为默认声音设备或默认通信设备都不行</p>
+
+<p>问题原因：flash的bug~</p>
+
+<p>解决方案：</p>
+
+<p>去官网安装最新版flash（http://get.adobe.com/cn/flashplayer/ ）<br />
+开新窗口，输入网址chrome://plugins/<br />
+点击右上方的[详细信息]<br />
+找到Adobe Flash Player<br />
+禁用所有的 flash player 插件, 只保留 Macromed\Flash\NPSWF32_11_3_300_268.dll (这个应该是最新版的，被禁用的包括chrome自带的)<br />
+打开douban.fm，应该有声音咯~</p>

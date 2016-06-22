@@ -1,0 +1,69 @@
+---
+layout: post
+title: 中了一个愚人彩蛋
+categories:
+- 【挨踢生涯】
+tags: []
+published: true
+comments: true
+---
+<p>有个人人chrome扩展叫做“你被删了”，自动显示删掉你的好友，挺方便的。</p>
+
+<p>原理是把好友信息保存在本地存储，然后每次打开人人查一下现在的好友，发现被删的话就推送通知。
+<!--more-->
+<img src="https://lh3.googleusercontent.com/DMzA-ejsWnQvwOSBQWAn6vmH9F0irt2XVHmWX8S-J78-DxwgXf7UP65L1j9SOXafQKIYaI93=s640-h400-e365" alt="" border="0" /></p>
+
+<p>刚才4月1日00:00的时候，突然推送的一个信息：</p>
+
+<p>你被删了，我大吃一惊<img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" />里面有12个人，都是我的闺中密友啊！！！</p>
+
+<p>&nbsp;</p>
+
+<p>转念一想，不对呀，她们不会删掉我的呀？</p>
+
+<p>仔细看了一下，都是我特别关注对象，哦，估计是中了彩蛋。。。</p>
+
+<p>&nbsp;</p>
+
+<p>接着把源码翻出来，有这样一段<img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" /><img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" /><img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" />：
+<pre class="brush:javascript">chrome.extension.sendRequest({call: "getUserId"}, function(response) {
+    var user_id = JSON.parse(response.result)["hostid"];</pre></p>
+
+<p>    if(!localStorage["is_fool_runned"] &amp;&amp; checkDate("2012/4/1")){<br />
+        chrome.extension.sendRequest({call: "getFocusFriends"}, function(response) {<br />
+            var friends = JSON.parse(response.result).candidate;</p>
+
+<p>            notify(friends);</p>
+
+<p>            var friends_div = document.getElementsByClassName("friends")[0];<br />
+            friends_div.onclick = function(){<br />
+                alert("愚人节快乐!");<br />
+                return false;<br />
+            };</p>
+
+<p>            localStorage.is_fool_runned = true;<br />
+        });<br />
+    } else {<br />
+        chrome.extension.sendRequest({call: "getFriends"}, function(response) {<br />
+            var friends = JSON.parse(response.result)["candidate"];<br />
+            getLostFriends(friends, user_id);<br />
+        });<br />
+    }<br />
+});
+&nbsp;</p>
+
+<p>果然是个愚人节彩蛋，嘿嘿！<img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /></p>
+
+<p>——————————————————————————————————</p>
+
+<p>接着深挖了一下这个版本</p>
+
+<p>2.0版本是2012.1.24更新的，里没有愚人节彩蛋</p>
+
+<p>2.1版本是2012.3.31 更新的，里面增加了这个愚人节彩蛋</p>
+
+<p>作者肯定是个很有趣的人呢！<img src="http://s.xnimg.cn//imgpro/icons/statusface/1.gif?ver=1" alt="微笑" border="0" /></p>
+
+<p>大家有兴趣试试</p>
+
+<p>扩展地址：https://chrome.google.com/webstore/detail/kdhigkimclpgjcjbbbnlhndjopmpehoo</p>

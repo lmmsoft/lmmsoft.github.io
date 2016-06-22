@@ -1,0 +1,90 @@
+---
+layout: post
+title: SAE中使用代码高亮插件WP-CodeBox
+categories:
+- 修电脑
+tags: []
+published: true
+comments: true
+---
+<p><!--more--><h4>WP-CodeBox代码高亮插件，它支持多种语言、代码下载、复制到剪贴板、代码框收放及后台默认属性设置多项功能，使用起来也比较方便。</h4>
+&nbsp;</p>
+
+<p>具体使用方法：
+<ol>
+	<li>SAE自动安装WP-CodeBox插件：</li>
+	<li>登录WordPress管理后台，点击“插件”找到WP-CodeBox插件，激活该插件。</li>
+	<li>插件激活后，在“设置”--&gt;“代码高亮“中设置相关信息，如下图所示：</li>
+</ol>
+<img src="http://www.ahdong.net/wp-content/uploads/2010/08/wordpresswpcodebox1.gif" alt="wordpress-wp-codebox1" width="549" height="253" border="0" /></p>
+
+<p>使用方法：</p>
+
+<p>在插入代码前，将wordpress 编辑器切换为“<strong><em><span style="color: #ff0000;">HTML编辑</span></em></strong>”模式！</p>
+
+<p>在图中基本上对插件的相关功能都进行了说明，在页面中，其实你也不用进行任何设置，保持默认即可，安装成功后，接下来就是使用插件了，使用之前先来介绍下WP-CodeBox插件的相关语法：</p>
+
+<p>代码格式</p>
+
+<p><code>&lt;pre lang="LANGUAGE" line="1" file="download.txt" colla="+"&gt;</code> 内容 <code>&lt;/pre&gt;</code></p>
+
+<p>解释：</p>
+
+<p>lang="LANGUAGE<strong>"：</strong>代码的语言,如ASP、PHP、Java等</p>
+
+<p>file="download.txt"：创建一个可下载的保存名称</p>
+
+<p>line="N"：开始行数</p>
+
+<p>colla="+/-"： ”+“表示展开，”-“表示收缩</p>
+
+<p>演示：</p>
+
+<p>1.语言为php，有行数，默认展开代码
+<blockquote>    &lt;pre lang="php"&gt;<br />
+&lt;div id="foo"&gt;<br />
+&lt;?php<br />
+function foo() {<br />
+echo "Hello World!\\n";<br />
+}
+for (\$i = 0; \$i &lt; 10 $i++) {<br />
+foo();<br />
+}
+?&gt;<br />
+&lt;/div&gt;<br />
+&lt;/pre&gt;</blockquote>
+效果：
+<pre lang="php"></pre>
+&nbsp;</p>
+
+<p>2.语言为 Java，有行数，默认展开
+<blockquote>    &lt;pre lang="java" line="1" colla="-"&gt;<br />
+public class Hello {<br />
+public static void main(String[] args) {<br />
+System.out.println("Hello World!");<br />
+}
+}<br />
+&lt;/pre&gt;</blockquote>
+效果：
+<pre lang="java">public class Hello {
+public static void main(String[] args) {
+System.out.println("Hello World!");
+}
+}</pre>
+&nbsp;</p>
+
+<p>3.语言为Ruby，有行数，从18开始，有下载，默认展开
+<blockquote>    &lt;pre lang="ruby" line="18" file="ruby.txt"&gt;<br />
+class Example<br />
+def example(arg1)<br />
+return "Hello: " + arg1.to_s<br />
+end<br />
+end<br />
+&lt;/pre&gt;</blockquote>
+效果：
+<pre lang="ruby">class Example
+def example(arg1)
+return "Hello: " + arg1.to_s
+end
+end</pre>
+&nbsp;</p>

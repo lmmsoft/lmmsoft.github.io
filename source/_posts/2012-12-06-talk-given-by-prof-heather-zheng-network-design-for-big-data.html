@@ -1,0 +1,112 @@
+---
+layout: post
+title: ! 'Talk given by Prof. Heather Zheng: Network Design for Big-Data'
+categories:
+- 【学习笔记】
+tags: []
+published: true
+comments: true
+---
+<p>MSRA平时的talk和seminars非常多，之前听了若干，但回来之后都没怎么整理，全废了T_T</p>
+
+<p><p>以后争取每次都能整理下，加深印象。虽然我的笔记质量不高，只有自己能看懂~
+<!--more--></p></p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><p>Talk:         Network Design for Big-Data<br />
+Speaker:     Prof. Heather Zheng, U. C. Santa Barbara.<br />
+Time:         11:00AM, December 6, Thursday<br />
+Venue:    Demo Room (14366, 14F)<br />
+讲座两个部分，第一部分是用flexible wireless进行data center通信建设；第二部分是scalable social network analysis 社交网络计算。</p></p>
+
+<p><h1>Part1.Network Design for Big-Data</h1></p>
+
+<p><h2>traffic hotspots</h2></p>
+
+<p><ol>
+<li>unpredictable</li>
+<li>double fee</li>
+</ol></p>
+
+<p><h2>Wireless links-flexible</h2></p>
+
+<p><h2>challenge #1 Link Blockage</h2></p>
+
+<p>3D Beamforming，这里有个图：</p>
+
+<p><ol>
+<li>用天花板Reflector进行反射</li>
+<li>接收器下面用Absorberx吸收信号，防止再反射</li>
+</ol></p>
+
+<p><h2>challenge #2 Interference Footprint</h2></p>
+
+<p><h2>challenge #3 Robustness ti Alignment Error</h2></p>
+
+<p>concurrency</p>
+
+<p><h2>总结：</h2></p>
+
+<p>因为我不懂无线传感网络方面的知识，所以这个talk的细节不是太懂，不过用天花板反射倒是理解了，很巧妙的思路~</p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><h1>Part2.enable scalable graph processing for today’s massive online social networks</h1></p>
+
+<p><h2>distance ranked social</h2></p>
+
+<p>rank search result based on social distance</p>
+
+<p><h2>Key Limition Today:Scale</h2></p>
+
+<p><h2>A drastically different alternative</h2></p>
+
+<p><ol>
+<li>O(1) query time</li>
+<li>Parallelize</li>
+</ol></p>
+
+<p>Graph embedding</p>
+
+<p><h1>Approach for Embedding</h1></p>
+
+<p><h3>require:</h3></p>
+
+<p><ol>
+<li>BFS</li>
+<li>converge quickly</li>
+<li>optimize accuracy</li>
+</ol></p>
+
+<p><h1>shortest path search</h1></p>
+
+<p><p>说了一个算法，说得太快，没听清T_T<br />
+Rigel 12倍于 Sketch Tree</p></p>
+
+<p><h2>总结</h2></p>
+
+<p><p>具体算法没听懂，但我知道了这个东西：<br />
+1. 社交网络对人名的搜索可以借助预处理来给出一个很好的结果，比尔搜索Bob，可以找到你可能认识的Bob，而人人网找人搜索很烂，几乎不能按好友数排序。<br />
+1. 社交网络计算量很大，有很多算法值得探究~<br />
+1. 做社交网络不容易，人人的研发能力不足以提供完美的服务</p></p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><h1>附：</h1></p>
+
+<p>Abstract:</p>
+
+<p><p>The arrival of big-data applications has created significant challenges to network design.  For example, batched data processing jobs are straining network capacity in data center networks, causing unexpected outages and service downtimes, while social network companies struggle to manage millions of users and billions of user events and queries in real time. In both cases, network architects must find new, novel ways to support traffic/service demands that display complex structure and vary significantly with time.<br />
+In this talk, I will discuss two of our recent works on big-data.</p></p>
+
+<p><ol>
+<li>First, I will talk about challenges in dealing with dynamic traffic hotspots in data centers, and our solution using flexible wireless interconnects to augment wired connections. We propose 3D beamforming 60GHz links that leverage ceiling reflection to overcome key challenges in deploying wireless links, creating parallel wireless links connecting any racks at wired data rates.</li>
+<li>Next, I will discuss our effort to enable scalable graph processing for today’s massive online social networks. We propose graph coordinate systems, a new approach that accurately approximates node distances in constant time by embedding graphs into coordinate spaces. Our design not only provides accurate results for massive graphs (43 million nodes), but also is naturally parallelizable across computer clusters. It answers node-distance queries in 10’s of microsecond, and produces shortest path results up to 18 times faster than prior solutions with similar accuracy.</li>
+<li>Finally, I will conclude with a brief summary of other ongoing projects.</li>
+</ol></p>
+
+<p>Bio:</p>
+
+<p>Haitao (Heather) Zheng is currently an Associate Professor at the Computer Science department, U. C. Santa Barbara. She completed her M.S. and Ph.D. degrees in Electrical and Computer Engineering at Univ. of Maryland, College Park (1998, 1999) and her B. S. degree from Xi’an Jiaotong University (gifted class). She is a recipient of the MIT Technology Review’s TR-35 Award (Young Innovators Under 35) and the World Technology Network Fellow Award. Her work has been covered by media outlets such as New York Times, Boston Globe, MIT Technology Review, and Computer World. Her work on cognitive radios was named as the top-10 Emerging Technologies by MIT Technology Review in 2006.  Her research spans areas of wireless networking, distributed systems, economics, data-intensive computing, and social networks.
+</p>

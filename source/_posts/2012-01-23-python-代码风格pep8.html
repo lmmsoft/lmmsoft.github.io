@@ -1,0 +1,117 @@
+---
+layout: post
+title: Python 代码风格PEP8
+categories:
+- 【挨踢生涯】
+tags: []
+published: true
+comments: true
+---
+<p>最近在学习python，知道了关于python代码风格PEB8，转载一篇中文介绍吧，写得蛮好的：</p>
+
+<p>官方文档：<a href="http://www.python.org/dev/peps/pep-0008/">http://www.python.org/dev/peps/pep-0008/</a></p>
+
+<p>&nbsp;</p>
+
+<p>转载来源：<a href="http://www.blogjava.net/lincode/archive/2011/02/02/343859.html">http://www.blogjava.net/lincode/archive/2011/02/02/343859.html</a></p>
+
+<p><strong><strong>1 变量</strong>
+</strong>
+<strong>常量</strong> : 大写加下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />USER_CONSTANT</div>
+对于不会发生改变的全局变量，使用大写加下划线。
+<strong>
+私有变量</strong> : 小写和一个前导下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />_private_value</div>
+Python 中不存在私有变量一说，若是遇到需要保护的变量，使用小写和一个前导下划线。但这只是程序员之间的一个约定，用于警告说明这是一个私有变量，外部类不要去访问它。但实际上，外部类还是可以访问到这个变量。
+<!--more-->
+<strong>内置变量</strong> : 小写，两个前导下划线和两个后置下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />__class__</div>
+两个前导下划线会导致变量在解释期间被更名。这是为了避免内置变量和其他变量产生冲突。用户定义的变量要严格避免这种风格。以免导致混乱。</p>
+
+<p><strong><strong>2 函数和方法
+</strong></strong>
+总体而言应该使用，小写和下划线。但有些比较老的库使用的是混合大小写，即首单词小写，之后每个单词第一个字母大写，其余小写。但现在，小写和下划线已成为规范。</p>
+
+<p><strong>私有方法</strong> ： 小写和一个前导下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />def _secrete(self):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />    print "don't test me."</div>
+这里和私有变量一样，并不是真正的私有访问权限。同时也应该注意一般函数不要使用两个前导下划线(当遇到两个前导下划线时，Python 的名称改编特性将发挥作用)。特殊函数后面会提及。</p>
+
+<p><strong>特殊方法</strong> ： 小写和两个前导下划线，两个后置下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />def __add__(self, other):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />    return int.__add__(other)</div>
+这种风格只应用于特殊函数，比如操作符重载等。</p>
+
+<p><strong>函数参数</strong> : 小写和下划线，缺省值等号两边无空格
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />def connect(self, user=None):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />    self._user = user</div>
+<strong>3 类</strong></p>
+
+<p>类总是使用驼峰格式命名，即所有单词首字母大写其余字母小写。类名应该简明，精确，并足以从中理解类所完成的工作。常见的一个方法是使用表示其类型或者特性的后缀，例如:<br />
+SQLEngine<br />
+MimeTypes</p>
+
+<p>对于基类而言，可以使用一个 Base 或者 Abstract 前缀<br />
+BaseCookie<br />
+AbstractGroup
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />class UserProfile(object):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />    def __init__(self, profile):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />        return self._profile = profile
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />    def profile(self):
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />        return self._profile</div>
+<strong>4 模块和包</strong></p>
+
+<p>除特殊模块 __init__ 之外，模块名称都使用不带下划线的小写字母。<br />
+若是它们实现一个协议，那么通常使用lib为后缀，例如:<br />
+import smtplib
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />import os
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />import sys</div>
+<strong>5 关于参数
+</strong>
+5.1 不要用断言来实现静态类型检测<br />
+断言可以用于检查参数，但不应仅仅是进行静态类型检测。 Python 是动态类型语言，静态类型检测违背了其设计思想。断言应该用于避免函数不被毫无意义的调用。</p>
+
+<p>5.2 不要滥用 *args 和 **kwargs<br />
+*args 和 **kwargs 参数可能会破坏函数的健壮性。它们使签名变得模糊，而且代码常常开始在不应该的地方构建小的参数解析器。</p>
+
+<p><strong>6 其他
+</strong>
+6.1 使用 has 或 is 前缀命名布尔元素
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />is_connect = True
+<img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />has_member = False</div>
+6.2 用复数形式命名序列
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />members = ['user_1', 'user_2']</div>
+6.3 用显式名称命名字典
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />person_address = {'user_1':'10 road WD', 'user_2' : '20 street huafu'}</div>
+6.4 避免通用名称<br />
+诸如 list, dict, sequence 或者 element 这样的名称应该避免。</p>
+
+<p>6.5 避免现有名称<br />
+诸如 os, sys 这种系统已经存在的名称应该避免。</p>
+
+<p><strong>7 一些数字</strong>
+一行列数 : PEP 8 规定为 <strong>79 列</strong>，这有些苛刻了。根据自己的情况，比如不要超过满屏时编辑器的显示列数。这样就可以在不动水平游标的情况下，方便的查看代码。</p>
+
+<p>一个函数 : 不要超过 <strong>30 行</strong>代码, 即可显示在一个屏幕类，可以不使用垂直游标即可看到整个函数。<br />
+一个类 : 不要超过 <strong>200 行</strong>代码，不要有超过 <strong>10 个</strong>方法。<br />
+一个模块 不要超过 <strong>500 行</strong>。</p>
+
+<p><strong>8 验证脚本</strong></p>
+
+<p>可以安装一个 pep8 脚本用于验证你的代码风格是否符合 PEP8。</p>
+
+<p>&gt;&gt;easy_install pep8</p>
+
+<p>&gt;&gt;pep8 -r --ignoire E501 Test.py</p>
+
+<p>这个命令行的意思是，重复打出错误，并且忽略 501 错误(代码超过 79 行)。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
