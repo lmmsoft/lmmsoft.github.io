@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>一个网页闯关游戏 - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="最近遇到了好多网页闯关游戏。 比如有名的 pythonchallenge 再比如 http://riddle.arthurluk.net/ &nbsp; 今晚做了  http://monyer.com/game/game1/ 虽然只有15关，但感觉非常好，强烈推荐！ &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://lmmsoft.github.io/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="lmmsoft.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">一个网页闯关游戏</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-06T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>6</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>最近遇到了好多网页闯关游戏。</p>
+
+<p>比如有名的<a href="http://www.pythonchallenge.com/" target="_blank"> pythonchallenge</a></p>
+
+<p>再比如 <a href="http://riddle.arthurluk.net/">http://riddle.arthurluk.net/</a></p>
+
+<p>&nbsp;</p>
+
+<p>今晚做了  <a href="http://monyer.com/game/game1/">http://monyer.com/game/game1/</a></p>
+
+<p>虽然只有15关，但感觉非常好，<span style="color: #ff6600;"><strong>强烈推荐</strong></span>！</p>
+
+<p>它让我学到了javascript的一些知识，还有基本的cookies、session、sql注入等知识，很有趣！</p>
+
+<p>我花了几个小时，在参考答案的帮助下通关啦！</p>
+
+<p>下面是我的通关攻略，不过我觉得首页上那个官方的攻略写的非常详细，比我的要好很多</p>
+
+<p><!--more-->
+<pre>
+0-1 查看源码，直接点击链接</pre></p>
+
+<p>1-2 查看源码，在框里输入两个空格点提交，或者直接打hello.php</p>
+
+<p>2-3 用chrome f12 里面的console直接运行一下代码，知道a=424178<br />
+或者直接在地址栏输入javascript:alert(a)，因为a的结果已经在页面加载的时候计算过了</p>
+
+<p>3-4 运行下js知道密码是d4g</p>
+
+<p>4-5 有个重定向，所以直接查源码：<br />
+view-source:http://monyer.com/game/game1/d4g.php</p>
+
+<p>运行上面一段代码是"3bhe"<br />
+运行下面一段代码是"a=a.toUpperCase()+1;"<br />
+答案是<br />
+http://monyer.com/game/game1/3BHE1.php</p>
+
+<p>5-6 这一关没做出来，答案是http://monyer.com/game/game1/seventeen7.php</p>
+
+<p>6-7 很多网站md5逆向竟然要收费，哎，答案是<br />
+http://monyer.com/game/game1/eighteen8.php</p>
+
+<p>7-8 注意这个not found 和出错是不同的哦</p>
+
+<p>8-9 这个写个暴力程序毫无压力</p>
+
+<p>9-10 盯着美女看了好久，试了几种都失败了，看答案，原来是下载图片改成txt再拖到最下面哈 http://monyer.com/game/game1/MonyerLikeYou_the10level.php</p>
+
+<p>10-11 最好的办法是先运行<br />
+javascript:alert(document.cookie="username=admin")<br />
+然后刷新就行啦<br />
+http://monyer.com/game/game1/doyouknow.php</p>
+
+<p>11-12直接改url<br />
+http://monyer.com/game/game1/doyouknow.php?action=show_login_true</p>
+
+<p>12-13 百度搜base64解密，然后联系解密两次就行啦，出现%xx那些东西用谷歌随便搜个中午，然后把地址栏里面%xx改成搜到的，就知道字符是什么了，连续2次，答案是：<br />
+http://monyer.com/game/game1/sobeautiful.php<br />
+然后发现盗链了，说明直接输入地址的报文里来源是空的，要求从本站来<br />
+比较麻烦的办法是用socket伪造请求报文<br />
+比较好的办法是利用前面一个以免会把请求的代码输出，于是构造<br />
+&lt;a href=sobeautiful.php&gt;haha&lt;/a&gt;<br />
+点击提交，就出现过关链接啦！</p>
+
+<p>13-14 看了源码，把数据库链接都告诉你了，显然是sql注入题哈！<br />
+文本框输入'or''='<br />
+sql变成select password,pwd from [user] where pwd=''or''=''<br />
+原有''之间增加了''=''的恒真式，哈哈！<br />
+答案：http://monyer.com/game/game1/whatyouneverknow.php</p>
+
+<p>14-15 这个不会，直接看答案了：<br />
+ipasscrackme.php<br />
+想加入过关名单，必须通过cookies 和session两关，如果没记录的话，过去重打一下，不麻烦</p>
+
+<p>ps:<br />
+我的好友techird发现：<br />
+第七关不是有图片吗，我看图片路径是img/tupian1.jpg，然后猜想密码可能是img/tupian17.jpg，然后发现不是，我就直接访问img目录，竟然可以看到所有文件……<br />
+然后就全破了</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2012-02-06T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>6</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/[(ai-ti-sheng-ya-)]/'>【挨踢生涯】</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://lmmsoft.github.io/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/" data-via="" data-counturl="http://lmmsoft.github.io/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/" title="Previous Post: cf105 div2 解题报告">&laquo; cf105 div2 解题报告</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/02/08/pandoc-%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%88%A9%E5%99%A8/" title="Next Post: Pandoc —— 文档格式转换利器">Pandoc —— 文档格式转换利器 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/">MAC通过SMB访问windows文件夹，密码正确，无法登陆</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/">Chrome USB耳机没有声音</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/">开始行动</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/">【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
