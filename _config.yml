@@ -96,8 +96,8 @@ disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-27089866-7
-google_universal_analytics: UA-27089866-7
-google_universal_analytics_cookiedomain: auto
+# google_universal_analytics: UA-27089866-7
+# google_universal_analytics_cookiedomain: auto
 
 # Facebook Like
 facebook_like: false
