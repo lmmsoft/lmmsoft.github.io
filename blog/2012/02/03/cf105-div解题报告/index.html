@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Cf105 Div2 解题报告 - lmmsoft’s blog</title>
+  <meta name="author" content="lmm333">
+
+  
+  <meta name="description" content="比赛时暴露出现好多问题，赛后要好好总结： &nbsp; A 148A - Insomnia cure 暴力：
+k = [input() for i in xrange(4)]
+d = input()
+print len(set([j for i in k for j in range(1,d+1 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://lmmsoft.github.io/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="lmmsoft’s blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">lmmsoft’s blog</a></h1>
+  
+    <h2>On the way to freedom</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="lmmsoft.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Cf105 Div2 解题报告</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-03T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>比赛时暴露出现好多问题，赛后要好好总结：</p>
+
+<p>&nbsp;</p>
+
+<p>A <a href="http://codeforces.com/problemset/problem/148/A">148A - Insomnia cure</a></p>
+
+<p>暴力：
+<pre class="brush:python">k = [input() for i in xrange(4)]
+d = input()
+print len(set([j for i in k for j in range(1,d+1) if j%i==0]))</pre>
+&nbsp;</p>
+
+<p>B <a href="http://codeforces.com/problemset/problem/148/B">148B - Escape</a></p>
+
+<p>简单计算题，比赛时没考虑龙的初始速度要比公主快，赛后挂了
+<!--more-->
+<pre class="brush:cpp">double eps = 0.00000001;</pre></p>
+
+<p>int main() {<br />
+    int vp, vd, t, f, c, n = 0;<br />
+    scanf("%d%d%d%d%d", &amp;vp, &amp;vd, &amp;t, &amp;f, &amp;c);<br />
+    if (vp &gt;= vd) {//龙的初始速度没公主快的话必然追不上，赛后挂在这里了<br />
+        puts("0");<br />
+        return 0;<br />
+    }<br />
+    //公主的初始距离<br />
+    double dis = t*vp;<br />
+    while (1) {<br />
+        //龙追到公主时的距离<br />
+        dis += dis / (vd - vp) * vp;<br />
+        if ((c - dis) &lt;=0)<br />
+            break;<br />
+        n++;<br />
+        //龙返回原点并处理f事情后 公主的距离<br />
+        dis += (dis / vd + f) * vp;<br />
+    }<br />
+    printf("%d\n", n);<br />
+    return 0;<br />
+}
+C 题目不难，需要仔细考虑，我的代码比较乱，就不拿出来了</p>
+
+<p>D dp...研究中</p>
+
+<p>E 分组背包，先预处理每一组里不同个数的最大值，然后上分组背包模版
+<pre class="brush:cpp">const int MAXN = 128;
+const int MAXM = 10086;</pre></p>
+
+<p>int dp[MAXM], a[MAXN], Max[MAXN], Left[MAXN], Right[MAXN];</p>
+
+<p>int main() {<br />
+    int n, m, num, sum;<br />
+    scanf("%d%d", &amp;n, &amp;m);<br />
+    fill(dp, dp + m + 1, 0);<br />
+    sum = 0;<br />
+    for (int i = 0; i &lt; n; ++i) {<br />
+        scanf("%d", &amp;num);<br />
+        sum+=num;<br />
+        for (int i = 1; i &lt;= num; ++i) {<br />
+            scanf("%d", a + i);<br />
+        }</p>
+
+<p>        fill(Left, Left + num + 1, 0);<br />
+        fill(Right, Right + num + 1, 0);<br />
+        fill(Max, Max + num + 1, 0);</p>
+
+<p>        for (int i = 1; i &lt;= num; ++i) {//左边和右边i个数的总和<br />
+            Left[i] = Left[i - 1] + a[i];<br />
+            Right[i] = Right[i - 1] + a[num - i + 1];<br />
+        }<br />
+        for (int i = 1; i &lt;= num; ++i) {<br />
+            for (int j = 0; j &lt;= i; ++j) {<br />
+                Max[i] = max(Max[i], Left[j] + Right[i - j]);<br />
+            }<br />
+        }<br />
+        //此时Max[i]为预处理后i个数和的最大值</p>
+
+<p>        for (int V = m; V &gt;=0; --V) {//这里v的初始值可以优化为min(m, sum)，sum是目前出现数字的个数<br />
+            for (int i = min(num,V); i &gt;0 ; --i) {//保证i&lt;=V,为了下面不会数组越界，保证i&lt;=num,是题意<br />
+                dp[V] = max(dp[V], dp[V - i] + Max[i]);//i同时也是背包里面消耗的费用<br />
+            }<br />
+        }<br />
+    }<br />
+    printf("%d\n", dp[m]);<br />
+    return 0;<br />
+}
+&nbsp;</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">lmm333</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2012-02-03T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/[(ai-ti-sheng-ya-)]/'>【挨踢生涯】</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://lmmsoft.github.io/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/" data-via="" data-counturl="http://lmmsoft.github.io/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/01/26/cf104-div2-a-%E5%87%A0%E4%B8%AA%E6%BC%82%E4%BA%AE%E7%9A%84%E4%BB%A3%E7%A0%81/" title="Previous Post: cf104 div2 A 几个漂亮的代码">&laquo; cf104 div2 A 几个漂亮的代码</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/" title="Next Post: 一个网页闯关游戏">一个网页闯关游戏 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/">MAC通过SMB访问windows文件夹，密码正确，无法登陆</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/">Chrome USB耳机没有声音</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/">开始行动</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/">【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - lmm333 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 【挨踢生涯】 | lmmsoft’s blog]]></title>
+  <link href="http://lmmsoft.github.io/blog/categories/[(ai-ti-sheng-ya-)]/atom.xml" rel="self"/>
+  <link href="http://lmmsoft.github.io/"/>
+  <updated>2016-06-23T01:01:57+08:00</updated>
+  <id>http://lmmsoft.github.io/</id>
+  <author>
+    <name><![CDATA[lmm333]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[数据工程师面经]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/11/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88%E9%9D%A2%E7%BB%8F/"/>
+    <updated>2012-12-11T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/11/数据工程师面经</id>
+    <content type="html"><![CDATA[<p><pre>今天凌晨实在是不想睡觉，就开始看人人上大家的日志，直到五点皇马比赛开始。</pre></p>
+
+
+
+
+<p>翻了30页，前溯到2012年7月24日，300篇摘要，细看了20篇左右。</p>
+
+
+
+
+<p><strong>谢谢社交网络，打破地域限制，让我有幸认识你们，看到了不同的生活。</strong></p>
+
+
+
+
+<p>无法经历你们所有人的生活，无法与你们所有人面谈，但你们分享依然让我收获颇丰，更多得了解这个世界。</p>
+
+
+
+
+<p>愈发体会到分享的意义，博客要多写，即使内容很水。帮助自己回忆过去，或许还能帮助到一些需要的人。
+<!--more-->
+<pre>——————————————————————————————————————————</pre></p>
+
+
+
+
+<p>本来不想写昨天下午的面试经历，基于上文，还是回忆下吧：</p>
+
+
+
+
+<p>就不说哪家网站了，因为要透露题目。</p>
+
+
+
+
+<p>1.投的是数据工程师职位，a)我没有这方面背景 b)我有兴趣</p>
+
+
+
+
+<p>2.九月找人内推，十一月中旬才接到HR的电话，一直以为渣简历直接被鄙视了呢</p>
+
+
+
+
+<p>2.一面：<br />
+自我介绍，聊项目<br />
+面试官问我数据结构和算法怎样，我说有点了解，又问我数学怎样，我说很一般。。。面试官看我都是web开发的经验，就说我们对数学有要求的，来看一道简单的概率题：</p>
+
+
+
+
+<p>=&gt;某公司面试通过率90%，面试官判断正确的概率也是90%，问通过一轮面试后通过的人是合格的概率多少？<br />
+我很快做出，然后开始写代码题，不用被虐数学啦：</p>
+
+
+
+
+<p>=&gt;求二叉树高度，非递归<br />
+我先说了递归思路，面试官表示认可，然后开始想递归思路，想了几分钟开始写代码，写了十分钟以上，面试官没发现什么问题</p>
+
+
+
+
+<p>=&gt;接着问我对什么语言熟悉，我说对java的语法最熟悉，问了hashtable hashmap的区别，hashset是如何比较两个元素相等 ，几个题都比较基础，我答的还行</p>
+
+
+
+
+<p>=&gt;他刚才看了我github项目，里面有个关于设计模式的，于是让我说说策略模式<br />
+我想不起来，乱说一气，狗P不通</p>
+
+
+
+
+<p>=&gt;最后是我问他问他，我问他平时工作和他们组要做哪些事情，他说得比较细，这大大帮助了我下两轮面试^_^</p>
+
+
+
+
+<p>3.一面结束后10分钟，HR告诉我一面过了，等二面面试官。估计一面挂了就直接送客吧~</p>
+
+
+
+
+<p>4.二面，年龄稍大的面试官，估计超过30岁了<br />
+他似乎也对我的背景表示鄙视，问我为啥要选数据工程师，我说我喜欢这个云云~<br />
+接着他问我知道数据工程师过要做什么事情？我先泛泛谈了一下，然后结合一面面试官告诉我的一些细节的东西说了说，感觉还行~</p>
+
+
+
+
+<p>然后就开始做题<br />
+=&gt;第一题是找出平面上距离最近的两个点<br />
+我没有思路，问他点是不是很多呀？==&gt;是的。<br />
+然后说乱扯以前星姐教我的随机解法，大概是先选一个点，然后不断选10个方向往外走，每次走的距离越来越少，最后收敛的就是近似解</p>
+
+
+
+
+<p>==&gt;面试官说这个算法很麻烦，时间也很难确定==&gt;我又想了一下，就说先聚类，再暴力</p>
+
+
+
+
+<p>==》面试官追我三维的这题怎么搞？==&gt;我傻了眼，乱说了一通。。突然我想到二维有个分治的解法，就说了有这个东西，但不会实现。。。</p>
+
+
+
+
+<p>==》面试官看我还知道分治法，问我是不是搞过ACM==&gt;我说没参加过ACM比赛，只校赛经历什么的</p>
+
+
+
+
+<p>接着开始写代码：<br />
+a)编辑距离-&gt;先交流了下思路，然后写代码，初始化有问题，被面试官cha了<br />
+b)返回长度为N递增序列里值为M的个数-&gt;我用了3次二分的办法，不知道有没有更好的办法？</p>
+
+
+
+
+<p>然后又扯谈了一会儿，二面结束</p>
+
+
+
+
+<p>5.一会儿，二面面试官回来，告诉我一会儿三面</p>
+
+
+
+
+<p>6.三面面试官是个03年参加过ACM的老将，没写代码，就聊天，也聊聊技术~<br />
+和终面面试官聊天不是容易活，我没准备过如何表现自己，现场说的中规中矩，吸引力不足T_T</p>
+
+
+
+
+<p>7.面试就结束了，三个小时，三轮，中间只喝了点水，好累~<br />
+以后这种一次走完流程的要记得准备巧克力什么的~</p>
+
+
+
+
+<p>8.最后感谢张拯，你上周一与你的聊天对我帮助很大，下周请你吃饭</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[中了一个愚人彩蛋]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/04/01/%E4%B8%AD%E4%BA%86%E4%B8%80%E4%B8%AA%E6%84%9A%E4%BA%BA%E5%BD%A9%E8%9B%8B/"/>
+    <updated>2012-04-01T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/04/01/中了一个愚人彩蛋</id>
+    <content type="html"><![CDATA[<p>有个人人chrome扩展叫做“你被删了”，自动显示删掉你的好友，挺方便的。</p>
+
+
+
+
+<p>原理是把好友信息保存在本地存储，然后每次打开人人查一下现在的好友，发现被删的话就推送通知。
+<!--more-->
+<img src="https://lh3.googleusercontent.com/DMzA-ejsWnQvwOSBQWAn6vmH9F0irt2XVHmWX8S-J78-DxwgXf7UP65L1j9SOXafQKIYaI93=s640-h400-e365" alt="" border="0" /></p>
+
+
+
+
+<p>刚才4月1日00:00的时候，突然推送的一个信息：</p>
+
+
+
+
+<p>你被删了，我大吃一惊<img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/7.gif?ver=1" alt="惊恐" border="0" />里面有12个人，都是我的闺中密友啊！！！</p>
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+
+<p>转念一想，不对呀，她们不会删掉我的呀？</p>
+
+
+
+
+<p>仔细看了一下，都是我特别关注对象，哦，估计是中了彩蛋。。。</p>
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+
+<p>接着把源码翻出来，有这样一段<img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" /><img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" /><img src="http://s.xnimg.cn//imgpro/icons/statusface/16.gif?ver=1" alt="大笑" border="0" />：
+<pre class="brush:javascript">chrome.extension.sendRequest({call: "getUserId"}, function(response) {
+    var user_id = JSON.parse(response.result)["hostid"];</pre></p>
+
+
+
+
+<p>    if(!localStorage["is_fool_runned"] &amp;&amp; checkDate("2012/4/1")){<br />
+        chrome.extension.sendRequest({call: "getFocusFriends"}, function(response) {<br />
+            var friends = JSON.parse(response.result).candidate;</p>
+
+
+
+
+<p>            notify(friends);</p>
+
+
+
+
+<p>            var friends_div = document.getElementsByClassName("friends")[0];<br />
+            friends_div.onclick = function(){<br />
+                alert("愚人节快乐!");<br />
+                return false;<br />
+            };</p>
+
+
+
+
+<p>            localStorage.is_fool_runned = true;<br />
+        });<br />
+    } else {<br />
+        chrome.extension.sendRequest({call: "getFriends"}, function(response) {<br />
+            var friends = JSON.parse(response.result)["candidate"];<br />
+            getLostFriends(friends, user_id);<br />
+        });<br />
+    }<br />
+});
+&nbsp;</p>
+
+
+
+
+<p>果然是个愚人节彩蛋，嘿嘿！<img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /><img src="http://s.xnimg.cn//imgpro/emotions/tie/4.gif?ver=1" alt="调皮" border="0" /></p>
+
+
+
+
+<p>——————————————————————————————————</p>
+
+
+
+
+<p>接着深挖了一下这个版本</p>
+
+
+
+
+<p>2.0版本是2012.1.24更新的，里没有愚人节彩蛋</p>
+
+
+
+
+<p>2.1版本是2012.3.31 更新的，里面增加了这个愚人节彩蛋</p>
+
+
+
+
+<p>作者肯定是个很有趣的人呢！<img src="http://s.xnimg.cn//imgpro/icons/statusface/1.gif?ver=1" alt="微笑" border="0" /></p>
+
+
+
+
+<p>大家有兴趣试试</p>
+
+
+
+
+<p>扩展地址：https://chrome.google.com/webstore/detail/kdhigkimclpgjcjbbbnlhndjopmpehoo</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[一个网页闯关游戏]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/"/>
+    <updated>2012-02-06T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/02/06/一个网页闯关游戏</id>
+    <content type="html"><![CDATA[<p>最近遇到了好多网页闯关游戏。</p>
+
+
+
+
+<p>比如有名的<a href="http://www.pythonchallenge.com/" target="_blank"> pythonchallenge</a></p>
+
+
+
+
+<p>再比如 <a href="http://riddle.arthurluk.net/">http://riddle.arthurluk.net/</a></p>
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+
+<p>今晚做了  <a href="http://monyer.com/game/game1/">http://monyer.com/game/game1/</a></p>
+
+
+
+
+<p>虽然只有15关，但感觉非常好，<span style="color: #ff6600;"><strong>强烈推荐</strong></span>！</p>
+
+
+
+
+<p>它让我学到了javascript的一些知识，还有基本的cookies、session、sql注入等知识，很有趣！</p>
+
+
+
+
+<p>我花了几个小时，在参考答案的帮助下通关啦！</p>
+
+
+
+
+<p>下面是我的通关攻略，不过我觉得首页上那个官方的攻略写的非常详细，比我的要好很多</p>
+
+
+
+
+<p><!--more-->
+<pre>
+0-1 查看源码，直接点击链接</pre></p>
+
+
+
+
+<p>1-2 查看源码，在框里输入两个空格点提交，或者直接打hello.php</p>
+
+
+
+
+<p>2-3 用chrome f12 里面的console直接运行一下代码，知道a=424178<br />
+或者直接在地址栏输入javascript:alert(a)，因为a的结果已经在页面加载的时候计算过了</p>
+
+
+
+
+<p>3-4 运行下js知道密码是d4g</p>
+
+
+
+
+<p>4-5 有个重定向，所以直接查源码：<br />
+view-source:http://monyer.com/game/game1/d4g.php</p>
+
+
+
+
+<p>运行上面一段代码是"3bhe"<br />
+运行下面一段代码是"a=a.toUpperCase()+1;"<br />
+答案是<br />
+http://monyer.com/game/game1/3BHE1.php</p>
+
+
+
+
+<p>5-6 这一关没做出来，答案是http://monyer.com/game/game1/seventeen7.php</p>
+
+
+
+
+<p>6-7 很多网站md5逆向竟然要收费，哎，答案是<br />
+http://monyer.com/game/game1/eighteen8.php</p>
+
+
+
+
+<p>7-8 注意这个not found 和出错是不同的哦</p>
+
+
+
+
+<p>8-9 这个写个暴力程序毫无压力</p>
+
+
+
+
+<p>9-10 盯着美女看了好久，试了几种都失败了，看答案，原来是下载图片改成txt再拖到最下面哈 http://monyer.com/game/game1/MonyerLikeYou_the10level.php</p>
+
+
+
+
+<p>10-11 最好的办法是先运行<br />
+javascript:alert(document.cookie="username=admin")<br />
+然后刷新就行啦<br />
+http://monyer.com/game/game1/doyouknow.php</p>
+
+
+
+
+<p>11-12直接改url<br />
+http://monyer.com/game/game1/doyouknow.php?action=show_login_true</p>
+
+
+
+
+<p>12-13 百度搜base64解密，然后联系解密两次就行啦，出现%xx那些东西用谷歌随便搜个中午，然后把地址栏里面%xx改成搜到的，就知道字符是什么了，连续2次，答案是：<br />
+http://monyer.com/game/game1/sobeautiful.php<br />
+然后发现盗链了，说明直接输入地址的报文里来源是空的，要求从本站来<br />
+比较麻烦的办法是用socket伪造请求报文<br />
+比较好的办法是利用前面一个以免会把请求的代码输出，于是构造<br />
+&lt;a href=sobeautiful.php&gt;haha&lt;/a&gt;<br />
+点击提交，就出现过关链接啦！</p>
+
+
+
+
+<p>13-14 看了源码，把数据库链接都告诉你了，显然是sql注入题哈！<br />
+文本框输入'or''='<br />
+sql变成select password,pwd from [user] where pwd=''or''=''<br />
+原有''之间增加了''=''的恒真式，哈哈！<br />
+答案：http://monyer.com/game/game1/whatyouneverknow.php</p>
+
+
+
+
+<p>14-15 这个不会，直接看答案了：<br />
+ipasscrackme.php<br />
+想加入过关名单，必须通过cookies 和session两关，如果没记录的话，过去重打一下，不麻烦</p>
+
+
+
+
+<p>ps:<br />
+我的好友techird发现：<br />
+第七关不是有图片吗，我看图片路径是img/tupian1.jpg，然后猜想密码可能是img/tupian17.jpg，然后发现不是，我就直接访问img目录，竟然可以看到所有文件……<br />
+然后就全破了</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cf105 Div2 解题报告]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/"/>
+    <updated>2012-02-03T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/02/03/cf105-div解题报告</id>
+    <content type="html"><![CDATA[<p>比赛时暴露出现好多问题，赛后要好好总结：</p>
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+
+<p>A <a href="http://codeforces.com/problemset/problem/148/A">148A - Insomnia cure</a></p>
+
+
+
+
+<p>暴力：
+<pre class="brush:python">k = [input() for i in xrange(4)]
+d = input()
+print len(set([j for i in k for j in range(1,d+1) if j%i==0]))</pre>
+&nbsp;</p>
+
+
+
+
+<p>B <a href="http://codeforces.com/problemset/problem/148/B">148B - Escape</a></p>
+
+
+
+
+<p>简单计算题，比赛时没考虑龙的初始速度要比公主快，赛后挂了
+<!--more-->
+<pre class="brush:cpp">double eps = 0.00000001;</pre></p>
+
+
+
+
+<p>int main() {<br />
+    int vp, vd, t, f, c, n = 0;<br />
+    scanf("%d%d%d%d%d", &amp;vp, &amp;vd, &amp;t, &amp;f, &amp;c);<br />
+    if (vp &gt;= vd) {//龙的初始速度没公主快的话必然追不上，赛后挂在这里了<br />
+        puts("0");<br />
+        return 0;<br />
+    }<br />
+    //公主的初始距离<br />
+    double dis = t*vp;<br />
+    while (1) {<br />
+        //龙追到公主时的距离<br />
+        dis += dis / (vd - vp) * vp;<br />
+        if ((c - dis) &lt;=0)<br />
+            break;<br />
+        n++;<br />
+        //龙返回原点并处理f事情后 公主的距离<br />
+        dis += (dis / vd + f) * vp;<br />
+    }<br />
+    printf("%d\n", n);<br />
+    return 0;<br />
+}
+C 题目不难，需要仔细考虑，我的代码比较乱，就不拿出来了</p>
+
+
+
+
+<p>D dp...研究中</p>
+
+
+
+
+<p>E 分组背包，先预处理每一组里不同个数的最大值，然后上分组背包模版
+<pre class="brush:cpp">const int MAXN = 128;
+const int MAXM = 10086;</pre></p>
+
+
+
+
+<p>int dp[MAXM], a[MAXN], Max[MAXN], Left[MAXN], Right[MAXN];</p>
+
+
+
+
+<p>int main() {<br />
+    int n, m, num, sum;<br />
+    scanf("%d%d", &amp;n, &amp;m);<br />
+    fill(dp, dp + m + 1, 0);<br />
+    sum = 0;<br />
+    for (int i = 0; i &lt; n; ++i) {<br />
+        scanf("%d", &amp;num);<br />
+        sum+=num;<br />
+        for (int i = 1; i &lt;= num; ++i) {<br />
+            scanf("%d", a + i);<br />
+        }</p>
+
+
+
+
+<p>        fill(Left, Left + num + 1, 0);<br />
+        fill(Right, Right + num + 1, 0);<br />
+        fill(Max, Max + num + 1, 0);</p>
+
+
+
+
+<p>        for (int i = 1; i &lt;= num; ++i) {//左边和右边i个数的总和<br />
+            Left[i] = Left[i - 1] + a[i];<br />
+            Right[i] = Right[i - 1] + a[num - i + 1];<br />
+        }<br />
+        for (int i = 1; i &lt;= num; ++i) {<br />
+            for (int j = 0; j &lt;= i; ++j) {<br />
+                Max[i] = max(Max[i], Left[j] + Right[i - j]);<br />
+            }<br />
+        }<br />
+        //此时Max[i]为预处理后i个数和的最大值</p>
+
+
+
+
+<p>        for (int V = m; V &gt;=0; --V) {//这里v的初始值可以优化为min(m, sum)，sum是目前出现数字的个数<br />
+            for (int i = min(num,V); i &gt;0 ; --i) {//保证i&lt;=V,为了下面不会数组越界，保证i&lt;=num,是题意<br />
+                dp[V] = max(dp[V], dp[V - i] + Max[i]);//i同时也是背包里面消耗的费用<br />
+            }<br />
+        }<br />
+    }<br />
+    printf("%d\n", dp[m]);<br />
+    return 0;<br />
+}
+&nbsp;</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cf104 Div2 a 几个漂亮的代码]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/01/26/cf104-div2-a-%E5%87%A0%E4%B8%AA%E6%BC%82%E4%BA%AE%E7%9A%84%E4%BB%A3%E7%A0%81/"/>
+    <updated>2012-01-26T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/01/26/cf104-div2-a-几个漂亮的代码</id>
+    <content type="html"><![CDATA[<p><pre>146A - Lucky Ticket</pre></p>
+
+
+
+
+<p>题意：长度为n的数字，如果全部是4或7，并且前一半的和等于后一半的和，则输出“YES”，否则“NO”</p>
+
+
+
+
+<p>我的代码：
+<pre class="brush:python">n=input()/2
+p=raw_input()
+for c in p: #找不是47的数字
+    if c not in ["4","7"]:
+        print "NO"
+        exit()
+#读入的字符串转成int并变成list之后求和
+if sum([int(c) for c in p[:n]])==sum([int(c) for c in p[n:]]):
+    print "YES"
+else:
+    print "NO"</pre>
+&nbsp;
+<pre>看到另一个人的代码</pre>
+<pre class="brush:python">n = int(raw_input())
+s = raw_input()
+a = [ord(c)-ord('0') for c in s]    #string转成数字list，方便后面处理
+ans = 1
+for i in a:
+        if i not in [4, 7]:
+                ans = 0
+                break
+else:
+        if sum(a[:n/2]) != sum(a[n/2:]):
+                ans = 0</pre></p>
+
+
+
+
+<p>print ['NO', 'YES'][ans] #用list索引简化输出
+&nbsp;
+<pre>还看到几个特别漂亮的代码：</pre>
+<pre class="brush:python">if set("47").issuperset(set(S)) and sum(map(int,S[:len(S)/2])) == sum(map(int,S[len(S)/2:])):
+    print "YES"
+else: print "NO"</pre>
+&nbsp;
+<pre>通过组成的集合是不是"47"的子集来判定有没有超过47的数字
+用map(int,S)把字符串转换成int list ，方便求和</pre></p>
+
+
+
+
+<p>最精彩的是这个代码：
+<pre class="brush:python">s=sorted  #变成自动排序的list
+n=input()
+z=raw_input()
+print"NYOE S"[set(z)&lt;=set("47")and s(2*s(z[:n//2]))==s(z)::2]</pre></p>
+
+
+
+
+<p>#set(z)&lt;=set("47")    直接比较子集<br />
+#s(2*s(z[:n//2]))==s(z)::2  前一半的和乘以二
+&nbsp;</p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,8 +1,599 @@
-<html>
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-  <meta http-equiv="refresh" content="0;url=http://lmm333.com">
+  <meta charset="utf-8">
+  <title>lmmsoft’s blog</title>
+  <meta name="author" content="lmm333">
+
+  
+  <meta name="description" content="windows电脑清灰。然后重新上电开机。下午通过mac访问windows的共享文件夹，依旧是通过Finder菜单里前往菜单下的连接服务器选项连接，竟然出现无法连接，同样密码的远程连接可以，smb不行。 重新输入了一边windows电脑上的用户名和密码，依然无法连接。确保用户名密码完全正确的情况下 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://lmmsoft.github.io/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="lmmsoft’s blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
 </head>
-<body>
-  Redirecting to <a href="http://lmm333.com/">http://lmm333.com</a>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">lmmsoft’s blog</a></h1>
+  
+    <h2>On the way to freedom</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="lmmsoft.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/">MAC通过SMB访问windows文件夹，密码正确，无法登陆</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-10T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>windows电脑清灰。然后重新上电开机。下午通过mac访问windows的共享文件夹，依旧是通过Finder菜单里前往菜单下的连接服务器选项连接，竟然出现无法连接，同样密码的远程连接可以，smb不行。</p>
+
+<p>重新输入了一边windows电脑上的用户名和密码，依然无法连接。确保用户名密码完全正确的情况下，mac的密码输入窗口还是在那抖动晃动。<br />
+smb无法访问，但是奇怪的是用远程桌面连接和XBMC访问都正常。无奈，先通过远程桌面，修改了一个新的windows管理员密码，再到mac finder里，问题依旧。<br />
+百思不得其解。google，百度了半天，没有答案。</p>
+
+<p>无奈再次用远程桌面连接windows电脑，查看各种设置，没发现什么问题，突然意外发现windows 右下角的自动更新提示出现了问题，小旗子上面打了红叉，顺着这条线。发现由于拆机清灰，断电后由于windows电脑的bios电池实效，系统时间变成2000年。调整了系统时间，回到mac，再次通过finder－前往－连接服务器，一切正常了。</p>
+
+<p>最后附上苹果的官方文档： Mac OS X：如何连接 Windows 文件共享 (SMB) http://support.apple.com/zh-cn/HT1568 </p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/">Chrome USB耳机没有声音</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-11-28T00:00:00+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>这个问题困扰我很久了，搜了好多网页，终于解决：</p>
+
+<p>情况：USB耳机下chrome无声，IE有声，chrome的silverlight的视频也有声音，就是flash没声音，比如视频网站/豆瓣fm等。经过[声音-合成器]检查，flash的声音只出现在系统默认声源(扬声器、普通耳机)里，设置usb耳机为默认声音设备或默认通信设备都不行</p>
+
+<p>问题原因：flash的bug~</p>
+
+<p>解决方案：</p>
+
+<p>去官网安装最新版flash（http://get.adobe.com/cn/flashplayer/ ）<br />
+开新窗口，输入网址chrome://plugins/<br />
+点击右上方的[详细信息]<br />
+找到Adobe Flash Player<br />
+禁用所有的 flash player 插件, 只保留 Macromed\Flash\NPSWF32_11_3_300_268.dll (这个应该是最新版的，被禁用的包括chrome自带的)<br />
+打开douban.fm，应该有声音咯~</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/">开始行动</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-03-22T00:00:00+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>先转一篇文章：</p>
+
+<p>————————————————————————————————————————————</p>
+
+<p>2007年9月到2008年6月，我大四，全职实习，每天早晨坐两个小时公车（当时北京地铁少而贵）上班，忙忙碌碌的一天之后，再两小时下班，看尽三环一路霓虹闪亮回到宿舍一般在晚上9点，吃饭，打闹，写点作业。上床睡觉。后来，我搬到离公司近的地方租房子住，每天浑浑噩噩的上班，下班，回家洗衣服擦地板，和同屋的女孩聊天，然后就睡觉了，第二天又开始了。时间久了，我总是觉得似乎有什么地方不太正常，好像我的生活全部都是工作，除此以外我没有任何能干的，跟不同的人交流总是有障碍，我对社会不了解，而别人对学校的事情没兴趣。这个时候我意识到一个问题，我没有平衡好我的工作和生活，除了工作，我的生活没有一点颜色。而这个时候Yvonne在加拿大交换上学，经常打电话告诉我她那里的钢琴房是多么梦幻，那里的枫叶多么漂亮，连那里街头的雪景都分外让人觉得艳羡。这让我纠结的心更加纠结。我躺床上想了很久很久，我一直想要学钢琴，我一直想要开一个博客来写下我成长过程当中的点滴的思索和进步，我一直想要做公益来让自己成为一个内心幸福的人。可是我一直都在等，似乎在等一个更好的时机，也似乎是在等有钱的时候？或者是在等我内心准备好了吧。我就这样想着，等着。不停的把自己的想法告诉更多的人，我要这样，我要那样。但是迟迟没有行动。</p>
+
+<p>六月份看自行车大王标哥的专访，80多岁的老爷子说的最多的一句话就是“有些事情，现在不做，一辈子都不可能再做了。”那时候我一个人在酒店的房间里上网八卦，和同学描绘自己的各种想法，扯的群情激昂的，可是就那一瞬间，这句话突然惊醒了我。我腾的坐起来打长途回北京，找到早就预约好的钢琴老师，请她开始给我排课程。我打开曾经写到08年12月就停止了半年的新浪博客，看到2000的点击量，看到那些歪歪扭扭的文字，开始一点一点把我写到各个不同地方的文字重新转上去。回到北京后，我火速定了去四川的机票，我开始托很多人给我找一些需要帮助的小孩；我开始将自己的工资的一部分建立起一个小小的基金会，每月一点点的钱，希望时间久了可以多一点去帮助别人。同时我开始用心去旅游，每月存固定的旅游专用基金好让我在有时间旅游的时候能够走的远一点，看的多一点。我找了斋老师给我普及古典音乐和股票知识；我开始用心扩大自己的人脉，邀请别人吃饭来交流沟通；我开始学着鼓励别人、赞美别人，而不是像以前不喜欢的就不理，理也是打击别人。我把书架里的英语书拿出来开始背单词，看英文电影，看美国电视台的节目，我开始到书店买各种书来读做笔记。我开始着手很多一直在计划里的事情。</p>
+
+<p>今天已经9月26日，我能坐在钢琴前面完整弹下《kiss the rain》，甚至可以听简单的曲子自己写谱子，老师说我让她很诧异；我开始跟着斋老师听古典音乐，用心体会阿巴多的精湛；我开始学着看股票的走势，读财商的书籍，学看年报，尽管我好像还不太能看出什么门道；我成立了“星光成长计划”的公益项目，已经有了四个私人捐助的项目，并且得到斋老师的慷慨相助；我开始写博客，写成长写职场写生活，关注的人越来越多，我认识了精彩各异的朋友，创立了自己的品牌和风格，甚至要每天会收到至少十个网友的邮件，文字也慢慢的能成为文章直接发表了。<br />
+我看到了外滩银光闪闪，我去看到了重庆灯火辉煌，尽管这地方很多人出差过，但是我没有出差机会，那我自己花钱走。我始终记得一句话“如果环境不动，那我自己走”。<br />
+我认识了很多不同领域里特牛的人，与其学习受益匪浅；也认识了很多不那么牛但是很善良温美的人，感受信任与真诚的味道；而我一直最重视的英文从听不懂公司开会内容，别人笑我也跟着笑，而又不知道为什么笑的地步到和外国人沟通自如，甚至学会跟外国人吵架发脾气。<br />
+美国爷爷说，他印象里我是个特别努力工作的人，因为每次找我吃饭我都很忙很忙。可是现在我更忙了，除了工作还有那么多要忙的事情。我告诉他，我没有觉得很忙，和他失去联系的一年，我做了好多好多好多的事情，我学会了把每件事情安排的井井有条。当生活的天平中除了工作又有了别的内容，工作和生活才可能变得平衡。他惊异的看着我，看着我在他面前慢慢的喝着咖啡，浅浅的微笑，说着比去年流畅的多的英文，笑起来比去年真心又美好。这一年，我迅速的长大，因为我真正开始行动，生命才发生了质的变化。<br />
+很多时候我们以为有了很好的工作，生命就有了意义和保障，可是生活不是只有玫瑰色，很多时候我们需要站在玫瑰色上伸头去看看别的颜色，并时不时的把别的颜色拿过来和玫瑰色搅和一下，看看能出什么花儿。<br />
+工作的八小时，决定了你的专业知识，你赚钱吃饭的能力，以及你支撑你成为一个社会人的全部支点；而工作外的八小时，才能决定你究竟会成为一个什么样的人。</p>
+
+<p>————————————————————————————————————————————————</p>
+
+<p>我看到的是【立即行动】，不再拖延，想做什么，趁年轻，现在就开始做吧~</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-02-27T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><h3>开学在即</h3>
+你是否曾遇到这样的问题：
+<ul>
+	<li>无法访问教务处网站，看不了课表</li>
+	<li>想打印课表，却经历了繁琐过程：
+<ol>
+	<li>打开网页</li>
+	<li>把课表复制到word里</li>
+	<li>拷到优盘</li>
+	<li>在文印室打开优盘，中了很多病毒T_T</li>
+	<li>打印课表</li>
+</ol>
+</li>
+	<li>打印出的课表格式很不好看</li>
+</ul>
+<h3>使用南理工课表打印助手，可以轻松解决上述问题</h3>
+<ol>
+	<li>空手走入文印室</li>
+	<li>访问网址 <a href="http://njust.aliapp.com/index_print.php" target="_blank">http://njust.aliapp.com/index_print.php</a> （如若记不清，可用文印室的电脑搜索"南理工GPA"）</li>
+	<li>输入学号、密码</li>
+	<li>选择【横向】打印，获得更好的排版效果</li>
+	<li>付0.1元，潇洒走人</li>
+</ol>
+&nbsp;
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/">【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-01-31T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天开始学斯坦福大学的机器学习课程，争取看看能不能保证每天听一节</p>
+
+<p>课程链接：http://v.163.com/special/opencourse/machinelearning.html
+<pre># 1-机器学习的动机和应用
+网址[http://v.163.com/movie/2008/1/M/C/M6SGF6VB4_M6SGHFBMC.html]</pre></p>
+
+<p>[0:00] 课程介绍，老师、助教介绍<br />
+[2:00] 机器学习介绍<br />
+[3:20] 小调查，50%学生来自CS，剩下各学科都有一些<br />
+[5:10] 对机器学习的一点认识：个别得意东西很难写程序，学习型算法是可以的<br />
+[9:45] 这门课的几个目标<br />
+	1. 理解机器学习让人兴奋的地方<br />
+	2. 学生将机器学习用在自己感兴趣的地方<br />
+	3. 有能力开始机器学习的研究<br />
+[10:35] 先修课程<br />
+	1. 基本CS知识，数据结构，写代码<br />
+	2. 基本概率统计知识<br />
+	3. 基本线性代数<br />
+[12:50] CS229是电视课程，课程信息、作业介绍<br />
+[16:00] 建议大家组建学习小组<br />
+[18:00] 作业不要作弊<br />
+[19:40] 其中考试时间<br />
+[20:00] course project,一个研究性项目，用在自己的领域或者选个问题用ML研究它，<br />
+	目标是可发表的研究成果<br />
+	往年同学的，放网站了一些项目<br />
+	最多三人一组<br />
+[23:45] MATLAB或OCTAVE 完成一些算法作业<br />
+[26:40] 讨论课<br />
+[28:15] QA<br />
+[31:30] Machine Learning Definition<br />
+	Field of study that gives computers the alility to learn without being explicitly </p>
+
+<p>programmed.<br />
+[36:00] 这门课有四个部分,并举例<br />
+	1. supervised Learning：给算法提供了标准答案<br />
+	2. Learning Theory:学习理论<br />
+	3. [50:15] Unsupervised Learning:没有答案，在里面找一些结构;聚类算法，常用于社交网络研究<br />
+	4. [62:25] Reinforcement强化学习：定义好的行为和坏的行为，然后用学习型算法<br />
+[67:30] QA</p>
+
+<p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/30/%E5%8D%8E%E5%B0%94%E8%A1%97%E7%A4%BC%E4%BB%AA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">【学习笔记】宾夕法尼亚州立大学>华尔街训练营>华尔街礼仪</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-01-30T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><h1>宾夕法尼亚州立大学->华尔街训练营>华尔街礼仪</h1></p>
+
+<p><a href="http://v.163.com/movie/2008/8/J/R/M7AQO97FT_M7B4R0VJR.html">视频地址</a></p>
+
+<p>这是我听课时用markdown记下的笔记，基本上PPT上面的东西和一些口述的都记下了</p>
+
+<p><h2>提纲</h2></p>
+
+<p><ol>
+<li>7 seconds to success</li>
+<li>Conversation Basis</li>
+<li>Munching 7 Mingling 
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/01/30/%E5%8D%8E%E5%B0%94%E8%A1%97%E7%A4%BC%E4%BB%AA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/29/%E3%80%90zz%E3%80%91%E7%A8%8B%E5%BA%8F%E5%91%98%E7%A9%B6%E7%AB%9F%E8%AF%A5%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87/">【zz】程序员究竟该如何提高效率</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-01-29T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>“拖延症”这个名词近些年很火，似乎每个人都觉得自己的效率不高，很难集中注意力做好手头的事，那我们究竟该如何提高自己的工作效率呢，大牛来告诉你.</strong></p>
+
+<p>Aaron Swartz写过一篇很有名的文章，叫做"<a href="http://www.aaronsw.com/weblog/productivity">HOWTO: Be more productive"</a>，这篇文章写的实在是太好了，我看了好多遍，很赞同作者的观点。我借鉴了作者提到的一些方法并运用到自己的生活中，发现确实有效果，所以我愿意让更多的人看到这篇文章。<a href="http://www.aaronsw.com/">Aaron Swartz</a>这个人绝对是大牛人，他14时就参与了RSS1.0的制定，他在Stanford读了一年就主动退学了，成为了YC的一员，他的公司后来与reddit合并了，他还是web.py框架的创始人。</p>
+
+<p>ps: Aaron Swartz 2013-01-11 自杀<a href="http://baike.baidu.com/view/7854319.htm" target="_blank"> http://baike.baidu.com/view/7854319.htm </a>
+废话少说，下面就是译文:
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/01/29/%E3%80%90zz%E3%80%91%E7%A8%8B%E5%BA%8F%E5%91%98%E7%A9%B6%E7%AB%9F%E8%AF%A5%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/04/%E3%80%8Aitem-to-item-collaborative-filtering%E3%80%8B%E7%AC%94%E8%AE%B0/">《Item-to-Item Collaborative Filtering》笔记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-01-04T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>因毕设需要元旦翻译了amazon.com那篇著名的协同过滤的文章 <a href="http://academic.research.microsoft.com/Publication/861437/amazon-com-recommendations-item-to-item-collaborative-filtering">《Amazon.com Recommendations: Item-to-Item Collaborative Filtering 》</a></p>
+
+<p><p>翻译之余顺便做了笔记，和csdn blog上的<a href="http://blog.csdn.net/poson/article/details/7644080">另一篇</a>对比了一下：<br />
+* 我的差距：不少地方没有读透，只用了原文词语，没能抽象的概括出来，说明领域知识太少，还需要恶补<br />
+* 好的地方：我的层次更加鲜明，可能是受思维导图影响吧
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/01/04/%E3%80%8Aitem-to-item-collaborative-filtering%E3%80%8B%E7%AC%94%E8%AE%B0/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/12/22/%E6%9F%90%E4%BD%8D%E5%85%A5%E8%A1%8C40%E5%B9%B4%E7%9A%84%E9%AB%98%E7%AE%A1%E8%A2%AB%E8%A3%81%E5%90%8E%E7%9A%84farewell-email/">某位入行40年的高管被裁后的farewell Email, 分享下他的建议和忠告</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-12-22T00:00:00+08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>刚才在网上看到的，觉得写得很好，翻译一下：</p>
+
+<p>All</p>
+
+<p>Thank you very much for your gifts and kind words, and for your well-crafted words Colin.  I have really enjoyed working with staff here over my 38.5 years at all the locations I have worked in.  The thing I will miss the most is the banter that you get when people get to know each other well.</p>
+
+<p>Thought I would just share a couple of thoughts before IT police come and collect my laptop.</p>
+
+<p>As I mentioned I have survived through very many reorgs until it was my time.  I put this down to a few things:
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/12/22/%E6%9F%90%E4%BD%8D%E5%85%A5%E8%A1%8C40%E5%B9%B4%E7%9A%84%E9%AB%98%E7%AE%A1%E8%A2%AB%E8%A3%81%E5%90%8E%E7%9A%84farewell-email/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/12/20/%E5%85%B3%E4%BA%8E%E8%AF%BB%E4%B9%A6%E7%9A%84%E5%90%8C%E9%A2%98%E5%9B%9E%E7%AD%94/">关于读书的同题回答</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-12-20T00:00:00+08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>无意看到一篇关于读书的文章 <a href="http://news.163.com/11/0220/09/6TATT46V00014AED.html">http://news.163.com/11/0220/09/6TATT46V00014AED.html</a></p>
+
+<p>觉得最后的10问挺有意思，A是原文，L是我：</p>
+
+<p>&nbsp;</p>
+
+<p>十问Q&amp;A</p>
+
+<p>Q: 您是否知道自己有多少藏书？</p>
+
+<p>A：家里和办公室一起大概四五千本。</p>
+
+<p>L:肯定超过100本而不到500本
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/12/20/%E5%85%B3%E4%BA%8E%E8%AF%BB%E4%B9%A6%E7%9A%84%E5%90%8C%E9%A2%98%E5%9B%9E%E7%AD%94/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/posts/2">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/">MAC通过SMB访问windows文件夹，密码正确，无法登陆</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/">Chrome USB耳机没有声音</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/">开始行动</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/">【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - lmm333 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
 </body>
 </html>

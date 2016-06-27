@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[lmmsoft’s blog]]></title>
+  <link href="http://lmmsoft.github.io/atom.xml" rel="self"/>
+  <link href="http://lmmsoft.github.io/"/>
+  <updated>2016-06-23T01:01:57+08:00</updated>
+  <id>http://lmmsoft.github.io/</id>
+  <author>
+    <name><![CDATA[lmm333]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MAC通过SMB访问windows文件夹，密码正确，无法登陆]]></title>
+    <link href="http://lmmsoft.github.io/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/"/>
+    <updated>2015-01-10T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2015/01/10/mac通过smb访问windows文件夹，密码正确，无法登陆</id>
+    <content type="html"><![CDATA[<p>windows电脑清灰。然后重新上电开机。下午通过mac访问windows的共享文件夹，依旧是通过Finder菜单里前往菜单下的连接服务器选项连接，竟然出现无法连接，同样密码的远程连接可以，smb不行。</p>
+
+<p>重新输入了一边windows电脑上的用户名和密码，依然无法连接。确保用户名密码完全正确的情况下，mac的密码输入窗口还是在那抖动晃动。<br />
+smb无法访问，但是奇怪的是用远程桌面连接和XBMC访问都正常。无奈，先通过远程桌面，修改了一个新的windows管理员密码，再到mac finder里，问题依旧。<br />
+百思不得其解。google，百度了半天，没有答案。</p>
+
+<p>无奈再次用远程桌面连接windows电脑，查看各种设置，没发现什么问题，突然意外发现windows 右下角的自动更新提示出现了问题，小旗子上面打了红叉，顺着这条线。发现由于拆机清灰，断电后由于windows电脑的bios电池实效，系统时间变成2000年。调整了系统时间，回到mac，再次通过finder－前往－连接服务器，一切正常了。</p>
+
+<p>最后附上苹果的官方文档： Mac OS X：如何连接 Windows 文件共享 (SMB) http://support.apple.com/zh-cn/HT1568 </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chrome USB耳机没有声音]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/"/>
+    <updated>2013-11-28T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/11/28/chrome-usb耳机没有声音</id>
+    <content type="html"><![CDATA[<p>这个问题困扰我很久了，搜了好多网页，终于解决：</p>
+
+<p>情况：USB耳机下chrome无声，IE有声，chrome的silverlight的视频也有声音，就是flash没声音，比如视频网站/豆瓣fm等。经过[声音-合成器]检查，flash的声音只出现在系统默认声源(扬声器、普通耳机)里，设置usb耳机为默认声音设备或默认通信设备都不行</p>
+
+<p>问题原因：flash的bug~</p>
+
+<p>解决方案：</p>
+
+<p>去官网安装最新版flash（http://get.adobe.com/cn/flashplayer/ ）<br />
+开新窗口，输入网址chrome://plugins/<br />
+点击右上方的[详细信息]<br />
+找到Adobe Flash Player<br />
+禁用所有的 flash player 插件, 只保留 Macromed\Flash\NPSWF32_11_3_300_268.dll (这个应该是最新版的，被禁用的包括chrome自带的)<br />
+打开douban.fm，应该有声音咯~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[开始行动]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/"/>
+    <updated>2013-03-22T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/03/22/开始行动</id>
+    <content type="html"><![CDATA[<p>先转一篇文章：</p>
+
+<p>————————————————————————————————————————————</p>
+
+<p>2007年9月到2008年6月，我大四，全职实习，每天早晨坐两个小时公车（当时北京地铁少而贵）上班，忙忙碌碌的一天之后，再两小时下班，看尽三环一路霓虹闪亮回到宿舍一般在晚上9点，吃饭，打闹，写点作业。上床睡觉。后来，我搬到离公司近的地方租房子住，每天浑浑噩噩的上班，下班，回家洗衣服擦地板，和同屋的女孩聊天，然后就睡觉了，第二天又开始了。时间久了，我总是觉得似乎有什么地方不太正常，好像我的生活全部都是工作，除此以外我没有任何能干的，跟不同的人交流总是有障碍，我对社会不了解，而别人对学校的事情没兴趣。这个时候我意识到一个问题，我没有平衡好我的工作和生活，除了工作，我的生活没有一点颜色。而这个时候Yvonne在加拿大交换上学，经常打电话告诉我她那里的钢琴房是多么梦幻，那里的枫叶多么漂亮，连那里街头的雪景都分外让人觉得艳羡。这让我纠结的心更加纠结。我躺床上想了很久很久，我一直想要学钢琴，我一直想要开一个博客来写下我成长过程当中的点滴的思索和进步，我一直想要做公益来让自己成为一个内心幸福的人。可是我一直都在等，似乎在等一个更好的时机，也似乎是在等有钱的时候？或者是在等我内心准备好了吧。我就这样想着，等着。不停的把自己的想法告诉更多的人，我要这样，我要那样。但是迟迟没有行动。</p>
+
+<p>六月份看自行车大王标哥的专访，80多岁的老爷子说的最多的一句话就是“有些事情，现在不做，一辈子都不可能再做了。”那时候我一个人在酒店的房间里上网八卦，和同学描绘自己的各种想法，扯的群情激昂的，可是就那一瞬间，这句话突然惊醒了我。我腾的坐起来打长途回北京，找到早就预约好的钢琴老师，请她开始给我排课程。我打开曾经写到08年12月就停止了半年的新浪博客，看到2000的点击量，看到那些歪歪扭扭的文字，开始一点一点把我写到各个不同地方的文字重新转上去。回到北京后，我火速定了去四川的机票，我开始托很多人给我找一些需要帮助的小孩；我开始将自己的工资的一部分建立起一个小小的基金会，每月一点点的钱，希望时间久了可以多一点去帮助别人。同时我开始用心去旅游，每月存固定的旅游专用基金好让我在有时间旅游的时候能够走的远一点，看的多一点。我找了斋老师给我普及古典音乐和股票知识；我开始用心扩大自己的人脉，邀请别人吃饭来交流沟通；我开始学着鼓励别人、赞美别人，而不是像以前不喜欢的就不理，理也是打击别人。我把书架里的英语书拿出来开始背单词，看英文电影，看美国电视台的节目，我开始到书店买各种书来读做笔记。我开始着手很多一直在计划里的事情。</p>
+
+<p>今天已经9月26日，我能坐在钢琴前面完整弹下《kiss the rain》，甚至可以听简单的曲子自己写谱子，老师说我让她很诧异；我开始跟着斋老师听古典音乐，用心体会阿巴多的精湛；我开始学着看股票的走势，读财商的书籍，学看年报，尽管我好像还不太能看出什么门道；我成立了“星光成长计划”的公益项目，已经有了四个私人捐助的项目，并且得到斋老师的慷慨相助；我开始写博客，写成长写职场写生活，关注的人越来越多，我认识了精彩各异的朋友，创立了自己的品牌和风格，甚至要每天会收到至少十个网友的邮件，文字也慢慢的能成为文章直接发表了。<br />
+我看到了外滩银光闪闪，我去看到了重庆灯火辉煌，尽管这地方很多人出差过，但是我没有出差机会，那我自己花钱走。我始终记得一句话“如果环境不动，那我自己走”。<br />
+我认识了很多不同领域里特牛的人，与其学习受益匪浅；也认识了很多不那么牛但是很善良温美的人，感受信任与真诚的味道；而我一直最重视的英文从听不懂公司开会内容，别人笑我也跟着笑，而又不知道为什么笑的地步到和外国人沟通自如，甚至学会跟外国人吵架发脾气。<br />
+美国爷爷说，他印象里我是个特别努力工作的人，因为每次找我吃饭我都很忙很忙。可是现在我更忙了，除了工作还有那么多要忙的事情。我告诉他，我没有觉得很忙，和他失去联系的一年，我做了好多好多好多的事情，我学会了把每件事情安排的井井有条。当生活的天平中除了工作又有了别的内容，工作和生活才可能变得平衡。他惊异的看着我，看着我在他面前慢慢的喝着咖啡，浅浅的微笑，说着比去年流畅的多的英文，笑起来比去年真心又美好。这一年，我迅速的长大，因为我真正开始行动，生命才发生了质的变化。<br />
+很多时候我们以为有了很好的工作，生命就有了意义和保障，可是生活不是只有玫瑰色，很多时候我们需要站在玫瑰色上伸头去看看别的颜色，并时不时的把别的颜色拿过来和玫瑰色搅和一下，看看能出什么花儿。<br />
+工作的八小时，决定了你的专业知识，你赚钱吃饭的能力，以及你支撑你成为一个社会人的全部支点；而工作外的八小时，才能决定你究竟会成为一个什么样的人。</p>
+
+<p>————————————————————————————————————————————————</p>
+
+<p>我看到的是【立即行动】，不再拖延，想做什么，趁年轻，现在就开始做吧~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[南理工"课表打印"小工具发布啦]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/"/>
+    <updated>2013-02-27T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/02/27/南理工课表打印小工具发布啦</id>
+    <content type="html"><![CDATA[<p><h3>开学在即</h3>
+你是否曾遇到这样的问题：
+<ul>
+	<li>无法访问教务处网站，看不了课表</li>
+	<li>想打印课表，却经历了繁琐过程：
+<ol>
+	<li>打开网页</li>
+	<li>把课表复制到word里</li>
+	<li>拷到优盘</li>
+	<li>在文印室打开优盘，中了很多病毒T_T</li>
+	<li>打印课表</li>
+</ol>
+</li>
+	<li>打印出的课表格式很不好看</li>
+</ul>
+<h3>使用南理工课表打印助手，可以轻松解决上述问题</h3>
+<ol>
+	<li>空手走入文印室</li>
+	<li>访问网址 <a href="http://njust.aliapp.com/index_print.php" target="_blank">http://njust.aliapp.com/index_print.php</a> （如若记不清，可用文印室的电脑搜索"南理工GPA"）</li>
+	<li>输入学号、密码</li>
+	<li>选择【横向】打印，获得更好的排版效果</li>
+	<li>付0.1元，潇洒走人</li>
+</ol>
+&nbsp;
+<!--more-->
+<img title="photo-media" src="http://fmn.rrimg.com/fmn062/20130227/1455/original_RYS2_01690000b2f7118f.jpg" alt="" border="0" /></p>
+
+<p>&nbsp;</p>
+
+<p>———————————————我是分割线——————————————</p>
+
+<p>&nbsp;</p>
+
+<p>1. 昨夜等国王杯，凌晨四点才开始，实在太无聊，就写了这个东西，花了四个多小时，好慢T_T</p>
+
+<p>2. 搜索"南理工GPA"，谷歌/搜狗/bing在第一条，搜搜在第四条，百度首页根本没有，全是“传送门”，真不知道page rank是怎么算的，搜索质量捉急吖~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+    <updated>2013-01-31T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/01/31/1-机器学习的动机与应用</id>
+    <content type="html"><![CDATA[<p>今天开始学斯坦福大学的机器学习课程，争取看看能不能保证每天听一节</p>
+
+<p>课程链接：http://v.163.com/special/opencourse/machinelearning.html
+<pre># 1-机器学习的动机和应用
+网址[http://v.163.com/movie/2008/1/M/C/M6SGF6VB4_M6SGHFBMC.html]</pre></p>
+
+<p>[0:00] 课程介绍，老师、助教介绍<br />
+[2:00] 机器学习介绍<br />
+[3:20] 小调查，50%学生来自CS，剩下各学科都有一些<br />
+[5:10] 对机器学习的一点认识：个别得意东西很难写程序，学习型算法是可以的<br />
+[9:45] 这门课的几个目标<br />
+	1. 理解机器学习让人兴奋的地方<br />
+	2. 学生将机器学习用在自己感兴趣的地方<br />
+	3. 有能力开始机器学习的研究<br />
+[10:35] 先修课程<br />
+	1. 基本CS知识，数据结构，写代码<br />
+	2. 基本概率统计知识<br />
+	3. 基本线性代数<br />
+[12:50] CS229是电视课程，课程信息、作业介绍<br />
+[16:00] 建议大家组建学习小组<br />
+[18:00] 作业不要作弊<br />
+[19:40] 其中考试时间<br />
+[20:00] course project,一个研究性项目，用在自己的领域或者选个问题用ML研究它，<br />
+	目标是可发表的研究成果<br />
+	往年同学的，放网站了一些项目<br />
+	最多三人一组<br />
+[23:45] MATLAB或OCTAVE 完成一些算法作业<br />
+[26:40] 讨论课<br />
+[28:15] QA<br />
+[31:30] Machine Learning Definition<br />
+	Field of study that gives computers the alility to learn without being explicitly </p>
+
+<p>programmed.<br />
+[36:00] 这门课有四个部分,并举例<br />
+	1. supervised Learning：给算法提供了标准答案<br />
+	2. Learning Theory:学习理论<br />
+	3. [50:15] Unsupervised Learning:没有答案，在里面找一些结构;聚类算法，常用于社交网络研究<br />
+	4. [62:25] Reinforcement强化学习：定义好的行为和坏的行为，然后用学习型算法<br />
+[67:30] QA</p>
+
+<p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【学习笔记】宾夕法尼亚州立大学>华尔街训练营>华尔街礼仪]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/01/30/%E5%8D%8E%E5%B0%94%E8%A1%97%E7%A4%BC%E4%BB%AA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <updated>2013-01-30T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/01/30/华尔街礼仪学习笔记</id>
+    <content type="html"><![CDATA[<p><h1>宾夕法尼亚州立大学->华尔街训练营>华尔街礼仪</h1></p>
+
+<p><a href="http://v.163.com/movie/2008/8/J/R/M7AQO97FT_M7B4R0VJR.html">视频地址</a></p>
+
+<p>这是我听课时用markdown记下的笔记，基本上PPT上面的东西和一些口述的都记下了</p>
+
+<p><h2>提纲</h2></p>
+
+<p><ol>
+<li>7 seconds to success</li>
+<li>Conversation Basis</li>
+<li>Munching 7 Mingling 
+<!--more--></li>
+</ol></p>
+
+<p><h2>7 seconds to success</h2></p>
+
+<p><h3>第一印象很重要，第一句话只有12words</h3></p>
+
+<p><ul>
+<li>自信</li>
+</ul></p>
+
+<p><h3>Rule of 12</h3></p>
+
+<p><ol>
+<li>1st 12 words shoud include "thank you"谢谢</li>
+<li>1st 12 words shoud be those of confidence 要自信，要让人感觉像是潜力股</li>
+<li>1st 12 inches from head down shuld be impeccably groomed 无可挑剔</li>
+<li>1st 12 inches from floor up shuld be well-maintained 用心雕琢（不要化妆品，不要挂件，不要香水，涂上体香剂，鞋子擦亮，不要白袜子，男人应该尖头鞋子）</li>
+</ol></p>
+
+<p><h3>conveying confidence</h3></p>
+
+<p><ol>
+<li>Smile</li>
+<li>Walk briskly,head held high</li>
+<li>Sing your theme song</li>
+<li>Believe in yourself</li>
+<li>Visualize yourself in the position</li>
+<li>Convey enthusiasm, interest, sense of energy</li>
+<li>Be positive</li>
+<li>Be able to laugh at yourself, Never Assume that because someone is better looking or higher level</li>
+</ol></p>
+
+<p><h3>First impression faux pas(失礼、失态)</h3></p>
+
+<p><ol>
+<li>giggling(矫揉造作)</li>
+<li>Hand gestures</li>
+<li>Touching(very personal)</li>
+</ol></p>
+
+<p><h2>Conversation Basis</h2></p>
+
+<p><h3>Every conversion is an opportunity for success</h3></p>
+
+<p><h3>You never know when someone is in a position to help you</h3></p>
+
+<p><h3>Handshake</h3></p>
+
+<p><ol>
+<li>Open Hand</li>
+<li>Firm grasp</li>
+<li>Once up, once down</li>
+<li>Convey warmth &amp; confidence</li>
+<li>Make eye contact</li>
+</ol></p>
+
+<p><h3>Introductions</h3></p>
+
+<p><h4>Where</h4></p>
+
+<p><ol>
+<li>Go where the people are</li>
+<li>Best place - food table, bar</li>
+<li>If no one introduces you, introduce yourself</li>
+<li>Look for approachable people. People who are alone is a great place to start</li>
+</ol></p>
+
+<p><h4>How</h4></p>
+
+<p><ul>
+<li>Name tag on your right</li>
+<li>4 Rules</li></ul></p>
+
+<p><ol>
+<li>Older people first</li>
+<li>Women before men</li>
+<li>Same age-some gender- no mateer</li>
+<li>VIP(with tittle) 1st</li>
+</ol>
+<li>I'm Robin(drill) How are you?<br />
+Thank your for..."</li>
+<li>Stand if you are sitting</li>
+<li>Repeat the other person's name often</li>
+<li>Follow up the intro with a conversation starter "Bill and I went to Penn State together" 我和这次活的的主办人Bill是同一年进入宾州大学的</li>
+</p>
+
+<p><h4>what you do, who you are, where you're headed 可以谈的话题</h4></p>
+
+<p><ol>
+<li>background/skills</li>
+<li>Current/past experiences eg:internship/student club/leader</li>
+<li>Future objectives/goals</li>
+</ol></p>
+
+<p><h3>AWKWARD MOMENTS</h3></p>
+
+<p><ul>
+<li>Didn't understand the name</li></ul></p>
+
+<p><ul>
+<li>I'm sorry, I didn't understand yours name.</li>
+<li>I'm want to make sure that your name is XXX?</li>
+</ul>
+<li>Forget name<br />
+Step back &amp; say "Have your two met?"</li>
+<li>Only remember one name<br />
+Step back &amp; say "Have you met Bill?"</li>
+</p>
+
+<p><h3>The Name Game</h3></p>
+
+<p><ul>
+<li>Never give a person a nickname</li>
+<li>shake hands and repeat the name, then use name as often as possible</li>
+<li>Give others the gift of your name</li>
+</ul></p>
+
+<p><h3>Small Talk 寒暄</h3></p>
+
+<p><ul>
+<li>Take the risk of talking to someone new! Be the first to say hello~</li>
+<li>Be sincere.Treat everyone like the most improtant person</li>
+<li>Ask open question(answer was not "Yes/No")</li>
+<li>Weather/Dinner</li>
+<li>John去纽约之前带画了个大表，什么时候见什么人，是什么头衔，谈话主题</li>
+</ul></p>
+
+<p><h3>Small Talk RULES</h3></p>
+
+<p><ul>
+<li>Do convey a genuine(真实的) like of people</li>
+<li>Do not talk about sex, politics or religion</li>
+<li>Do be aware of events of the day</li>
+<li>Do ask questions about the company</li>
+<li>Do get people to talk about themselves</li>
+<li>准备几个自己的精彩时刻30s</li>
+</ul></p>
+
+<p><h3>Listening is the Key to a Good Conversation</h3></p>
+
+<p><ul>
+<li>Listen actively</li>
+<li>Keep your distance, 不要打断</li>
+</ul></p>
+
+<p><h3>BREAKING AWAY</h3></p>
+
+<p><ul>
+<li>Be polite</li>
+<li>Excuse me , I must say hello to sb</li>
+<li>"I enjoyed meeting you"</li>
+<li>Move on if the other person seems bored</li>
+<li>Move on to make room for others</li>
+<li>Never leave someone standing alone</li>
+<li>[this is gift and ability]</li>
+</ul></p>
+
+<p><h3>Turn offs忌讳</h3></p>
+
+<p><ol>
+<li>No touching hair,nose,eyes or other people</li>
+<li>No hands in pockets or behind backs</li>
+<li>Keep Hands above board it says your are confident/attentive</li>
+<li>No touching others</li>
+<li>Don't say :"How is your wife" "How's your work"</li>
+</ol></p>
+
+<p><h3>Combat mingling phobia</h3></p>
+
+<p><ol>
+<li>Decide an arrival/departure time</li>
+<li>create an itinerary(路程)</li>
+<li>admit that you know no one</li>
+<li>Recongnize that everyone is as nervous as yourself</li>
+<li>Give yourself a break</li>
+<li>learn one new thing</li>
+<li>Think of this as "a recruiter" NOT "the recruiter OR "a job NOT" the "job"</li>
+<li>Don't be the last to leave</li>
+<li>Have fun~</li>
+</ol></p>
+
+<p><h2>Munching 7 Mingling</h2></p>
+
+<p><h3>Drinking</h3></p>
+
+<p><ol>
+<li>Play it safe</li>
+<li>Wine glasses are held by the stem </li>
+<li>Always drink beer from a glass</li>
+<li>Napkin - olate -glass by stem-wipe</li>
+<li>Ice cubes(冰块) are not an edible(可食用的) part of the beverage(饮料)</li>
+</ol></p>
+
+<p><h3>Eating</h3></p>
+
+<p><ol>
+<li>Eat first for best protection</li>
+<li>Use a plate</li>
+<li>No double dipping</li>
+<li>Put sauces(沙拉酱) on the plate and dip into them</li>
+<li>No cheese, no grease, no bones</li>
+<li>No talking with food in your mouth</li>
+<li>Remove anything inedible with your thumb and farefinger</li>
+<li>Eat skowly, taking bites only large enough to chew comfortably and quietly</li>
+</ol></p>
+
+<p><h3>General RULES</h3></p>
+
+<p><ol>
+<li>Always say something nice about the food to the host</li>
+<li>Excuse yourself to blow your nose</li>
+<li>If you are rawe ,eat first mingle later</li>
+<li>Cough and sneeze to the side with mouth covered by napkin</li>
+</ol></p>
+
+<p><h2>Robin's Top Tips[从视频的54min开始]</h2></p>
+
+<p><ul>
+<li>社交能给你带来更多的面试机会</li>
+<li>翻翻校友录数据库</li>
+<li>在金融中心，利用地理优势</li>
+<li>暑假去看看朋友，找到说我想和你 吃个午餐，一起聊聊</li>
+<li>暑期实习的时候，不仅和小圈子(饭团)一起吃饭，每周还要有一次，在食堂，随便找个座位坐下来，然后自我介绍：“hi, I'm new here, I'm just kind of learning about the place, what is it that you do?你具体是做哪方面的？”</li>
+<li>人都在那里了，尽量用好公司的关系~</li>
+<li>用好社交网络，知道自己想要什么，努力，在环境中接触不同的人</li>
+<li>实习生问了一下，就和CEO一起吃饭咯</li>
+<li>eg:一个实习生在健身房更衣室和CEO聊了一会儿，后来获得一个面试机会</li>
+<li>参加一场酒会就是一次面试，不要放松警惕 </li>
+</ul>
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【zz】程序员究竟该如何提高效率]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/01/29/%E3%80%90zz%E3%80%91%E7%A8%8B%E5%BA%8F%E5%91%98%E7%A9%B6%E7%AB%9F%E8%AF%A5%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87/"/>
+    <updated>2013-01-29T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/01/29/【zz】程序员究竟该如何提高效率</id>
+    <content type="html"><![CDATA[<p><strong>“拖延症”这个名词近些年很火，似乎每个人都觉得自己的效率不高，很难集中注意力做好手头的事，那我们究竟该如何提高自己的工作效率呢，大牛来告诉你.</strong></p>
+
+<p>Aaron Swartz写过一篇很有名的文章，叫做"<a href="http://www.aaronsw.com/weblog/productivity">HOWTO: Be more productive"</a>，这篇文章写的实在是太好了，我看了好多遍，很赞同作者的观点。我借鉴了作者提到的一些方法并运用到自己的生活中，发现确实有效果，所以我愿意让更多的人看到这篇文章。<a href="http://www.aaronsw.com/">Aaron Swartz</a>这个人绝对是大牛人，他14时就参与了RSS1.0的制定，他在Stanford读了一年就主动退学了，成为了YC的一员，他的公司后来与reddit合并了，他还是web.py框架的创始人。</p>
+
+<p>ps: Aaron Swartz 2013-01-11 自杀<a href="http://baike.baidu.com/view/7854319.htm" target="_blank"> http://baike.baidu.com/view/7854319.htm </a>
+废话少说，下面就是译文:
+<!--more-->
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+肯定有人跟你说过这样的话“你有看电视的那么长时间，都可以用来写一本书了”，不可否认写书肯定比看电视更好的利用了时间，但是这个结论的成立需要一个假设:"时间是可互换的"，也就是说看电视的时间可以轻松的用来写书。但是很遗憾，事实并非如此。<br />
+不同的时间有不同的质量等级。如果我在走向地铁站的路上发现自己的笔记本忘带了，我就很难集中注意力写文章。同样，当你不停的被打断的时候，你也很难集中注意力。这里还有一些心理和情感上的因素，有的时候我心情很好，愿意主动去做一些事，但还有一些时候我感到很抑郁和疲惫，就只能看看电视了。<br />
+如果你想变的更加有效率，你必须意识到这个事实，并且很好的处理它。首先，你必须很好的利用不同种类的时间。其次，你必须让你的时间更有效率。</p>
+
+<p><strong>更有效的利用你的时间</strong><strong></strong></p>
+
+<p><strong>选择合适的问题</strong><strong></strong></p>
+
+<p>生命是如此的短暂，为什么浪费时间做一些没意义的事呢？做一些让你感到舒适的事很容易，但是你应该问问自己为什么要做这些事呢？有没有一些更重要的事等着你去做？为什么你不去做那些事呢？这些问题很难回答，但是每解决一个都会让你更有效率。<br />
+这不是说你所有的时间都应该用来做那些最重要的事。我的时间就肯定不是这样(否则，我现在就不会在写这篇文章了)。但是，这是我衡量自己的生活是否充实的重要标准。</p>
+
+<p><strong>收集很多问题</strong><strong></strong></p>
+
+<p>另一个很多人都知道的秘密是：如果你认准一个问题，投入全部精力去解决它，这样你的效率是最高的。我发现这却是很难实现的。以现在为例，我正在锻炼身体，喝橙汁，整理桌面，和我弟弟聊天，同时在写现在这篇文章。今天一整天，我写了现在这篇文章，读了一本书，吃了点东西，回复了几封邮件，和一些朋友聊了聊天，买了点东西，改了改其他几篇文章，备份了硬盘，还整理了一下图书列表。<br />
+有很多不同的项目让我能够在不同质量的时间下做不同的工作。更重要的是，在你卡壳或是厌烦的时候有其他的一些事可以做。<br />
+这同时会让你变得更加有创造力。创造力就是你把自己从其他地方学到的东西能够用到你的工作中。如果你同时做许多不同方向的工作，那你就会得到更多的想法和创意。</p>
+
+<p><strong>列一个清单</strong><strong></strong></p>
+
+<p>找一些不同的事同时做并不困难，大部分人都有很多很多的待办事项。但是如果你想把它们全记在脑袋里的话，它们就会慢慢消失。要记住所有这些事所给你带来的心智上的压力会把你压垮。解决办法仍然是很简单：把它们写下来。<br />
+一旦你把要做的事列成了一个清单，你就可以更好的分类组织它们了。比如说，我的清单包括：编程，思考，差事，读书，娱乐休息。<br />
+大部分项目都包括很多不同的任务。以写这篇文章为例，除了真正的写作过程，还包括了阅读其他关于拖沓的文章，考虑文章的各个部分，整理语句，向别人请教问题等等。每一项任务都属于清单的不同部分，所以你可以在合适的时间才去做某一部分。</p>
+
+<p><strong>把任务清单和你的生活结合起来</strong><strong></strong></p>
+
+<p>一旦你有了这样一个任务清单，你需要做的事就是时常记得它，而记住它的最好方法是把它放在你能看到的地方。比如说，我总在我桌子上放一摞书，最上面的那一本就是我最近在读的。当我想要读书的时候，我就直接从上面拿一本书来读。<br />
+对于看电视/电影我也这么做。当我对某一个电影感兴趣的时候，我会把它放在电脑中一个特殊的文件夹内。每当我想休息一下，看看电影的时候，我就会打开那个文件夹。<br />
+我也想过一些更深入的方式，比如说我把一些想看的文章标记为"待读"(to read)，当我想要上网的时候就看看那些从前积累下来的未读文章。</p>
+
+<p><strong>提高你时间的质量</strong><strong></strong></p>
+
+<p>像上面那样最大限度的利用时间还远远不够，更重要的是提高你自己的时间的质量。那你究竟该怎样做呢？</p>
+
+<p><strong>减轻身体上的约束</strong><strong></strong></p>
+
+<p><strong>携带纸和笔</strong><strong></strong></p>
+
+<p>我认识的很多人的口袋里都有记事簿之类的东西。纸和笔在很多时候都是非常有用的，你可以随时随刻的记录自己的想法，我甚至通过这种方法在地铁上写过整篇文章。</p>
+
+<p><strong>避免被打扰</strong><strong></strong></p>
+
+<p>对于那些需要集中注意力的任务，你应该尽量避免被打扰。一个很简单的方法是去一个没人能打扰你的地方，另一个方法是告诉周围的人未来一段时间不要打扰你。<br />
+关于这点不要过犹不及。当你在浪费时间的时候你反倒应该被打扰一下，帮助别人解决问题肯定比坐在那里看新闻更好的利用了时间。</p>
+
+<p><strong>减轻心理上的约束</strong><strong></strong></p>
+
+<p><strong>吃，睡，运动</strong><strong></strong></p>
+
+<p>当你感到很饿，很累，很焦躁的时候，你的时间的质量会很低。解决这个问题很简单，就是：去吃，去睡，去运动。对自己说“虽然我很累了，但我不能休息，因为我必须要工作”会让你感到自己很努力，但事实上休息之后你的效率会更高。既然你迟早都要睡觉，还不如先休息好，来提高剩余时间内的效率。</p>
+
+<p><strong>与快乐的人相处</strong><strong></strong></p>
+
+<p>跟快乐的人相处会也会让你变得快乐，也会让你心态更放松。也许很多人愿意躲在屋子里，不与其他人接触，埋头干活，他们觉得这样的话时间才没有被“浪费”，但事实上这会让他们变得情绪低落，工作效率也会大大下降。</p>
+
+<p><strong>与朋友分担你的压力</strong><strong></strong></p>
+
+<p>即使你的朋友并不是能够感染他人，给你带来快乐的那种人，和其他的人一起解决复杂的问题也会让问题变得简单。一方面，精神上的压力大家可以互相分担，另一方面，和其他人在一起可以让你专注于工作而不是时常分心。</p>
+
+<p><strong>拖沓</strong><strong></strong></p>
+
+<p>上面所说的那些并不是问题的重点，关于效率大家最大的问题还是“拖沓”。虽然很多人不承认，但是几乎所有人都或多或少的会拖沓。那又该如何避免呢？<br />
+拖沓是什么？从旁观者来看，你在做好玩的事(如玩游戏，看新闻)而不是做真正的工作。但问题的关键是：你究竟为什么会这样？你的脑子里究竟是怎么想的？<br />
+我花了很多时间来研究这件事，我能给出的最好解释是在你的大脑赋予“脑力场”给每一项任务。你玩过两块磁铁相互作用吗？如果你让它们异极相对，他们就会相互排斥，你会感到他们之间的磁场力。你越是想要把它们和在一起，越会感到它们之间的排斥力。<br />
+心智和精神上也是类似的。它是看不见摸不着的，但你却可以感受到它的存在。并且你越是想要接近它，它会离你越远。<br />
+你不可能通过蛮力来克服两个场之间的排斥力，相反，你应该做的是调转方向。<br />
+那又是什么产生了“精神力场”呢？似乎有两个主要原因：任务是否艰巨，任务是否是被指派的。</p>
+
+<p><strong>艰巨的任务</strong><strong></strong></p>
+
+<p><strong>把任务细分</strong><strong></strong></p>
+
+<p>一个任务很艰巨的原因之一是这个任务很宏大。比如说你想要做一个菜谱构造程序，没有人能一下子完成它，这是一个目标而不是一项任务。一项任务是使你能够朝向目标更进一步的具体概念。一个好的任务是你能够立即拿来实施的，比如"画一个展示菜谱的草图"。<br />
+当你完成了上一个任务后，下一步就会变得更加清晰。你将会考虑一个菜谱有什么构成，你需要什么样的搜索机制，如何构建菜谱的数据库，等等。这样你就构建了一个引擎，每一个任务都会通向下一个任务。<br />
+对于每一个比较大的项目，我都会考虑我需要完成一连串什么样的任务，并且将这些任务加入到我的待办事项列表中去。同样，当我做完一些任务之后我会把接下来需要完成的任务再加入任务列表中去。</p>
+
+<p><strong>简化任务</strong><strong></strong></p>
+
+<p>另一个让任务变得艰巨的原因就是它太复杂了。"写一本书"这个任务会放你感到无从下手，那么就先从写一篇文章开始吧。如果一篇文章也觉得太多了，那么就先写一个段落的概要吧。最重要的是真正做了一些工作，真正的有进展。<br />
+一旦你明确了你的任务之后，你就可以更清楚的判断它，更容易的理解它。提高完善一些已有的东西比从头创建东西更容易。如果你的一个段落写好了，那么一点一点积累，它会变成一篇文章，最终变成一本书。</p>
+
+<p><strong>认真考虑它</strong><strong></strong></p>
+
+<p>通常来说解决一个困难问题需要一些灵感。如果你对那个领域并不熟悉，你应该从研究这个领域开始，借鉴一下其他人的经验，慢慢的研究理解这个领域，并且做一些小的尝试看看你能否搞定这个领域。</p>
+
+<p><strong>被指派的任务</strong><strong></strong></p>
+
+<p>被指派的任务是那些你被要求完成的任务。很多心理学实验都表明:当你"刺激"其他人做什么事的时候，他们反倒不容易做好那个事。奖励，惩罚等外部刺激会扼杀"内在动机"--你对于某个问题发自内心的兴趣。人类的大脑对于被要求做的事有先天的抗拒力。<br />
+这种现象不仅局限于其他人要求你做的事，当你向自己分配任务时仍然会出现这种现象。如果你对自己说"我应该好好做X工作了，这是我现在最重要的事"，之后你就会感到X突然变成了世界上最困难的事情了。然而一旦当Y变成了"最重要的事"，原来的那个X又变得简单了。</p>
+
+<p><strong>虚构一个任务</strong><strong></strong></p>
+
+<p>如果你要完成X，那就告诉自己做Y。然而不幸的是，这样欺骗自己却很难，因为你清楚你究竟要做什么。</p>
+
+<p><strong>不要自己给自己布置任务</strong><strong></strong></p>
+
+<p>给自己布置任务看起来很诱人，比如对自己说"我要写完这篇文章才去吃饭"，更糟糕的是让别人假装布置给你一些任务。但是这两种方式都会让你变得更没有效率，事实上你还是在给自己布置任务，你的大脑只会去逃避它。</p>
+
+<p><strong>把事情变得有趣</strong><strong></strong></p>
+
+<p>困难的工作听起来不会令人感到愉悦，但事实上这可能就是最能让我感到高兴的事。一个困难的问题不但能让你集中全部注意力，而且当你完成它的时候你会感到非常棒，非常有成就感。<br />
+所以帮助自己完成一件事的秘密不是说服自己必须完成它，而是说服自己这件事确实非常有意思。如果一件事没有意思的话，你需要做的就是让它变得有意思</p>
+
+<p><strong>总结</strong><strong></strong></p>
+
+<p>效率的真正秘密在于"聆听自己"，在你饿的时候吃饭，在你疲惫的时候睡觉，当你厌烦的时候休息一下，做那些有趣好玩的项目。<br />
+这看起来很容易，但是社会上的一些观念正在把我们向相反的方向引导。要想变得更加有效率，我们需要做的就是转过头来"聆听自己"<a href="http://images.cnblogs.com/cnblogs_com/meng-meng/201111/20111117102128284.gif"><img title="clip_image001" src="http://images.cnblogs.com/cnblogs_com/meng-meng/201111/201111171021298549.gif" alt="clip_image001" width="2" height="2" border="0" /></a></p>
+
+<p>转自：http://www.cnblogs.com/meng-meng/archive/2011/11/17/2252225.html</p>
+
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[《Item-to-Item Collaborative Filtering》笔记]]></title>
+    <link href="http://lmmsoft.github.io/blog/2013/01/04/%E3%80%8Aitem-to-item-collaborative-filtering%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <updated>2013-01-04T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2013/01/04/《item-to-item-collaborative-filtering》笔记</id>
+    <content type="html"><![CDATA[<p>因毕设需要元旦翻译了amazon.com那篇著名的协同过滤的文章 <a href="http://academic.research.microsoft.com/Publication/861437/amazon-com-recommendations-item-to-item-collaborative-filtering">《Amazon.com Recommendations: Item-to-Item Collaborative Filtering 》</a></p>
+
+<p><p>翻译之余顺便做了笔记，和csdn blog上的<a href="http://blog.csdn.net/poson/article/details/7644080">另一篇</a>对比了一下：<br />
+* 我的差距：不少地方没有读透，只用了原文词语，没能抽象的概括出来，说明领域知识太少，还需要恶补<br />
+* 好的地方：我的层次更加鲜明，可能是受思维导图影响吧
+<!--more-->
+下面是我的笔记</p></p>
+
+<p><h1>亚马逊推荐系统，物品到物品的协同过滤</h1></p>
+
+<p><h2>电子商务推荐算法的使用环境</h2></p>
+
+<p><ul>
+<li>大数据：有海量数据的大型零售商，以千万计顾客、百万计的登记在册的不同商品。</li>
+<li>实时：许多应用要求结果实时返回，在半秒之内，还要产生高质量的推荐。</li>
+<li>冷启动：新顾客一般信息有限，以少量购买或产品评级为基础。</li>
+<li>老数据：较老的顾客信息丰沛，以大量的购买和评级为基础。</li>
+<li>数据不稳定：每一次交互都可提供有价值的顾客数据，算法必须立即对新的信息做出响应。</li>
+</ul></p>
+
+<p><h2>解决推荐问题通常有三个途径</h2></p>
+
+<p><ul>
+<li>传统的协同过滤</li></ul></p>
+
+<p><ul>
+<li>人到人</li>
+<li>物品到物品</li>
+</ul>
+<li>聚类模型</li>
+<li>基于搜索的方法</li>
+</p>
+
+<p><h2>物品到物品推荐的特点</h2></p>
+
+<p>与传统人到人协同过滤不同，物品到物品算法的在线计算规模与顾客数量和产品目录中的商品数量无关</p>
+
+<p><ul>
+<li>实时</li>
+<li>适应海量</li>
+<li>高质量</li>
+</ul></p>
+
+<p><h2>推荐算法</h2></p>
+
+<p><ul>
+<li>找相似顾客：传统协同过滤、聚类</li>
+<li>找相似物品：搜索、物品到物品协同过滤</li>
+</ul></p>
+
+<p><h2>传统的协同过滤</h2></p>
+
+<p><ul>
+<li>顾客->商品的N维向量(N是商品数量，M是顾客数量)</li>
+<li>正负分量作为评级</li>
+<li>弥补热卖商品的影响->向量分量乘以逆频率（已购买顾客数量的倒数）->使不知名的商品更相关</li>
+<li>向量非常稀疏</li>
+<li>余弦相似度</li>
+</ul></p>
+
+<p><h3>传统算法复杂度</h3></p>
+
+<p><ul>
+<li>最坏O(MN)</li>
+<li>因为稀疏，复杂度接近O(M + N)</li></ul></p>
+
+<p><ul>
+<li>扫描每一个顾客大约是O(M)，而不是O(MN)</li>
+<li>少数高级顾客，需要O(N)</li>
+</ul>
+<li>总计算量很大</li>
+</p>
+
+<p><h3>传统算法优化</h3></p>
+
+<p><ul>
+<li>减小数据量</li></ul></p>
+
+<p><ul>
+<li>减小M</li></ul></p>
+
+<p><ul>
+<li>对顾客随机抽样</li>
+<li>丢弃购买很少的顾客</li>
+<li>缺点：用户相似度降低</li>
+</ul>
+<li>减小N</li></p>
+
+<p><ul>
+<li>丢弃极热门/极冷门商品</li>
+<li>缺点：只购买过最热/最冷商品的顾客得不到推荐</li>
+</ul>
+
+<li>减少所需计算的商品数量</li></p>
+
+<p><ul>
+<li>商品空间区隔</li></ul></p>
+
+<p><ul>
+<li>通过一个小的常数因子，在产品类别或主题分类的基础上</li>
+<li>缺点：把推荐限制在特定产品或主题领域之内</li>
+</ul>
+
+<li>降维(减小M和N)</li></p>
+
+<p><ul>
+<li>聚类</li>
+<li>主分量分析</li>
+<li>缺点：只购买过最热/最冷商品的顾客得不到推荐</li>
+</ul>
+</p>
+
+<p><h2>聚类模型</h2></p>
+
+<p><ul>
+<li>对顾客基础进行细分，寻找与当前用户相似的顾客</li>
+<li>分类：非监督学习算法</li>
+<li>大数据的理想聚类不切实际，一般：贪心聚类（随机初始集等）</li>
+<li>相似性计算</li>
+<li>优点：可扩展性，在线性能好，复杂和昂贵的聚类计算会离线运行</li>
+<li>缺点：粗粒度相似性差，细粒度计算量大</li>
+</ul></p>
+
+<p><h2>基于搜索的方法</h2></p>
+
+<p><p>构造一个搜索查询，以寻找其他热卖的商品，通过同一作者、艺术家或导演，或利用相似的关键词或主题<br />
+* 用户数据少的时候->性能和计算量不错<br />
+* 用户数据多->只能使用子集->降低推荐质量<br />
+* 综合推荐质量较差</p></p>
+
+<p><h2>物品到物品的协同过滤</h2></p>
+
+<p><ul>
+<li>匹配到相似的商品</li></ul></p>
+
+<p><p>For 每件商品 in 产品目录, I1<br />
+    For 每位顾客 C in 购买过 I1 <br />
+        For 每件商品 I2  由顾客 C 所购买的<br />
+            记录一个顾客所购买的 I1 和 I2<br />
+       For 每件商品 I2<br />
+          在 I1 与 I2 之间计算相似度</p>
+<li>离线计算极费时间</li></p>
+
+<p><ul>
+<li>最坏需要O(N^2*M)</li>
+<li>实际运行中，接近O(NM)</li>
+</ul>
+<li>在线计算非常快</li></p>
+
+<p><ul>
+<li>仅仅取决于该用户购买或评级过商品的数量</li>
+</ul>
+</p>
+
+<p><h3>可扩展性好</h3></p>
+
+<p><ul>
+<li>传统的协同过滤</li></ul></p>
+
+<p><ul>
+<li>离线计算少</li>
+<li>线计算量大（取决于顾客和登记在册商品的数量）</li>
+<li>维度降低、抽样或区隔方法会降低推荐品质。</li>
+</ul>
+<li>聚类模型</li></p>
+
+<p><ul>
+<li>离线运行大量的计算</li>
+<li>推荐质量相对较差</li>
+<li>出于改进，可以增加人群细分的数量，但细分人群计算量大</li>
+</ul>
+<li>基于搜索的模型</li></p>
+
+<p><ul>
+<li>离线建立关键词、范畴、作者索引</li>
+<li>不能提供符合兴趣、定向内容的推荐</li>
+<li>对于数据多的顾客扩展性不佳</li>
+</ul>
+<li>物品到物品协同过滤</li></p>
+
+<p><ul>
+<li>耗时巨大的相似商品表格是离线算</li>
+<li>在线部分：计算量独立于商品目录的规模或顾客的总数</li>
+<li>推荐质量更好</li>
+<li>冷启动性能好</li>
+</ul>
+
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[某位入行40年的高管被裁后的farewell Email, 分享下他的建议和忠告]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/22/%E6%9F%90%E4%BD%8D%E5%85%A5%E8%A1%8C40%E5%B9%B4%E7%9A%84%E9%AB%98%E7%AE%A1%E8%A2%AB%E8%A3%81%E5%90%8E%E7%9A%84farewell-email/"/>
+    <updated>2012-12-22T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/22/某位入行40年的高管被裁后的farewell-email</id>
+    <content type="html"><![CDATA[<p>刚才在网上看到的，觉得写得很好，翻译一下：</p>
+
+<p>All</p>
+
+<p>Thank you very much for your gifts and kind words, and for your well-crafted words Colin.  I have really enjoyed working with staff here over my 38.5 years at all the locations I have worked in.  The thing I will miss the most is the banter that you get when people get to know each other well.</p>
+
+<p>Thought I would just share a couple of thoughts before IT police come and collect my laptop.</p>
+
+<p>As I mentioned I have survived through very many reorgs until it was my time.  I put this down to a few things:
+<!--more-->
+<ul>
+	<li>Try to accept change quickly and work with it,<br />
+as it can get you a head start.</li>
+	<li>快速接受改变并使用它工作，因为它能让你有一个有力的开端</li>
+	<li>Find out tasks within the team role your manager is not keen on, take them on and become good at them.<br />
+This works at all levels and even works with Tony who is good at most things.</li>
+	<li>在团队里找到你的经理不喜欢做的事情，做他们并把这些事做好，这对所有级别的工作都有效，及时是和Tony这样无所不能的人在一起工作。</li>
+	<li>Try to keep your boss’s boss happy – it will be appreciated.</li>
+	<li>让你的老板开心，你会有收获的。</li>
+	<li>Take some risks outside your comfort zone-<br />
+you won’t know until you try<br />
+(although I won’t do parascending over hard ground again).</li>
+	<li>在你的舒适区域之外冒点险，直到你尝试你才能了解（尽管我不会再在硬地面上玩跳伞了）</li>
+	<li> Try a public speaking course – works wonders for confidence. Explain things simply, in plain English, without jargon – that way the whole audience is with you and you keep everyone engaged.</li>
+	<li>尝试公众演讲课程，这能给你带来信心。简单阐述事情，用最朴实的英语，没有专业词汇——这能让所有观众专心跟随你的演讲。</li>
+	<li> Look ahead at future potential impacts to the business and research thoroughly, so that when the issue hits you already have expertise and have thought out options.</li>
+	<li>充分研究未来对于商业和研究的潜在影响，这样当你遇到问题的时候，你已经有了专业知识并且想好了办法。</li>
+</ul>
+Secondly, in the in the words of Albert Einstein “not everything that counts can be counted”.  Numbers are great but are history, they need to be directed by what is happening now and future insight.  To sell an idea beyond numbers requires confidence and passion to paint the future – risky but if it works it gives you an edge, and even if it doesn’t it gives you knowledge others don’t have.  Don’t lose sight of the fact there are customers behind the numbers that pay our wages (and my pension).  Don’t dismiss instinct, gut feeling and most of all common sense.</p>
+
+<p>Good luck for the future and have a great Christmas.</p>
+
+<p>XX<br />
+21/12/2012</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[关于读书的同题回答]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/20/%E5%85%B3%E4%BA%8E%E8%AF%BB%E4%B9%A6%E7%9A%84%E5%90%8C%E9%A2%98%E5%9B%9E%E7%AD%94/"/>
+    <updated>2012-12-20T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/20/关于读书的同题回答</id>
+    <content type="html"><![CDATA[<p>无意看到一篇关于读书的文章 <a href="http://news.163.com/11/0220/09/6TATT46V00014AED.html">http://news.163.com/11/0220/09/6TATT46V00014AED.html</a></p>
+
+<p>觉得最后的10问挺有意思，A是原文，L是我：</p>
+
+<p>&nbsp;</p>
+
+<p>十问Q&amp;A</p>
+
+<p>Q: 您是否知道自己有多少藏书？</p>
+
+<p>A：家里和办公室一起大概四五千本。</p>
+
+<p>L:肯定超过100本而不到500本
+<!--more--></p>
+
+<p>&nbsp;</p>
+
+<p>Q: 您记忆中自己买的第一本书是什么？</p>
+
+<p>A：不是《儿童时代》就是《少年文艺》。</p>
+
+<p>L:图画版《三国演义》？不过这本感觉像是父亲买的~</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 您最近买的一本书是什么？</p>
+
+<p>A：《杨绛文集·散文集（上）》。</p>
+
+<p>L:买了一堆数据挖掘方面的书</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 一般是以哪种方式买书？网络还是逛书店？</p>
+
+<p>A：还是逛书店多，喜欢书店的氛围，喜欢看书架上各种书的色彩。</p>
+
+<p>L:很久没逛书店了，全是在电商买，很少在淘宝买</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 您每月大概花多少钱买书？</p>
+
+<p>A：不一定，平均大概几百块吧。</p>
+
+<p>L:最近两个月每月200-300还是有的</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 您手上正在阅读的是什么书？</p>
+
+<p>A： 叶兆言的《杂花生树》。</p>
+
+<p>L:《奇思妙想——15位计算机天才及其重大发现》<a href="http://book.douban.com/subject/10432364/">http://book.douban.com/subject/10432364/</a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 看书时候的最佳佐料是什么？</p>
+
+<p>A：各种绿茶和普洱茶。</p>
+
+<p>L:原味乐事薯片</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 您平时阅读，网络和纸面的比例是多少？</p>
+
+<p>A： 2：8。旅行的时候会带电子阅读器。</p>
+
+<p>L:虽然还是很喜欢纸质书，但我电子书的比例可能达到了3-4成，如果算上博客、人人上的分享文章，我电子书就9成了（PS:我没有kindle）</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 有没有一本书，是每年都要拿出来读一读的？</p>
+
+<p>A： 没有。</p>
+
+<p>L:还没发现~</p>
+
+<p>&nbsp;</p>
+
+<p>Q: 如果让您一个人只准带一本书去一个地方，您会带哪本？</p>
+
+<p>A：反正不会带专业书，可能会带侦探小说或者武侠小说。</p>
+
+<p>L：去多长时间呢？时间长就带一本很久也吃不透的专业书籍，比如《算法导论》、《具体数学》、《Thinking in Java》之类的高质量厚书，时间短就带一本薄的打发时间（虽然因为手机的缘故，基本不会翻开）</p>
+
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[数据工程师面经]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/11/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88%E9%9D%A2%E7%BB%8F/"/>
+    <updated>2012-12-11T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/11/数据工程师面经</id>
+    <content type="html"><![CDATA[<p><pre>今天凌晨实在是不想睡觉，就开始看人人上大家的日志，直到五点皇马比赛开始。</pre></p>
+
+<p>翻了30页，前溯到2012年7月24日，300篇摘要，细看了20篇左右。</p>
+
+<p><strong>谢谢社交网络，打破地域限制，让我有幸认识你们，看到了不同的生活。</strong></p>
+
+<p>无法经历你们所有人的生活，无法与你们所有人面谈，但你们分享依然让我收获颇丰，更多得了解这个世界。</p>
+
+<p>愈发体会到分享的意义，博客要多写，即使内容很水。帮助自己回忆过去，或许还能帮助到一些需要的人。
+<!--more-->
+<pre>——————————————————————————————————————————</pre></p>
+
+<p>本来不想写昨天下午的面试经历，基于上文，还是回忆下吧：</p>
+
+<p>就不说哪家网站了，因为要透露题目。</p>
+
+<p>1.投的是数据工程师职位，a)我没有这方面背景 b)我有兴趣</p>
+
+<p>2.九月找人内推，十一月中旬才接到HR的电话，一直以为渣简历直接被鄙视了呢</p>
+
+<p>2.一面：<br />
+自我介绍，聊项目<br />
+面试官问我数据结构和算法怎样，我说有点了解，又问我数学怎样，我说很一般。。。面试官看我都是web开发的经验，就说我们对数学有要求的，来看一道简单的概率题：</p>
+
+<p>=&gt;某公司面试通过率90%，面试官判断正确的概率也是90%，问通过一轮面试后通过的人是合格的概率多少？<br />
+我很快做出，然后开始写代码题，不用被虐数学啦：</p>
+
+<p>=&gt;求二叉树高度，非递归<br />
+我先说了递归思路，面试官表示认可，然后开始想递归思路，想了几分钟开始写代码，写了十分钟以上，面试官没发现什么问题</p>
+
+<p>=&gt;接着问我对什么语言熟悉，我说对java的语法最熟悉，问了hashtable hashmap的区别，hashset是如何比较两个元素相等 ，几个题都比较基础，我答的还行</p>
+
+<p>=&gt;他刚才看了我github项目，里面有个关于设计模式的，于是让我说说策略模式<br />
+我想不起来，乱说一气，狗P不通</p>
+
+<p>=&gt;最后是我问他问他，我问他平时工作和他们组要做哪些事情，他说得比较细，这大大帮助了我下两轮面试^_^</p>
+
+<p>3.一面结束后10分钟，HR告诉我一面过了，等二面面试官。估计一面挂了就直接送客吧~</p>
+
+<p>4.二面，年龄稍大的面试官，估计超过30岁了<br />
+他似乎也对我的背景表示鄙视，问我为啥要选数据工程师，我说我喜欢这个云云~<br />
+接着他问我知道数据工程师过要做什么事情？我先泛泛谈了一下，然后结合一面面试官告诉我的一些细节的东西说了说，感觉还行~</p>
+
+<p>然后就开始做题<br />
+=&gt;第一题是找出平面上距离最近的两个点<br />
+我没有思路，问他点是不是很多呀？==&gt;是的。<br />
+然后说乱扯以前星姐教我的随机解法，大概是先选一个点，然后不断选10个方向往外走，每次走的距离越来越少，最后收敛的就是近似解</p>
+
+<p>==&gt;面试官说这个算法很麻烦，时间也很难确定==&gt;我又想了一下，就说先聚类，再暴力</p>
+
+<p>==》面试官追我三维的这题怎么搞？==&gt;我傻了眼，乱说了一通。。突然我想到二维有个分治的解法，就说了有这个东西，但不会实现。。。</p>
+
+<p>==》面试官看我还知道分治法，问我是不是搞过ACM==&gt;我说没参加过ACM比赛，只校赛经历什么的</p>
+
+<p>接着开始写代码：<br />
+a)编辑距离-&gt;先交流了下思路，然后写代码，初始化有问题，被面试官cha了<br />
+b)返回长度为N递增序列里值为M的个数-&gt;我用了3次二分的办法，不知道有没有更好的办法？</p>
+
+<p>然后又扯谈了一会儿，二面结束</p>
+
+<p>5.一会儿，二面面试官回来，告诉我一会儿三面</p>
+
+<p>6.三面面试官是个03年参加过ACM的老将，没写代码，就聊天，也聊聊技术~<br />
+和终面面试官聊天不是容易活，我没准备过如何表现自己，现场说的中规中矩，吸引力不足T_T</p>
+
+<p>7.面试就结束了，三个小时，三轮，中间只喝了点水，好累~<br />
+以后这种一次走完流程的要记得准备巧克力什么的~</p>
+
+<p>8.最后感谢张拯，你上周一与你的聊天对我帮助很大，下周请你吃饭</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MacOS密码重设]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/09/macos%E5%AF%86%E7%A0%81%E9%87%8D%E8%AE%BE/"/>
+    <updated>2012-12-09T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/09/macos密码重设</id>
+    <content type="html"><![CDATA[<p>如果您忘记了苹果电脑 Mac OS X 系统登陆密码而无法进入系统，别急着重装系统或是到中关村等地“挨宰”，下面的两个方法能让你不花一分钱也不用重装系统，即可重设或清除苹果电脑 Mac OS X 系统的登陆密码。<a name="entrymore"></a>
+<span style="color: #ff0000;">系统安装盘法</span>
+找到买苹果电脑时附带的 Mac OS X 系统光盘/或者有苹果 Mac OS X 系统镜像的 U 盘/移动硬盘/没有光驱的本地会有一个恢复区，开机直接按option塞入光驱（或插在 USB /火线接口上）。重启苹果电脑，开机时按住“option”键
+<div align="center"><img title="苹果电脑开机时选择启动盘" src="http://www.mac52ipod.cn/attachment.php?fid=2109" alt="苹果电脑开机时选择启动盘" border="0" />
+出现这个启动盘选择界面时，选择系统安装盘</div>
+<!--more-->
+<div align="center"><img title="忘记苹果电脑 Mac OS X 系统登陆密码的解决办法" src="http://www.mac52ipod.cn/attachment.php?fid=2110" alt="忘记苹果电脑 Mac OS X 系统登陆密码的解决办法" border="0" />
+出现这个界面别紧张，一路“下一步”，不会重装系统的。留意顶部的菜单栏</div>
+&nbsp;
+<div align="center"><img title="重设苹果电脑 Mac OS X 系统登陆密码" src="http://www.mac52ipod.cn/attachment.php?fid=2111" alt="重设苹果电脑 Mac OS X 系统登陆密码" border="0" /></div>
+菜单栏出现上图所示的东西时，别“下一步”了。选择“实用工具”……“重设密码”（Lion用户看本文最后的补充）</p>
+
+<p>如果看不到“重设密码”这一选项。可点击“终端”，输入resetpassword，回车。就会出现后面的密码重置界面了。
+<div align="center"><img title="重设苹果电脑 Mac OS X 系统登陆密码" src="http://www.mac52ipod.cn/attachment.php?fid=2112" alt="重设苹果电脑 Mac OS X 系统登陆密码" border="0" />
+OK，重新设置苹果电脑 Mac OS X 系统登陆密码吧，然后重启苹果电脑即可。</div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【挖坑】职业规划]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/06/%E3%80%90%E6%8C%96%E5%9D%91%E3%80%91%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
+    <updated>2012-12-06T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/06/【挖坑】职业规划</id>
+    <content type="html"><![CDATA[<p>最近需要挖点坑，最好是公开挖出来，然后再解决。</p>
+
+<p>职业规划很重要，尤其是在这种找到工作还没入职，对工作有很多期待，且没有被繁重的琐事蒙蔽了双眼的时候。</p>
+
+<p>恰好看到个很不错的<a href="http://www.weibo.com/2608456125/z5SsklCIQ">微博</a> ，就给自己挖坑了，争取在2013年4月底之前完成~</p>
+
+<p><ol>
+<li><p>这个过程需要持续两到三个月时间</p></li>
+<li><p>"模仿中成长，创新中成功"</p></li>
+</ol></p>
+
+<p>下面是正文</p>
+
+<p><ol>
+<li>一、职业分析：　　　　</li></ol></p>
+
+<p><ol>
+<li><p>分析性格——分析长处和短处——分析大家都有的长处——确定自己最终发展的专业　</p></li>
+<li><p>确定兴趣——分析竞争的激烈程度和发展的空间大小——寻找相对优势—确定自己最终进入的行业　　　　</p></li>
+<li><p>确定行业内自己的专业方向，继续保持自身的专业优势
+<!--more--></p></li>
+</ol>
+<li>二、编写行业报告——着重对行业全面性的把握。　　　　</li></p>
+
+<p><ol>
+<li><p>通过上网查询和购买行业报刊，收集不少于三十万字的行业、重点企业的有效资料，在电脑中进行资料分析、分类、汇总。　　　　</p></li>
+<li><p>参考同类行业书籍，确定写作提纲，确定文章结构和逻辑方向，培养文字表达能力和逻辑能力，以及熟练的电脑使用技能。　　　　</p></li>
+<li><p>将三十万字资料浓缩成十至十五万字，写成一本符合出版行文格式要求的行业报告。如果选题好，还真的有出版的可能性。如果有一定的独特见解，也可以写成文章争取在专业刊物上发表，树立个人专业形象。</p></li>
+<li><p>我可以从搜索引擎技术、数据处理方面的综述开始，加深对行业的了解，不着急去观察产品~</p></li>
+</ol>
+<li>三编写讲座报告——着重对专业系统性的把握。　　　　</li></p>
+
+<p><ol>
+<li><p>根据你希望从事的专业岗位，从报告中选择两到三个重点，将书稿压缩成两万字的讲座稿（按每分钟150字的演讲速度，即两个小时）。　　　　</p></li>
+<li><p>将演讲稿再浓缩成两千字的提纲和重要内容，使用PPT软件编成演讲用演示文件，并根据相关内容配以精彩图片。　　　　</p></li>
+<li><p>培养职业化的公众表达能力和表达方式，练习普通话，使用讲座稿进行互动讲座和演讲练习，只到脱口而出</p></li>
+<li><p>我可以多听一些报告，然后结合自己准备好的一些综述，做几个自己可以随时讲的报告，锻炼公开表达能力和面对镜头能力~</p></li>
+</ol>
+<li>在你的成长过程中，有五个人非常重要</li></p>
+
+<p>第一个，导师，教练。　　</p>
+
+<p>他教给你实用的技巧、一定的工作经验，而不是知识。他可以给你指明方向。这个人可能是你的上司、前辈、学长。　　　　　</p>
+
+<p>第二个，陪练，同路人。　　</p>
+
+<p>任何人的成长都不是学出来的，而是学而习，习而成习惯，练出来的。在这个练的过程中，是一件很苦的过程，是一系列简单动作的重复重复再重复，由量变到质变的过程，在这个过程中，一个人很难坚持下来，这时你需要一个同路人。他可以是和你共同兴趣，共同目标的朋友，最好是你生命中所爱的人。　　　　</p>
+
+<p>第三个，榜样，他是你人生的标杆。　　</p>
+
+<p>在你一生中，在不同阶段，会有不同的标杆，你向他学习，受他鼓舞，一步一步向他靠扰。最重要的是那个你看得到摸得着的人，你知道，不需要通过机遇，只需要通过努力就可以达到的榜样。　　　　　　</p>
+
+<p>第四个，敌人，看不起你的人，拒绝过你的人。　　</p>
+
+<p>人不到绝境是不会有斗志的，你要证明他是错的，他会给你真正的动力。　　</p>
+
+<p>第五个，最重要的是第五个，你们觉得第五个人是你自己。　　</p>
+
+<p><p>世界上没有救世主，任何希望当别人救世主的人不是疯子就是傻子，只有自己才可以救自己。　　这个世界上，失败的人除了天分太差之外，只有以下几点，懒，方向不对，方法不对，没有坚持。　　如果你自己做不到，你不要怪别人。 基本功是你自己的，细节所积累下来的，能让你迅速融入新环境．　　</p>
+
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Talk Given by Prof. Heather Zheng: Network Design for Big-Data]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/06/talk-given-by-prof-heather-zheng-network-design-for-big-data/"/>
+    <updated>2012-12-06T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/06/talk-given-by-prof-heather-zheng-network-design-for-big-data</id>
+    <content type="html"><![CDATA[<p>MSRA平时的talk和seminars非常多，之前听了若干，但回来之后都没怎么整理，全废了T_T</p>
+
+<p><p>以后争取每次都能整理下，加深印象。虽然我的笔记质量不高，只有自己能看懂~
+<!--more--></p></p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><p>Talk:         Network Design for Big-Data<br />
+Speaker:     Prof. Heather Zheng, U. C. Santa Barbara.<br />
+Time:         11:00AM, December 6, Thursday<br />
+Venue:    Demo Room (14366, 14F)<br />
+讲座两个部分，第一部分是用flexible wireless进行data center通信建设；第二部分是scalable social network analysis 社交网络计算。</p></p>
+
+<p><h1>Part1.Network Design for Big-Data</h1></p>
+
+<p><h2>traffic hotspots</h2></p>
+
+<p><ol>
+<li>unpredictable</li>
+<li>double fee</li>
+</ol></p>
+
+<p><h2>Wireless links-flexible</h2></p>
+
+<p><h2>challenge #1 Link Blockage</h2></p>
+
+<p>3D Beamforming，这里有个图：</p>
+
+<p><ol>
+<li>用天花板Reflector进行反射</li>
+<li>接收器下面用Absorberx吸收信号，防止再反射</li>
+</ol></p>
+
+<p><h2>challenge #2 Interference Footprint</h2></p>
+
+<p><h2>challenge #3 Robustness ti Alignment Error</h2></p>
+
+<p>concurrency</p>
+
+<p><h2>总结：</h2></p>
+
+<p>因为我不懂无线传感网络方面的知识，所以这个talk的细节不是太懂，不过用天花板反射倒是理解了，很巧妙的思路~</p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><h1>Part2.enable scalable graph processing for today’s massive online social networks</h1></p>
+
+<p><h2>distance ranked social</h2></p>
+
+<p>rank search result based on social distance</p>
+
+<p><h2>Key Limition Today:Scale</h2></p>
+
+<p><h2>A drastically different alternative</h2></p>
+
+<p><ol>
+<li>O(1) query time</li>
+<li>Parallelize</li>
+</ol></p>
+
+<p>Graph embedding</p>
+
+<p><h1>Approach for Embedding</h1></p>
+
+<p><h3>require:</h3></p>
+
+<p><ol>
+<li>BFS</li>
+<li>converge quickly</li>
+<li>optimize accuracy</li>
+</ol></p>
+
+<p><h1>shortest path search</h1></p>
+
+<p><p>说了一个算法，说得太快，没听清T_T<br />
+Rigel 12倍于 Sketch Tree</p></p>
+
+<p><h2>总结</h2></p>
+
+<p><p>具体算法没听懂，但我知道了这个东西：<br />
+1. 社交网络对人名的搜索可以借助预处理来给出一个很好的结果，比尔搜索Bob，可以找到你可能认识的Bob，而人人网找人搜索很烂，几乎不能按好友数排序。<br />
+1. 社交网络计算量很大，有很多算法值得探究~<br />
+1. 做社交网络不容易，人人的研发能力不足以提供完美的服务</p></p>
+
+<p>————————————我是分割线——————————</p>
+
+<p><h1>附：</h1></p>
+
+<p>Abstract:</p>
+
+<p><p>The arrival of big-data applications has created significant challenges to network design.  For example, batched data processing jobs are straining network capacity in data center networks, causing unexpected outages and service downtimes, while social network companies struggle to manage millions of users and billions of user events and queries in real time. In both cases, network architects must find new, novel ways to support traffic/service demands that display complex structure and vary significantly with time.<br />
+In this talk, I will discuss two of our recent works on big-data.</p></p>
+
+<p><ol>
+<li>First, I will talk about challenges in dealing with dynamic traffic hotspots in data centers, and our solution using flexible wireless interconnects to augment wired connections. We propose 3D beamforming 60GHz links that leverage ceiling reflection to overcome key challenges in deploying wireless links, creating parallel wireless links connecting any racks at wired data rates.</li>
+<li>Next, I will discuss our effort to enable scalable graph processing for today’s massive online social networks. We propose graph coordinate systems, a new approach that accurately approximates node distances in constant time by embedding graphs into coordinate spaces. Our design not only provides accurate results for massive graphs (43 million nodes), but also is naturally parallelizable across computer clusters. It answers node-distance queries in 10’s of microsecond, and produces shortest path results up to 18 times faster than prior solutions with similar accuracy.</li>
+<li>Finally, I will conclude with a brief summary of other ongoing projects.</li>
+</ol></p>
+
+<p>Bio:</p>
+
+<p>Haitao (Heather) Zheng is currently an Associate Professor at the Computer Science department, U. C. Santa Barbara. She completed her M.S. and Ph.D. degrees in Electrical and Computer Engineering at Univ. of Maryland, College Park (1998, 1999) and her B. S. degree from Xi’an Jiaotong University (gifted class). She is a recipient of the MIT Technology Review’s TR-35 Award (Young Innovators Under 35) and the World Technology Network Fellow Award. Her work has been covered by media outlets such as New York Times, Boston Globe, MIT Technology Review, and Computer World. Her work on cognitive radios was named as the top-10 Emerging Technologies by MIT Technology Review in 2006.  Her research spans areas of wireless networking, distributed systems, economics, data-intensive computing, and social networks.
+</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[乱写点东西，关于PM]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/12/03/%E4%B9%B1%E5%86%99%E7%82%B9%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%85%B3%E4%BA%8Epm/"/>
+    <updated>2012-12-03T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/12/03/乱写点东西，关于pm</id>
+    <content type="html"><![CDATA[<p>每天都想写博客，每天都写不出来！</p>
+
+<p>我花了太多时间在扯谈、人人上了！！</p>
+
+<p>今天乱写点，顾不上质量了！！！</p>
+
+<p>&nbsp;</p>
+
+<p>1.下午听了ASE最后的demo演示，感觉PM是个非常复杂的角色，仅仅懂技术是不够的，还有了解市场、需求，要有大局观，而且，在MS，PM的英语能力太重要了</p>
+
+<p>&nbsp;</p>
+
+<p>2.关于PM的话题今晚没时间扯太多，先留几个桩子在这里，以后有时间补上【人人、百度都没有好的PM，累死一群好的工程师，】【现在的校招结构导致技术不好的同学去做PM】</p>
+
+<p>&nbsp;</p>
+
+<p>3.今晚和某人在Lync上有段聊天记录，偷偷贴出来</p>
+
+<p>&nbsp;</p>
+
+<p>我：应用商店也必须上传，要不然500元的项目经费就打水漂了</p>
+
+<p>&gt;&gt;她：。。。。这个都知道</p>
+
+<p>我：强制要求，没得商量啊，他们不交视频，就等于我们把活动搞砸了。。。</p>
+
+<p>&gt;&gt;她：我们也能强调 至于做不做只能看他们了</p>
+
+<p>我：你要push，你是pm，coder能不能写出代码，只能看他们了 ？？？</p>
+
+<p>&gt;&gt;她：我觉得我能做的已经做了</p>
+
+<p>我：what???really?</p>
+
+<p>&gt;&gt;她：yeah</p>
+
+<p>我：that's is your ability? are you qualified?</p>
+
+<p>&gt;&gt;她：calling is one of my work</p>
+
+<p>我：your are the pm of the whole project, you should think more</p>
+
+<p>&gt;&gt;她：I know you don't need to push me thx</p>
+
+<p>&nbsp;</p>
+
+<p>做PM累，不仅要多想，还要push，很难的~</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pull Knowledge Rather Than Push Knowledge]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/11/19/pull-knowledge-rather-than-push-knowledge/"/>
+    <updated>2012-11-19T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/11/19/pull-knowledge-rather-than-push-knowledge</id>
+    <content type="html"><![CDATA[<p>真郁闷，本来准备每天都写一点的，怎么坚持了两天又断了呢？而且一断又是10天。..</p>
+
+<p>简单谈谈最近的想法吧：<br />
+关于主动学习</p>
+
+<p>每天刷社交网络，其实是在被动得获取知识。虽然都死自己的生活圈和关注圈里的人，但获取知识的效率依然很低，抛出哪些看到标题就可以删掉的新鲜事，看到的内容其实只有很少的一部分真正对自己有用，大部分属于可有可以没有的鸡肋。</p>
+
+<p>与之相比，主动针对关键词进行的知识搜索，大部分内容是能命中目标的，只是知识的质量好坏有差别。</p>
+
+<p>用80-20原则来描述，就是：<br />
+被动获取知识，20%有用,80%的时间浪费<br />
+主动获取知识，80%有用，只浪费20%的时间<br />
+效率高低，一目了然。</p>
+
+<p>对于我自己，应该怎么做呢？<br />
+1.精简爱好（我现在的关注列表太多，社交网络的好友也太多，需要想办法解决这个问题）<br />
+2.选择一个狭窄领域，高速前进</p>
+
+<p>很显然，我现在还不能很好得回答上面的问题，我自己还深陷顽疾，最近先办法治愈这个疾病，再写文章分享经验吧。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[有意思的工作]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/11/09/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+    <updated>2012-11-09T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/11/09/有意思的工作</id>
+    <content type="html"><![CDATA[<p>是不是坚持每天都写一点才能有进步呢？</p>
+
+<p>最近思考较多的一个话题是“工作有意思”。</p>
+
+<p>一开始抛出这个问题，是在本周一group manager和我们intern的午餐上，当然，所有的manager都在。</p>
+
+<p>我说现在这份工作，技术上的进步不是太多，但我在PM上的收获非常大。
+<!--more-->
+我的mentor说，这个职位确实有这个情况，因为没有人带，PM的工作有人直接指导，所以有进步，而技术活只能靠自己研究，进步比较慢，而且容易遇到困难，所以大多intern都有这样的感觉。<br />
+的确，我也是这样想的。</p>
+
+<p>Group Manager说，技术这东西，很多时候会让人觉得无聊，她以前搞技术的时候，也遇到过这样的情况。现在开始做高校关系了，每天的都不一样，非常有意思。</p>
+
+<p>另一个曾在morgan stanley IT 干过四年的manager补充到，金融领域很多软件甚至是20年30年以前的，工作过一段时间后的确会觉得有些无聊。</p>
+
+<p>回来后我想了想我的情况，是不是可以这样看：</p>
+
+<p>IT民工确实是个好学的群体，他们日夜加班，他们乐于分享自己的工作成果，他们不停得学习，他们开源自己的工作，他们不断进步。。。<br />
+然后，突然有一天不用太学习了，可以依靠经验混日子了，码农觉得自己不满足，觉得这项工作“没意思”，于是又开始挑战自己？</p>
+
+<p>夜色已深，还有一些话题就不展开了，such as 熟练工问题，下面说说我暂时的结论吧：<br />
+1.【技术上永恒的创新】和【固守经验，一招鲜吃遍天】是两种生活态度<br />
+2.年轻人嘛，对技术上有追求的好的<br />
+3.以后嘛，自然有依靠经验和精力更甚的年轻人竞争的时候</p>
+
+<p>最后说说现在的应该做什么吧：<br />
+1.对技术上要有追求，勇于提高自己<br />
+2.找到自己喜欢的细分领域，做自己喜欢做的事情</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[转眼间开博客一年了]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/11/07/%E8%BD%AC%E7%9C%BC%E9%97%B4%E5%BC%80%E5%8D%9A%E5%AE%A2%E4%B8%80%E5%B9%B4%E4%BA%86/"/>
+    <updated>2012-11-07T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/11/07/转眼间开博客一年了</id>
+    <content type="html"><![CDATA[<p>才发了20+篇，太低产了，远远不及我在人人网上发的数目啊！</p>
+
+<p>果然我更适合灌水而不是知识沉淀。</p>
+
+<p>唔，有语云：“忙的适合有货没时间写，闲的时候有空没货写”。</p>
+
+<p>我工作基本算是定下来了吧，现在应该有更多的时间可以搞自己喜欢的东西，嗯啊，我要在南京回来之前订下下面100天的计划，玩好+学好，多写博客，争取过个快乐的大四！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[为什么写博客]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/11/07/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <updated>2012-11-07T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/11/07/为什么写博客</id>
+    <content type="html"><![CDATA[<p>这是一个太大的问题，可以说上千言万语。</p>
+
+<p>对于我现在的博客而言，现在只有一个读者，那就是我自己。</p>
+
+<p>软件工程有句名言“吃自己的狗食”，如果我自己都不看自己以前的博客，那还指望谁来看呢？</p>
+
+<p>我想在自己的博客里看到什么？</p>
+
+<p>这是个好问题，我觉得应该包括：</p>
+
+<p>1.成长的轨迹，不同时代的思考<br />
+2.学习过的东西，曾经我也有很多技能，后来都丢失了，若有博客的记录，是不是方便有朝一日能找回来<br />
+3.个人的展示，这不限于博客的形式，个人wiki的形式或许也不错，我一直想做，应该要在本科毕业之前完成。展示我曾经做过的项目，写过的文章，等等</p>
+
+<p>下一阶段博客就应该包括这样的东西，不要太在乎暴露自己的无知，我要见证自己的成长。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[对话图灵奖获得者John Hopcroft]]></title>
+    <link href="http://lmmsoft.github.io/blog/2012/10/24/%E5%AF%B9%E8%AF%9D%E5%9B%BE%E7%81%B5%E5%A5%96%E8%8E%B7%E5%BE%97%E8%80%85johnhopcroft/"/>
+    <updated>2012-10-24T00:00:00+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2012/10/24/对话图灵奖获得者johnhopcroft</id>
+    <content type="html"><![CDATA[<p><pre>The Turing Award Winner John Hopcroft will visit MSRA on Oct.24th 2012.
+It is honored to attend the presentation he gave to the undergraduate interns.</pre></p>
+
+<p>The topic covered in the presentation:<br />
+- John share his personal experience<br />
+- For a senior undergraduate student, how to make right choice in the right time<br />
+- The comments for current undergraduate and graduate education<br />
+- Suggestions to students about how to develop their core skills to meet the future needs</p>
+
+<p>整个对话大概持续1个小时，John先说了20min,然后就话题讨论和QA,结束之后和交大ACM班的同学圆桌，我就没法参与了。</p>
+
+<p>全过程里我记了大概两页笔记，摘录精华如下：<br />
+1. <strong>关于选择：</strong> You only one life to live , so do the job you really love doing, don't concentrate on your payment<br />
+2. <strong>关于热爱：</strong> If you do what you love to do, you'll work 16h a day, if you don't you will only work 8 hours<br />
+3. <strong>关于兴趣</strong>： 多选几门课，找到自己的兴趣点<br />
+4. <strong>关于传道授业：</strong> Every Thusday afternoon, I provide free food for my students and talk about their research problems（ps:我现在的mentor这点上很像，每周请实习生吃一次饭，大家带着问题来）<br />
+5. <strong>关于道路：</strong> If your mentor bring you to the machine learning, data mining... you are on the good way</p>
+
+<p>还有对MSRA的实习生项目的优劣进行了探讨，比较了中国和美国大学的不同，并对学习给出了一些建议。</p>
+
+<p>ps:<br />
+the bio of John<br />
+John Hopcroft<br />
+John Edward Hopcroft (born October 7, 1939) is an American theoretical computer scientist. His textbooks on theory of computation (also known as the Cinderella book) and data structures are regarded as standards in their fields. He is the IBM Professor of Engineering and Applied Mathematics in Computer Science at Cornell University.</p>
+
+<p>He received his master's degree and Ph.D. from Stanford University in 1962 and 1964, respectively. He worked for three years at Princeton University and since then has been based at Cornell University.</p>
+
+<p>In addition to his research work, he is well known for his books on algorithms and formal languages coauthored with Jeffrey Ullman and Alfred Aho, regarded as classic texts in the field.</p>
+
+<p>He received the Turing Award – the most prestigious award in 1986. The citation states that he received the award "for fundamental achievements in the design and analysis of algorithms and data structures." Along with his work with Tarjan on planar graphs he is also known for the Hopcroft–Karp algorithm for finding matchings in bipartite graphs. In 1994 he was inducted as a Fellow of the Association for Computing Machinery. In 2005 he received the Harry H. Goode Memorial Award "for fundamental contributions to the study of algorithms and their applications in information processing." In 2008 he received the Karl V. Karlstrom Outstanding Educator Award "for his vision of and impact on computer science, including co-authoring field-defining texts on theory and algorithms, which continue to influence students 40 years later, advising PhD students who themselves are now contributing greatly to computer science, and providing influential leadership in computer science research and education at the national and international level."</p>
+
+<p>In 1992 John Hopcroft was nominated to the National Science Board by George H.W. Bush.<br />
+In 2009, he received an honorary doctorate from Saint Petersburg State University of Information Technologies, Mechanics and Optics.</p>
+
+<p>Hopcroft is also the co-recipient (with Jeffrey Ullman) of the 2010 IEEE John von Neumann Medal, “For laying the foundations for the fields of automata and language theory and many seminal contributions to theoretical computer science.”</p>
+]]></content>
+  </entry>
+  
+</feed>

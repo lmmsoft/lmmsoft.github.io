@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>lmmsoft’s blog</title>
+  <meta name="author" content="lmm333">
+
+  
+  <meta name="description" content="刚才遇到了 Migration Toolkit failed with JRE 1.5 的问题，去网上查了一下。 我本地的jre出问题了，升级为1.7，还是不行 官网说对新版本的jre支持不好，建议换旧版本，还说这些功能即将加入了workbench5.2，建议使用workbench，真晕 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://lmmsoft.github.io/posts/4/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="lmmsoft’s blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">lmmsoft’s blog</a></h1>
+  
+    <h2>On the way to freedom</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="lmmsoft.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/10/mysql-migration-toolkit-jre-%E9%97%AE%E9%A2%98/">MySQL Migration Toolkit Jre 问题</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-10T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>刚才遇到了 Migration Toolkit failed with JRE 1.5 的问题，去网上查了一下。</p>
+
+<p>我本地的jre出问题了，升级为1.7，还是不行</p>
+
+<p>官网说对新版本的jre支持不好，建议换旧版本，还说这些功能即将加入了workbench5.2，建议使用workbench，真晕</p>
+
+<p>也有网友指出64位的jre可能不支持，换32位的就行。</p>
+
+<p>捣鼓了半天，终于能用了，办法是用参数指定jvm的目录</p>
+
+<p>我指定了netbeans里面自带的jdk，这样也不必把装好的jdk1.7删掉</p>
+
+<p>方法：</p>
+
+<p>在MySQLMigrationTool.exe的目录里面新建MySQLMigrationTool.cmd<br />
+编辑内容为
+<pre class="brush:bash">cd
+MySQLMigrationTool.exe -jvm "C:\NetBeans7\jdk6\jre\bin\client\jvm.dll"</pre>
+&nbsp;</p>
+
+<p>其中双引号内为jvm.dll所在的地址<br />
+双击运行即可</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/09/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%AF%BB%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%A0%94%E7%A9%B6%E7%94%9F/">为什么要读计算机的研究生</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-09T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>这篇文章时转载的，和我现在的观点比较符合，基本表达出我的忧虑，呵呵。</p>
+
+<p>我觉得写得非常好，除了提到的知识结构稍微落后(MFC COM等)，其他的仍然不失预见性！<br />
+_______________________________________________________</p>
+
+<p>如果你有实际开发工作经验，感觉自己的水平和实力进入了一个高原期，迫切需要从理论上提高，那么计算机学院是唯一选择。因为计算机学院才能让你在理论上更上一层楼。软件学院从教学计划上就没有把你往这方面带。当然能不能更上一层楼最终还是完全取决于你自己。需要特别说明的是，工作经验并不一定等于开发经验，我见过很多工作2-3年的人，但是没有一点开发经验。你说：“他们都有很强的开发能力,只是不太喜欢读书,也只是希望混个学历对今后在岗位上晋升有好处”，我可以向你保证，你所说的人绝对不是开发能力很强的人。因为，<br />
+1）高手不可能不喜欢读书；<br />
+2）高手不可能想去混一个学历；<br />
+3）高手不可能认为晋升是因为学历的原因。
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/02/09/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%AF%BB%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%A0%94%E7%A9%B6%E7%94%9F/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/08/pandoc-%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%88%A9%E5%99%A8/">Pandoc —— 文档格式转换利器</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-08T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Pandoc 一个用 <a href="http://www.haskell.org/">Haskell</a> 文档格式转换软件</p>
+
+<p>&nbsp;</p>
+
+<p>输入格式可以是： <a href="http://daringfireball.net/projects/markdown/">markdown</a> ,<a href="http://redcloth.org/textile">Textile</a>, <a href="http://docutils.sourceforge.net/docs/ref/rst/introduction.html">reStructuredText</a>, <a href="http://www.w3.org/TR/html40/">HTML</a>,  <a href="http://www.latex-project.org/">LaTeX</a>;</p>
+
+<p>&nbsp;</p>
+
+<p>输出语言非常丰富，包括： <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://docutils.sourceforge.net/docs/ref/rst/introduction.html">reStructuredText</a>, <a href="http://www.w3.org/TR/xhtml1/">XHTML</a>, <a href="http://www.w3.org/TR/html5/">HTML 5</a>, <a href="http://www.latex-project.org/">LaTeX</a> , <a href="http://www.pragma-ade.nl/">ConTeXt</a>,<a href="http://en.wikipedia.org/wiki/Rich_Text_Format">RTF</a>, <a href="http://www.docbook.org/">DocBook XML</a>, <a href="http://opendocument.xml.org/">OpenDocument XML</a>, <a href="http://en.wikipedia.org/wiki/OpenDocument">ODT</a>, <a href="http://www.microsoft.com/interop/openup/openxml/default.aspx">Word docx</a>, <a href="http://www.gnu.org/software/texinfo/">GNU Texinfo</a>, <a href="http://www.mediawiki.org/wiki/Help:Formatting">MediaWiki markup</a>, <a href="http://www.idpf.org/">EPUB</a>, <a href="http://redcloth.org/textile">Textile</a>, <a href="http://developer.apple.com/DOCUMENTATION/Darwin/Reference/ManPages/man7/groff_man.7.html">groff man</a>, <a href="http://orgmode.org/">Emacs Org-Mode</a>, <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a>, <a href="http://www.w3.org/Talks/Tools/Slidy/">Slidy</a>, <a href="http://paulrouget.com/dzslides/">DZSlides</a>, <a href="http://meyerweb.com/eric/tools/s5/">S5</a> HTML slide shows. 如果安装了 LaTeX ,甚至还可以输出为 <a href="http://www.adobe.com/pdf/">PDF</a> 格式！</p>
+
+<p>&nbsp;</p>
+
+<p>项目主页：<a href="http://johnmacfarlane.net/pandoc/">http://johnmacfarlane.net/pandoc/</a></p>
+
+<p></div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/02/08/pandoc-%E6%96%87%E6%A1%A3%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%88%A9%E5%99%A8/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/">一个网页闯关游戏</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-06T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>6</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近遇到了好多网页闯关游戏。</p>
+
+<p>比如有名的<a href="http://www.pythonchallenge.com/" target="_blank"> pythonchallenge</a></p>
+
+<p>再比如 <a href="http://riddle.arthurluk.net/">http://riddle.arthurluk.net/</a></p>
+
+<p>&nbsp;</p>
+
+<p>今晚做了  <a href="http://monyer.com/game/game1/">http://monyer.com/game/game1/</a></p>
+
+<p>虽然只有15关，但感觉非常好，<span style="color: #ff6600;"><strong>强烈推荐</strong></span>！</p>
+
+<p>它让我学到了javascript的一些知识，还有基本的cookies、session、sql注入等知识，很有趣！</p>
+
+<p>我花了几个小时，在参考答案的帮助下通关啦！</p>
+
+<p>下面是我的通关攻略，不过我觉得首页上那个官方的攻略写的非常详细，比我的要好很多</p>
+
+<p></div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/02/06/%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E9%97%AF%E5%85%B3%E6%B8%B8%E6%88%8F/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/">Cf105 Div2 解题报告</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-02-03T00:00:00+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>比赛时暴露出现好多问题，赛后要好好总结：</p>
+
+<p>&nbsp;</p>
+
+<p>A <a href="http://codeforces.com/problemset/problem/148/A">148A - Insomnia cure</a></p>
+
+<p>暴力：
+<pre class="brush:python">k = [input() for i in xrange(4)]
+d = input()
+print len(set([j for i in k for j in range(1,d+1) if j%i==0]))</pre>
+&nbsp;</p>
+
+<p>B <a href="http://codeforces.com/problemset/problem/148/B">148B - Escape</a></p>
+
+<p>简单计算题，比赛时没考虑龙的初始速度要比公主快，赛后挂了
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/02/03/cf105-div%E8%A7%A3%E9%A2%98%E6%8A%A5%E5%91%8A/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/26/cf104-div2-a-%E5%87%A0%E4%B8%AA%E6%BC%82%E4%BA%AE%E7%9A%84%E4%BB%A3%E7%A0%81/">Cf104 Div2 a 几个漂亮的代码</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-01-26T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><pre>146A - Lucky Ticket</pre></p>
+
+<p>题意：长度为n的数字，如果全部是4或7，并且前一半的和等于后一半的和，则输出“YES”，否则“NO”</p>
+
+<p>我的代码：
+<pre class="brush:python">n=input()/2
+p=raw_input()
+for c in p:	#找不是47的数字
+    if c not in ["4","7"]:
+        print "NO"
+        exit()
+#读入的字符串转成int并变成list之后求和
+if sum([int(c) for c in p[:n]])==sum([int(c) for c in p[n:]]):
+    print "YES"
+else:
+    print "NO"</pre>
+&nbsp;
+<pre>看到另一个人的代码</pre>
+<pre class="brush:python">n = int(raw_input())
+s = raw_input()
+a = [ord(c)-ord('0') for c in s]	#string转成数字list，方便后面处理
+ans = 1
+for i in a:
+        if i not in [4, 7]:
+                ans = 0
+                break
+else:
+        if sum(a[:n/2]) != sum(a[n/2:]):
+                ans = 0</pre></p>
+
+<p>print ['NO', 'YES'][ans]	#用list索引简化输出
+&nbsp;
+<pre>还看到几个特别漂亮的代码：</pre>
+<pre class="brush:python">if set("47").issuperset(set(S)) and sum(map(int,S[:len(S)/2])) == sum(map(int,S[len(S)/2:])):
+    print "YES"
+else: print "NO"</pre>
+&nbsp;
+<pre>通过组成的集合是不是"47"的子集来判定有没有超过47的数字
+用map(int,S)把字符串转换成int list ，方便求和</pre></p>
+
+<p>最精彩的是这个代码：
+<pre class="brush:python">s=sorted	#变成自动排序的list
+n=input()
+z=raw_input()
+print"NYOE S"[set(z)&lt;=set("47")and s(2*s(z[:n//2]))==s(z)::2]</pre></p>
+
+<p>#set(z)&lt;=set("47")	直接比较子集<br />
+#s(2*s(z[:n//2]))==s(z)::2	前一半的和乘以二
+&nbsp;</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/25/cf97div2-d%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95-%E6%9A%B4%E5%8A%9B/">Cf97div2 D计算几何 暴力</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-01-25T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>25</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><pre class="brush:cpp">//获得8个数的全排列，然后判断是否满足前四个正方形，后四个矩形，判断使用边长相等+一个直角即可</pre></p>
+
+<p>int px[10], py[10];</p>
+
+<p>double dis(int a, int b) {<br />
+    return (px[a] - px[b])*(px[a] - px[b])+(py[a] - py[b])*(py[a] - py[b]);<br />
+}</p>
+
+<p>bool isRt(int a, int b, int c) {<br />
+    return ((px[b] - px[a])*(px[c] - px[b])+(py[b] - py[a])*(py[c] - py[b]) == 0);<br />
+}</p>
+
+<p>bool isSq(int a, int b, int c, int d) {<br />
+    int l1 = dis(a, b);<br />
+    int l2 = dis(b, c);<br />
+    int l3 = dis(c, d);<br />
+    int l4 = dis(a, d);<br />
+    if (l1 == l2 &amp;&amp; l2 == l3 &amp;&amp; l3 == l4 &amp;&amp; isRt(a, b, c))<br />
+        return 1;<br />
+    return 0;<br />
+}</p>
+
+<p>bool isJu(int a, int b, int c, int d) {<br />
+    int l1 = dis(a, b);<br />
+    int l2 = dis(b, c);<br />
+    int l3 = dis(c, d);<br />
+    int l4 = dis(a, d);<br />
+    if (l1 == l3 &amp;&amp; l2 == l4 &amp;&amp; isRt(a, b, c))<br />
+        return 1;<br />
+    return 0;<br />
+}</p>
+
+<p>int main() {<br />
+    for (int i = 1; i &lt;= 8; ++i) {<br />
+        scanf("%d%d", &amp;px[i], &amp;py[i]);<br />
+    }<br />
+    int sq[8] = {1, 2, 3, 4, 5, 6, 7, 8};<br />
+    int flag = 0;</p>
+
+<p>    do {<br />
+        if (isSq(sq[0], sq[1], sq[2], sq[3]) &amp;&amp; isJu(sq[4], sq[5], sq[6], sq[7])) {<br />
+            flag = 1;<br />
+            printf("YES\n%d %d %d %d\n%d %d %d %d\n", sq[0], sq[1], sq[2], sq[3], sq[4], sq[5], sq[6], sq[7]);<br />
+            break;<br />
+        }</p>
+
+<p>    } while (next_permutation(sq, sq + 8));<br />
+    if (!flag) {<br />
+        puts("NO");<br />
+    }<br />
+    return 0;<br />
+}
+&nbsp;</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/23/python-%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BCpep8/">Python 代码风格PEP8</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-01-23T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近在学习python，知道了关于python代码风格PEB8，转载一篇中文介绍吧，写得蛮好的：</p>
+
+<p>官方文档：<a href="http://www.python.org/dev/peps/pep-0008/">http://www.python.org/dev/peps/pep-0008/</a></p>
+
+<p>&nbsp;</p>
+
+<p>转载来源：<a href="http://www.blogjava.net/lincode/archive/2011/02/02/343859.html">http://www.blogjava.net/lincode/archive/2011/02/02/343859.html</a></p>
+
+<p><strong><strong>1 变量</strong>
+</strong>
+<strong>常量</strong> : 大写加下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />USER_CONSTANT</div>
+对于不会发生改变的全局变量，使用大写加下划线。
+<strong>
+私有变量</strong> : 小写和一个前导下划线
+<div><img src="http://www.blogjava.net/Images/OutliningIndicators/None.gif" alt="" align="top" />_private_value</div>
+Python 中不存在私有变量一说，若是遇到需要保护的变量，使用小写和一个前导下划线。但这只是程序员之间的一个约定，用于警告说明这是一个私有变量，外部类不要去访问它。但实际上，外部类还是可以访问到这个变量。
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2012/01/23/python-%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BCpep8/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/20/25/">7 Days Plans</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-01-20T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>看到一个google的大拿的《30 days challenge》</p>
+
+<p><a href="http://www.mattcutts.com/blog/type/30-days/" target="_blank">http://www.mattcutts.com/blog/type/30-days/</a>
+<div>
+<div>比较有代表性的是这一篇</div>
+<div><a href="http://www.mattcutts.com/blog/30-day-challenge-poll/" target="_blank">http://www.mattcutts.com/blog/30-day-challenge-poll/</a></div>
+<div>很有趣，甚至包括write a novel这样的任务，而且看上去效果相当的好！</div>
+<div>我以前(大一的时候)是有“季划”的，到最后90%实现不了，也就不了了之。</div>
+<div>一个季度时间，对于我这样没有什么恒心的人来说，实在是长了一点。</div>
+<div>一个月，是可以做大事的，蛮好。</div>
+<div>我现在，还处于【胸无大志】状态。</div>
+<div>一个月的时间，对我来说太长了！况且，一个月之后，就差不多开学了，我的美好寒假这这样没有了？？？</div>
+<div>我舍不得去想一个月之后的事情。</div>
+<div>鉴于寒假大部分时间都在自己掌控之下这样大好的形式，</div>
+<div>我觉得周计划比较适合我</div>
+<div>下面是我这个星期的计划：</div>
+<div>0、看完半年前就买的刘若英新书《我们不完美》</div>
+<div>1、看完《learning python第三版》</div>
+<div>2、发3篇非白开水的博文（总结、心得）</div>
+<div>ps:</div>
+<div>1、时间点特殊，做不了大事，所以叫做7 days plans,而不是challenges</div>
+<div>2、一周之后我会发新的7 days plans，并总这一周的工作</div>
+<div>欢迎监督，共同进步！</div>
+</div>
+<div>我们好朋友们，也可搞起30 days challenges 啊!</div>
+<div>就像今天我在另一篇文章中引用到：</div>
+<h1><span style="color: #ff6600;"><strong>“生活在如此刺激的年代，一定要去经历那些最刺激最有意义的东西，这样人生才会变得有意义! ”</strong></span></h1></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/17/netbeans-7-1-%E5%AE%89%E8%A3%85-python/">Netbeans 7.1 安装 Python</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-01-17T00:00:00+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>我最常用的IDE是netbeans，c++,java,php都用它来写。<br />
+寒假开始学习python，所以也想用python完成<br />
+NetBeans 7.0 中默认的插件中心已经没有python插件了，不过可以手动来添加地址和安装。<br />
+方法：NetBeans界面，“工具”-&gt;“插件”, 点击“设置”-&gt;点击“添加”,然后 添加一个更新中心地址 ,名称可以任意，URL如下： http://deadlock.netbeans.org/hudson/job/nbms-and-javadoc/lastStableBuild/artifact/nbbuild/nbms/updates.xml.gz<br />
+因依赖关系，会自动加上Jython插件。</p>
+
+<p>安装完毕可以使用jython，如果想使用cpython则在“工具”-&gt;python platfrom里面添加python安装目录里面的python.exe即可</p>
+
+<p>我从官网下载了64位的python 2.7 ,然后把d:\python27 加入了path里面，这样可以在控制台里使用python了</p>
+
+<p>附nb官网的python使用教程： <a href="http://netbeans.org/kb/69/python/temperature-converter_zh_CN.html">http://netbeans.org/kb/69/python/temperature-converter_zh_CN.html</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/posts/5">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/posts/3">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/">MAC通过SMB访问windows文件夹，密码正确，无法登陆</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/28/chrome-usb%E8%80%B3%E6%9C%BA%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3/">Chrome USB耳机没有声音</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/%E5%BC%80%E5%A7%8B%E8%A1%8C%E5%8A%A8/">开始行动</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/1-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8A%A8%E6%9C%BA%E4%B8%8E%E5%BA%94%E7%94%A8/">【学习笔记】斯坦福大学>机器学习>1-机器学习的动机与应用</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - lmm333 -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
