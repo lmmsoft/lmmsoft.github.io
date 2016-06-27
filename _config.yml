@@ -64,7 +64,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:lmmsoft
+github_user: lmmsoft
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -96,6 +96,8 @@ disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-27089866-7
+google_universal_analytics: UA-27089866-7
+google_universal_analytics_cookiedomain: auto
 
 # Facebook Like
 facebook_like: false
