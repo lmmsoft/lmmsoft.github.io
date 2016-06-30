@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 修电脑 | lmmsoft’s blog]]></title>
   <link href="http://lmmsoft.github.io/blog/categories/xiu-dian-nao/atom.xml" rel="self"/>
   <link href="http://lmmsoft.github.io/"/>
-  <updated>2016-06-27T23:17:38+08:00</updated>
+  <updated>2016-07-01T00:20:50+08:00</updated>
   <id>http://lmmsoft.github.io/</id>
   <author>
     <name><![CDATA[lmm333]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wordpress修改固定链接，配好重定向，依然404的解决方法]]></title>
+    <link href="http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/"/>
+    <updated>2016-06-30T23:52:58+08:00</updated>
+    <id>http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin</id>
+    <content type="html"><![CDATA[<p>今晚被坑了好久，最后发现是缓存问题，好好记录下过程：</p>
+
+<p>因为博客搬家的缘故，搞重定向前想把链接改美好一点，于是在Wordpress管理界面里修改固定链接，从 domain/title/ 改成 domain/year/month/day/title，改完居然不奏效，记得以前是可以的，为什们呢？</p>
+
+<p>网络搜索一番，都是说没配重定向，可是我有啊，而且正确，我用的是SAE， 服务器是nginx， 不能改.htaccess，二是通过SAE自己的AppConfig，修改目录下的config.yaml文佳，改成</p>
+
+<pre><code class="plain">---
+name: lmm333
+version: 1
+handle:
+- rewrite: if (!is_file() &amp;&amp; !is_dir() &amp;&amp; path ~ "^/(.*)") goto "index.php/$1"
+</code></pre>
+
+<p>我的是对的，和网上的解决方案一模一样，改好之后首页的链接都自动变成了新的有年月日格式，但点击还是404，手打没年月日的网页就可以，然后就陷入很久的百思不得其解当中。</p>
+
+<p>一会儿，有个思路是查查是不是有缓存：</p>
+
+<ol>
+<li><p>修改网站的配置文件，让网站强制刷新，不起作用</p></li>
+<li><p>查看wordpress是不是装了缓存插件比如wordpress-cache什么的，详细过了一遍开启的插件列表，没有</p></li>
+<li><p>突然发现插件列表最上面有个“Drop-in高级插件”的东西从来没见过，点开，果然是一个叫做object-cache.php的文件，好像是SAE memcache的插件，于是去了wp-content目录，强制删除了这个文件，药到病除~！</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MAC通过SMB访问windows文件夹，密码正确，无法登陆]]></title>
@@ -210,61 +241,6 @@ The Setup 是一个访谈性的blog，邀请各种geek谈他们的硬件和软�
 
 
 <p>大致如此吧，其实这帮geek还谈了好多，比如照片整理用picasa，照片编辑用Adobe Lightroom或者Acorn之类的，只是本人实在不太感兴趣，所以没怎么仔细看了。</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL Migration Toolkit Jre 问题]]></title>
-    <link href="http://lmmsoft.github.io/blog/2012/02/10/mysql-migration-toolkit-jre-%E9%97%AE%E9%A2%98/"/>
-    <updated>2012-02-10T00:00:00+08:00</updated>
-    <id>http://lmmsoft.github.io/blog/2012/02/10/mysql-migration-toolkit-jre-问题</id>
-    <content type="html"><![CDATA[<p>刚才遇到了 Migration Toolkit failed with JRE 1.5 的问题，去网上查了一下。</p>
-
-
-
-
-<p>我本地的jre出问题了，升级为1.7，还是不行</p>
-
-
-
-
-<p>官网说对新版本的jre支持不好，建议换旧版本，还说这些功能即将加入了workbench5.2，建议使用workbench，真晕</p>
-
-
-
-
-<p>也有网友指出64位的jre可能不支持，换32位的就行。</p>
-
-
-
-
-<p>捣鼓了半天，终于能用了，办法是用参数指定jvm的目录</p>
-
-
-
-
-<p>我指定了netbeans里面自带的jdk，这样也不必把装好的jdk1.7删掉</p>
-
-
-
-
-<p>方法：</p>
-
-
-
-
-<p>在MySQLMigrationTool.exe的目录里面新建MySQLMigrationTool.cmd<br />
-编辑内容为
-<pre class="brush:bash">cd
-MySQLMigrationTool.exe -jvm "C:\NetBeans7\jdk6\jre\bin\client\jvm.dll"</pre>
-&nbsp;</p>
-
-
-
-
-<p>其中双引号内为jvm.dll所在的地址<br />
-双击运行即可</p>
 
 ]]></content>
   </entry>
