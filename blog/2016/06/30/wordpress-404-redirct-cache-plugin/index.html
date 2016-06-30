@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: 【我的自由软件】 - lmmsoft’s blog</title>
+  <title>Wordpress修改固定链接，配好重定向，依然404的解决方法 - lmmsoft’s blog</title>
   <meta name="author" content="lmm333">
 
   
-  <meta name="description" content="Category: 【我的自由软件】">
-  
+  <meta name="description" content="今晚被坑了好久，最后发现是缓存问题，好好记录下过程： 因为博客搬家的缘故，搞重定向前想把链接改美好一点，于是在Wordpress管理界面里修改固定链接，从 domain/title/ 改成 domain/year/month/day/title，改完居然不奏效，记得以前是可以的，为什们呢？ &hellip;">
+  <meta name="keywords" content="404 cache wordprss link">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://lmmsoft.github.io/blog/categories/%5B(wo-de-zi-you-ruan-jian-)%5D/">
+  <link rel="canonical" href="http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="lmmsoft’s blog" type="application/atom+xml">
@@ -75,67 +75,101 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: 【我的自由软件】</h1>
+    
+      <h1 class="entry-title">Wordpress修改固定链接，配好重定向，依然404的解决方法</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-06-30T23:52:58+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:52 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://lmmsoft.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>今晚被坑了好久，最后发现是缓存问题，好好记录下过程：</p>
 
-  
-  <h2>2013</h2>
+<p>因为博客搬家的缘故，搞重定向前想把链接改美好一点，于是在Wordpress管理界面里修改固定链接，从 domain/title/ 改成 domain/year/month/day/title，改完居然不奏效，记得以前是可以的，为什们呢？</p>
 
-<article>
-  
-<h1><a href="/blog/2013/02/27/%E5%8D%97%E7%90%86%E5%B7%A5%E8%AF%BE%E8%A1%A8%E6%89%93%E5%8D%B0%E5%B0%8F%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B8%83%E5%95%A6/">南理工"课表打印"小工具发布啦</a></h1>
-<time datetime="2013-02-27T00:00:00+08:00" pubdate><span class='month'>Feb</span> <span class='day'>27</span> <span class='year'>2013</span></time>
+<p>网络搜索一番，都是说没配重定向，可是我有啊，而且正确，我用的是SAE， 服务器是nginx， 不能改.htaccess，二是通过SAE自己的AppConfig，修改目录下的config.yaml文佳，改成</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/[(wo-de-zi-you-ruan-jian-)]/'>【我的自由软件】</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/blog/2012/03/08/%E5%8D%97%E7%90%86%E5%B7%A5%E5%9B%BE%E4%B9%A6%E9%A6%86chrome%E6%8F%92%E4%BB%B6/">南理工图书馆chrome插件升级啦！现在支持豆瓣、亚马逊、当当、京东</a></h1>
-<time datetime="2012-03-08T00:00:00+08:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/[(wo-de-zi-you-ruan-jian-)]/'>【我的自由软件】</a></span>
-</footer>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>---
+</span><span class='line'>name: lmm333
+</span><span class='line'>version: 1
+</span><span class='line'>handle:
+</span><span class='line'>- rewrite: if (!is_file() && !is_dir() && path ~ "^/(.*)") goto "index.php/$1"</span></code></pre></td></tr></table></div></figure>
 
 
-</article>
+<p>我的是对的，和网上的解决方案一模一样，改好之后首页的链接都自动变成了新的有年月日格式，但点击还是404，手打没年月日的网页就可以，然后就陷入很久的百思不得其解当中。</p>
 
+<p>一会儿，有个思路是查查是不是有缓存：</p>
 
-
-<article>
-  
-<h1><a href="/blog/2012/03/04/%E5%8D%97%E7%90%86%E5%B7%A5%E5%9B%BE%E4%B9%A6%E9%A6%86%E8%B1%86%E7%93%A3%E6%8F%92%E4%BB%B6%E5%8F%91%E5%B8%83%E4%BA%86/">南理工图书馆豆瓣插件发布了</a></h1>
-<time datetime="2012-03-04T00:00:00+08:00" pubdate><span class='month'>Mar</span> <span class='day'>04</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/[(wo-de-zi-you-ruan-jian-)]/'>【我的自由软件】</a></span>
-</footer>
-
-
-</article>
+<ol>
+<li><p>修改网站的配置文件，让网站强制刷新，不起作用</p></li>
+<li><p>查看wordpress是不是装了缓存插件比如wordpress-cache什么的，详细过了一遍开启的插件列表，没有</p></li>
+<li><p>突然发现插件列表最上面有个“Drop-in高级插件”的东西从来没见过，点开，果然是一个叫做object-cache.php的文件，好像是SAE memcache的插件，于是去了wp-content目录，强制删除了这个文件，药到病除~！</p></li>
+</ol>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">lmm333</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2016-06-30T23:52:58+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:52 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/" data-via="" data-counturl="http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/10/mac%E9%80%9A%E8%BF%87smb%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E5%AF%86%E7%A0%81%E6%AD%A3%E7%A1%AE%EF%BC%8C%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86/" title="Previous Post: MAC通过SMB访问windows文件夹，密码正确，无法登陆">&laquo; MAC通过SMB访问windows文件夹，密码正确，无法登陆</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -219,7 +253,10 @@
       var disqus_shortname = 'lmmsoft';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/';
+        var disqus_url = 'http://lmmsoft.github.io/blog/2016/06/30/wordpress-404-redirct-cache-plugin/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
