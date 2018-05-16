@@ -1,0 +1,18 @@
+---
+layout: post
+title: MAC通过SMB访问windows文件夹，密码正确，无法登陆
+categories:
+- 修电脑
+tags: []
+published: true
+comments: true
+---
+<p>windows电脑清灰。然后重新上电开机。下午通过mac访问windows的共享文件夹，依旧是通过Finder菜单里前往菜单下的连接服务器选项连接，竟然出现无法连接，同样密码的远程连接可以，smb不行。</p>
+
+<p>重新输入了一边windows电脑上的用户名和密码，依然无法连接。确保用户名密码完全正确的情况下，mac的密码输入窗口还是在那抖动晃动。<br />
+smb无法访问，但是奇怪的是用远程桌面连接和XBMC访问都正常。无奈，先通过远程桌面，修改了一个新的windows管理员密码，再到mac finder里，问题依旧。<br />
+百思不得其解。google，百度了半天，没有答案。</p>
+
+<p>无奈再次用远程桌面连接windows电脑，查看各种设置，没发现什么问题，突然意外发现windows 右下角的自动更新提示出现了问题，小旗子上面打了红叉，顺着这条线。发现由于拆机清灰，断电后由于windows电脑的bios电池实效，系统时间变成2000年。调整了系统时间，回到mac，再次通过finder－前往－连接服务器，一切正常了。</p>
+
+<p>最后附上苹果的官方文档： Mac OS X：如何连接 Windows 文件共享 (SMB) http://support.apple.com/zh-cn/HT1568 </p>

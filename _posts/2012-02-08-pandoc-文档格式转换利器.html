@@ -1,0 +1,86 @@
+---
+layout: post
+title: Pandoc —— 文档格式转换利器
+categories:
+- 修电脑
+tags:
+- pandoc 文档格式转换
+published: true
+comments: true
+---
+<p>Pandoc 一个用 <a href="http://www.haskell.org/">Haskell</a> 文档格式转换软件</p>
+
+<p>&nbsp;</p>
+
+<p>输入格式可以是： <a href="http://daringfireball.net/projects/markdown/">markdown</a> ,<a href="http://redcloth.org/textile">Textile</a>, <a href="http://docutils.sourceforge.net/docs/ref/rst/introduction.html">reStructuredText</a>, <a href="http://www.w3.org/TR/html40/">HTML</a>,  <a href="http://www.latex-project.org/">LaTeX</a>;</p>
+
+<p>&nbsp;</p>
+
+<p>输出语言非常丰富，包括： <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://docutils.sourceforge.net/docs/ref/rst/introduction.html">reStructuredText</a>, <a href="http://www.w3.org/TR/xhtml1/">XHTML</a>, <a href="http://www.w3.org/TR/html5/">HTML 5</a>, <a href="http://www.latex-project.org/">LaTeX</a> , <a href="http://www.pragma-ade.nl/">ConTeXt</a>,<a href="http://en.wikipedia.org/wiki/Rich_Text_Format">RTF</a>, <a href="http://www.docbook.org/">DocBook XML</a>, <a href="http://opendocument.xml.org/">OpenDocument XML</a>, <a href="http://en.wikipedia.org/wiki/OpenDocument">ODT</a>, <a href="http://www.microsoft.com/interop/openup/openxml/default.aspx">Word docx</a>, <a href="http://www.gnu.org/software/texinfo/">GNU Texinfo</a>, <a href="http://www.mediawiki.org/wiki/Help:Formatting">MediaWiki markup</a>, <a href="http://www.idpf.org/">EPUB</a>, <a href="http://redcloth.org/textile">Textile</a>, <a href="http://developer.apple.com/DOCUMENTATION/Darwin/Reference/ManPages/man7/groff_man.7.html">groff man</a>, <a href="http://orgmode.org/">Emacs Org-Mode</a>, <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a>, <a href="http://www.w3.org/Talks/Tools/Slidy/">Slidy</a>, <a href="http://paulrouget.com/dzslides/">DZSlides</a>, <a href="http://meyerweb.com/eric/tools/s5/">S5</a> HTML slide shows. 如果安装了 LaTeX ,甚至还可以输出为 <a href="http://www.adobe.com/pdf/">PDF</a> 格式！</p>
+
+<p>&nbsp;</p>
+
+<p>项目主页：<a href="http://johnmacfarlane.net/pandoc/">http://johnmacfarlane.net/pandoc/</a></p>
+
+<p><!--more--></p>
+
+<p>&nbsp;</p>
+
+<p>Pandoc的用法也非常简单：</p>
+
+<p>1.从<a href="http://code.google.com/p/pandoc/downloads/list">http://code.google.com/p/pandoc/downloads/list</a> 下载适合操作系统的程序</p>
+
+<p>2.安装的话，如果是windows，一路next就好了，会自动加入到system path里面</p>
+
+<p>3.pandoc是个命令行程序，所有操作通过命令行来完成</p>
+
+<p>&nbsp;</p>
+
+<p>命令pandoc</p>
+
+<p>常用参数</p>
+
+<p>-f 输入格式（如果没有制定格式，则根据后缀名判断，如果没后缀名，则默认为markdown）</p>
+
+<p>-t 输输出格式（默认为html）</p>
+
+<p>-o 如果没有的话（默认是STDOUT）</p>
+
+<p>&nbsp;</p>
+
+<p>例如:</p>
+
+<p>1.
+<pre class="brush:bash">pandoc -f markdown -t html in.txt -o out.html</pre>
+&nbsp;</p>
+
+<p>就是把md格式的in.txt转成out.html</p>
+
+<p>2.
+<pre class="brush:bash">pandoc  -o out.html</pre>
+&nbsp;</p>
+
+<p>使用默认参数，和上面一样的效果</p>
+
+<p>3.
+<pre class="brush:bash">pandoc in.tex -o out.doc</pre>
+&nbsp;</p>
+
+<p>根据后缀名，由latex格式转换为doc格式</p>
+
+<p>&nbsp;</p>
+
+<p>在windows 中使用时，新建文本文档，改后缀名为cmd，然后插入这样代码：
+<pre class="brush:bash">cd
+pandoc -f markdown -t html in.txt -o out.html</pre>
+保存后双击运行，就可以自动把当前目录下in.txt文件转换为out.html文件，非常方便！</p>
+
+<p>&nbsp;</p>
+
+<p>详细的使用说明可以查找安装目录里面的 README.html 文件！</p>
+
+<p>&nbsp;</p>
+
+<p><strong>原创文章，转载请注明：</strong> 转载自 <a href="http://lmm333.sinaapp.com/" target="_blank">明明如月的新家</a></p>
+
+<p><strong>本文链接地址:</strong> <a href="http://lmm333.sinaapp.com/" target="_blank">http://lmm333.sinaapp.com/pandoc-文档格式转换利器/</a></p>

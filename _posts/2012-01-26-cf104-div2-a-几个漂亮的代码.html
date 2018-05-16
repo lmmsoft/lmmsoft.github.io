@@ -1,0 +1,58 @@
+---
+layout: post
+title: cf104 div2 A 几个漂亮的代码
+categories:
+- 【挨踢生涯】
+tags: []
+published: true
+comments: true
+---
+<p><pre>146A - Lucky Ticket</pre></p>
+
+<p>题意：长度为n的数字，如果全部是4或7，并且前一半的和等于后一半的和，则输出“YES”，否则“NO”</p>
+
+<p>我的代码：
+<pre class="brush:python">n=input()/2
+p=raw_input()
+for c in p:	#找不是47的数字
+    if c not in ["4","7"]:
+        print "NO"
+        exit()
+#读入的字符串转成int并变成list之后求和
+if sum([int(c) for c in p[:n]])==sum([int(c) for c in p[n:]]):
+    print "YES"
+else:
+    print "NO"</pre>
+&nbsp;
+<pre>看到另一个人的代码</pre>
+<pre class="brush:python">n = int(raw_input())
+s = raw_input()
+a = [ord(c)-ord('0') for c in s]	#string转成数字list，方便后面处理
+ans = 1
+for i in a:
+        if i not in [4, 7]:
+                ans = 0
+                break
+else:
+        if sum(a[:n/2]) != sum(a[n/2:]):
+                ans = 0</pre></p>
+
+<p>print ['NO', 'YES'][ans]	#用list索引简化输出
+&nbsp;
+<pre>还看到几个特别漂亮的代码：</pre>
+<pre class="brush:python">if set("47").issuperset(set(S)) and sum(map(int,S[:len(S)/2])) == sum(map(int,S[len(S)/2:])):
+    print "YES"
+else: print "NO"</pre>
+&nbsp;
+<pre>通过组成的集合是不是"47"的子集来判定有没有超过47的数字
+用map(int,S)把字符串转换成int list ，方便求和</pre></p>
+
+<p>最精彩的是这个代码：
+<pre class="brush:python">s=sorted	#变成自动排序的list
+n=input()
+z=raw_input()
+print"NYOE S"[set(z)&lt;=set("47")and s(2*s(z[:n//2]))==s(z)::2]</pre></p>
+
+<p>#set(z)&lt;=set("47")	直接比较子集<br />
+#s(2*s(z[:n//2]))==s(z)::2	前一半的和乘以二
+&nbsp;</p>

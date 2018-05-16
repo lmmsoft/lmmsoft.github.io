@@ -1,0 +1,87 @@
+---
+layout: post
+title: 一个网页闯关游戏
+categories:
+- 【挨踢生涯】
+tags: []
+published: true
+comments: true
+---
+<p>最近遇到了好多网页闯关游戏。</p>
+
+<p>比如有名的<a href="http://www.pythonchallenge.com/" target="_blank"> pythonchallenge</a></p>
+
+<p>再比如 <a href="http://riddle.arthurluk.net/">http://riddle.arthurluk.net/</a></p>
+
+<p>&nbsp;</p>
+
+<p>今晚做了  <a href="http://monyer.com/game/game1/">http://monyer.com/game/game1/</a></p>
+
+<p>虽然只有15关，但感觉非常好，<span style="color: #ff6600;"><strong>强烈推荐</strong></span>！</p>
+
+<p>它让我学到了javascript的一些知识，还有基本的cookies、session、sql注入等知识，很有趣！</p>
+
+<p>我花了几个小时，在参考答案的帮助下通关啦！</p>
+
+<p>下面是我的通关攻略，不过我觉得首页上那个官方的攻略写的非常详细，比我的要好很多</p>
+
+<p><!--more-->
+<pre>
+0-1 查看源码，直接点击链接</pre></p>
+
+<p>1-2 查看源码，在框里输入两个空格点提交，或者直接打hello.php</p>
+
+<p>2-3 用chrome f12 里面的console直接运行一下代码，知道a=424178<br />
+或者直接在地址栏输入javascript:alert(a)，因为a的结果已经在页面加载的时候计算过了</p>
+
+<p>3-4 运行下js知道密码是d4g</p>
+
+<p>4-5 有个重定向，所以直接查源码：<br />
+view-source:http://monyer.com/game/game1/d4g.php</p>
+
+<p>运行上面一段代码是"3bhe"<br />
+运行下面一段代码是"a=a.toUpperCase()+1;"<br />
+答案是<br />
+http://monyer.com/game/game1/3BHE1.php</p>
+
+<p>5-6 这一关没做出来，答案是http://monyer.com/game/game1/seventeen7.php</p>
+
+<p>6-7 很多网站md5逆向竟然要收费，哎，答案是<br />
+http://monyer.com/game/game1/eighteen8.php</p>
+
+<p>7-8 注意这个not found 和出错是不同的哦</p>
+
+<p>8-9 这个写个暴力程序毫无压力</p>
+
+<p>9-10 盯着美女看了好久，试了几种都失败了，看答案，原来是下载图片改成txt再拖到最下面哈 http://monyer.com/game/game1/MonyerLikeYou_the10level.php</p>
+
+<p>10-11 最好的办法是先运行<br />
+javascript:alert(document.cookie="username=admin")<br />
+然后刷新就行啦<br />
+http://monyer.com/game/game1/doyouknow.php</p>
+
+<p>11-12直接改url<br />
+http://monyer.com/game/game1/doyouknow.php?action=show_login_true</p>
+
+<p>12-13 百度搜base64解密，然后联系解密两次就行啦，出现%xx那些东西用谷歌随便搜个中午，然后把地址栏里面%xx改成搜到的，就知道字符是什么了，连续2次，答案是：<br />
+http://monyer.com/game/game1/sobeautiful.php<br />
+然后发现盗链了，说明直接输入地址的报文里来源是空的，要求从本站来<br />
+比较麻烦的办法是用socket伪造请求报文<br />
+比较好的办法是利用前面一个以免会把请求的代码输出，于是构造<br />
+&lt;a href=sobeautiful.php&gt;haha&lt;/a&gt;<br />
+点击提交，就出现过关链接啦！</p>
+
+<p>13-14 看了源码，把数据库链接都告诉你了，显然是sql注入题哈！<br />
+文本框输入'or''='<br />
+sql变成select password,pwd from [user] where pwd=''or''=''<br />
+原有''之间增加了''=''的恒真式，哈哈！<br />
+答案：http://monyer.com/game/game1/whatyouneverknow.php</p>
+
+<p>14-15 这个不会，直接看答案了：<br />
+ipasscrackme.php<br />
+想加入过关名单，必须通过cookies 和session两关，如果没记录的话，过去重打一下，不麻烦</p>
+
+<p>ps:<br />
+我的好友techird发现：<br />
+第七关不是有图片吗，我看图片路径是img/tupian1.jpg，然后猜想密码可能是img/tupian17.jpg，然后发现不是，我就直接访问img目录，竟然可以看到所有文件……<br />
+然后就全破了</p>

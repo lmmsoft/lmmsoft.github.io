@@ -1,0 +1,62 @@
+---
+layout: post
+title: cf97div2 D计算几何 暴力
+categories:
+- 【挨踢生涯】
+tags: []
+published: true
+comments: true
+---
+<p><pre class="brush:cpp">//获得8个数的全排列，然后判断是否满足前四个正方形，后四个矩形，判断使用边长相等+一个直角即可</pre></p>
+
+<p>int px[10], py[10];</p>
+
+<p>double dis(int a, int b) {<br />
+    return (px[a] - px[b])*(px[a] - px[b])+(py[a] - py[b])*(py[a] - py[b]);<br />
+}</p>
+
+<p>bool isRt(int a, int b, int c) {<br />
+    return ((px[b] - px[a])*(px[c] - px[b])+(py[b] - py[a])*(py[c] - py[b]) == 0);<br />
+}</p>
+
+<p>bool isSq(int a, int b, int c, int d) {<br />
+    int l1 = dis(a, b);<br />
+    int l2 = dis(b, c);<br />
+    int l3 = dis(c, d);<br />
+    int l4 = dis(a, d);<br />
+    if (l1 == l2 &amp;&amp; l2 == l3 &amp;&amp; l3 == l4 &amp;&amp; isRt(a, b, c))<br />
+        return 1;<br />
+    return 0;<br />
+}</p>
+
+<p>bool isJu(int a, int b, int c, int d) {<br />
+    int l1 = dis(a, b);<br />
+    int l2 = dis(b, c);<br />
+    int l3 = dis(c, d);<br />
+    int l4 = dis(a, d);<br />
+    if (l1 == l3 &amp;&amp; l2 == l4 &amp;&amp; isRt(a, b, c))<br />
+        return 1;<br />
+    return 0;<br />
+}</p>
+
+<p>int main() {<br />
+    for (int i = 1; i &lt;= 8; ++i) {<br />
+        scanf("%d%d", &amp;px[i], &amp;py[i]);<br />
+    }<br />
+    int sq[8] = {1, 2, 3, 4, 5, 6, 7, 8};<br />
+    int flag = 0;</p>
+
+<p>    do {<br />
+        if (isSq(sq[0], sq[1], sq[2], sq[3]) &amp;&amp; isJu(sq[4], sq[5], sq[6], sq[7])) {<br />
+            flag = 1;<br />
+            printf("YES\n%d %d %d %d\n%d %d %d %d\n", sq[0], sq[1], sq[2], sq[3], sq[4], sq[5], sq[6], sq[7]);<br />
+            break;<br />
+        }</p>
+
+<p>    } while (next_permutation(sq, sq + 8));<br />
+    if (!flag) {<br />
+        puts("NO");<br />
+    }<br />
+    return 0;<br />
+}
+&nbsp;</p>
