@@ -17,7 +17,7 @@ disqus_shortname: lmm333
 favicon:     "/images/favicon.ico"
 aboutme: Hi, 我叫明明，职业是程序员，现在从事安卓应用的研发。业余爱好运动，注意玩铁人三项，越野，潜水等活动~. # these are shown on aboutme-sidebar.
 aboutme_photo: "/images/1-head-draw.jpeg" # your photo.
-google_analytics_key: UA-27089866-7 # put YOUR key here to enable tracking! (blank to disable)
+google_analytics: UA-27089866-7 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### your Blogroll info, only name can shown on the page.
