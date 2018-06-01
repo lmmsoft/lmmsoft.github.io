@@ -15,7 +15,7 @@ twitter_username:
 github_username:  lmmsoft
 disqus_shortname: lmm333
 favicon:     "/images/favicon.ico"
-aboutme: Hi, 我叫明明，职业是程序员，现在从事安卓应用的研发。业余爱好运动，注意玩铁人三项，越野，潜水等活动~. # these are shown on aboutme-sidebar.
+aboutme: Hi, 我叫明明，职业是程序员，现从事安卓应用开发。业余爱好运动，主要玩铁人三项，越野和潜水~. # these are shown on aboutme-sidebar.
 aboutme_photo: "/images/1-head-draw.jpeg" # your photo.
 google_analytics: UA-27089866-7 # put YOUR key here to enable tracking! (blank to disable)
 
@@ -66,6 +66,7 @@ locales:
       About: "About"
       Guestbook: "Guestbook"
       Subscribe: "Subscribe"
+      ReadMore: "Continue Reading→"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -84,6 +85,7 @@ locales:
       About: "关于"
       Guestbook: "留言"
       Subscribe: "订阅"
+      ReadMore: "继续阅读→"
     jp:
       Aboutme: "著者"
       Archives: "アーカイブ"
@@ -102,6 +104,7 @@ locales:
       About: "このブログについて"
       Guestbook: "メッセージ"
       Subscribe: "購読"
+      ReadMore: "Continue Reading→"
     pl:
       Aboutme: "O mnie"
       Archives: "Archiwum"
@@ -120,6 +123,7 @@ locales:
       About: "O mnie"
       Guestbook: "Księga gości"
       Subscribe: "Subskrypcja"
+      ReadMore: "Continue Reading→"
     kr:
       Aboutme: "저자 소개"
       Archives: "모든 게시물"
@@ -138,6 +142,7 @@ locales:
       About: "소개"
       Guestbook: "방명록"
       Subscribe: "구독하기"
+      ReadMore: "Continue Reading→"
     ru:
       Aboutme: "Обо мне" # = 'About me'
       Archives: "Архив"
@@ -156,6 +161,7 @@ locales:
       About: "О блоге"            # = 'About blog'
       Guestbook: "Гостевая книга"
       Subscribe: "Подписаться"
+      ReadMore: "Continue Reading→"
     tr:
       Aboutme: "Hakkımda"
       Archives: "Arşivler"
@@ -174,6 +180,7 @@ locales:
       About: "Hakkında"
       Guestbook: "Konuk Defteri"
       Subscribe: "Abone Ol"
+      ReadMore: "Continue Reading→"
     id:
       Aboutme: "Tentang Saya"
       Archives: "Arsip"
@@ -192,3 +199,4 @@ locales:
       About: "Tentang"
       Guestbook: "Buku tamu"
       Subscribe: "Langganan"
+      ReadMore: "Continue Reading→"

@@ -28,11 +28,17 @@ layout: default
       </time>
       </p>
     </header>
-
-    <article class="post-content" itemprop="articleBody">
-      {{ post.content }}
-    </article> <hr />
     
+    <article class="post-content" itemprop="articleBody">
+      {% if post.content contains site.excerpt_separator %}
+      {{ post.excerpt }}
+      <p style="text-align: left"><a href="{{ post.url | prepend: site.baseurl }}">{{ site.locales[site.default_locale].ReadMore }}</a></p>
+      {% else %}
+      {{ post.content }}
+      {% endif %}
+    </article>
+    <hr />
+
     {% endfor %}
   
   </div>
