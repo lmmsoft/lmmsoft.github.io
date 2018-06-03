@@ -11,9 +11,10 @@ locale: en_US
 
 
 ### Personal info and site tools info:
-twitter_username:
+twitter_username: lmm333
 github_username:  lmmsoft
 disqus_shortname: lmm333
+linkedin_username: lmm333 
 favicon:     "/images/favicon.ico"
 aboutme: Hi, 我叫明明，职业是程序员，现从事安卓应用开发。业余爱好运动，主要玩铁人三项，越野和潜水~. # these are shown on aboutme-sidebar.
 aboutme_photo: "/images/1-head-draw.jpeg" # your photo.
@@ -23,12 +24,12 @@ google_analytics: UA-27089866-7 # put YOUR key here to enable tracking! (blank t
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-      - name: lmm333
-        href: http://lmmsoft.github.com/
-        title: Mingming's blog
       - name: Beyond the Void
         href: https://www.byvoid.com/
         title: Byvoid's blog
+      - name: lmm333
+        href: http://lmmsoft.github.com/
+        title: Mingming's blog
 
 
 ### Build settings
