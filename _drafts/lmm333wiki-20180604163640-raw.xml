@@ -1,0 +1,1242 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>lmm333wiki</sitename>
+    <dbname>lmm333wpblog</dbname>
+    <base>http://wiki.lmm333.com/index.php?title=Main_Page</base>
+    <generator>MediaWiki 1.26.0</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Lmm333wiki</namespace>
+      <namespace key="5" case="first-letter">Lmm333wiki talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>2014 Q1</title>
+    <ns>0</ns>
+    <id>41</id>
+    <revision>
+      <id>281</id>
+      <timestamp>2014-04-01T10:48:42Z</timestamp>
+      <contributor>
+        <ip>167.220.232.251</ip>
+      </contributor>
+      <comment>Created page with &quot;# 【生活理念】 简单是美，复杂不是美（所以，尽可能简洁的写季划吧，以前写过不少长的，可自己都记吧得了吧？）  # 【身体】 1....&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1099"># 【生活理念】
+简单是美，复杂不是美（所以，尽可能简洁的写季划吧，以前写过不少长的，可自己都记吧得了吧？）
+
+# 【身体】
+1. 身体指标：怒减10斤！
+2. 生活习惯：早起的日子超过70%，坚持每日刷牙、洗脸、搽香，每周洗衣服，每月搞卫生
+3. 运动指标：平均每周一次健身；学会标准的自由泳姿势，能连续游泳2km
+
+# 【精神】
+1. 【读书】每月技术/非技术书籍各一本，每周2小时读书笔记，每本书都在豆瓣写书评
+2. 【阅读】关注互联网，生活状态，
+3. 【工作】安全平稳度过试用期，该放手搞出至少一个小名堂
+4. 【总结】周思考，月回顾，季总结
+
+# 【爱好】
+1. 【愿望】买辆公路车，学修车，开始骑行速度
+2. 【面基】平均每周面基一次，每次面基都写回忆，每月发一篇
+3. 【旅行】春节和家长去普陀山，春暖花开在苏州好好玩玩（不下于三个地方）
+
+# 【其他】
+首先。。。
+
+2014.4 再来检查，早一天没人相信我能做到，哼！</text>
+      <sha1>826ehq3hlzxvforncbqgurhmnjg4u6y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2014 Q2</title>
+    <ns>0</ns>
+    <id>51</id>
+    <revision>
+      <id>371</id>
+      <parentid>361</parentid>
+      <timestamp>2014-04-02T01:50:45Z</timestamp>
+      <contributor>
+        <ip>167.220.232.188</ip>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="3367"># 2014 Q2季划与Q1回顾
+
+- 我不喜欢画大饼，就是会给你许多美好的许诺，最后未必能完成那种。前几天看到篇文章，说和妹子聊天时，一定要多畅想些浪漫的场景，好吧，注孤生。。。不过坚持计划和总结，倒也没辜负生活~
+- 最近有个鸡汤挺火的，叫做&quot;你只负责精彩，老天自有安排&quot;，好像就是这个道理，哈哈~
+
+# part 1: Q2季划
+##【生活理念】
+- 知道Matt Cutts: 的 [30 days challenge](http://v.163.com/movie/2013/8/M/P/M94IULLG6_M94IV1OMP.html)  项目已经一年多了，非常非常的喜欢，所以决定开始实践自己的 7 days challenge，每周选一个挑战项目。
+- 第一周选的是早起，(今天周二)周一周二都早起码字，然后周一9:30到办公室，周二9:00。
+- 以后的周总结就由流水账改成 7 days challenge的记录吧~
+
+##【身体与运动】
+1. 再减10斤，即比人生巅峰轻20斤     
+2. 重拾足球，每月至少参加一次像样的踢球活动
+3. 学会自由泳，完成一次半铁（如果安亭比赛如期的话）
+
+##【爱好】
+1. 每个月都写点有趣的代码。大学时捣鼓了不少好玩的小程序，骗到不少学弟学妹考试成绩，毕业这一年，几乎没写过工作之外的代码。心痒，手钝，不能忍！
+2. 以下都是7days challenge可以选的项目：装饰小屋/学习苏州园林的建筑知识/一周不吃糖/每天补写一篇图文游记/拍个小短片。。。敬请期待
+
+##【总体感觉】
+Q2固定目标减少，灵活性更强，更有趣~
+
+# part 2: Q1回顾
+##【生活理念】
+（失败）简单是美，复杂不是美---&gt;感觉生活还是不够简单，琐事不少，非常不专注。
+
+##【身体】
+1. （成功）身体指标：怒减10斤！ ---&gt; 没花太多精力，但减了近10斤，主要是不吃晚饭+各种玩
+2. （失败）生活习惯：早起的日子超过70% ---&gt;完全失败，早睡困难，早起不能
+3. （失败）运动指标：平均每周一次健身；学会标准的自由泳姿势，能连续游泳2km---&gt;做到平均每周游泳，但自由泳没学会，健身房春节之后没去过几次
+
+##【精神】
+1. (失败)【读书】每月技术/非技术书籍各一本，每周2小时读书笔记，每本书都在豆瓣写书评---&gt;只看了一本技术和一本非技术，每周花在读书笔记上的时间不足1小时。意外电影院去了三次(陪家人/和同事)，这大概是我大学时一年的量
+2. (失败)【阅读】关注互联网，生活状态---&gt;退定了很多互联网账号，嫌烦;生活状态关注的比较少，
+3. (成功)【工作】安全平稳度过试用期，该放手搞出至少一个小名堂---&gt;试用期是过了，但感觉自己对团队没作出特别有价值的贡献
+4. (成功)【总结】周思考，月回顾，季总结---&gt;
+
+##【爱好】
+1. (成功)【愿望】买辆公路车，学修车，开始骑行速度---&gt;买了辆光头胎的折叠车，骑行速度上不来，没怎么练
+2. (失败)【面基】平均每周面基一次，每次面基都写回忆，每月发一篇---&gt;面基次数为0吧，每天都是和一样的同事一起吃饭，还是该寻求一些变化啊~
+3. (成功)【旅行】春节和家长去普陀山，春暖花开在苏州好好玩玩（不下于三个地方）---&gt;超额完成目标，超级开心~</text>
+      <sha1>ird3ihgfefreffuchavr38zyob0r7nl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2014 Q3</title>
+    <ns>0</ns>
+    <id>121</id>
+    <revision>
+      <id>641</id>
+      <parentid>631</parentid>
+      <timestamp>2014-06-29T07:56:29Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="5261"># 2014 Q3季划与Q2回顾
+Q2过得不咋样，如果直接看表面的话，或者说从外人角度来看，其实还不错，晚些时候还会在博客上写一篇《2014上半年我做过哪些有意思的事情》，里面有美食，有旅行，身边还有一群活泼的小伙伴，其乐融融。但其实，我的内心，对现状并不满意。
+
+# part 1: 借这个机会，多写点现在的想法
+
+首先介绍最近看到的一个概念：生命线。
+
+“生命线”是每个人潜在的生活原动力和最真实的生活目标。它往往是在小时候形成的。弗洛伊德认为，很多人的一生都在为他童年和少年时期没有完成的梦境而奋斗着。
+
+对于每一个人，一旦达到他的“生命线”目标，他的生活就彻底自由了。再也不用夹着尾巴做人，再也不用看别人的脸色行事。
+
+在中国，大多数人的“生命线”就是钱。中国是一个很没有保障的国家，有钱才是硬道理。大多数人从小所接受的家庭教育，都会把“长大了要出人头地、努力赚钱”放在很重要的位置。
+
+但是，我的“生命线”不是钱。
+
+家庭小康，父母在小城里过着体面的生活，绘画班/奥数班/去老师家辅导，让我接受到县城里最好的教育，足量的课外书/玩具，小小的欲望基本都能满足，从来就感受不到经济拮据的困难，现在也不用养家糊口而看别人的脸色。
+
+父亲每次和我谈心，第一句都是“现在过的幸福么”，走得时候，叮嘱都是“路上小心，注意安全”。也从来没有强调要“努力赚大钱，改善生活”。
+
+因为我的生命线不是钱，所以迅速在苏州安家，车子/房子，都不是让我内心真正喜悦的东西。
+
+那么，我的生命线在哪儿呢？我该怎么才能找到它们？
+
+回顾这两年最开心的几件事，找到好的工作是一个，几次骑行的经历是另一个。仔细看，它们都是自己通过的努力获得的，很有“成就感”，而不是父母的给予，不劳而获，所以过程中的汗水、辛苦，都变成了最美好的回忆。
+
+所谓的&quot;成就感&quot;，指的是努力为一个生活目标而奋斗并达成。回头看，你会由衷认为：如果没有当初的努力，就不会有今天的生活。而且，错过了那个阶段，现在再努力，为时已晚。
+
+最近的最大不开心，是工作上的郁闷。这个项目已经是第二次做了，第一次掉的坑，这一次又掉进去了，毫无成就感，然后前阵子又去北京转了一圈，看到基友们的激情，工作一年的巨大收获，一下子就挫败感十足。
+
+挫败之后，激情消逝，拖延症等问题又出现了，好久没沉下心学习/安静读书/跑步/写博客/整理游记了，少了为未来努力奋斗的感觉，浑浑噩噩。充斥消费的感觉，毫无生产的乐趣。
+
+所以，下一阶段，很重要的一件事，就是找回那让我兴奋的，奋斗的感觉，尤其是要从工作中寻找。
+
+# part 2: Q2回顾
+##【生活理念】
+- 7 days challenge
+- 失败，7天太急躁了，来不及预热，准备，渐入佳境，保持。初期成功几个后，后面都失败了
+- 看样子Matt Cutts的30天周期还是很靠谱的，Q3试试每个月一个项目
+
+##【身体与运动】
+1. 再减10斤(失败，不降反增5斤)
+2. 重拾足球，每月至少参加一次像样的踢球活动(成功，外企运动会给了我很好的机会，虽然踢得不太好)
+3. 学会自由泳，（失败，推迟到Q3计划）
+
+##【爱好】
+1. 每个月都写点有趣的代码（失败，这是比较痛苦的失败，Q3得找点外部的动力推一下自己）
+2. 以下都是7days challenge可以选的项目：装饰小屋/学习苏州园林的建筑知识/一周不吃糖/每天补写一篇图文游记/拍个小短片。。。敬请期待（除了最后一个，都失败了）
+
+##【总体感觉】
+Q2非常失败，呵呵~
+
+# part 3: Q3季划
+## 【总体理念】
+- 静下心来，少做几件事，做精几件事。
+- 我需要更少，更简单的规则，去指导我做更多是事情，下面是几个优先级高的事情
+
+## 【身体】
+- 借着九月底北京铁人三项赛的风，好好训练一下~
+- 技能点：【自由泳】【公路自行车】
+- 期望：健康地完成人生第一个全铁
+
+## 【旅行】
+- 七月去一趟西伯利亚，把年假用掉大半，剩下的想留到年底或者来年，下半年专注于苏州周边游玩
+- 事件：办了苏州园林卡，还买了几本园林的书，提升园林的鉴赏能力争取把园林好好玩一遍~
+- 期望：从园林里，多学一些中式建筑的知识/像去年泡圆明园一样泡苏州园林，用别人的园子，享受自己的生活~
+
+## 【摄影】
+- 老妈给力，给买了台单反，可以练习摄影啦~
+- 技能点：【构图】【用光】【后期】
+- 期望：粗去玩的时候，能拍出几张高大上的风景照~
+
+## 【家装】
+- 八月份搬家，终于可以住进属于自己的房子，不需要装修，只要简单修饰一下就好，我得好好琢磨琢磨
+- 事件：看些家装的书，发掘淘宝的威力，营造自己的小空间~
+- 期望：安居</text>
+      <sha1>q0393he11y1k4sqj6ddgiuit7u9pr7w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2014 Q4</title>
+    <ns>0</ns>
+    <id>131</id>
+    <revision>
+      <id>681</id>
+      <parentid>671</parentid>
+      <timestamp>2014-10-29T07:08:43Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="5663"># 2014 Q4季划与Q4回顾
+
+# part 1: Q3 回顾
+
+对照Q3的计划，一条一条回顾
+
+##【生活理念】
+- 静下心来，少做几件事，做精几件事。
+- 结果：**还行**，九月份突然就不想不出门了，开始宅了，很多以前浮躁的时候做不下去的事情都开始认真做了，要是每年都能闹几个月，再静几个月，也是不错的状态呢，哦耶~
+
+## 【身体】
+- 技能点：【自由泳】【公路自行车】
+- 结果：**全部失败**；严重缺乏锻炼，大吃大喝，体重暴增
+
+## 【旅行】
+- 七月去一趟西伯利亚，下半年专注于苏州周边游玩
+- 结果：**满意**；感谢byvoid，喵喵，松哥，西伯利亚旅行非常开心。后来在苏州周边玩得不狠，但也去了不少地方（虎丘，定园，山塘，留园，盘门，平江路，锦溪古镇，淀山湖）
+
+## 【摄影】
+- 老妈给力，给买了台单反，可以练习摄影啦~
+- 结果：**平庸**，没出片，首先拍得不怎么样，然后后期还是不会
+
+## 【家装】
+- 八月份搬家
+- 结果：**安居**；没装修，没改造，但的确有了家的感觉，虽然只添置了桌子，书架，沙发三件家具，但钞票用在了刀刃上，它们三是除了床以外使用率最高的家具。沙发让我可以舒服得抱着零食饮料用电视机看电影，书架让我对所有是书籍有个总览并可以自由抽取，桌子更是让我远离了床上用电脑的坏习惯，每天回到家就迅速坐在桌前上网到睡前。
+
+## 【其他】
+- 【记账】开始记账：
+    -  结果：**不佳**，依然月光，依然不知道钱花哪里去了，这是大问题！
+- 【日记】用OneNote每天记录“一件大事，三件中事，五件小事”：
+    - 结果**效果不错**，每天都当ToDoList看，更多时间用在做事上，而不是思考做什么，具体实施还有很大优化空间，目前看来，工作的事占了大部分时间，即使周末，“五件小事”从来没有填满过
+    - 这个三个月创新点主要是：
+        - a. 每天打分，1混日子，2平庸，3还行，4大有成果，5正面影响人生
+        - b. 记录每天浪费时间的事情，前阶段浪费时间的事情主要集中在刷知乎和刷朋友圈，然后停刷了一周，效果显著~！
+
+## 【其他】
+- 季划里的事情完成度很差，季划外做了什么事情呢?
+- github pages: lmmsoft.github.io 
+- 有趣的事情
+    - 周总结网页
+    - PhotoGPS
+    - Travel Notes
+    - 天天发美食
+
+# part 2
+
+迷惘 &amp;&amp; 重新发现自己
+
+几件对我影响比较大的事情：
+老板James回美国了，大师兄Billy也transfer去总部了，好朋友Shijun也跳槽回大城市了~
+
+长期计划渐渐清晰：
+我想去外面看看，在国外生活一段时间。
+比较好的途径是在微软干几年，然后transfer去西雅图~
+
+短期计划和长期计划结合的行为：
+1. 培养github的兴趣，刷连续登陆(commit数据)
+2. 每天读一篇英文文章，whatever
+3. 每天一题，年底之前AK LeetCode
+
+上述几个行为都是技术层面的，之前生活层面的计划比较多，工作和技术上的思路有点乱，需要再好好整理一下，比如定义技能数，定向技术发展路径，定位职业轨道，都需要在下面Q4多多思考，随着年龄的增长和视野的开阔 需要适时**发现自己的新需求**
+
+# part3: Q4 季划
+## 【总体理念】
+- 【匠心】静下心来，少做几件事，做精几件事。
+- 我需要更少，更简单的规则，去指导我做更多是事情，下面是几个优先级高的事情
+
+多模仿，做出来就好，不丢人！！！
+
+## 【身体】
+- 再不锻炼就废了啊，再吃就瘦不下来啊啊啊，好痛苦
+- 恢复运动机能，养成良好作息
+- 体检，研读体检报告，和去年的对比
+
+## 【家装】
+- 自己的地盘，需要的不是适应，而是改造~！
+- 期望：
+    - 买个舒服的座椅，最好能是Herman Miller Aeron，哪怕少拥有一点，也要把最常用的提高到极致。
+    - 个人展示空间，比如一堵贴满旅行纪念品的墙~
+
+## 【旅行】
+- 十一长假还没定，本来想去四姑娘山的，没约到人，再加上家长有些反对，没能成行TwT
+- 十月下旬kick off去天津，然后有可能在北京呆大半周
+- 十一月下旬去斯里兰卡，一周，然后有可能在新加坡转机过周末
+- 苏州，苏州还是要多多看看，加强了解，目前有预谋的是骑行内城墙/太湖东山
+- 这个阶段旅行的意义还是看外面的世界，遇到更多人，接触不同的文化，开阔视野，年少情怀~
+
+
+## 【时间管理】
+- Q3回顾里说了，用OneNote进行时间管理后，效果不错，还有继续优化的空间，下面是几点目前能想到的优化点
+    - 更清晰的时间统计，借助RescueTime, Jawbone Up 24, Moves, 等工具，有机会自己再打造点工具，持续监控自己的时间，用数据规划
+    - 更好的自控力和执行，很多事情一直在ToDoList里，就是不想做，下面要多多思考这些事情出现的意义，到底要不要做，痛点在哪里。
+
+## 【财务管理】
+-  月光的日子并不好受，卡里面长期只有几千块钱，好不容易熬到月底发了工资，月初几张信用卡还款，一下回到解放前，很多事情需要攒钱才能做，而不是想做就做，不爽啊~
+- 【再淘宝就剁手，再京东就剁手】东西购物车里放24小时再付账！
+- 记账
+- 看病，打车票，健身费尽快报销，别又拖延过期啦，能省一点是一点，学会过日子^^</text>
+      <sha1>3wtvqci5citzjzpgzhyzgbl9n5miay0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2014 Review</title>
+    <ns>0</ns>
+    <id>141</id>
+    <revision>
+      <id>711</id>
+      <timestamp>2015-01-12T12:14:47Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;# 朋友-(互相认识) - [孙建波|我的二零一四](http://wonderflow.info/archives/1038) **4星** 孙大师的2014牛逼闪闪啊，学了这么多技术，读了这么...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="11946"># 朋友-(互相认识)
+- [孙建波|我的二零一四](http://wonderflow.info/archives/1038) **4星** 孙大师的2014牛逼闪闪啊，学了这么多技术，读了这么多书，膜拜！而且第一段里面就出现了我的名字，更要夸赞一下，你看我也把你放在第一个推荐了！对我启发最大的，是每年读100本书，网上看了很多牛人每年读书都是100本起步的，可是身边看到一个这样的，还是启发很大的，另外，我想起自己在南理工图书馆借书419本，不也是每年100本嘛，哈哈，借书!=读书，这个我懂。最后一段太美，摘抄至此”我只知道，我遇到好多事，他们让我想要走遍大山大海，阅尽红尘万卷；也遇到许多人，她们来来往往，让我对醒来的每个明天都充满了期待，也同样把温暖渗透到我的每个明天里。&quot;
+- [邓洋子|我曾和这个世界，和自己较劲过：Abby和她的2014](http://abbydeng.diandian.com/post/2015-01-04/40065713382) 3星，清晰的目录结构是我很喜欢的，13看着她玩乐队，14看着她开始帆船，潜水，去西沙和普吉旅行，炫酷的爱好呀~
+- [叶文|2014年度盘点](http://www.yewen.us/blog/2014/12/review-2014/) 2星，有点干活，没太多亮点，其实这哥么2014还不错的，换了工作家领证嘛~
+
+# 同龄人
+- [2014 年终总结 (๑`･ᴗ･´๑)](原文已删) **4星**，一个小黑客，我的年终list里面入手设备，浏览器A-Z都是从这里借鉴过来的
+- [宋方瑞|2014年总结——竞赛的一年](http://maskray.me/blog/2014-12-31-summary) 2星，看比自己的小的孩子的总结，你会看到以前的自己，我大三到那年也打了很多比赛，从比赛里面获得了很多与工业界接轨的信息，这对我求职很重要。当然，这哥们做的大作业技术方面比我强大太多了~
+- [2014 明天的记忆](http://freemind.pluskid.org/misc/2014-summary/) 3星，这是个大牛，果然有很多超出我预期的东西，比如：戒掉所有社交网站；随手写个app送给女友，并且里面包含了一大堆machine learning的高科技，research engineering结合就是牛啊；选了门东亚政治课，每周几百页英文阅读材料；学校的去全世界各地实习的项目，host不给工资学校有funding支持；
+- [一个小孩](http://blog.renren.com/share/287286452/17808442236) 2星，文字挺好，点滴一点一点浮现。不过这个19岁的小孩的故事，没有太多我想借鉴的东西。eg: 如何开始一个回忆的？我清楚地记得海的另一边，
+- [邹思聪|2014及不相干的回忆](http://mp.weixin.qq.com/s?__biz=MzAxMDEwODA5MA==&amp;amp;mid=202796623&amp;amp;idx=1&amp;amp;sn=9467b537a549632f10783d35401d7c96&amp;amp;scene=0#rd)  **5星**， 太多我感兴趣的内容 1读书2成为记者3港漂4家教5阅读成长6 不愧是记者，文字很有张力，很耐读~
+
+#旅行
+- [郝悦如☮Lyra|二零一四，睡过的城市和拍过的风景](http://blog.renren.com/blog/246510628/942964047) **5星**，这个姑娘每年都会写篇睡过的城市，然后每天连载一张旅行的照片和旅途故事，张张好看。今年只有72个过夜地点，对，这个在斯坦福读研的姑娘只有72个不同的过夜地点，ps我的过夜地点应该也是60+吧。顺带把她09-13的总结都看了一圈，本来全是国内，后来全是国外，本来只有徒步,后来各种穿越，自驾，本来只有文字，现在各种美哭的图片。读她的日志，其实也是在照见的是未来的自己丫~
+- [弗虑弗为|我的，2014](http://blog.hucheng.com/articles/632.html) 3星，去了很多地方，不顾这哥么很多游记都没写出来，照片文字都挺好看~
+
+# 摄影
+- [于冬瑞| 再见2014](http://blog.renren.com/blog/286438516/942723337)  3星，官方说法是个旅行人文摄影师。一开始有段视频很精彩，不过要耐心看，是作者旅途的摄像剪辑，各国风土，还有星空，很壮观！下面是十几张风光和人像照片，没有文字。
+- [陈子晟|2014我最喜欢的10张照片](http://blog.renren.com/blog/423690638/942885274) 2星，照片都很美，配的文字也不错。摄影师写总结相对容易？不过学人家的东西就不容易了。
+- [李谧欧Miou|一位肖像摄影师的2014](http://blog.renren.com/blog/250353494/942775388) 3星，工作相关，拍了很多高大上的名人啊，生活中也拍了不少自己喜欢的照片，不靠背景，单纯的人像，实在太美！
+- [杨最醉.SCI|二〇一四，流音未婉](http://blog.renren.com/blog/1378694061/942791354) 1星，前面是拍妹子，后面是风景，没什么字
+- [邓楠❤Jenny.|2014这一年](http://blog.renren.com/blog/249353869/942848579) **4星**，有图有字，实话实说，都是真实的体会。**每段都用2014的新歌的歌词开篇**很好的想法喔~ 1有趣 2记录伦敦生活 3认识朋友 4来自公众的贬低，高估，过誉，诋毁，质疑，捧杀：5 而真正走在路上的人，永远有他们自己的共鸣。
+- [时晨|我的2014最喜欢的十张照片](http://blog.renren.com/blog/271997179/941730074) 2星，风景，妹子都好好看，可惜只有10张
+- [朱子奇se7en|关于2014](http://blog.renren.com/blog/335893663/942439370) 3星，少量文字+地点主题风景+人像。让我觉得，2015的旅伴里，摄影咖应该拥有一席之地，他们都有太多我想学的东西！
+
+# 其他博主
+- [李长太|2014年总结及2015年计划](http://blog.sina.com.cn/s/blog_702912b20102vkf5.html) 1星，这哥么好像是搞时间管理的，不过这篇看完没啥收获
+- [老金|2014年。总结](http://zhuanlan.zhihu.com/laojin/19926171) 3星，这哥么是搞互联网营销的好手，这个总结相当于个人年终(互联网)榜单吧，挺耐看的~
+- [人人都是产品经理|2014完](http://zhuanlan.zhihu.com/iamsujie/19925896) **4星**。同名的书大卖，是PM入门书。这哥么在阿里干了10年，2014终于跳出来了。旅行+自由职业（收入比阿里高，增长没想象力）一段时间，然后开始创业。另外很喜欢这种文风，精炼，而又不失信息量，浮躁阅读时代的瑰宝啊。
+- [云风|新的一年](http://blog.codingnow.com/2015/01/summary_and_plan.html) 3星，讲到了创业的理想，现实和责任，挺好的。“生词存亡，只求活下来。现在的努力，为了未来更加任性”
+- [阿稳](http://www.wentrue.net/blog/?p=1635) 3星，前豆瓣数据组的大牛，现在创业。本爱看前面很大一段都没什么东西，不顾最后一下让我眼前两亮，一是用泰山开始2015，二是“希望能碰上一起把足迹踏遍世界的那个人。有些人会在意旅行的目的地，而我只是在意旅行本身。”
+- [汪十三|迷惘](http://darling13.lofter.com/post/4c2d5_5464e2f) 2星，文艺女青年，最近都在写北漂的苦恼期，辛苦，不幸福
+- [冰河年鉴2014](http://tianchunbinghe.blog.163.com/blog/static/70012014113134810526) 2星，他今年的几篇博客都牛逼闪闪，激励世人。这篇反而比较平淡，不过要是不知道他这一年经历的话，看这一篇还是会很震惊的吧。
+- [谢益辉](http://yihui.name/cn/2014/12/summary/)，3星，一个R语言高手，今年居然十几个开源的项目，并且github[的活跃度](https://github.com/yihui)更让人吃惊，我加入巨硬后，已经好久没有写有趣的程序了，2015的欲望清单里面要再加上这个！
+- [2014年的回顾](http://xccds1977.blogspot.jp/2014/12/2014.html) 2星，一个数据科学家的2014，先供职于一号店。轻描淡写里，还真做了不少事，比如出书，工程，会议。
+- [唐巧|2014年个人总结](http://blog.devtang.com/blog/2015/01/01/2014-summary/) **5星**，干货，怎样在30而立之年成为业界iOS大V的？照着他第一部分”技术分享”里面做就可以。另外他的前几年的总结斗殴值得一看，每年的milestone环节也挺好
+- [Tim Yang|一个技术从业人员眼中的2014](http://timyang.net/tao/thoughts-2014/) 1星，不太同意他的几个观点
+- [lbio|工作几年后再回学校脱产读书是什么感觉？](http://www.zhihu.com/question/26724212/answer/36233771)  3星，重点：1. 健身让生活规律，活力来源，每天多2小时 2.护肤，个人外表提升 3.帮助大家，参加活动，摘抄：“感觉就像被注入了新活力，对目前所做的每一件事情都很感兴趣；感觉更有能力控制自己的行动，通过自己的努力，达到预期的效果；更有机会通过对自己的提升，结识优秀的人和组织。”
+- [fenng|2014 年个人总结](http://dbanotes.net/review/2014_personal_review.html#rd) 2星，虽然东西不多，但大V的能量很强，是可以在大行业里纵横的那种。我的年度榜单一开始就是从这里抄来的。
+- [Hi Jane|](http://mp.weixin.qq.com/s?__biz=MjM5NTQxNTIwNA==&amp;amp;mid=204466286&amp;amp;idx=1&amp;amp;sn=e33e48abed8e8347f37230f027bf736a&amp;amp;scene=0#rd) 3星，晒了些个人清单，因为这不是IT圈的，所以对我来说，狠毒都是新鲜的，楼主年初在美国带了一个月，夏天去看了巴西世界杯，生活各种物质/精神丰富呢~很多年度也很有意思，比如年度餐厅，年度新友等等，我也要更新。
+- [叶子阿姨|写在2015第一天](http://www.douban.com/note/475635162/?from=timeline&amp;isappinstalled=0#!/ckDefault) 3星，有很多共鸣，最后的5个2015想法，挺好的~ 摘抄“很多时候，我都觉得是自己状态不好，但其实就是水平不够，看的书听的音乐太少，所以写什么都特别没自信，觉得自己弱爆了。有时候也会用厚积薄发安慰自己，但已经沉淀快30年了，还是觉得内心什么都没有，村上春树29岁时因为一场棒球赛决定写小说，如今我也快要29岁了，总觉得人生还没有真正开始。”
+- [东方愚|愿2015年潜能怒放](http://mp.weixin.qq.com/s?__biz=MjM5NzI4MzUwNg==&amp;mid=202677100&amp;idx=1&amp;sn=e8d460e22274127fd4e20b39ce21c812&amp;scene=0#rd) 1星，写了创业很么安。摘抄&quot;果敢+做减法+目标感+快，这些在工作上的期愿基本上都做到了。只有关于健身与减肥，严重言行不一&quot;
+- [彭萦|【2014年书单】读书是为了和一些有趣而不能相见的人聊天](http://mp.weixin.qq.com/s?__biz=MjM5NDg2NjA4MQ==&amp;amp;mid=202920219&amp;amp;idx=1&amp;amp;sn=14c357ccbe4c465926f41d6fe2ed9fc0&amp;amp;scene=0#rd) 3星，豆瓣上没找到她的年终总结，只在朋友圈看到这个。好多个读书分类分类，和不同领域的牛人聊天，太美妙了~ 她的分类“创业和市场，传记、自我完善、生活方式、设计、积极心理学、职场、人的艺术、绘本、设计、美学的书”
+- [傅踢踢|2015，愿你美梦似路长](http://mp.weixin.qq.com/s?__biz=MjM5NjMxMDYwMQ==&amp;amp;mid=202534069&amp;amp;idx=1&amp;amp;sn=10709c0be45f0b22a762117453701507&amp;amp;scene=0#rd) 2星，这也是个通过在公众号写字，获得很多朋友和赞誉的故事。
+
+# follow up
+1. 上面已经提到几个了，不赘述
+1. 生活的diversity
+1. 晚上自己的2014总结，学习邹的最后一段，写自己的开头结尾（自己，朋友，老爸）
+
+# QA:
+- Q1：文章怎么来的？
+    - A1： 一部分是rss，一部分是微信上看到之后收藏然后异步阅读的，有些是人人的分享，还有些是自己主动去找的。比较可惜的是人人v7把看所有人日志的入口关了，很难把好友的总结都找出来看，非常非常遗憾~
+- Q2：花了多久
+    - A2：很久，可能有20小时，前前后一共两周~
+- Q3: 收获主要在哪里？
+    - A3： 看别人留下多少生活痕迹，知道自己的生活可以有多少可能。
+- Q4： 最后，亲爱的读者，你看过的好的年终总结，或者你自己的，能回复个链接给我么？</text>
+      <sha1>axijvzhinsgf7l0vr9sm6spqbf52s9i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-10</title>
+    <ns>0</ns>
+    <id>161</id>
+    <revision>
+      <id>1031</id>
+      <timestamp>2016-01-08T10:11:16Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;#【读书观影】 依旧非常失败，0本书，1部电影《港囧》，还是一个人去看的，特别配的各种  #【饮食锻炼】 饮食基本上是放开来吃...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1935">#【读书观影】
+依旧非常失败，0本书，1部电影《港囧》，还是一个人去看的，特别配的各种
+
+#【饮食锻炼】
+饮食基本上是放开来吃，体重也没什么增加，保持在70，中间有一两次降到65的尝试，都非常惨痛的失败了，身体严重不适，今年冬天是不准备降体重了，伤害太大。
+
+本月也没什么训练，不是恢复就是比赛，身体状态不太好，算是交了点学费。
+
+#【数据】
+游泳6次，12km
+
+跑步6次，42km
+
+单车23次，584km
+
+自驾约1800km PB
+
+踢球3场，25km
+
+#【运动】
+10/1 北京长安街骑行
+
+10/3~10/5 京郊百里画廊骑行 3天 340km爬升3000+
+
+10/17 苏州外企运动会6km健身跑
+
+10/24 杭州富阳标铁
+
+10/25 嘉兴九龙山山地铁三赛
+
+10/30 苏州to同里
+
+10/31 南京老山爬坡赛，山地车组
+
+#【活动】
+10/5 北京设计展
+
+10/7 老楚318骑行&amp;UTMF经验分享
+
+10/9 亚洲自行车展
+
+10/23 参观淘宝城
+
+10/30 Family Day
+
+10/31 铁锤求婚趴
+
+另有大餐7+顿，电影一场，不细表~
+
+#【生活方式】
+尝试的新生活方式是把周末活动的范围从苏州近郊扩展到长三角城市群，良好的交通，便捷的高速铁路让这一起变得可能，苏州19天，北京5天，南京2天，杭州2天，上海1天，嘉兴1天，周末基本不在苏州，活动丰富很多，但疲劳程度也大大增加，大量时间消耗在火车+汽车转场上了，尤其是本月1800km(PB)的自驾里程，去年一整年也不过6000+公里呀，实在是不推荐自驾参加比赛，返程疲劳驾驶，不安全，以后尽可能避免。
+
+ #【回顾与展望】
+整个月几乎都处于身体疲劳期，精力不佳，比赛也都不在状态，体验性的参赛过多，11月开始冬训，明确比赛的意义和远期目标，不要被短期快感蒙蔽；多学习运动健康与恢复的知识，科学锻炼，活在充沛当中。</text>
+      <sha1>7fbkfft60muei2f326wbfx897s0wfsa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-11</title>
+    <ns>0</ns>
+    <id>151</id>
+    <revision>
+      <id>1011</id>
+      <parentid>1001</parentid>
+      <timestamp>2016-01-08T10:01:32Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1578">#2015年11月总结
+- 游泳5次，1+0+1+3=5km
+- 骑车6次，7+0+60+15=82km
+- 跑步8次，70+36+30=136km 累计爬升2500
+- 踢球2场，现在的体能满场飞奔没问题，但是技术越来越shi了
+- 10月底非常疲劳，于是11/1的杭马弃赛，上旬10天全休，中旬报了STC的冬训营，逐渐开始恢复训练，前两周并没能很好完成训练营的计划，12月希望能勤奋一点~
+
+# 运动大事记
+- 11-1 外运会足球小组赛
+- 11-7 外运会足球赛16强
+- 11-11 光棍节纪念跑
+- 11-14 环苏州护城河跑
+- 11-15 灵树拉练
+- 11-22 南京紫金山越野半马
+- 11-27 灵白往返黑练
+- 11-28 外运会游泳比赛
+- 11-29 南京马拉松半程
+
+# 活动
+- 11-1 帮助小伙伴求婚
+- 11-7 周杰伦苏州演唱会
+- 11-8 苏州吴江 围观环太湖公路车赛
+- 11-18 打保龄球
+- 11-22 南京奥体 足协杯决赛首回合 舜天vs申花
+- 11-26 公司感恩节party
+
+# 生活方式
+1. 本月有三个周末回了南京，创下了年度之最吧，住在家里的时间比春节还多。
+2. 周末基本不在苏州，不小心就把苏州的秋天弄丢了，看到小伙伴们拍的照片，羡慕！周中水泥城，周末郊游沐浴自然，自己也曾是这样的生活，往事充满回味~
+3. 越来越喜欢越野跑了，把户外运动和跑步结合起来，过程远比马拉松美好~
+
+# 展望
+12月是总结月，不准备开展太多新的事情，主要精力放在各种年终总结，16年的计划上。15年还有不少事情需要补遗，有些事情现在不做，以后再也不会做了~</text>
+      <sha1>lm4n37oqtwaog9syl2uqfwbo00kfz1w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-6</title>
+    <ns>0</ns>
+    <id>191</id>
+    <revision>
+      <id>1091</id>
+      <timestamp>2016-01-08T10:19:20Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;【读书观影】 读了几本，没有看完的 《再次出发之纽约遇到你》4星  【】  【月度好书】  【饮食锻炼】 最大的收获是游泳  【活动...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="439">【读书观影】
+读了几本，没有看完的
+《再次出发之纽约遇到你》4星
+
+【】
+
+【月度好书】
+
+【饮食锻炼】
+最大的收获是游泳
+
+【活动】
+
+【学习成长】
+
+# 计划
+
+永远给自己留20% buffer
+
+## 工作
+微信，微博宣传
+
+## 运动
+- 游泳 6/8到7/5, 12节课
+- 骑行 6/13环太湖
+- 徒步 6/20端午
+
+# 爱好
+- 设计T-shirt
+- 兰花，葡萄，枇杷
+- 游记：西伯利亚，北伐</text>
+      <sha1>2a1ymb0joqt83kx5tq7z4lp150mcudh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-7</title>
+    <ns>0</ns>
+    <id>181</id>
+    <revision>
+      <id>1081</id>
+      <timestamp>2016-01-08T10:18:54Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;太多的时候，日子一晃就过去了，我们肩上的担子很重，忙完这件事又去忙下一件事，来不及总结，这就是岁月的重量吧。其实稍微...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="5842">太多的时候，日子一晃就过去了，我们肩上的担子很重，忙完这件事又去忙下一件事，来不及总结，这就是岁月的重量吧。其实稍微花点时间整理一下，回忆很多，回味悠长~
+
+#【读书观影】
+7月花在读书上的时间太少，大概只在那个下雨的周末读了三本书：
+
+- 《后望书》
+- 《创意的生成》
+- 《铁人三项训练圣经》
+
+## 月读好书
+
+都是不同领域的书，后两本都是各自领域的经典，不太好对比，不过还是推荐下《创意的生成》，一个本很小的册子，2个小时就能看完，归纳下来也就5句话，不过真得很有用，作为一个对生活中的创造力颇有追求的孩子，这本书让我少走很多弯路，知道如何更高效得生成创意~
+
+##电影
+
+看了四部，都是在电影院，平均每周抽出一晚看电影，不容易，好几次都是看完电影再运动1-2小时
+
+- 《我是路人甲》4星，横店旅行的适合和剧组住同一个酒店，所以排片不多还是凑时间去看了，一点都不鸡汤，很现实的故事
+- 《西游记之大圣归来》3星，剧情太弱，画风挺美，纯粹冲着情怀去的，上当了
+- 《捉妖记》3星，挺好玩的，适合下班后放松，3D效果不太行
+- 《命中注定》4星，网上评价不高，不过我倒是挺喜欢的，意大利风光配上略俗的爱情故事，一个有笑有悲伤的晚上
+
+## 视频
+看了少量运动的教学视频，包括跑步/游泳/皮划艇，花时间最多的是环法le tour de france，21天的大环赛，我看了其中的17天，一共砸了42小时进去，基本上每天回到家就开始抱着西瓜看环法，直到睡着。喜欢乐视的直播，可以随意回放，太爽了~
+
+#【饮食锻炼】
+饮食结构上，有非常大的改变！
+
+为了提高运动成绩/优化身材/挑战自己，我几乎不吃正餐了，前两周都是整周只吃了一顿正餐（周末应酬不得不吃），第三周为了铁三比赛多吃了几顿补充能量，第四周去上海之前也能坚持不吃正餐。体重从月初的78.3kg降到了月底的70.7kg, 十五斤肉就这样掉了啦，好开心，运动起来更有劲啦，好多衣服都嫌大咯。
+
+当然，也不是什么都不吃，初期酵素代餐比较多，配合手撕牛肉补充蛋白质，后期直接狂吃水果，每天吃水果的预算大概15元，反正比一顿饭便宜~
+
+锻炼上，也有进步，从7/7开始，基本每天都能坚持运动，运动内容包括游泳/骑行/跑步/足球，前两周每天一项，后来体重进入平台期，每天加到两项，果然有了突破，四项运动里最享受的是足球，因为是团队运动，可以一边踢一边打嘴炮，最痛苦的是跑步，从小长跑就比较痛苦，现在意志力加强了，可身体还是很诚实，哈哈！
+
+运动最大的收获是参加了南京市铁人三项比赛，大约是半程奥运标准距离，父母都去观战了，具体过程详见前两篇日志，反正感觉特别好啦~
+
+独学而无友，则孤陋而寡闻，这个月还努力加入了一些圈子
+
+- 加了苏州ibike铁三群
+- 加了南京中山铁人三项群
+- 加了公司Running Club，每周参加2次活动
+- 还从草原王铁木真群里加了全国各地的跑友/骑友
+- 每天从这些热爱运动朋友的朋友圈里收获了满满的正能量，这是充满运动活力，乐于分享的群体，至少，即使练得再猛，这个月我也未曾得过自己好友里的微信运动冠军。
+
+# 【活动】
+每周都会花不少时间发掘周末的活动，然后再取舍，选择最合适的活动，取舍时主要会考虑：1.一条线串起几个活动(比如5-7,8-9) 2. 是否是没体验过的 3.能否与父母/小伙伴同行 4.运动量 5. 认识有趣的小伙伴
+
+1. 网师园
+2. 骑行阳澄湖/独墅湖
+3. 乔迁趴
+4. 徒步灵白线
+5. 亚洲户外展
+6. 象山水库游泳
+7. 南京市铁人三项比赛
+8. 皇马vs米兰热身赛
+9. ChinaJoy
+
+# 【学习成长】
+- 工作，从月初re-org之后接手Emoex项目，到月底基本完成，过程比之前的项目都痛苦，收获比之前的项目都大。主要原因是现在处于单挑状态，本来项目做安卓端就我一个人，整个team都在北京，只有我一个人在苏州，项目的virtual team也是，1个PM，1个designer，4个工程师，1个测试都在北京，就我一个人在苏州，出了问题实在是找不到太多帮助，正好改改之前依赖别人的态度，独立解决问题~Hackathon的时候连续熬了两夜，发现自己还是能独立搞定一些东西的，代价就是后面几天比较萎靡，尤其是到了莫干山之后，之前说运动是给身体充电，看样子我充得还不过多啊~
+
+- 交流，每周至少会和一个小伙伴进行一次1h以上的深度交流，有条件就见面，不行就视频/电话，实在不行只能微信了，可是和一个人微信聊1个小时以上，实在是超出了我的忍耐能力，很多时候都是话题还有，可就是聊不下去了，不了了之。
+
+- 每天日程排得都挺满，生活倒也不枯燥，总能找到有趣的，愿意探索的好玩的事情是做，即使同样的事情，现在也能更多得找到新的突破点。收获有多少？现在完全看不出来，自己的评价是把100%的精力都用在活在当下了，混过一天是一天，还真没怎么投资未来，这样的日子能持续多久？我也不清楚
+
+# 【八月计划】
+具体的就不写了，计划都是骗人的，和新老板connect的时候，他也直说: 只看结果，就是look back那块，至于后面look forward，随便写写，不看的。
+大的方向倒是比较明确：继续保持七月良好的运动节奏，安安静静地做一些想做的事~</text>
+      <sha1>h6b6z7o1td90rv0wy2juno84i1kras8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-8</title>
+    <ns>0</ns>
+    <id>172</id>
+    <revision>
+      <id>1071</id>
+      <parentid>1061</parentid>
+      <timestamp>2016-01-08T10:16:59Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="4203"># 【读书观影】
+## 电影：
+《太平轮下》3星，2015-08-05@苏艺 和老爸一起看的上部，感觉还不错，可惜上部票房惨败，下部排片太少，居然在苏艺连IMAX厅都排不上，观众也寥寥无几。下部故事还行，演员依旧漂亮，可是还是觉得张力不足，看完没什么回味的，比泰坦尼克差远了~
+
+《破风》4星 15/08/11@苏艺 台湾公路自行车赛的片段，唤起了我毕业旅行环台湾岛的回忆，影片中穿过的隧道我曾印象深刻地骑过，北海岸的美景我也曾独闯过，多少回忆，浮现脑海。。。
+
+《何以笙箫默》3星 2015-08-16回家的火车上看的，没看过电视剧，看一下电影了解下剧情，网上的评价好差啊，电视剧真得那么神么？
+
+##书：
+null 非常失败，只翻了几本杂志吧
+
+#【饮食锻炼】
+减肥计划7/7开始，到8/11完结，从77掉到了69，最低一次居然是8/21七夕晚上单身狗们报团取暖吃自助，海鲜吃太多了，第二天拉肚子，早上掉到了68.65。目前大吃大喝，稳定在70左右，准备安亭铁三后再猛降一把，通过降体重的方式提高北马成绩XD 毕竟后面可能没有铁三比赛了，进入路跑季~
+
+#【运动】
+- 最近每周一小赛，两周一大赛
+- 8/15 南京玄武湖荧光跑，9.3km 50:01，算是PB了，也给了自己极大信心，最近减肥卓有成效~
+- 8/23 泰州全国业余铁人三项赛，半程，1h35min，第一次正式半程铁三比赛，安全完赛，见到了各路高手，看到了差距~
+- 8/30 10km自行车个人计时赛，19min完赛，均速只有31.58km/h，踏频90多一点，心率没测，感觉升级装备是当务之急~
+
+- 其他，几乎每天都有运动吧，记录几个重要的
+- 8/1 独墅湖野游
+- 8/5 足球，踢了半场，跑动3.5km
+- 8/8 上午游泳2h，下午LSD半马，跑了2.5h
+- 8/26 慢跑5.5km，然后踢足球2h跑动9.5km
+- 8/29 东山训练，游3km骑30km跑5km
+
+#【活动】
+- 疯狂的一个月，参加大小活动无数，捡几个重要的说说：
+- 7/30 足球赛，皇马vs米兰
+- 7/31 ChinaJoy玩家
+- 8/1-8/2 莫干山，和同事包了个大别墅住了一夜
+- 8/9 话剧《两只狗的生活意见》
+- 8/9 摩天轮公园
+- 8/14 象山水库游泳
+- 8/15 象山水库皮划艇
+- 8/16 骑行老鹰山
+- 8/22 溱湖湿地公园
+- 8/28 密室逃脱
+- 8/29 陆巷古村
+- 8/29-8/30 太湖边露营/住房车
+- 8/30 DIY蛋糕，DIY花盆
+
+#【学习成长】
+- 工作，这个月最开心的是给陆奇做了demo，并且获得了很好的评价，鸡血十足啊！
+- 交流，反正没有和team一起午餐的任务了，这个月利用中午的时间约了不少小伙伴1:1，有几次影响很深刻的教练，也重新认识了一些小伙伴，比如足球场上的控球大师，重炮手，业余时间居然是个超级文艺的青年，读古诗，唱昆曲。。。这一块的不足：
+    - 1.是没花太多时间整理，有些愉快的交流回来都忘了 
+    - 2.和同一个朋友多次交流的能力不足，每次都会“反复吹嘘同样的内容”，这是我很讨厌的特质，没想到也会发生在我自己身上，引以为戒~！
+- 总体感觉：坚持锻炼后活力更足了，精力更旺盛了，明显多线作战能力提升。我很享受当下的生活，希望九月能够保持吧，至于十月，是第四个季度，得为了来年寻找新的突破点了吧~！
+
+#【九月计划】
+目前的日程是这样：
+
+- 9/5 上海安亭铁三，我的人生首次标铁，努力安全完赛，对成绩不作要求
+- 9/13 欢乐中国跑苏州站，就在家门口独墅湖月亮湾出发，只有10km，争取获得完赛钻戒（第一名冲线18分钟以内），根据其他站的情况，50min完赛比较保险，所有配速要达到5min/km，还需要多多努力
+- 913-9/16 成都kick off，有机会见一些朋友，比如以色列小伙伴，那几天也在成都~
+- 9/20 北京马拉松，人生第二次全马，争取跑出好的成绩，到时候找个漂亮的美女兔跟着，哈哈~
+- 中秋节，其实就是一个普通的周末，在北京过，准备踢一场球，再骑个妙峰山吧~</text>
+      <sha1>cakusmdjuv0ozobsmbmevkvgdhxb99v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>2015-9</title>
+    <ns>0</ns>
+    <id>171</id>
+    <revision>
+      <id>1041</id>
+      <timestamp>2016-01-08T10:13:10Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;- 比赛：首场标铁（上海安亭），首场万米跑（苏州独墅湖），第二次全马（北京） - 工作：苏州6个工作日，北京8个工作日 - 游玩：...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1212">- 比赛：首场标铁（上海安亭），首场万米跑（苏州独墅湖），第二次全马（北京）
+- 工作：苏州6个工作日，北京8个工作日
+- 游玩：成都4天，北京4天，上海1天
+
+# 【读书观影】
+又一个一本书都没读的月
+
+#电影：
+《碟中谍5》9/4 四星第一次看碟中谍系列的影片，觉得剧情挺好哈~
+
+《烈日灼心》9/10 四星，中间有点害怕
+
+#【饮食锻炼】
+
+#【运动】
+- 训练
+    - 09/03 独墅湖里游泳
+    - 09/12 金鸡湖边乱骑
+    - 请了新的教练，游泳课上了5节（后来去了成都和北京断了）
+- 比赛
+    - 09/05 上海安亭铁三 首次奥运标准距离，雨战3h23m完赛 游泳45m, 自行车1h30m,跑步58m
+    - 09/13 欢乐跑中国10km 苏州独墅湖，46min完赛，10km PB
+    - 09/20 北京马拉松，全马4:28完赛PB
+
+# 【活动】
+- 09/04 苏州，逛石湖
+- 09/15 四川，都江堰，青城山，春熙路
+- 09/16 成都，环球中心水上乐园
+- 09/20 北京，国安vs舜天
+- 09/26 北京，房山飞拉达
+- 09/26 北京，卢沟晓月，中秋节去卢沟桥看月亮咯
+- 9月底在北京工作了1周半，每天都要约2个朋友吃饭聊天，收获很大~</text>
+      <sha1>dy5t1r3l3bg3ke948jymrmst3ak19j9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>7 Days Challenge</title>
+    <ns>0</ns>
+    <id>71</id>
+    <revision>
+      <id>441</id>
+      <timestamp>2014-04-10T16:48:11Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot; # 1. reach office early Usually, I arrive in office at 10:00-11:00am&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="69">
+# 1. reach office early
+Usually, I arrive in office at 10:00-11:00am</text>
+      <sha1>l6644blii3tyc6lf0v563wud69a9qm9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Azure blog</title>
+    <ns>0</ns>
+    <id>61</id>
+    <revision>
+      <id>981</id>
+      <parentid>971</parentid>
+      <timestamp>2015-12-29T17:32:26Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="2995"># 2015-12-30 Disable Plugin Replace-Google-Fonts
+- Website very slow load, F12 tells me that https://fonts.useso.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext  is time out
+- https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext is able to load under GFB
+- So decative Plugin Replace-Google-Fonts
+
+# 2015-12-30 Update DNS
+- Move dns from the default sundns.com to dnspod.cn
+- Step1. In sundns.com,  change dns address to f1g1ns1.dnspod.cn
+- Step2: In dnspod.cn, add A name and C name
+- Step3. In Azure manage page, get awverify url and set in dnspod.cn, such as awverify.www -&gt; cname-&gt; awverify.lmm333wiki.azurewebsites.net, Do this for both blog and wiki
+
+# 2015-12-02 Add Archives page
+- Install plugin [Archivist](https://wordpress.org/plugins/archivist-custom-archive-templates/)
+- In plugin setting page, personalize archives page
+- Add new page with [Archivist]
+
+# 2015-04-30 Add view counts for each posts
+- Install latest [wp-postviews](https://github.com/lesterchan/wp-postviews/) plugin(1.70)
+- Edit Contest.php, add &lt;?php if(function_exists('the_views')) { the_views(); } ?&gt; after &lt;span class=&quot;comments-link&quot;&gt;
+
+# 2015-02-07 Add Disqus
+- Switch comments system form wumii to disqus, wumii support Chinese accounts logging such as QQ and weibo, but my posts hardly got comments within it. Since disqus is widely used in wp and gitbub blogs, I decide to try it, I didn't lose too much comments by this switch.
+
+# 2015-01-31 Speed Up
+-  Perf is terrible when loading, tried many ways, finally, the root casue is google font blocked by the 'wall'
+1. Scale site to 2 cores, 3.5G
+1. Set 'always on' on Azure site control pannel
+1. Scale clearDB(MySQL) to improve sql performance(free plan is 20M in all , 13M now for blog+wiki )
+1. F12 site loading processs, everything is ok(include site and flickr hosted photos), except 'fonts.googleapis.com/css?family=Lato' takes about 15 to load but still, it was blocked by the wall, my solution is to use  [http://libs.useso.com/ 360 cdn ] and  [http://www.amznz.com/fonts-googleapis-com-load-slow/ onts.googleapis.com加载慢解决办法 ] , install a plugin then active it
+
+# 2014-09-26 Site Icon
+- Add Meng favicon.ico to site(wiki and blog), so it has icon now
+- Deploy the icon, FTP, one tricky is that the FTP address for the two sites(wiki and blog) is the same, user domain and pwd is different, my file explorer remember the user name and pwd of wiki, so I didn't update the blog successfully first(I thought it is blog at first,haha)
+
+# 2014-04-09 Templae
+- update WP version to 3.8.2, according to the [introduction](http://blogs.msdn.com/b/azchina/archive/2014/03/03/wordpress-3-8-on-windows-azure-websites.aspx)
+- change template to **twenty fourteen**
+- deactive the plugin **MobilePress** as the wp 3.8 support mobile well and the views data and Google ads data could be well calculated on mobile now</text>
+      <sha1>1lkbzmyy7l344r30xy1wj72mu39zr1r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Immature passages</title>
+    <ns>0</ns>
+    <id>81</id>
+    <revision>
+      <id>571</id>
+      <parentid>561</parentid>
+      <timestamp>2014-04-12T05:21:20Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="880"># I will post some immature passages here.
+
+# 和老板1-1也是一件很悲催的事情T_T, 2014-04-12
+
+老板问我对办公室有什么意见，上面要收集反馈，我说豆浆太少，老板说那是你来得太晚，我每天都有的喝，23333333
+
+第二天，我来得很早，最后3包豆浆被我拿来2袋，老板又说，太阳从西边出来了，
+
+昨天1-1的开场白是：听说奶茶是你的女神，你对强东怎么看？这几天是不是不开心，23333333
+
+看到我清明之后请病假休息一天，老板说，出去玩好呀，路上能有奇遇，那相当酷，比如路上找到女朋友巴拉巴拉，外面问你们怎么认识的，说起来比什么相亲认识的有意思多了。在西雅图的时候，很多中国同事找不到对象，就跑教堂参加活动，颇有几个成功的呢，虽然好几个后来也离了，2333333</text>
+      <sha1>izcnmugzqk2hz84wjwaqr02fb187uzs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Main Page</title>
+    <ns>0</ns>
+    <id>1</id>
+    <revision>
+      <id>1022</id>
+      <parentid>1021</parentid>
+      <timestamp>2016-01-08T10:09:05Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="625">This is a wiki belongs to lmm333, he would like to post something there.
+
+## Seasonal Plan
+1. [[2014 Q1|2014 Q1]]
+2. [[2014 Q2|2014 Q2]]
+2. [[2014 Q3|2014 Q3]]
+2. [[2014 Q4|2014 Q4]]
+2. [[2015 Q1|2015 Q1]]
+
+## 2015 Monthly Review
+1. [[2015-12|2015-12]]
+1. [[2015-11|2015-11]]
+1. [[2015-10|2015-10]]
+1. [[2015-9|2015-9]]
+1. [[2015-8|2015-8]]
+1. [[2015-7|2015-7]]
+1. [[2015-6|2015-6]]
+
+## Contents:
+1. [[7 Days Challenge]]
+1. [[viewed ted|viewed ted]]
+1. [[immature passages|immature passages]]
+
+## Topic Reading
+1. [[2014 Review|2014 Review]]
+
+## Site Management
+1. [[azure blog|Azure Blog]]
+1. [[lmm333wiki:about|Azure Wiki]]</text>
+      <sha1>guzqawn0xupxrard11mmipgrv6q28nr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>One one with boss</title>
+    <ns>0</ns>
+    <id>91</id>
+    <revision>
+      <id>481</id>
+      <timestamp>2014-04-12T05:16:22Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;老板问我对办公室有什么意见，上面要收集反馈，我说豆浆太少，老板说那是你来得太晚，我每天都有的喝，23333333  第二天，我来得...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="775">老板问我对办公室有什么意见，上面要收集反馈，我说豆浆太少，老板说那是你来得太晚，我每天都有的喝，23333333
+
+第二天，我来得很早，最后3包豆浆被我拿来2袋，老板又说，太阳从西边出来了，
+
+昨天1-1的开场白是：听说奶茶是你的女神，你对强东怎么看？这几天是不是不开心，23333333
+
+看到我清明之后请病假休息一天，老板说，出去玩好呀，路上能有奇遇，那相当酷，比如路上找到女朋友巴拉巴拉，外面问你们怎么认识的，说起来比什么相亲认识的有意思多了。在西雅图的时候，很多中国同事找不到对象，就跑教堂参加活动，颇有几个成功的呢，虽然好几个后来也离了，2333333</text>
+      <sha1>m9weefeiecrv20v01pkyenh8pa84twj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Random passages</title>
+    <ns>0</ns>
+    <id>101</id>
+    <redirect title="Immature passages" />
+    <revision>
+      <id>511</id>
+      <timestamp>2014-04-12T05:17:32Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Lmm333 moved page [[Random passages]] to [[Immature passages]]</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="31">#REDIRECT [[Immature passages]]</text>
+      <sha1>bug7kl6qjcwkn6z8fj8gyh4bpxs8z7h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Taizhou</title>
+    <ns>0</ns>
+    <id>111</id>
+    <revision>
+      <id>611</id>
+      <timestamp>2014-04-13T16:23:21Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <comment>Created page with &quot;# 台州，仙居，皤摊古镇，公盂岩，椒江入海口，石塘千年曙光碑游记 ![](https://farm8.staticflickr.com/7053/13800983983_6d91f3ed38_b.jpg) # Part 0 目...&quot;</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="11940"># 台州，仙居，皤摊古镇，公盂岩，椒江入海口，石塘千年曙光碑游记
+![](https://farm8.staticflickr.com/7053/13800983983_6d91f3ed38_b.jpg)
+# Part 0 目录
+
+# Part 1 人物介绍
+##队长，某理工大学博士，负责带路，比如带大家逛窑子（如图）
+![](https://farm4.staticflickr.com/3768/13801074234_805e4c5cdd_b.jpg)
+
+##会计，某挨踢公司民工，负责记账，拎包
+![](https://farm3.staticflickr.com/2935/13801530434_a069426dbe_b.jpg)
+
+##晨晨，电子商务从业者
+![](https://farm6.staticflickr.com/5256/13824431455_8db2da0d19_b.jpg)
+
+##鹏鹏，也是电商人，帅小伙一枚
+![](https://farm4.staticflickr.com/3802/13824454843_3ca196a981_b.jpg)
+
+##蘑菇，海归白富美，去过很多高大上的地方，这次想试试接地气的感觉
+![](https://farm8.staticflickr.com/7432/13824459673_35119a2d42_b.jpg)
+
+# Part 2 流程攻略
+
+## day1 台州 椒江 临海花街 2014-04-04
+
+- 乘坐动车，苏州到台州，8:30-12:44，因为是清明前一天，所以车上学生很多，坐我右边是苏州去绍兴玩的大一学生，左边是嘉兴回家的学生，在宁波的时候还上了好多穿校服的高中生
+- 火车上拍的浙江田园风景
+![](https://farm8.staticflickr.com/7190/13798702133_de6d58ab55_b.jpg)
+- 铁路紧邻高速
+- ![](https://farm4.staticflickr.com/3801/13799020004_55d4da8db2_b.jpg)
+- 台州我到啦，图为台州汽车站
+![](https://farm8.staticflickr.com/7044/13798706595_90752bb328_b.jpg)
+
+### '贪吃渔人'午餐
+- 第一站:吃&lt;p&gt;[[User:Lmm333|Lmm333]] ([[User talk:Lmm333|talk]])&lt;/p&gt;
+选了点评上推荐的海鲜店'贪吃渔人'
+- 饭店外景，门口用渔网装饰
+![](https://farm4.staticflickr.com/3793/13799087004_f786c796d0_b.jpg)
+- 饭店里的布置颇有特色，船舵
+![](https://farm8.staticflickr.com/7248/13799404094_05b5f607b4_c.jpg)
+- 太饿了，看到菜样，口水直流啊
+![](https://farm3.staticflickr.com/2841/13798743225_70b75fecea_b.jpg)
+- 队长在点菜
+![](https://farm8.staticflickr.com/7212/13798751875_3e61185510_b.jpg)
+- 小海蟹 62元
+![](https://farm6.staticflickr.com/5563/13798936593_0f1187fdeb_c.jpg)
+- 带鱼饭，48，太诱人啦
+![](https://farm8.staticflickr.com/7365/13798811413_1ee2c2e3bc_b.jpg)
+- 章鱼酸菜48，清炒虾仁芥兰22
+![](https://farm4.staticflickr.com/3749/13798835513_2e2a646b29_b.jpg)
+- 摆拍一张
+![](https://farm6.staticflickr.com/5250/13798811365_0055056e77_b.jpg)
+
+### 椒江入海口
+- 吃完饭，打车去'七号码头',城市里小山还挺多了，绿化也挺好，我们到了浙J的地盘
+![](https://farm8.staticflickr.com/7187/13799799165_e627bc17b3_b.jpg)
+
+- 椒江边的纪念碑
+![](https://farm8.staticflickr.com/7038/13799169324_b45e54d944_b.jpg)
+- 七号码头边停了很多船
+![](https://farm8.staticflickr.com/7455/13798849843_9461563c11_b.jpg)
+- 很整齐
+![](https://farm3.staticflickr.com/2820/13798851323_0ace353f41_b.jpg)
+- 离开码头，我们坐5元的三轮车，到了入海口的东山公园，免门票，我们是从大门进入的，这是后门
+![](https://farm8.staticflickr.com/7085/13798892103_9ff4869511_b.jpg)
+- 进了大门，是个游乐场，还有摩天轮呢
+![](https://farm8.staticflickr.com/7378/13798865193_2884cd24da_b.jpg)
+- 爬到山顶，登上观景楼，就可以看到入海口全景啦
+![](https://farm4.staticflickr.com/3818/13798868725_c7aeb46ab3_b.jpg)
+- 山背后，老房子
+![](https://farm4.staticflickr.com/3764/13799205854_9082128eb9_b.jpg)
+- 来张夕阳下的背影
+![](https://farm3.staticflickr.com/2856/13798903463_235be6ed81_b.jpg)
+- 下了山，乘坐一路公交回汽车站，老站台，长椅~
+![](https://farm3.staticflickr.com/2853/13799212444_bee59d0df1_b.jpg)
+
+### 临海花街
+- 从台州坐车到下面的县级市临海，住在汽车站边的旅馆，在花街边逛边吃
+![](https://farm4.staticflickr.com/3715/13798916103_503e0ce15c_b.jpg)
+![](https://farm4.staticflickr.com/3788/13800432334_a1ccb33f02_b.jpg)
+- 水潺面11元
+![](https://farm3.staticflickr.com/2919/13800103613_5d521332d3_b.jpg)
+![](https://farm3.staticflickr.com/2852/13799237304_47e25aff45_b.jpg)
+- 最后又吃了烧烤，甘蔗
+![](https://farm8.staticflickr.com/7353/13799251864_52facf8f95_b.jpg)
+
+## day2 皤摊古镇
+- 起了个大早，坐了7点从临海发往仙居的大巴，临海汽车站背靠大山，早上的空气很清新
+![](https://farm8.staticflickr.com/7001/13800680864_9363312ab4_b.jpg)
+- 到仙居汽车站啦，再转(到横溪的)小巴去皤摊古镇
+![](https://farm3.staticflickr.com/2886/13800378353_eb691111c2_b.jpg)
+- 到皤摊镇啦
+![](https://farm8.staticflickr.com/7106/13800438075_d12d94f2c8_b.jpg)
+- 进古镇
+![](https://farm3.staticflickr.com/2814/13800450183_c6f4cdaf61_b.jpg)
+- 古镇算是半开放的，不买票可以在大街上随便乱晃，但是有些专门的几个景点不能进（比如祠堂/故居/窑子）
+![](https://farm8.staticflickr.com/7170/13800447423_4597ae0d40_b.jpg)
+- 镇口晒春笋
+![](https://farm6.staticflickr.com/5441/13800765854_cd768cf72a_b.jpg)
+- 水埠头旧址
+![](https://farm8.staticflickr.com/7026/13800856184_fa16501015_b.jpg)
+![](https://farm8.staticflickr.com/7183/13800860724_8ef9215c23_b.jpg)
+- 老街
+![](https://farm8.staticflickr.com/7253/13800577283_8d3d401524_b.jpg)
+![](https://farm3.staticflickr.com/2888/13800560555_99be7d2c00_b.jpg)
+- 旧赌场
+![](https://farm8.staticflickr.com/7354/13800564225_361b75095b_b.jpg)
+- 当铺
+![](https://farm8.staticflickr.com/7030/13800803183_ca16e64288_b.jpg)
+- 眺望村外
+![](https://farm3.staticflickr.com/2872/13800905164_ce4a30c3ef_b.jpg)
+- 小石桥
+![](https://farm4.staticflickr.com/3768/13800659765_3f11bfdfc6_b.jpg)
+![](https://farm4.staticflickr.com/3782/13800671903_27177808be_b.jpg)
+- 桥上也是晒笋
+![](https://farm8.staticflickr.com/7227/13800668833_70a9cf5064_b.jpg)
+- 小童在玩耍
+![](https://farm4.staticflickr.com/3780/13800666463_603fbe8149_b.jpg)
+- 池水很绿嘛
+![](https://farm8.staticflickr.com/7452/13800647965_fc0bd70fd3_b.jpg)
+- 老邮局是介个样子的
+![](https://farm4.staticflickr.com/3765/13801059114_26ec7fee58_b.jpg)
+![](https://farm8.staticflickr.com/7241/13800713885_6b38fa2c40_b.jpg)
+- **文革标语，老房子不言的伤啊**
+![](https://farm8.staticflickr.com/7190/13801057284_aa4a9dd624_b.jpg)
+![](https://farm8.staticflickr.com/7106/13801167064_a25eb3e44c_b.jpg)
+- 老街稍显破败
+![](https://farm4.staticflickr.com/3822/13800750453_70b348857f_b.jpg)
+- 靠着绿苔来一张
+![](https://farm8.staticflickr.com/7337/13800761193_eb0cf494a8_b.jpg)
+- 靠着石墙来两张
+![](https://farm8.staticflickr.com/7456/13800768315_f8cf10aaf2_b.jpg)
+![](https://farm8.staticflickr.com/7456/13800778265_a70cb5dce5_b.jpg)
+- 仙居这里石墙很多很多
+![](https://farm8.staticflickr.com/7118/13801113044_054262a574_b.jpg)
+- 我们在田市也看到很多石墙的房子
+![](https://farm4.staticflickr.com/3704/13801177804_21ee9ed394_b.jpg)
+![](https://farm3.staticflickr.com/2838/13800839175_9239bf188d_b.jpg)
+
+### 祭祖
+- 这绝对是全程的亮点之一，清明出游，赶上了陈家祠堂的祭祖仪式。景观和人文的完美结合，当时发了朋友圈如下
+- 游过不少古镇，参观过很多宗祠，这不是最美的古镇，也不是见过最大的宗祠，却留下了特殊的记忆：赶上清明节，遇见了祭祖活动，这宗祠每年363天是景点，只有清明和冬至才发挥它真正的文化意义，碰巧被我遇上了
+![](https://farm8.staticflickr.com/7194/13815880994_55bd493aba_b.jpg)
+- 高挂陈氏彩旗
+![](https://farm8.staticflickr.com/7438/13800645905_114979be1c_b.jpg)
+- 祠堂大门
+![](https://farm8.staticflickr.com/7211/13800644005_cd31860a9f_b.jpg)
+- 祭祖
+![](https://farm8.staticflickr.com/7271/13800657203_ca468c2611_b.jpg)
+- 请了艺人唱歌
+![](https://farm8.staticflickr.com/7404/13801053994_63ecf7b564_b.jpg)
+- 设酒杀鸡，做好午饭
+![](https://farm4.staticflickr.com/3771/13800738733_c2cb1c5f72_b.jpg)
+- 门神
+![](https://farm3.staticflickr.com/2874/13800719805_6d243d97b1_b.jpg)
+
+## day2-3 公盂岩
+- 出发前先来张合影
+![](https://farm8.staticflickr.com/7053/13800983983_6d91f3ed38_b.jpg)
+- 进山前的路，前面是另外一批驴友
+![](https://farm8.staticflickr.com/7090/13800962935_dc49752462_b.jpg)
+- 过了小桥，就告别了大路
+![](https://farm4.staticflickr.com/3733/13801261634_b053c2600e_b.jpg)
+- 正式踏上小路
+![](https://farm6.staticflickr.com/5130/13800915685_8c5bb85163_b.jpg)
+- 一路顺着溪流而上
+![](https://farm8.staticflickr.com/7029/13801252004_a08454d894_b.jpg)
+- 路窄处，仅容一人通过
+![](https://farm4.staticflickr.com/3814/13800912535_796af27fcd_b.jpg)
+- 抬头看看远处的大山，这是我们的终点
+![](https://farm4.staticflickr.com/3757/13800981733_45566049da_b.jpg)
+- 穿山越岭
+![](https://farm4.staticflickr.com/3804/13801317644_3a96c2467f_b.jpg)
+- 注意平衡
+![](https://farm8.staticflickr.com/7234/13800993313_0a95d5d99c_b.jpg)
+- 走到瀑布前，三面都是山崖，迷路了
+![](https://farm4.staticflickr.com/3703/13801322914_2a6ace5487_b.jpg)
+- 后来我们边寻路，边往回撤，找到条上山的路，路有各种俱乐部扎的带子，说明这是正确的路。天色昏暗，总算在完全暗下来之前抵达下坪村，稍事休息，直接去不远的上坪村休息
+- 各路驴友在农家的墙壁上挂起了旗子
+![](https://farm4.staticflickr.com/3787/13800989965_032dd9a6c1_b.jpg)
+- 并签名留念
+![](https://farm3.staticflickr.com/2936/13801056675_e154769f50_b.jpg)
+- 篝火晚会
+![](https://farm4.staticflickr.com/3721/13801073193_658052b270_b.jpg)
+- 队长在研究第二天的路线
+![](https://farm8.staticflickr.com/7361/13801071533_89051bd991_b.jpg)
+- 借着微暗的灯火掼蛋
+![](https://farm8.staticflickr.com/7085/13801067475_841bfcc247_b.jpg)
+- 农家的孩子们一起睡地铺
+![](https://farm3.staticflickr.com/2932/13801467154_3beab40eba_b.jpg)
+- 早上醒来，发现自己枕着梯田，伴着油菜花，睡在群山之间
+![](https://farm6.staticflickr.com/5305/13801184945_3983607200_b.jpg)
+- 面朝梯田，背靠公盂岩
+![](https://farm3.staticflickr.com/2935/13801530434_a069426dbe_b.jpg)
+- 云雾间的公盂背
+![](https://farm8.staticflickr.com/7420/13801366583_7649f8a616_b.jpg)
+- 会计在学习拍摄公盂背
+![](https://farm3.staticflickr.com/2930/13824336583_495ab905c8_b.jpg)
+- 山间的油菜花
+![](https://farm8.staticflickr.com/7309/13801422303_21ab82a294_b.jpg)
+- 再臭美一张
+-[](https://farm6.staticflickr.com/5468/13801886993_891b8d59ea_b.jpg)
+- 梯田
+![](https://farm4.staticflickr.com/3752/13801420303_d7f2f7e53e_b.jpg)
+- 山间休息
+![](https://farm8.staticflickr.com/7445/13824309805_d9290628b4_b.jpg)
+- 悬崖之上，眺望群山
+![](https://farm8.staticflickr.com/7398/13824515413_1075a538b9_b.jpg)
+- 鹏鹏在山脚的小河边
+![](https://farm6.staticflickr.com/5217/13824345633_e97d66143e_b.jpg)
+- 胜利到达终点
+![](https://farm4.staticflickr.com/3783/13824305825_3c29bde0c3_b.jpg)
+- 我的朋友圈:
+- 山上没有网络信号和wifi，但是有春笋，有土菜，有杨梅酒，有掼蛋，有篝火晚会，有野地里的帐篷和小姑凉们欢快的歌声。
+- 有些事哪里都可以做，有的的快乐只有此间有，风景这边独好~ 
+![](https://farm8.staticflickr.com/7109/13816334144_9bb43f0950_b.jpg)
+- 小伙伴们的：蘑菇
+![](https://farm3.staticflickr.com/2926/13816035533_e953a6b2c0_b.jpg)
+- 晨晨
+![](https://farm6.staticflickr.com/5043/13816334304_4c9bfee02d_b.jpg)
+
+# Part 3 QA
+## Q1花了多少钱：
+- 全程花费账单如下
+- 一共5个人，我是会计，大家充值，我负责所有的集体花费
+- 最后把账单放到onedrive上，直接分享到微信群，小伙伴们不用登陆就可以查看并编辑不对的地方，超级方便~
+![](https://farm8.staticflickr.com/7456/13825248964_302d993198_o.png)</text>
+      <sha1>rh9s9nmwaesmdzvdkue8lou7nlv6w0y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Viewed ted</title>
+    <ns>0</ns>
+    <id>31</id>
+    <revision>
+      <id>251</id>
+      <parentid>241</parentid>
+      <timestamp>2014-03-22T07:55:06Z</timestamp>
+      <contributor>
+        <username>Lmm333</username>
+        <id>11</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="361">This page will store the ted lmm333 watched.
+
+1. Matt Cutts:  [30 days challenge](http://v.163.com/movie/2013/8/M/P/M94IULLG6_M94IV1OMP.html) 3min27s
+
+    The first time I found his blog is 3 years ago, I am so impressed by what he had done on both work and spare time. Then my own life changed a lot, thanks to Matt and the other blogs who influenced me a lot~</text>
+      <sha1>eyk7jh7c7urpe3wfbjf8evoqhmnixkp</sha1>
+    </revision>
+  </page>
+</mediawiki>
