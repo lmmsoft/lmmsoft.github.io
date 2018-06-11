@@ -1,6 +1,6 @@
 ---
 title: My wordpress blog on Azure
-date: 2015-12-29T17:32:26Z
+date: 2015-12-05T17:32:26Z
 author: lmm333
 layout: post
 permalink: /My-wordpress-blog-on-azure/
