@@ -1,0 +1,10 @@
+---
+title: 真的简洁吗？
+date: 2010-11-03 06:25:00 +0800
+layout: post
+published: true
+comments: true
+category: 编程之美
+moveForm: baidu_qing
+---
+<div> <p>别人博客上看到这样一篇文章：</p><p>喜欢C，没有理由，追求短代码~~我想没有一门语言可以达到这样的效果~~本来已经很精简的程序在熟练的程序员手上能够缩减到原长度的1/4，而且功能没有任何差别~<br />两段完全一样的代码~~<br />#include &lt;stdio.h&gt;<br />void main() <br />{<br />int k[]={100,50,10,5,2,1},n,m,i,j,t;<br />while(scanf(&quot;%d&quot;,&amp;n)) <br />{<br />if(n==0) break;<br />t=0; <br />for(i=0;i&lt;n;++i)<br />{<br />scanf(&quot;%d&quot;,&amp;m);<br />for(j=0;j&lt;6;++j)<br />while(m&gt;=k[j])<br />++t,m-=k[j]; <br />}<br />printf(&quot;%d\n&quot;,t);<br />}<br />}<br />缩减后：我爱C语言丶__唯美<br />main()<br />{<br />int k[]={100,50,10,5,2,1},n,m,i,t,s;<br />for(;scanf(&quot;%d&quot;,&amp;n),n;printf(&quot;%d\n&quot;,t))<br />for(t=i=0;i&lt;6*n;t+=s=m/k[i%6],m-=s*k[i++%6])<br />scanf(i%6?&quot;&quot;:&quot;%d&quot;,&amp;m);<br />}</p><p>这就是C的魅力所在~我爱C语言~~</p><p> </p><p>我觉得这是一个误区，优秀的代码在节省空间的情况下不应以牺牲运行效率和可读性为代价，上面的代码，原来的代码看了就知道用途（最少第四版人民币的数量），可是看了下面那段代码，你几遍能读懂它的意思？</p><p>我觉得写代码应该在可读性（易于别人阅读、管理）和时间效率（速度）上找到平衡，代码长度应该被忽略，毕竟看似短的代码编译之后未必很短短：</p><p>（Dev c++ 4.9.9.2）</p><p>上面的代码19970 b</p><p>下面的代码18946 b</p><p> </p><p> </p>两者都占用硬盘都是 20480 b </div>

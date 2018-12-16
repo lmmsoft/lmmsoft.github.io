@@ -1,0 +1,20 @@
+---
+title: 【java学习笔记01】swing入门
+date: 2011-02-10 15:06:47 +0800
+layout: post
+published: true
+comments: true
+category: java学习
+moveForm: blog.163.com
+---
+<P>import java.awt.Color;<BR>import javax.swing.ImageIcon;<BR>import javax.swing.JFrame;<BR>import javax.swing.JLabel;<BR>import javax.swing.JPanel;</P>
+<P>public class swing {</P>
+<P>&nbsp;&nbsp;&nbsp; public static void main(String[] args) {</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JFrame frame = new JFrame("这里是标题");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frame.setTitle("设置标题");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //窗体初始位置 距左 距上 宽 高<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frame.setBounds(100, 200, 900, 600);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //显示窗体<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frame.setVisible(true);</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //创建桌布,颜色<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JPanel zhuobu = new JPanel();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //设置背景颜色<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zhuobu.setBackground(Color.orange);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //关闭布局管理器(标签自动居中放置)，自己决定位置<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zhuobu.setLayout(null);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //把桌布放到桌子上<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frame.setContentPane(zhuobu);</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //插入图片对象<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ImageIcon img=new ImageIcon("d:/p2.jpg");</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //创建标签对象<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JLabel picJLabel=new JLabel(img);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //把图片放到标签上（同构造方法）<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //picJLabel.setIcon(img);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //标签位置 距窗体左 距上 宽 高<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; picJLabel.setBounds(100, 50, img.getIconWidth(),img.getIconHeight() );<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //标签增加到桌布上<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zhuobu.add(picJLabel);</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //放置多个图片<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ImageIcon img1=new ImageIcon("d:/p1.jpg");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JLabel[] pic=new JLabel[10];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (int i = 0; i &lt; pic.length; i++) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pic[i]=new JLabel(img1);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pic[i].setBounds(i*img1.getIconWidth(), 0, img1.getIconWidth(), img1.getIconHeight());<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; zhuobu.add(pic[i]);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</P>
+<P>&nbsp;&nbsp;&nbsp; }<BR>}<BR>//f3 查看源文件<BR>//ctrl+1 查看错误提示<BR>//ctrl+shift+o 解决所有错误<BR>//ctrl+o 显示文件成员（函数，变量……）<BR>//ctrl+t 分层结构</P>
+<P>&nbsp;</P>
+<P>ps:verycd旺旺老师</P>

@@ -1,0 +1,10 @@
+---
+title: poj2263 数据弱，方法多
+date: 2011-07-16 08:10:00 +0800
+layout: post
+published: true
+comments: true
+category: poj解题报告
+moveForm: baidu_qing
+---
+<div> <p><a rel="nofollow" href="http://poj.org/problem?id=2263"  >http://poj.org/problem?id=2263</a></p><p>题目很简单：</p><p>在无向图的某两点间找到一条通路，使得路上的最短边最大，输出最大的最短边长度。</p><p>&nbsp;</p><p>数据超级弱</p><p>&nbsp;</p><p>想法：</p><p>1宽搜，TLE，改成DP可以过，可以用floyed直接搞</p><p>2深搜，搜的时候把最短边加到状态里面去&nbsp;(数据不给力，24ms)</p><p>3dijkstra</p><p>4二分最大边长度,</p><p>5按边长度从大到小排序，并查集，原点和终点合并为一个集合时边的长度就是最大的最短边长度。</p><p>6也有人用网络流搞，我不会。</p><p>&nbsp;</p><p>由于数据弱，几乎看不出来以上方法的优劣，二分似乎慢一点。</p><p>&nbsp;</p><p>弱题也有弱题的好处啊，思路百花齐放！</p><p></p> </div>

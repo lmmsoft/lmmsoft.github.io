@@ -1,0 +1,26 @@
+---
+title: 【java学习笔记02】特殊的“值的传递”
+date: 2011-02-10 15:09:35 +0800
+layout: post
+published: true
+comments: true
+category: java学习
+moveForm: blog.163.com
+---
+<P>(1).String</P>
+<P>//&nbsp;&nbsp;&nbsp; 基本数据类型-&gt;值传递（传递值）<BR>//&nbsp;&nbsp;&nbsp; 引用数据类型-&gt;引用传递(传递地址)<BR>//&nbsp;&nbsp;&nbsp; 特殊的引用传递String:因为是定长字符串，所以结果同值传递</P>
+<P>public class TestString {<BR>&nbsp;&nbsp;&nbsp; static void change(String a, StringBuffer b) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a = "改变定长";<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //b.append("改变变长");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.replace(0, b.length(), "改变变长");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(b);<BR>&nbsp;&nbsp;&nbsp; }</P>
+<P>&nbsp;&nbsp;&nbsp; public static void main(String[] args) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String a = new String("定长");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; StringBuffer b = new StringBuffer("变长");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(b);</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; change(a, b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println(b);</P>
+<P>/*<BR>运行结果<BR>定长<BR>变长</P>
+<P>改变定长<BR>改变变长</P>
+<P>定长<BR>改变变长<BR>&nbsp;*/<BR>&nbsp;&nbsp;&nbsp; }<BR>}</P>
+<P><BR>&nbsp;</P>
+<P>(2).交换对象<BR>public class valuePKreference {</P>
+<P>&nbsp;&nbsp;&nbsp; int a, b;</P>
+<P>&nbsp;&nbsp;&nbsp; static void change(valuePKreference v1, valuePKreference v2) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1.a++;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v2.a++;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valuePKreference v3;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v3 = v1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1 = v2;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v2 = v3;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("chang里面");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.a=" + v1.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.b=" + v1.b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.a=" + v2.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.b=" + v2.b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v3.a=" + v3.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v3.b=" + v3.b);<BR>&nbsp;&nbsp;&nbsp; }</P>
+<P>&nbsp;&nbsp;&nbsp; public static void main(String[] args) {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valuePKreference v1 = new valuePKreference();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1.a = 1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1.b = 1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; valuePKreference v2 = new valuePKreference();<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v2.a = 10;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v2.b = 10;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("chang之前");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.a=" + v1.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.b=" + v1.b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.a=" + v2.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.b=" + v2.b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; change(v1, v2);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("chang之后");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.a=" + v1.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v1.b=" + v1.b);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.a=" + v2.a);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("v2.b=" + v2.b);<BR>&nbsp;&nbsp;&nbsp; }<BR>}<BR>/*<BR>&nbsp;chang之前<BR>v1.a=1<BR>v1.b=1<BR>v2.a=10<BR>v2.b=10<BR>chang里面<BR>v1.a=11<BR>v1.b=10<BR>v2.a=2<BR>v2.b=1<BR>v3.a=2<BR>v3.b=1<BR>chang之后<BR>v1.a=2<BR>v1.b=1<BR>v2.a=11<BR>v2.b=10<BR>&nbsp;*/</P>
+<P>说明：</P>
+<P>1.引用传递，所以change后a会增加</P>
+<P>2.交换时交换的是新建的v1,,v2,v3所以能看见值的变化，但是源数据没有变化，即只<STRONG>交换了新建对象的指针指向，没有交换指向的数据</STRONG></P>
