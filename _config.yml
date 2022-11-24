@@ -24,12 +24,15 @@ google_analytics: UA-27089866-7 # put YOUR key here to enable tracking! (blank t
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
+      - name: lmm333(myself)
+        href: http://lmmsoft.github.com/
+        title: Mingming's blog
       - name: Beyond the Void
         href: https://www.byvoid.com/
         title: Byvoid's blog
-      - name: lmm333
-        href: http://lmmsoft.github.com/
-        title: Mingming's blog
+      - name: Bojie Li
+        herf: https://ring0.me/
+        title: Bojie Li's blog
 
 
 ### Build settings
