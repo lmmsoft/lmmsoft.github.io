@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园 - un'estate</title>
+  <id>uuid:7afec70e-ff0f-426b-b426-c06952ed5b64;id=6005628</id>
+  <updated>2012-12-22T11:49:00Z</updated>
+  <author>
+    <name>un'estate</name>
+    <uri>https://www.cnblogs.com/un_estate/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html</id>
+    <title type="text">MSTCBlogReader隐私策略 - un'estate</title>
+    <summary type="text">MSTCBlogReader隐私策略隐私策略涵盖您对本应用的使用。隐私权声明MSTCBlogReader不会收集、存储、分享您的任何个人信息或者与您的设备相关的信息。我们不会收集任何统计数据和分析数据，也不会跟踪用户的行为。本应用博客阅读功能使用rss抓取公开的博客订阅源，数据来自http://blog.sina.com.cn/mssclub和http://blog.sina.com.cn/msra应用名称MSTCBlogReader关于本应用本应用为第三方开发。</summary>
+    <published>2012-12-04T02:37:00Z</published>
+    <updated>2012-12-04T02:37:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html" />
+    <content type="html">【摘要】MSTCBlogReader隐私策略隐私策略涵盖您对本应用的使用。隐私权声明MSTCBlogReader不会收集、存储、分享您的任何个人信息或者与您的设备相关的信息。我们不会收集任何统计数据和分析数据，也不会跟踪用户的行为。本应用博客阅读功能使用rss抓取公开的博客订阅源，数据来自http://blog.sina.com.cn/mssclub和http://blog.sina.com.cn/msra应用名称MSTCBlogReader关于本应用本应用为第三方开发。 &lt;a href="https://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html</id>
+    <title type="text">NetBeans添加中文javadoc - un'estate</title>
+    <summary type="text">首先下载中文jdk6的api：JDK6 API 中文版 HTML 格式在线文档：http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html/zh_CN/api/JDK6 API 中文版zip 格式下载： http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html_zh_CN.zip 官方下载地址可能比较慢，大家也可以试试其他下载源然后打开在netbeans，工具-&amp;amp;gt;j</summary>
+    <published>2011-02-10T13:47:00Z</published>
+    <updated>2011-02-10T13:47:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html" />
+    <content type="html">【摘要】首先下载中文jdk6的api：JDK6 API 中文版 HTML 格式在线文档：http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html/zh_CN/api/JDK6 API 中文版zip 格式下载： http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html_zh_CN.zip 官方下载地址可能比较慢，大家也可以试试其他下载源然后打开在netbeans，工具-&amp;amp;gt;j &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html</id>
+    <title type="text">【转】sql经典查询 - un'estate</title>
+    <summary type="text">通过以下习题的练习，我们能快速熟悉掌握sql语句查询的语法和要领，大家要用心领会其中的要领和步骤，要学会分析步骤。一、单表查询练习1、查询学生信息表，查询学生"张三"的全部基本信息Select *from A_studentinfowhere sname='张三'2、查询学生信息表，查询学生"张三"和”李四”的基本信息Select *from A_studentinfowhere sname='张三'or sname='李四'3、查询学生信息表，查询姓"张"学生的基本信息Select *from A_studentinfowhere sname like '张%'4、查询学生信息</summary>
+    <published>2011-02-06T05:01:00Z</published>
+    <updated>2011-02-06T05:01:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html" />
+    <content type="html">【摘要】通过以下习题的练习，我们能快速熟悉掌握sql语句查询的语法和要领，大家要用心领会其中的要领和步骤，要学会分析步骤。一、单表查询练习1、查询学生信息表，查询学生"张三"的全部基本信息Select *from A_studentinfowhere sname='张三'2、查询学生信息表，查询学生"张三"和”李四”的基本信息Select *from A_studentinfowhere sname='张三'or sname='李四'3、查询学生信息表，查询姓"张"学生的基本信息Select *from A_studentinfowhere sname like '张%'4、查询学生信息 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html</id>
+    <title type="text">【转】南京找实习攻略 - un'estate</title>
+    <summary type="text">刚刚毕业，出了学校，我也是职场新鲜人了，回顾自己找工作的整个历程，个人感觉 两段实习经历对我帮助蛮大。今天正好有空，为了回报本版和紫金飞鸿，也为了积攒 下人品，哈哈，写了这个南京找实习攻略，本文内容均为个人观点，仅供各位参考，期待 版上各位大牛们的批评指正。本文主要针对研究生寻找实习，因为下文提到的众多实习基本要求实习半年及以上， 每周4-5个白天（不包含周六周日），对本科生来说，基本不可能有这么长时间的校外实习 时间，我自己本科时没有什么实习经验，期待版上的牛人给出有关本科找实习或者做项目 的经验。因为本人是07级研究生，本文主要根据自己和周围同学的相关实习情况所写，具 体的实习职位、实习招</summary>
+    <published>2011-02-03T15:33:00Z</published>
+    <updated>2011-02-03T15:33:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html" />
+    <content type="html">【摘要】刚刚毕业，出了学校，我也是职场新鲜人了，回顾自己找工作的整个历程，个人感觉 两段实习经历对我帮助蛮大。今天正好有空，为了回报本版和紫金飞鸿，也为了积攒 下人品，哈哈，写了这个南京找实习攻略，本文内容均为个人观点，仅供各位参考，期待 版上各位大牛们的批评指正。本文主要针对研究生寻找实习，因为下文提到的众多实习基本要求实习半年及以上， 每周4-5个白天（不包含周六周日），对本科生来说，基本不可能有这么长时间的校外实习 时间，我自己本科时没有什么实习经验，期待版上的牛人给出有关本科找实习或者做项目 的经验。因为本人是07级研究生，本文主要根据自己和周围同学的相关实习情况所写，具 体的实习职位、实习招 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html</id>
+    <title type="text">盒子里的梦想 - un'estate</title>
+    <summary type="text">2010年百度年会的一个视频《盒子里的梦想》，最近很多人都在分享：http://v.youku.com/v_show/id_XMjM4OTA1NzI4.html很喜欢里面最后的一句话：我们的人生其实还很长，还有很多时间去实现自己的梦想，重要的是，其实我吗我们还没有忘记自己的梦想。里面把很多梦想都写下来，然后去实现的想法非常好，我也想试一试：梦想子梦想书写时间实现时间1完成实时排名的每日数据存入数据库2011-01-312学习基础的xml知识2011-01-313.poj3002011-01-314</summary>
+    <published>2011-01-31T05:38:00Z</published>
+    <updated>2011-01-31T05:38:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html" />
+    <content type="html">【摘要】2010年百度年会的一个视频《盒子里的梦想》，最近很多人都在分享：http://v.youku.com/v_show/id_XMjM4OTA1NzI4.html很喜欢里面最后的一句话：我们的人生其实还很长，还有很多时间去实现自己的梦想，重要的是，其实我吗我们还没有忘记自己的梦想。里面把很多梦想都写下来，然后去实现的想法非常好，我也想试一试：梦想子梦想书写时间实现时间1完成实时排名的每日数据存入数据库2011-01-312学习基础的xml知识2011-01-313.poj3002011-01-314 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html</id>
+    <title type="text">【转】SQL 高性能查询优化语句 - un'estate</title>
+    <summary type="text">保证在实现功能的基础上，尽量减少对数据库的访问次数；通过搜索参数，尽量减少对表的访问行数,最小化结果集，从而减轻网络负担；能够分开的操作尽量分开处理，提高每次的响应速度；在数据窗口使用SQL时，尽量把使用的索引放在选择的首列；算法的结构尽量简单；在查询时，不要过多地使用通配符如 SELECT * FROM T1语句，要用到几列就选择几列如：SELECT COL1,COL2 FROM T1；在可能的情况下尽量限制尽量结果集行数如：SELECT TOP 300 COL1,COL2,COL3 FROM T1,因为某些情况下用户是不需要那么多的数据的。在没有建索引的情况下，数据库查找某一条数据，就必须</summary>
+    <published>2011-01-30T16:33:00Z</published>
+    <updated>2011-01-30T16:33:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html" />
+    <content type="html">【摘要】保证在实现功能的基础上，尽量减少对数据库的访问次数；通过搜索参数，尽量减少对表的访问行数,最小化结果集，从而减轻网络负担；能够分开的操作尽量分开处理，提高每次的响应速度；在数据窗口使用SQL时，尽量把使用的索引放在选择的首列；算法的结构尽量简单；在查询时，不要过多地使用通配符如 SELECT * FROM T1语句，要用到几列就选择几列如：SELECT COL1,COL2 FROM T1；在可能的情况下尽量限制尽量结果集行数如：SELECT TOP 300 COL1,COL2,COL3 FROM T1,因为某些情况下用户是不需要那么多的数据的。在没有建索引的情况下，数据库查找某一条数据，就必须 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html</id>
+    <title type="text">初次进行php开发感受 - un'estate</title>
+    <summary type="text">这两天，我没有刷poj,而是做了一个学校poj_rank自动获取的系统。先是自学了php，然后就一边摸索一边开发，由于是独立完成(抓取html的插件是学长找到的，并且给我样例代码学习)，所以遇到问题基本上都是自己想办法解决，当然，设计数据库的时候还是预先和同学讨论的，虽然最后的设计方案和自己设计的差不多。花了5天时间，初步实现了预想的功能，自己的php技术也有了进步，也成功使用了mysql数据库保存数据，下面说说我的收获与感想：1。一本适合自己的书非常重要，对于我来说，看书学习还是主流，电子书学习效率太低。我更适合案例驱动式的教材，也就是一些供自学的教材，通过案例来帮助理解，虽然这样学到的东西</summary>
+    <published>2011-01-28T19:41:00Z</published>
+    <updated>2011-01-28T19:41:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html" />
+    <content type="html">【摘要】这两天，我没有刷poj,而是做了一个学校poj_rank自动获取的系统。先是自学了php，然后就一边摸索一边开发，由于是独立完成(抓取html的插件是学长找到的，并且给我样例代码学习)，所以遇到问题基本上都是自己想办法解决，当然，设计数据库的时候还是预先和同学讨论的，虽然最后的设计方案和自己设计的差不多。花了5天时间，初步实现了预想的功能，自己的php技术也有了进步，也成功使用了mysql数据库保存数据，下面说说我的收获与感想：1。一本适合自己的书非常重要，对于我来说，看书学习还是主流，电子书学习效率太低。我更适合案例驱动式的教材，也就是一些供自学的教材，通过案例来帮助理解，虽然这样学到的东西 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html</id>
+    <title type="text">php学习笔记 - un'estate</title>
+    <summary type="text">html head meta http-equiv="Content-Type" content="text/html; charset=UTF-8" titlephp学习笔记/title style !--修改css-- body {background-color:black; color:white;} h1{font: 72pt arial bold;} /style /head body ?php //注释 #注释 /* * 注释 */ $a = 5; $b = 010; //八进制 $c = 0xf; echo '$b=' . "$bbr</summary>
+    <published>2011-01-25T00:55:00Z</published>
+    <updated>2011-01-25T00:55:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html" />
+    <content type="html">【摘要】html head meta http-equiv="Content-Type" content="text/html; charset=UTF-8" titlephp学习笔记/title style !--修改css-- body {background-color:black; color:white;} h1{font: 72pt arial bold;} /style /head body ?php //注释 #注释 /* * 注释 */ $a = 5; $b = 010; //八进制 $c = 0xf; echo '$b=' . "$bbr &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html</id>
+    <title type="text">html学习 - un'estate</title>
+    <summary type="text">换行 粗体 斜体 斜体 下划线 删除线 上标 下标 大号字 小号字 声明变量 等宽 --段落标记 换行 这是一个超链接 居中各种等级的标题，不过这个标题的字号已经改为72标题居中对齐 隶书 3号字 黄色 插入了四个空格 哈哈哈,这里没有插入四个空格 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行</summary>
+    <published>2011-01-24T08:49:00Z</published>
+    <updated>2011-01-24T08:49:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html" />
+    <content type="html">【摘要】换行 粗体 斜体 斜体 下划线 删除线 上标 下标 大号字 小号字 声明变量 等宽 --段落标记 换行 这是一个超链接 居中各种等级的标题，不过这个标题的字号已经改为72标题居中对齐 隶书 3号字 黄色 插入了四个空格 哈哈哈,这里没有插入四个空格 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行的 这个会自动换行 &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html</id>
+    <title type="text">training diary 2011-01-22 - un'estate</title>
+    <summary type="text">This is the second day of this winter holiday.I know I must do a lot in this winter holiday ,so I go back to school ,in the training room, I would have a better efficency!details:1)00:00 regist the codeforce #52 , but it is a long time since last coding, so I am in very bad condition.Firstly,i didn'</summary>
+    <published>2011-01-24T05:26:00Z</published>
+    <updated>2011-01-24T05:26:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html" />
+    <content type="html">【摘要】This is the second day of this winter holiday.I know I must do a lot in this winter holiday ,so I go back to school ,in the training room, I would have a better efficency!details:1)00:00 regist the codeforce #52 , but it is a long time since last coding, so I am in very bad condition.Firstly,i didn' &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>https://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html</id>
+    <title type="text">我来到博客园了！ - un'estate</title>
+    <summary type="text">首先批评一下博客园没有自动保存草稿的功能，刚才插入代码导致页面崩溃，写好多文章没有了，不过以后技术文章一定不会直接用网页写的。来到博客园的原因很简单：1.原来的空间在百度，可惜百度对于写代码的支持太差，不仅没有插入代码功能，连tab都不支持；2.百度空间现在在向sns方向发展，最近搞出了搭讪等等应用，主页变得太难看，实在受不了啊！以后认真学习编程，多写文章！</summary>
+    <published>2011-01-22T08:28:00Z</published>
+    <updated>2011-01-22T08:28:00Z</updated>
+    <author>
+      <name>un'estate</name>
+      <uri>https://www.cnblogs.com/un_estate/</uri>
+    </author>
+    <link rel="alternate" href="https://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html" />
+    <link rel="alternate" type="text/html" href="https://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html" />
+    <content type="html">【摘要】首先批评一下博客园没有自动保存草稿的功能，刚才插入代码导致页面崩溃，写好多文章没有了，不过以后技术文章一定不会直接用网页写的。来到博客园的原因很简单：1.原来的空间在百度，可惜百度对于写代码的支持太差，不仅没有插入代码功能，连tab都不支持；2.百度空间现在在向sns方向发展，最近搞出了搭讪等等应用，主页变得太难看，实在受不了啊！以后认真学习编程，多写文章！ &lt;a href="https://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>
