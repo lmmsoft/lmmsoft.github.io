@@ -1,4 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>博客园-un'estate</title><link>http://www.cnblogs.com/un_estate/</link><description /><language>zh-cn</language><lastBuildDate>Mon, 28 Nov 2022 18:19:10 GMT</lastBuildDate><pubDate>Mon, 28 Nov 2022 18:19:10 GMT</pubDate><ttl>60</ttl><item><title>MSTCBlogReader隐私策略</title><link>http://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Tue, 04 Dec 2012 02:37:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html</guid><description><![CDATA[<div id="paperTitleArea" align="center"><span id="paperTitle"><span style="color: #000000; font-family: 微软雅黑;">MSTCBlogReader隐私策略</span></span></div>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+    <channel>
+        <title>博客园-un'estate</title>
+        <link>http://www.cnblogs.com/un_estate/</link>
+        <description/>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 28 Nov 2022 18:19:10 GMT</lastBuildDate>
+        <pubDate>Mon, 28 Nov 2022 18:19:10 GMT</pubDate>
+        <ttl>60</ttl>
+        <item>
+            <title>MSTCBlogReader隐私策略</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Tue, 04 Dec 2012 02:37:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2012/12/04/2800910.html</guid>
+            <description><![CDATA[<div id="paperTitleArea" align="center"><span id="paperTitle"><span style="color: #000000; font-family: 微软雅黑;">MSTCBlogReader隐私策略</span></span></div>
 <div id="blogDetailDiv">
 <div class="blog_details_20120222">
 <p>隐私策略涵盖您对本应用的使用。</p>
@@ -10,9 +29,18 @@
 <h4>关于本应用</h4>
 <p>本应用为第三方开发。</p>
 </div>
-</div>]]></description></item><item><title>NetBeans添加中文javadoc</title><link>http://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Thu, 10 Feb 2011 13:47:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html</guid><description><![CDATA[<p>首先下载中文jdk6的api：</p>
-<p><span class="javascript">JDK6 API 中文版 HTML 格式在线文档：<a target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html/zh_CN/api/</span></a><br />JDK6 
-API 中文版zip 格式下载： <a class="ilink" target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html_zh_CN.zip</span></a> 
+</div>]]></description>
+        </item>
+        <item>
+            <title>NetBeans添加中文javadoc</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Thu, 10 Feb 2011 13:47:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html</guid>
+            <description><![CDATA[<p>首先下载中文jdk6的api：</p>
+<p><span class="javascript">JDK6 API 中文版 HTML 格式在线文档：<a target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html/zh_CN/api/</span></a><br />JDK6
+API 中文版zip 格式下载： <a class="ilink" target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html_zh_CN.zip</span></a>
 </span></p>
 <p>官方下载地址可能比较慢，大家也可以试试其他下载源</p>
 
@@ -20,9 +48,18 @@ API 中文版zip 格式下载： <a class="ilink" target="_blank"><span color="#
 <p>ps:</p>
 <p>1.有时候还是不能显示中文的,这样就将源里的src.zip文件移除,再添加上x:/javadoc/html/zh_CN/api路径就可以在NB中出现中文的浮动提示窗了.</p>
 <p>2.建议设置成文件夹而不是zip压缩包，一个是为了不在NetBeans查看方便，另外目录的结构不容易出错。如果是zip压缩包，一定要注意目录结构，打开zip应该是javadoc的内容而不应该是一个文件夹，也就是说打开就应该能够看见index.html。</p>
-<p>3.此处一定要注意，如果你设置完之后在代码里右键选择Show 
+<p>3.此处一定要注意，如果你设置完之后在代码里右键选择Show
 Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结构不正确。</p>
-]]></description></item><item><title>【转】sql经典查询</title><link>http://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Sun, 06 Feb 2011 05:01:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html</guid><description><![CDATA[<p style="text-indent: 2em;">通过以下习题的练习，我们能快速熟悉掌握sql语句查询的语法和要领，大家要用心领会其中的要领和步骤，要学会分析步骤。</p>
+]]></description>
+        </item>
+        <item>
+            <title>【转】sql经典查询</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Sun, 06 Feb 2011 05:01:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html</guid>
+            <description><![CDATA[<p style="text-indent: 2em;">通过以下习题的练习，我们能快速熟悉掌握sql语句查询的语法和要领，大家要用心领会其中的要领和步骤，要学会分析步骤。</p>
 <p style="text-indent: 2em;">一、单表查询练习</p>
 <p style="text-indent: 2em;">1、查询&lt;学生信息表&gt;，查询学生"张三"的全部基本信息</p>
 <p style="text-indent: 2em;">Select *</p>
@@ -270,7 +307,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p style="text-indent: 2em;">select class as班级,avg(score) as男生平均成绩</p>
 <p style="text-indent: 2em;">from&nbsp;A_studentcourse,A_courseinfo,A_studentinfo</p>
 <p style="text-indent: 2em;">where A_studentcourse.cno=A_courseinfo.cno</p>
-<p style="text-indent: 2em;">and&nbsp;&nbsp;</p>]]></description></item><item><title>【转】南京找实习攻略</title><link>http://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Thu, 03 Feb 2011 15:33:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html</guid><description><![CDATA[<p>刚刚毕业，出了学校，我也是职场新鲜人了，回顾自己找工作的整个历程，个人感觉 两段实习经历对我帮助蛮大。今天正好有空，为了回报本版和紫金飞鸿，也为了积攒 下人品，哈哈，写了这个南京找实习攻略，本文内容均为个人观点，仅供各位参考，期待 版上各位大牛们的批评指正。&nbsp;</p>
+<p style="text-indent: 2em;">and&nbsp;&nbsp;</p>]]></description>
+        </item>
+        <item>
+            <title>【转】南京找实习攻略</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Thu, 03 Feb 2011 15:33:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/02/03/1949081.html</guid>
+            <description><![CDATA[<p>刚刚毕业，出了学校，我也是职场新鲜人了，回顾自己找工作的整个历程，个人感觉 两段实习经历对我帮助蛮大。今天正好有空，为了回报本版和紫金飞鸿，也为了积攒 下人品，哈哈，写了这个南京找实习攻略，本文内容均为个人观点，仅供各位参考，期待 版上各位大牛们的批评指正。&nbsp;</p>
 <p>本文主要针对研究生寻找实习，因为下文提到的众多实习基本要求实习半年及以上， 每周4-5个白天（不包含周六周日），对本科生来说，基本不可能有这么长时间的校外实习 时间，我自己本科时没有什么实习经验，期待版上的牛人给出有关本科找实习或者做项目 的经验。</p>
 <p>因为本人是07级研究生，本文主要根据自己和周围同学的相关实习情况所写，具 体的实习职位、实习招聘、实习转正概率等各种情况每年都有变动，所以仅供参考。</p>
 <p>另外 因为本人主要寻找的是通信与计算机方面的实习，本文主要针对通信与计算机方面的实习 而言，其中以通信为主，其他方面的实习就不涉及了。</p>
@@ -301,7 +347,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p>&nbsp;4. 师兄师姐的内部推荐，命中概率相对很高。&nbsp;</p>
 <p>5. 导师的介绍，命中概率非常高。&nbsp;</p>
 <p>&nbsp;</p>
-<p>五、结束语 本文信息仅供参考，祝各位师弟师妹能够找到满意的实习，如果本文能带给您一点点帮 助，我就心满意足了，呵呵。本文没有具体阐述实习的笔试面试等环节信息，这些信息本 版已经有很多了，个人也没有参加上面所列举所有企业的实习招聘，所以无法提供相关信 息，请查阅其他文章。本文可能引用了其他文章的一些内容，限于时间关系，无法一一标 注，请谅解。感谢您的阅读，如果后续还有空闲时间，我可能会再写点找工作等方面的个 人经验之谈。 我的贴好久没上过十大了，如果可以的话，让我毕业后再上次十大吧，哈哈。 --</p>]]></description></item><item><title>盒子里的梦想</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Mon, 31 Jan 2011 05:38:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html</guid><description><![CDATA[<p>2010年百度年会的一个视频《盒子里的梦想》，最近很多人都在分享：</p>
+<p>五、结束语 本文信息仅供参考，祝各位师弟师妹能够找到满意的实习，如果本文能带给您一点点帮 助，我就心满意足了，呵呵。本文没有具体阐述实习的笔试面试等环节信息，这些信息本 版已经有很多了，个人也没有参加上面所列举所有企业的实习招聘，所以无法提供相关信 息，请查阅其他文章。本文可能引用了其他文章的一些内容，限于时间关系，无法一一标 注，请谅解。感谢您的阅读，如果后续还有空闲时间，我可能会再写点找工作等方面的个 人经验之谈。 我的贴好久没上过十大了，如果可以的话，让我毕业后再上次十大吧，哈哈。 --</p>]]></description>
+        </item>
+        <item>
+            <title>盒子里的梦想</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Mon, 31 Jan 2011 05:38:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948249.html</guid>
+            <description><![CDATA[<p>2010年百度年会的一个视频《盒子里的梦想》，最近很多人都在分享：</p>
 <p><a href="http://v.youku.com/v_show/id_XMjM4OTA1NzI4.html">http://v.youku.com/v_show/id_XMjM4OTA1NzI4.html</a></p>
 <p>很喜欢里面最后的一句话：</p>
 <p>我们的人生其实还很长，还有很多时间去实现自己的梦想，重要的是，其实我吗我们还没有忘记自己的梦想。</p>
@@ -350,7 +405,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>]]></description></item><item><title>【转】SQL 高性能查询优化语句</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Sun, 30 Jan 2011 16:33:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html</guid><description><![CDATA[<p><span class="Apple" style="widows: 2; text-transform: none; text-indent: 0px; border-collapse: separate; font: medium Simsun; white-space: normal; orphans: 2; letter-spacing: normal; color: #000000; word-spacing: 0px;"><span class="Apple" style="text-align: left; line-height: 29px; font-family: Helvetica, Arial, sans-serif; color: #444444; font-size: 14px;">
+<p>&nbsp;</p>]]></description>
+        </item>
+        <item>
+            <title>【转】SQL 高性能查询优化语句</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Sun, 30 Jan 2011 16:33:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/31/1948138.html</guid>
+            <description><![CDATA[<p><span class="Apple" style="widows: 2; text-transform: none; text-indent: 0px; border-collapse: separate; font: medium Simsun; white-space: normal; orphans: 2; letter-spacing: normal; color: #000000; word-spacing: 0px;"><span class="Apple" style="text-align: left; line-height: 29px; font-family: Helvetica, Arial, sans-serif; color: #444444; font-size: 14px;">
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">保证在实现功能的基础上，尽量减少对<span style="margin: 0px; word-wrap: break-word; word-break: break-all; text-decoration: underline; padding: 0px;"><strong style="font-style: normal; margin: 0px; word-wrap: break-word; word-break: break-all; font-weight: bold; padding: 0px;">数据库</strong></span>的访问次数；通过搜索参数，尽量减少对表的访问行数,最小化结果集，从而减轻网络负担；能够分开的操作尽量分开处理，提高每次的响应速度；在数据窗口使用SQL时，尽量把使用的索引放在选择的首列；算法的结构尽量简单；在查询时，不要过多地使用通配符如 SELECT * FROM T1语句，要用到几列就选择几列如：SELECT COL1,COL2 FROM T1；在可能的情况下尽量限制尽量结果集行数如：SELECT TOP 300 COL1,COL2,COL3 FROM T1,因为某些情况下用户是不需要那么多的数据的。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />在没有建索引的情况下，数据库查找某一条数据，就必须进行全表扫描了，对所有数据进行一次遍历，查找出符合条件的记录。在数据量比较小的情况下，也许看不出明显的差别，但是当数据量大的情况下，这种情况就是极为糟糕的了。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />SQL语句在SQL<span class="Apple">&nbsp;</span><span style="margin: 0px; word-wrap: break-word; word-break: break-all; text-decoration: underline; padding: 0px;"><strong style="font-style: normal; margin: 0px; word-wrap: break-word; word-break: break-all; font-weight: bold; padding: 0px;">SERVER</strong></span>中是如何执行的，他们担心自己所写的SQL语句会被SQL SERVER误解。比如：<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />select * from table1 where name=&rsquo;zhangsan&rsquo; and tID &gt; 10000<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />和执行:<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />select * from table1 where tID &gt; 10000 and name=&rsquo;zhangsan&rsquo;<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />一些人不<span style="margin: 0px; word-wrap: break-word; word-break: break-all; text-decoration: underline; padding: 0px;"><strong style="font-style: normal; margin: 0px; word-wrap: break-word; word-break: break-all; font-weight: bold; padding: 0px;">知道</strong></span>以上两条语句的执行效率是否一样，因为如果简单的从语句先后上看，这两个语句的确是不一样，如果tID是一个聚合索引，那么后一句仅仅从表的 10000条以后的记录中查找就行了；而前一句则要先从全表中查找看有几个name=&rsquo;zhangsan&rsquo;的，而后再根据限制条件条件tID&gt; 10000来提出查询结果。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />事实上，这样的担心是不必要的。SQL SERVER中有一个&ldquo;查询分析优化器&rdquo;，它可以计算出where子句中的搜索条件并确定哪个索引能缩小表扫描的搜索空间，也就是说，它能实现自动优化。虽然查询优化器可以根据where子句自动的进行查询优化，但有时查询优化器就会不按照您的本意进行快速查询。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />在查询分析阶段，查询优化器查看查询的每个阶段并决定限制需要扫描的数据量是否有用。如果一个阶段可以被用作一个扫描参数（SARG），那么就称之为可优化的，并且可以利用索引快速获得所需数据。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />SARG的定义：用于限制搜索的一个操作，因为它通常是指一个特定的匹配，一个值的范围内的匹配或者两个以上条件的AND连接。形式如下：<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />列名 操作符 &lt;常数 或 变量&gt; 或 &lt;常数 或 变量&gt; 操作符 列名<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />列名可以出现在操作符的一边，而常数或变量出现在操作符的另一边。如：<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />Name=&rsquo;张三&rsquo;<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />价格&gt;5000<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />5000&lt;价格<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />Name=&rsquo;张三&rsquo; and 价格&gt;5000<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />如果一个表达式不能满足SARG的形式，那它就无法限制搜索的范围了，也就是SQL SERVER必须对每一行都判断它是否满足WHERE子句中的所有条件。所以一个索引对于不满足SARG形式的表达式来说是无用的。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />所以，优化查询最重要的就是，尽量使语句符合查询优化器的规则避免全表扫描而使用索引查询。</p>
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">具体要注意的：</p>
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">1.应尽量避免在 where 子句中对字段进行 null 值判断，否则将导致引擎放弃使用索引而进行全表扫描，如：<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />select id from t where num is null<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />可以在num上设置默认值0，确保表中num列没有null值，然后这样查询：<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />select id from t where num=0</p>
@@ -385,7 +449,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">24.能用UNION ALL就不要用UNION<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />UNION ALL不执行SELECT DISTINCT函数，这样就会减少很多不必要的资源</p>
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">35.尽量不要用SELECT INTO语句。<br style="margin: 0px; word-wrap: break-word; word-break: break-all; padding: 0px;" />SELECT INOT 语句会导致表锁定，阻止其他用户访问该表。</p>
 <p style="padding-bottom: 10px; text-indent: 2em; margin: 0px 0px 6px; padding-left: 0px; padding-right: 0px; word-wrap: break-word; word-break: break-all; padding-top: 0px;">上面我们提到的是一些基本的提高查询速度的注意事项,但是在更多的情况下,往往需要反复试验比较不同的语句以得到最佳方案。最好的方法当然是测试，看实现相同功能的SQL语句哪个执行时间最少，但是数据库中如果数据量很少，是比较不出来的，这时可以用查看执行计划，即：把实现相同功能的多条SQL语句考到查询分析器，按CTRL+L看查所利用的索引，表扫描次数（这两个对性能影响最大），总体上看询成本百分比即可。</p>
-</span></span></p>]]></description></item><item><title>初次进行php开发感受</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Fri, 28 Jan 2011 19:41:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html</guid><description><![CDATA[<p>这两天，我没有刷poj,而是做了一个学校poj_rank自动获取的系统。
+</span></span></p>]]></description>
+        </item>
+        <item>
+            <title>初次进行php开发感受</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Fri, 28 Jan 2011 19:41:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/29/1947333.html</guid>
+            <description><![CDATA[<p>这两天，我没有刷poj,而是做了一个学校poj_rank自动获取的系统。
 先是自学了php，然后就一边摸索一边开发，由于是独立完成(抓取html的插件是学长找到的，并且给我样例代码学习)，所以遇到问题基本上都是自己想办法解决，当然，设计数据库的时候还是预先和同学讨论的，虽然最后的设计方案和自己设计的差不多。&nbsp;
 </p>
 <p>&nbsp;</p>
@@ -397,7 +470,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p>&nbsp;</p>
 <p>3。这次之后，我有意学习一下版本控制技术。本次开始，出气没有任何版本控制意识，后来出来一个问题我才开始每个版本复制一份文件，这样还是太土，得研究一些犀利的技术武装自己</p>
 <p>&nbsp;</p>
-<p>&nbsp;4。兴趣是最好的老师，这次开发之后，我才发现学习自己有兴趣的东西的效率是多么得高，如果学校开设这样的课程，我可能一个学期都做不出这样的东西，呵呵，还是好好利用寒假多学一些东西吧！</p>]]></description></item><item><title>php学习笔记</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Tue, 25 Jan 2011 00:55:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html</guid><description><![CDATA[<p>&lt;html&gt;<br />&nbsp;&nbsp;&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;php学习笔记&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;style&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!--修改css--&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; body {background-color:black; color:white;}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h1{font: 72pt arial bold;}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/style&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;body&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;?php<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * 注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $a = 5;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $b = 010; //八进制<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $c = 0xf;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo '$b=' . "$b&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print '$c=' . "$c&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo '$a&lt;br&gt;'; //单引号对引号里不识别<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print '$a&lt;br&gt;';</p>
+<p>&nbsp;4。兴趣是最好的老师，这次开发之后，我才发现学习自己有兴趣的东西的效率是多么得高，如果学校开设这样的课程，我可能一个学期都做不出这样的东西，呵呵，还是好好利用寒假多学一些东西吧！</p>]]></description>
+        </item>
+        <item>
+            <title>php学习笔记</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Tue, 25 Jan 2011 00:55:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/25/1944219.html</guid>
+            <description><![CDATA[<p>&lt;html&gt;<br />&nbsp;&nbsp;&nbsp; &lt;head&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;php学习笔记&lt;/title&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;style&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!--修改css--&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; body {background-color:black; color:white;}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h1{font: 72pt arial bold;}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/style&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/head&gt;<br />&nbsp;&nbsp;&nbsp; &lt;body&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;?php<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * 注释<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $a = 5;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $b = 010; //八进制<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $c = 0xf;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo '$b=' . "$b&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print '$c=' . "$c&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo '$a&lt;br&gt;'; //单引号对引号里不识别<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print '$a&lt;br&gt;';</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //转义字符\n换行并归零 \br换行 \t \' \" \$ \r回车(这里的换行符是显示在源代码里面的换行符，在网页里并不会显示)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //null 1)被赋值null 2)尚未被赋值&nbsp; 3)被unset</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $var = 1.1;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "$var is a " . gettype($var) . "&lt;br&gt;"; //.用于连接字符串,输出1.1 is a double<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var_dump($var); //输出变量类型，这里是:float<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //转换变量类型-&gt;自动由小到大<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //强制转换 cast或settype();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "&lt;br&gt;&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //$_SERVER组的内变量<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "目前执行的文件名称" . $_SERVER['PHP_SELF'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "服务器名" . $_SERVER['SERVER_NAME'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "服务器软件" . $_SERVER['SERVER_SOFTWARE'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "文档的根目录" . $_SERVER['DOCUMENT_ROOT'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "用户相关信息" . $_SERVER['HTTP_USER_AGENT'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "远程用户的地址" . $_SERVER['REMOTE_ADDR'] . "&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "远程用户的连接端口" . $_SERVER['REMOTE_PORT'] . "&lt;br&gt;";</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; include "GetIP.php";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GetIP();</p>
@@ -407,11 +489,20 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //global $int;全局变量<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //static $num=0; $num++;静态变量，第一次定义有效<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //函数变量<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function testvar() {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "testvar()函数&lt;br&gt;";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function setname($string) {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo "my name is $string";<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $rtext = 'testvar';<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $rtext();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $rtext = 'setname';<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $rtext("Jun");</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ?&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br />&lt;/html&gt;</p>]]></description></item><item><title>html学习</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Mon, 24 Jan 2011 08:49:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html</guid><description><![CDATA[<style><!--
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ?&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/body&gt;<br />&lt;/html&gt;</p>]]></description>
+        </item>
+        <item>
+            <title>html学习</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Mon, 24 Jan 2011 08:49:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943283.html</guid>
+            <description><![CDATA[<style><!--
 修改css-->
             body {background-color:black; color:white;}
             h1{font: 72pt arial bold;}
-        
+
 --&gt;
 --&gt;
 --&gt;
@@ -449,7 +540,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
         &nbsp;&nbsp;&nbsp;&nbsp;插入了四个空格<br />
         哈哈哈,这里没有插入四个空格<br />
     <nobr>这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应 这是不换行标签，不管浏览器的自动适应</nobr>
-    这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的</p>]]></description></item><item><title>training diary 2011-01-22</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Mon, 24 Jan 2011 05:26:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html</guid><description><![CDATA[<p>
+    这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的   这个会自动换行的</p>]]></description>
+        </item>
+        <item>
+            <title>training diary 2011-01-22</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Mon, 24 Jan 2011 05:26:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/24/1943046.html</guid>
+            <description><![CDATA[<p>
 <p>This is the second day of this winter holiday.</p>
 <p>I know I must do a lot in this winter holiday ,so I go back to school ,in the training room, I would have a better efficency!</p>
 <p>&nbsp;</p>
@@ -460,7 +560,16 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <p>1.尽快恢复状态 2.提升代码习惯 3.重整系统</p>
 <p>&nbsp;</p>
 <p>2)I went back to school in the afternoon,then I found some problems on poj ,1579 is a simple problem,you could finish by both recursion and dp,but 注意题目的优先计算顺序。先是考虑是否会小于0，然后才考虑是否会大于20，要不然就会WA。（害得我wa了一下午,555）</p>
-</p>]]></description></item><item><title>我来到博客园了！</title><link>http://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html</link><dc:creator>un&amp;#39;estate</dc:creator><author>un&amp;#39;estate</author><pubDate>Sat, 22 Jan 2011 08:28:00 GMT</pubDate><guid>http://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html</guid><description><![CDATA[<p>&nbsp;</p>
+</p>]]></description>
+        </item>
+        <item>
+            <title>我来到博客园了！</title>
+            <link>http://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html</link>
+            <dc:creator>un&amp;#39;estate</dc:creator>
+            <author>un&amp;#39;estate</author>
+            <pubDate>Sat, 22 Jan 2011 08:28:00 GMT</pubDate>
+            <guid>http://www.cnblogs.com/un_estate/archive/2011/01/22/1942049.html</guid>
+            <description><![CDATA[<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>首先批评一下博客园没有自动保存草稿的功能，刚才插入代码导致页面崩溃，写好多文章没有了，不过以后技术文章一定不会直接用网页写的。</p>
@@ -474,4 +583,7 @@ Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结
 <pre class="brush:cpp">void main(){
     puts("I love programming!");
 }</pre>
-</div>]]></description></item></channel></rss>
+</div>]]></description>
+        </item>
+    </channel>
+</rss>
