@@ -1,0 +1,22 @@
+---
+title: 'NetBeans添加中文javadoc'
+date: 2011-02-10 21:47:00
+layout: post
+published: true
+comments: true
+moveForm: cnblogs
+guid: http://www.cnblogs.com/un_estate/archive/2011/02/10/1950967.html
+---
+
+<p>首先下载中文jdk6的api：</p>
+<p><span class="javascript">JDK6 API 中文版 HTML 格式在线文档：<a target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html/zh_CN/api/</span></a><br />JDK6 
+API 中文版zip 格式下载： <a class="ilink" target="_blank"><span color="#0000ff" style="color: #0000ff;">http://download.java.net/jdk/jdk-api-localizations/jdk-api-zh-cn/builds/latest/html_zh_CN.zip</span></a> 
+</span></p>
+<p>官方下载地址可能比较慢，大家也可以试试其他下载源</p>
+
+<p>然后打开在netbeans，工具-&gt;java平台-&gt;javadoc &nbsp; 点击&ldquo;增加zip/folder&rdquo;修改路径,javadoc的路径选取到api目录下,即x:/javadoc/html/zh_CN/api,后关闭退出就可以了.</p>
+<p>ps:</p>
+<p>1.有时候还是不能显示中文的,这样就将源里的src.zip文件移除,再添加上x:/javadoc/html/zh_CN/api路径就可以在NB中出现中文的浮动提示窗了.</p>
+<p>2.建议设置成文件夹而不是zip压缩包，一个是为了不在NetBeans查看方便，另外目录的结构不容易出错。如果是zip压缩包，一定要注意目录结构，打开zip应该是javadoc的内容而不应该是一个文件夹，也就是说打开就应该能够看见index.html。</p>
+<p>3.此处一定要注意，如果你设置完之后在代码里右键选择Show 
+Javadoc或者按ALT+F1没有反应，那么极大的可能是javadoc的目录结构不正确。</p>

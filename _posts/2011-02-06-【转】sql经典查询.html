@@ -1,0 +1,259 @@
+---
+title: '【转】sql经典查询'
+date: 2011-02-06 13:01:00
+layout: post
+published: true
+comments: true
+moveForm: cnblogs
+guid: http://www.cnblogs.com/un_estate/archive/2011/02/06/1949456.html
+---
+
+<p style="text-indent: 2em;">通过以下习题的练习，我们能快速熟悉掌握sql语句查询的语法和要领，大家要用心领会其中的要领和步骤，要学会分析步骤。</p>
+<p style="text-indent: 2em;">一、单表查询练习</p>
+<p style="text-indent: 2em;">1、查询&lt;学生信息表&gt;，查询学生"张三"的全部基本信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname='张三'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">2、查询&lt;学生信息表&gt;，查询学生"张三"和&rdquo;李四&rdquo;的基本信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname='张三'</p>
+<p style="text-indent: 2em;">or sname='李四'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">3、查询&lt;学生信息表&gt;，查询姓"张"学生的基本信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '张%'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">4、查询&lt;学生信息表&gt;，查询姓名中含有"四"字的学生的基本信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '%四%'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">5、查询&lt;学生信息表&gt;，查询姓名长度为三个字，姓&ldquo;李&rdquo;，且最后一个字是&ldquo;强&rdquo;的全部学生信息。</p>
+<p style="text-indent: 2em;">select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '李_强'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">6、查询&lt;学生信息表&gt;，查询姓"张"或者姓&rdquo;李&rdquo;的学生的基本信息。</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '张%'</p>
+<p style="text-indent: 2em;">or sname like '李%'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">7、查询&lt;学生信息表&gt;，查询姓"张"并且"所属省份"是"北京"的学生信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '张%'</p>
+<p style="text-indent: 2em;">and province='北京'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">8、查询&lt;学生信息表&gt;，查询"所属省份"是"北京"、&rdquo;新疆&rdquo;、&rdquo;山东&rdquo;或者"上海"的学生的信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where province in ('北京','上海','新疆','山东')</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">9、查询&lt;学生信息表&gt;，查询姓"张"，但是"所属省份"不是"北京"的学生信息</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where sname like '张%'</p>
+<p style="text-indent: 2em;">and province !='北京'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">10、查询&lt;学生信息表&gt;，查询全部学生信息，并按照&ldquo;性别&rdquo;排序，性别相同的情况下按照&ldquo;所属省份&rdquo;排序，所属省份相同的情况下再按照&ldquo;班级&rdquo;排序</p>
+<p style="text-indent: 2em;">select *</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">order by sex,province,class</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">11、查询&lt;学生信息表&gt;，查询现有学生都来自于哪些不同的省份</p>
+<p style="text-indent: 2em;">select distinct province as省份</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">12、查询&lt;学生选修信息表&gt;，查询没有填写成绩的学生的学号、课程号和成绩</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where score is null</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">13、查询&lt;学生选修信息表&gt;，查询全部填写了成绩的学生的选修信息，并按照&ldquo;成绩&rdquo;从高到低进行排序</p>
+<p style="text-indent: 2em;">Select *</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where score is not null</p>
+<p style="text-indent: 2em;">order by score desc</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">二、聚合函数练习</p>
+<p style="text-indent: 2em;">1、统计&lt;学生信息表&gt;，统计共有多少个学生</p>
+<p style="text-indent: 2em;">Select count (*) as学生数量</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">2、统计&lt;学生信息表&gt;，统计年龄大于20岁的学生有多少个</p>
+<p style="text-indent: 2em;">Select count(*)&nbsp;as学生数量</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where (2008-yearofbirth)&gt;20</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">3、统计&lt;学生信息表&gt;，统计入学时间在1980年至1982年的学生人数</p>
+<p style="text-indent: 2em;">select count(*) as学生数量</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where enrollment between '1998-01-01' and '2003-12-30'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">对比以下查询方式，看看有何不同，为什么？</p>
+<p style="text-indent: 2em;">select count(*) as学生数量</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">where enrollment between '1998' and '2003'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">4、统计&lt;学生选修信息表&gt;，统计学号为"S001"的学生的平均成绩</p>
+<p style="text-indent: 2em;">Select&nbsp;avg(score)&nbsp;as平均成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where sno='S001'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">5、统计&lt;学生选修信息表&gt;，统计学号为"S001"的学生的总成绩</p>
+<p style="text-indent: 2em;">select&nbsp;sum(score)&nbsp;as总成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where sno ='S001'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">6、统计&lt;学生选修信息表&gt;，查询课程号为&rdquo;C001&rdquo;的课程的最高成绩</p>
+<p style="text-indent: 2em;">select max(score)&nbsp;as最高成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where cno='C001'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">7、统计&lt;学生信息表&gt;，查询所有学生中的最大年龄是多少</p>
+<p style="text-indent: 2em;">select&nbsp;2008-min(yearofbirth) as最大年龄</p>
+<p style="text-indent: 2em;">from&nbsp;A_studentinfo</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">三、分组查询练习</p>
+<p style="text-indent: 2em;">1、统计&lt;学生选修信息表&gt;，统计每个课程的选修人数</p>
+<p style="text-indent: 2em;">select cno,count(*)&nbsp;as学生数量</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">group by cno</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">2、统计&lt;学生选修信息表&gt;，统计每个同学的总成绩</p>
+<p style="text-indent: 2em;">select sno,sum(score) as总成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">group by sno</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">3、统计&lt;学生信息表&gt;，统计每个班级中每种性别的学生人数，并按照班级排序</p>
+<p style="text-indent: 2em;">select class as班级,sex as性别, count(*) as人数</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">group by class,sex</p>
+<p style="text-indent: 2em;">order by class</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">4、统计&lt;学生选修信息表&gt;，统计每门课程的平均成绩,并按照成绩降序排序</p>
+<p style="text-indent: 2em;">Select cno,avg(score) as平均成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">group by cno</p>
+<p style="text-indent: 2em;">order by avg(score) desc</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">5、统计&lt;学生选修信息表&gt;，显示有两门以上课程不及格的学生的学号</p>
+<p style="text-indent: 2em;">Select&nbsp;sno as不及格学生学号</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where score&lt;60</p>
+<p style="text-indent: 2em;">group by sno</p>
+<p style="text-indent: 2em;">having count(*)&gt;1</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">6、统计&lt;学生信息表&gt;，统计每个班级中的最大年龄是多少</p>
+<p style="text-indent: 2em;">select class as班级, 2008-min(yearofbirth) as最大年龄</p>
+<p style="text-indent: 2em;">from A_studentinfo</p>
+<p style="text-indent: 2em;">group by class</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">四、嵌套查询练习</p>
+<p style="text-indent: 2em;">1、用子查询实现，查询选修&ldquo;高等数学&rdquo;课的全部学生的总成绩</p>
+<p style="text-indent: 2em;">select sum(score) as高等数学总成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where cno =</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;select cno</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;from A_courseinfo</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;where subject='高等数学'</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;)</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">2、用子查询实现，统计&lt;学生选修信息表&gt;，显示学号为"S001"的学生在其各科成绩中，最高分成绩所对应的课程号和成绩</p>
+<p style="text-indent: 2em;">select score,cno</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where sno='S001'</p>
+<p style="text-indent: 2em;">and score =</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;select max(score)</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;from A_studentcourse</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;where sno ='S001'</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;)</p>
+<p style="text-indent: 2em;">思考：如果该学号学生有两个课程分数都为最高的100分，查询会有什么结果</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">3、用子查询实现，查询2班选修"数据库<a></a>技术"课的所有学生的成绩之和</p>
+<p style="text-indent: 2em;">select&nbsp;sum(score) as数据库技术总成绩</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where cno =</p>
+<p style="text-indent: 2em;">&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;select cno</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;from A_courseinfo</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;where subject='数据库技术')</p>
+<p style="text-indent: 2em;">and sno in</p>
+<p style="text-indent: 2em;">&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;select sno</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;from A_studentinfo</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;where class='2'</p>
+<p style="text-indent: 2em;">&nbsp;)</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">4、用子查询实现，查询3班"张三"同学的"测试<a></a>管理"成绩</p>
+<p style="text-indent: 2em;">select score</p>
+<p style="text-indent: 2em;">from A_studentcourse</p>
+<p style="text-indent: 2em;">where cno=</p>
+<p style="text-indent: 2em;">&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;select cno</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;from A_courseinfo</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;where subject='测试管理'</p>
+<p style="text-indent: 2em;">&nbsp;)</p>
+<p style="text-indent: 2em;">and sno in</p>
+<p style="text-indent: 2em;">&nbsp;(</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;select sno</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;from A_studentinfo</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;where class='3'</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;and sname='张三'</p>
+<p style="text-indent: 2em;">&nbsp;)</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;">五、联接查询练习</p>
+<p style="text-indent: 2em;">1、查询"张三"的各科考试成绩，要求显示姓名、课程号和成绩</p>
+<p style="text-indent: 2em;">select sname as姓名,cno as课程号,score as成绩</p>
+<p style="text-indent: 2em;">from A_studentinfo,A_studentcourse</p>
+<p style="text-indent: 2em;">where A_studentinfo.sno=A_studentcourse.sno</p>
+<p style="text-indent: 2em;">and sname='张三'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">2、查询"张三"的各科考试成绩中，哪科没有记录考试成绩，要求显示姓名、课程号和成绩</p>
+<p style="text-indent: 2em;">select sname as姓名,cno as课程号,score as成绩</p>
+<p style="text-indent: 2em;">from A_studentinfo,A_studentcourse</p>
+<p style="text-indent: 2em;">where A_studentinfo.sno=A_studentcourse.sno</p>
+<p style="text-indent: 2em;">and sname='张三'</p>
+<p style="text-indent: 2em;">and score is null</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">3、查询"张三"的各门课程成绩，要求显示姓名、课程名称和成绩</p>
+<p style="text-indent: 2em;">select sname as姓名,subject as课程名称,score as成绩</p>
+<p style="text-indent: 2em;">from&nbsp;A_studentinfo,A_courseinfo,A_studentcourse</p>
+<p style="text-indent: 2em;">where A_studentcourse.sno=A_studentinfo.sno</p>
+<p style="text-indent: 2em;">and&nbsp;&nbsp;A_studentcourse.cno=A_courseinfo.cno</p>
+<p style="text-indent: 2em;">and&nbsp;&nbsp;A_studentinfo.sname='张三'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">4、查询3班"张三"的"测试管理"成绩，要求显示姓名、成绩</p>
+<p style="text-indent: 2em;">select sname as姓名,score as成绩</p>
+<p style="text-indent: 2em;">from&nbsp;A_studentcourse,A_courseinfo,A_studentinfo</p>
+<p style="text-indent: 2em;">where A_studentcourse.cno=A_courseinfo.cno</p>
+<p style="text-indent: 2em;">and&nbsp;&nbsp;A_studentcourse.sno=A_studentinfo.sno</p>
+<p style="text-indent: 2em;">and subject='测试管理'</p>
+<p style="text-indent: 2em;">and class='3'</p>
+<p style="text-indent: 2em;">and sname='张三'</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">&nbsp;</p>
+<p style="text-indent: 2em;">5、查询所有2000年以前入学的，各班男生的各科考试平均成绩</p>
+<p style="text-indent: 2em;">select class as班级,avg(score) as男生平均成绩</p>
+<p style="text-indent: 2em;">from&nbsp;A_studentcourse,A_courseinfo,A_studentinfo</p>
+<p style="text-indent: 2em;">where A_studentcourse.cno=A_courseinfo.cno</p>
+<p style="text-indent: 2em;">and&nbsp;&nbsp;</p>
