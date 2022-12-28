@@ -21,7 +21,7 @@ layout: default
     {% endif %}
 
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
+    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%Y-%m-%d" }}
     </time>
     </p>
   </header>
