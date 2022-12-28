@@ -10,7 +10,7 @@ permalink: /about/
 - 👨🏻‍💻 I’m experienced in DevOps, CICD, engineering efficiency.
 - 🌱 I’m currently learning web3 development.
 - 💞️ I’m ex-microsoft, ex-alibaba.
-- ✉️ You can reach me on lmm333@twitter or nanjinglmm[at]gmail.com
+- ✉️ You can reach me by nanjinglmm[at]gmail.com
 - 🔗 [Twitter](https://twitter.com/lmm333) | [Instagram](https://www.instagram.com/mm.lou/) | [LinkedIn](https://www.linkedin.com/in/lmm333) | [Github Slice](https://lmmsoft.github.io/slices/)
 
 ## 2022-12 自我介绍
