@@ -42,8 +42,8 @@ plugins:
 - jekyll-paginate
 - jekyll-feed
 feed: # https://github.com/jekyll/jekyll-feed 的确好用，简单配置，可以完全替代原有的裸写的feed.xml  atom可以认为是rss3.0 比原有的 <rss 要好一点
-  path: /feed.atom
   posts_limit: 10000
+#  path: /feed.atom  # use default feed.xml
 paginate: 5
 excerpt_separator: <!--more-->
 
