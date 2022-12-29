@@ -42,7 +42,7 @@ plugins:
 - jekyll-paginate
 - jekyll-feed
 feed:
-  path: /blog/feed.atom
+  path: /feed.atom
   posts_limit: 10000
 paginate: 5
 excerpt_separator: <!--more-->
