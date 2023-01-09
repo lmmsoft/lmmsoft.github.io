@@ -12,9 +12,9 @@ locale: en_US
 
 ### Personal info and site tools info:
 twitter_username: lmm333
-github_username:  lmmsoft
+github_username: lmmsoft
 disqus_shortname: lmm333
-linkedin_username: lmm333 
+linkedin_username: lmm333
 favicon: "/images/favicon.ico"
 aboutme: Hi, 我叫明明，职业是程序员，现从事研发效能、工程效率、DevOps、CICD方向的研发。业余爱好运动，主要玩铁人三项，越野和潜水~. # these are shown on aboutme-sidebar.
 aboutme_photo: "/images/1-head-draw.jpeg" # your photo.
@@ -24,23 +24,23 @@ google_analytics: G-EZY69CH7QW # put YOUR key here to enable tracking! (blank to
 ### your Blogroll info, only name can be shown on the page.
 
 Blogroll:
-      - name: Beyond the Void
-        href: https://www.byvoid.com/
-        title: Byvoid's blog
-      - name: Bojie Li
-        href: https://ring0.me/
-        title: Bojie Li's blog
+  - name: Beyond the Void
+    href: https://www.byvoid.com/
+    title: Byvoid's blog
+  - name: Bojie Li
+    href: https://ring0.me/
+    title: Bojie Li's blog
 
 
 ### Build settings
 markdown: kramdown
 #highlighter: pygments
 kramdown:
-        input: GFM
-        syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 plugins:
-- jekyll-paginate
-- jekyll-feed
+  - jekyll-paginate
+  - jekyll-feed
 feed: # https://github.com/jekyll/jekyll-feed 的确好用，简单配置，可以完全替代原有的裸写的feed.xml  atom可以认为是rss3.0 比原有的 <rss 要好一点
   path: /feed.atom
   posts_limit: 10000
@@ -54,155 +54,155 @@ default_column: "two" # blog style: two columns, if default_column != "two", you
 default_locale: "cn" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
 
 locales:
-    en:
-      Aboutme: "About Me"
-      Archives: "Archives"
-      Blogroll: "Blogroll"
-      Categories: "Categories"
-      Copyright_Notice: "Copyright Notice"
-      Recent_Posts: "Recent Posts"
-      Tags: "Tags"
-      Previous: "Older"
-      Next: "Newer"
-      PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"
-      PostDate: "on "
-      Google_search: "Site Search"
-      Home: "Home"
-      About: "About"
-      Guestbook: "Guestbook"
-      Subscribe: "Subscribe"
-      ReadMore: "Continue Reading→"
-    cn:
-      Aboutme: "关于我"
-      Archives: "存档"
-      Blogroll: "良师益友"        
-      Categories: "分类目录"    
-      Copyright_Notice: "版权声明"
-      Recent_Posts: "近期文章"
-      Tags: "标签" 
-      Previous: "前一页"
-      Next: "后一页"
-      PostedInCategories: "分类:"
-      Taggedwith: "| 标签:"
-      PostDate: "| 发表时间: "
-      Google_search: "站内搜索"
-      Home: "首页"
-      About: "关于"
-      Guestbook: "留言"
-      Subscribe: "订阅"
-      ReadMore: "继续阅读→"
-    jp:
-      Aboutme: "著者"
-      Archives: "アーカイブ"
-      Blogroll: "ブログロール"
-      Categories: "カテゴリー"
-      Copyright_Notice: "著作権表示"
-      Recent_Posts: "最近の投稿"
-      Tags: "タグ"
-      Previous: "前の記事"
-      Next: "次の記事"
-      PostedInCategories: "カテゴリー："
-      Taggedwith: "| タグ："
-      PostDate: "| 投稿日時: "
-      Google_search: "サイト内検索"
-      Home: "ホーム"
-      About: "このブログについて"
-      Guestbook: "メッセージ"
-      Subscribe: "購読"
-      ReadMore: "Continue Reading→"
-    pl:
-      Aboutme: "O mnie"
-      Archives: "Archiwum"
-      Blogroll: "Odnośniki"
-      Categories: "Kategorie"
-      Copyright_Notice: "Prawa autorskie"
-      Recent_Posts: "Najnowsze wpisy"
-      Tags: "Tagi"
-      Previous: "Starsze"
-      Next: "Nowsze"
-      PostedInCategories: "Kategoria"
-      Taggedwith: "tagi"
-      PostDate: "on "
-      Google_search: "Wyszukiwarka"
-      Home: "Strona główna"
-      About: "O mnie"
-      Guestbook: "Księga gości"
-      Subscribe: "Subskrypcja"
-      ReadMore: "Continue Reading→"
-    kr:
-      Aboutme: "저자 소개"
-      Archives: "모든 게시물"
-      Blogroll: "참조 링크"
-      Categories: "카테고리"
-      Copyright_Notice: "저작권"
-      Recent_Posts: "최근 게시물"
-      Tags: "태그"
-      Previous: "이전 게시물"
-      Next: "다음 게시물"
-      PostedInCategories: "카테고리: "
-      Taggedwith: "태그: "
-      PostDate: "작성일: "
-      Google_search: "게시물 검색"
-      Home: "홈"
-      About: "소개"
-      Guestbook: "방명록"
-      Subscribe: "구독하기"
-      ReadMore: "Continue Reading→"
-    ru:
-      Aboutme: "Обо мне" # = 'About me'
-      Archives: "Архив"
-      Blogroll: "Ссылки" # = 'Links'
-      Categories: "Разделы"
-      Copyright_Notice: "Авторские права"
-      Recent_Posts: "Свежие посты"
-      Tags: "Теги"
-      Previous: "Предыдущий пост"          # = 'Previous post'
-      Next: "Следующий пост"               # = 'Next post'
-      PostedInCategories: "Опубликовано в" # = 'Posted in'
-      Taggedwith: "с тегами"
-      PostDate: ""
-      Google_search: "Поиск на Google"
-      Home: "Домой"
-      About: "О блоге"            # = 'About blog'
-      Guestbook: "Гостевая книга"
-      Subscribe: "Подписаться"
-      ReadMore: "Continue Reading→"
-    tr:
-      Aboutme: "Hakkımda"
-      Archives: "Arşivler"
-      Blogroll: "Bağlantılar"
-      Categories: "Kategoriler"
-      Copyright_Notice: "Telif Hakkı Bildirimi"
-      Recent_Posts: "Son Yazılar"
-      Tags: "Etiketler"
-      Previous: "Daha Eski"
-      Next: "Daha Yeni"
-      PostedInCategories: "Şuraya gönderildi:"
-      Taggedwith: "ve şöyle etiketlendi:"
-      PostDate: "şu tarihte:"
-      Google_search: "Sitede Ara"
-      Home: "Anasayfa"
-      About: "Hakkında"
-      Guestbook: "Konuk Defteri"
-      Subscribe: "Abone Ol"
-      ReadMore: "Continue Reading→"
-    id:
-      Aboutme: "Tentang Saya"
-      Archives: "Arsip"
-      Blogroll: "Blog teman"
-      Categories: "Kategori"
-      Copyright_Notice: "Legal Formal"
-      Recent_Posts: "Post Terkini"
-      Tags: "Tag"
-      Previous: "Lebih lama"
-      Next: "Lebih baru"
-      PostedInCategories: "Diposting di"
-      Taggedwith: "dan ditag"
-      PostDate: "pada "
-      Google_search: "Pencarian Situs"
-      Home: "Beranda"
-      About: "Tentang"
-      Guestbook: "Buku tamu"
-      Subscribe: "Langganan"
-      ReadMore: "Continue Reading→"
+  en:
+    Aboutme: "About Me"
+    Archives: "Archives"
+    Blogroll: "Blogroll"
+    Categories: "Categories"
+    Copyright_Notice: "Copyright Notice"
+    Recent_Posts: "Recent Posts"
+    Tags: "Tags"
+    Previous: "Older"
+    Next: "Newer"
+    PostedInCategories: "Posted in"
+    Taggedwith: "and tagged"
+    PostDate: "on "
+    Google_search: "Site Search"
+    Home: "Home"
+    About: "About"
+    Guestbook: "Guestbook"
+    Subscribe: "Subscribe"
+    ReadMore: "Continue Reading→"
+  cn:
+    Aboutme: "关于我"
+    Archives: "存档"
+    Blogroll: "良师益友"
+    Categories: "分类目录"
+    Copyright_Notice: "版权声明"
+    Recent_Posts: "近期文章"
+    Tags: "标签"
+    Previous: "前一页"
+    Next: "后一页"
+    PostedInCategories: "分类:"
+    Taggedwith: "| 标签:"
+    PostDate: "| 发表时间: "
+    Google_search: "站内搜索"
+    Home: "首页"
+    About: "关于"
+    Guestbook: "留言"
+    Subscribe: "订阅"
+    ReadMore: "继续阅读→"
+  jp:
+    Aboutme: "著者"
+    Archives: "アーカイブ"
+    Blogroll: "ブログロール"
+    Categories: "カテゴリー"
+    Copyright_Notice: "著作権表示"
+    Recent_Posts: "最近の投稿"
+    Tags: "タグ"
+    Previous: "前の記事"
+    Next: "次の記事"
+    PostedInCategories: "カテゴリー："
+    Taggedwith: "| タグ："
+    PostDate: "| 投稿日時: "
+    Google_search: "サイト内検索"
+    Home: "ホーム"
+    About: "このブログについて"
+    Guestbook: "メッセージ"
+    Subscribe: "購読"
+    ReadMore: "Continue Reading→"
+  pl:
+    Aboutme: "O mnie"
+    Archives: "Archiwum"
+    Blogroll: "Odnośniki"
+    Categories: "Kategorie"
+    Copyright_Notice: "Prawa autorskie"
+    Recent_Posts: "Najnowsze wpisy"
+    Tags: "Tagi"
+    Previous: "Starsze"
+    Next: "Nowsze"
+    PostedInCategories: "Kategoria"
+    Taggedwith: "tagi"
+    PostDate: "on "
+    Google_search: "Wyszukiwarka"
+    Home: "Strona główna"
+    About: "O mnie"
+    Guestbook: "Księga gości"
+    Subscribe: "Subskrypcja"
+    ReadMore: "Continue Reading→"
+  kr:
+    Aboutme: "저자 소개"
+    Archives: "모든 게시물"
+    Blogroll: "참조 링크"
+    Categories: "카테고리"
+    Copyright_Notice: "저작권"
+    Recent_Posts: "최근 게시물"
+    Tags: "태그"
+    Previous: "이전 게시물"
+    Next: "다음 게시물"
+    PostedInCategories: "카테고리: "
+    Taggedwith: "태그: "
+    PostDate: "작성일: "
+    Google_search: "게시물 검색"
+    Home: "홈"
+    About: "소개"
+    Guestbook: "방명록"
+    Subscribe: "구독하기"
+    ReadMore: "Continue Reading→"
+  ru:
+    Aboutme: "Обо мне" # = 'About me'
+    Archives: "Архив"
+    Blogroll: "Ссылки" # = 'Links'
+    Categories: "Разделы"
+    Copyright_Notice: "Авторские права"
+    Recent_Posts: "Свежие посты"
+    Tags: "Теги"
+    Previous: "Предыдущий пост"          # = 'Previous post'
+    Next: "Следующий пост"               # = 'Next post'
+    PostedInCategories: "Опубликовано в" # = 'Posted in'
+    Taggedwith: "с тегами"
+    PostDate: ""
+    Google_search: "Поиск на Google"
+    Home: "Домой"
+    About: "О блоге"            # = 'About blog'
+    Guestbook: "Гостевая книга"
+    Subscribe: "Подписаться"
+    ReadMore: "Continue Reading→"
+  tr:
+    Aboutme: "Hakkımda"
+    Archives: "Arşivler"
+    Blogroll: "Bağlantılar"
+    Categories: "Kategoriler"
+    Copyright_Notice: "Telif Hakkı Bildirimi"
+    Recent_Posts: "Son Yazılar"
+    Tags: "Etiketler"
+    Previous: "Daha Eski"
+    Next: "Daha Yeni"
+    PostedInCategories: "Şuraya gönderildi:"
+    Taggedwith: "ve şöyle etiketlendi:"
+    PostDate: "şu tarihte:"
+    Google_search: "Sitede Ara"
+    Home: "Anasayfa"
+    About: "Hakkında"
+    Guestbook: "Konuk Defteri"
+    Subscribe: "Abone Ol"
+    ReadMore: "Continue Reading→"
+  id:
+    Aboutme: "Tentang Saya"
+    Archives: "Arsip"
+    Blogroll: "Blog teman"
+    Categories: "Kategori"
+    Copyright_Notice: "Legal Formal"
+    Recent_Posts: "Post Terkini"
+    Tags: "Tag"
+    Previous: "Lebih lama"
+    Next: "Lebih baru"
+    PostedInCategories: "Diposting di"
+    Taggedwith: "dan ditag"
+    PostDate: "pada "
+    Google_search: "Pencarian Situs"
+    Home: "Beranda"
+    About: "Tentang"
+    Guestbook: "Buku tamu"
+    Subscribe: "Langganan"
+    ReadMore: "Continue Reading→"
