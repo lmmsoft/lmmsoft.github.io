@@ -4,7 +4,7 @@ title: About
 comments: yes
 permalink: /about/
 ---
-![越野](/images/1-head-trail.png)
+![越野](/images/1-head-trail-640x640.png)
 
 ## About me
 
