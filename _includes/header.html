@@ -22,7 +22,7 @@
 
 
                 {% for link in site.header_link %}
-                    <a class="page-link" href="{{ link.href | prepend: site.baseurl }}">{{ link.name }}</a>
+                    <a class="page-link" target="_blank" href="{{ link.href | prepend: site.baseurl }}">{{ link.name | replace: link.name, site.locales[site.default_locale].[link.name] }}</a>
                 {% endfor %}
 
             </div>

@@ -33,7 +33,7 @@ Blogroll:
 
 # 导航栏的外链
 header_link:
-  - name: running_page
+  - name: RunningPage
     href: https://lmmsoft.github.io/running_page/
 
 
@@ -78,6 +78,7 @@ locales:
     Guestbook: "Guestbook"
     Subscribe: "Subscribe"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   cn:
     Aboutme: "关于我"
     Archives: "存档"
@@ -97,6 +98,7 @@ locales:
     Guestbook: "留言"
     Subscribe: "订阅"
     ReadMore: "继续阅读→"
+    RunningPage: '跑步记录'
   jp:
     Aboutme: "著者"
     Archives: "アーカイブ"
@@ -116,6 +118,7 @@ locales:
     Guestbook: "メッセージ"
     Subscribe: "購読"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   pl:
     Aboutme: "O mnie"
     Archives: "Archiwum"
@@ -135,6 +138,7 @@ locales:
     Guestbook: "Księga gości"
     Subscribe: "Subskrypcja"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   kr:
     Aboutme: "저자 소개"
     Archives: "모든 게시물"
@@ -154,6 +158,7 @@ locales:
     Guestbook: "방명록"
     Subscribe: "구독하기"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   ru:
     Aboutme: "Обо мне" # = 'About me'
     Archives: "Архив"
@@ -173,6 +178,7 @@ locales:
     Guestbook: "Гостевая книга"
     Subscribe: "Подписаться"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   tr:
     Aboutme: "Hakkımda"
     Archives: "Arşivler"
@@ -192,6 +198,7 @@ locales:
     Guestbook: "Konuk Defteri"
     Subscribe: "Abone Ol"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
   id:
     Aboutme: "Tentang Saya"
     Archives: "Arsip"
@@ -211,3 +218,4 @@ locales:
     Guestbook: "Buku tamu"
     Subscribe: "Langganan"
     ReadMore: "Continue Reading→"
+    RunningPage: 'Running Page'
