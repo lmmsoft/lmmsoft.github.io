@@ -16,7 +16,7 @@ permalink: /archives/
 {% endunless %}
 <li id="{{ year }}">{{ year }}</li>
 {% endunless %}
-<time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+<time datetime="{{ post.date | date:'%Y-%m-%d' }}">
 {{ post.date | date:"%Y-%m-%d" }}
 </time>
 &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a><br />
