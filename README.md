@@ -12,6 +12,9 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - https://ddewaele.github.io/running-jekyll-in-docker/
 - https://kuros.in/docker/docker-jekyll-container-to-serve-locally/ (dockerfile)
 
+# github
+- github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+
 ## Changelog
 
 - 2022-12-29
