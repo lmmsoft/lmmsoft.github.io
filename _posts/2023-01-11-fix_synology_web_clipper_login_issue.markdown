@@ -32,7 +32,7 @@ Have a good day~!
 我去看了chrome应用商店，很多人都在反馈这样的问题，有中文、英文、俄文等各种语言，看来不是我一个人的问题。
 
 评论里没找到解决方案，我尝试自己解决，经过调查，感觉2022年12月30日发布的v3.0.116嫌疑最大！
-
+<!--more-->
 搜索历史记录，发现之前2022-12-25发布过v3.0.115，而再上一个版本是2022-06-13发布的v2.0.111。
 
 从v2跨越到v3，估计有很大的升级，错误大概率出现在这里！
@@ -49,6 +49,6 @@ Have a good day~!
 
 My comments on Chrome App Store:
 
-If you meet login issue after 2022-12, you can try to downgrade to previous version. Please refer my post for solution and download link: 
-如果你遇到登陆在2022年底之后遇到了登陆问题，大概率是新版本差点，可以看看我的解决方案:
+If you meet login issue after 2022-12, you can try to downgrade to previous version. Please refer my post for solution and download link: https://lmmsoft.github.io/fix_synology_web_clipper_login_issue/
+如果你遇到登陆在2022年底之后遇到了登陆问题，大概率是新版本差点，可以看看我的解决方案: https://lmmsoft.github.io/fix_synology_web_clipper_login_issue/
 
