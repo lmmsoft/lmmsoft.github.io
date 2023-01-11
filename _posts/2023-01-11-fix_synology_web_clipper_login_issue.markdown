@@ -1,8 +1,10 @@
 ---
 title:  "Fix Synology Web Clipper Login Issue 修复群晖笔记剪藏插件登陆问题"
-date: 2023-01-11T20:00:00+00:00
+date: 2023-01-11T20:00:00+08:00
 author: lmm333
 layout: post
+comments: true
+published: true
 permalink: /fix_synology_web_clipper_login_issue/
 categories: 
 - 修电脑

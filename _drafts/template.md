@@ -1,10 +1,14 @@
 ---
 title:  "Welcome to Jekyll!"
-date: 2000-00-00T00:00:00+00:00
+date: 2000-00-00T00:00:00+08:00
 author: lmm333
 layout: post
+comments: true
+published: true
 permalink: /link_xxx/
 categories:
+- x
 tags:
-published: true
+- a
+- b
 ---
