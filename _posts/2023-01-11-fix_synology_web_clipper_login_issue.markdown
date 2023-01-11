@@ -4,8 +4,8 @@ date: 2023-01-11T20:00:00+00:00
 author: lmm333
 layout: post
 permalink: /fix_synology_web_clipper_login_issue/
-categories: 群晖
-tags: 群晖
+categories: 修电脑
+tags: 群晖, Synology
 published: true
 ---
 
