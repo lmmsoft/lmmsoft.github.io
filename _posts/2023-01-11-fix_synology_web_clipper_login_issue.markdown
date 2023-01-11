@@ -45,6 +45,8 @@ Have a good day~!
 
 如果你想尝试其他旧版本，也可以在[这里](https://www.crx4chrome.com/history/10755/)搜寻。
 
+希望本文能解决你的问题~！
+
 ### My comments on Chrome App Store:
 
 If you meet login issue after 2022-12, you can try to downgrade to previous version. Please refer my post for solution and download link: https://lmmsoft.github.io/fix_synology_web_clipper_login_issue/
