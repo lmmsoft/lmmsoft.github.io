@@ -6,4 +6,5 @@ layout: post
 permalink: /link_xxx/
 categories:
 tags:
+published: true
 ---
