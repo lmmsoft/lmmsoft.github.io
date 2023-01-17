@@ -1,0 +1,159 @@
+{
+  "direction":"ltr",
+  "id":"user\/-\/state\/com.google\/broadcast",
+  "title":"Broadcasted",
+  "description":"",
+  "self":{
+    "href":"https:\/\/www.inoreader.com\/reader\/api\/0\/stream\/contents\/user\/-\/state\/com.google\/broadcast?output=json\u0026n=1000"
+  },
+  "updated":1673927483,
+  "updatedUsec":"1673927483527922",
+  "profileInfo":{
+    "id":"1005944946",
+    "name":"Lou",
+    "username":"nanjinglmm@gmail.com",
+    "summary":"",
+    "profileURL":"https:\/\/www.inoreader.com\/u\/nanjinglmm%40gmail.com",
+    "profilePicture":"https:\/\/www.inoreader.com\/cdn\/profile_social_picture\/1005944946\/google_212\/a4c4d10d3e4f072e6c5ebb1ae9fd5904b2c5525bdb4bafd9a2ea407a42bcaf85925669e8ef592c355529102726f2a3c10738df12d773dae6e3bec622fafac6368114d4e32081e07765de5d947cdf24e26d1ab586687bbbcab4860776d6ecba29482121",
+    "registeredOn":1372617309,
+    "subscribers":0,
+    "broadcasts":3
+  },
+  "items":[
+    {
+      "crawlTimeMsec":"1384270808515",
+      "timestampUsec":"1384270808515326",
+      "id":"tag:google.com,2005:reader\/item\/0000000043430d39",
+      "categories":[
+        "user\/1005944946\/state\/com.google\/reading-list",
+        "user\/1005944946\/state\/com.google\/read",
+        "user\/1005944946\/state\/com.google\/broadcast",
+        "user\/1005944946\/label\/mm-文艺"
+      ],
+      "title":"",
+      "published":0,
+      "updated":0,
+      "canonical":[
+        {
+          "href":""
+        }
+      ],
+      "alternate":[
+        {
+          "href":"",
+          "type":"text\/html"
+        }
+      ],
+      "summary":{
+        "direction":"ltr",
+        "content":"\u003Ccenter\u003E\n                    \u003Cdiv style=\u0022text-align:center;color:#424242;font-size:0.8em;margin-bottom:30px;\u0022\u003E\n                        \u003Cdiv\u003E\n                            Ads from Inoreader \u0026bull; \u003Ca target=\u0022_blank\u0022 style=\u0022text-decoration:underline;color:#424242;\u0022 href=\u0022https:\/\/www.inoreader.com\/about_ads\u0022\u003ERemove\u003C\/a\u003E\n                        \u003C\/div\u003E\n                        \u003Cdiv style=\u0022margin-top:10px;\u0022\u003E\n                            \u003Ca href=\u0022https:\/\/www.inoreader.com\/adv\/www\/delivery\/ck.php?n=a49f975d\u0026cb=63c61b3b81d5e\u0022 target=\u0022_blank\u0022\u003E\u003Cimg src=\u0022https:\/\/www.inoreader.com\/adv\/www\/delivery\/avw.php?zoneid=23\u0026from_api=1\u0026cb=63c61b3b81d5e\u0026n=a49f975d\u0026sens=0\u0026pd=2\u0022 style=\u0022border:0;width:320px;height:50px;margin:0; auto 0 auto !important;float:none !important;\u0022\u003E\u003C\/a\u003E\n                        \u003C\/div\u003E\n                    \u003C\/div\u003E\n                    \u003Cdiv style=\u0022clear:both;\u0022\u003E\n                    \u003C\/div\u003E\n                \u003C\/center\u003E"
+      },
+      "author":"",
+      "likingUsers":[
+        
+      ],
+      "comments":[
+        
+      ],
+      "commentsNum":-1,
+      "annotations":[
+        
+      ],
+      "origin":{
+        "streamId":"feed\/http:\/\/blog.sina.com.cn\/rss\/1528394563.xml",
+        "title":"85后：一直特立独行的猫",
+        "htmlUrl":"http:\/\/blog.sina.com.cn\/zhaoxingstar"
+      }
+    },
+    {
+      "crawlTimeMsec":"1381082601921",
+      "timestampUsec":"1381082601921179",
+      "id":"tag:google.com,2005:reader\/item\/0000000031d8ca19",
+      "categories":[
+        "user\/1005944946\/state\/com.google\/reading-list",
+        "user\/1005944946\/state\/com.google\/read",
+        "user\/1005944946\/state\/com.google\/broadcast",
+        "user\/1005944946\/label\/mm-文艺"
+      ],
+      "title":"庸人哑语，什么都不想再说。",
+      "published":1381075908,
+      "updated":0,
+      "canonical":[
+        {
+          "href":"http:\/\/darling13.lofter.com\/post\/4c2d5_95bd35"
+        }
+      ],
+      "alternate":[
+        {
+          "href":"http:\/\/darling13.lofter.com\/post\/4c2d5_95bd35",
+          "type":"text\/html"
+        }
+      ],
+      "summary":{
+        "direction":"ltr",
+        "content":"\u003Cp\u003E\u003C\/p\u003E\u003Cp\u003E庸人哑语，什么都不想再说。\u003C\/p\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Ca target=\u0022_blank\u0022 href=\u0022http:\/\/darling13.lofter.com\/\u0022\u003ELOFTER：用我肩口的棉糖湿润你心中的暖伤。\u003C\/a\u003E   \u003Ca target=\u0022_blank\u0022 href=\u0022http:\/\/darling13.lofter.com\/post\/4c2d5_95bd35\u0022\u003Ehttp:\/\/darling13.lofter.com\/post\/4c2d5_95bd35\u003C\/a\u003E"
+      },
+      "author":"用我肩口的棉糖湿润你心中的暖伤。",
+      "likingUsers":[
+        
+      ],
+      "comments":[
+        
+      ],
+      "commentsNum":-1,
+      "annotations":[
+        
+      ],
+      "origin":{
+        "streamId":"feed\/http:\/\/darling13.lofter.com\/rss",
+        "title":"用我肩口的棉糖湿润你心中的暖伤。",
+        "htmlUrl":"http:\/\/darling13.lofter.com\/"
+      }
+    },
+    {
+      "crawlTimeMsec":"1310486099000",
+      "timestampUsec":"1310486099000000",
+      "id":"tag:google.com,2005:reader\/item\/00000000061043a6",
+      "categories":[
+        "user\/1005944946\/state\/com.google\/reading-list",
+        "user\/1005944946\/state\/com.google\/read",
+        "user\/1005944946\/state\/com.google\/broadcast",
+        "user\/1005944946\/label\/data mining"
+      ],
+      "title":"海量数据实时计算随笔",
+      "published":1310486099,
+      "updated":0,
+      "canonical":[
+        {
+          "href":"http:\/\/www.yiihsia.com\/2011\/07\/%e6%b5%b7%e9%87%8f%e6%95%b0%e6%8d%ae%e5%ae%9e%e6%97%b6%e8%ae%a1%e7%ae%97%e9%9a%8f%e7%ac%94\/"
+        }
+      ],
+      "alternate":[
+        {
+          "href":"http:\/\/www.yiihsia.com\/2011\/07\/%e6%b5%b7%e9%87%8f%e6%95%b0%e6%8d%ae%e5%ae%9e%e6%97%b6%e8%ae%a1%e7%ae%97%e9%9a%8f%e7%ac%94\/",
+          "type":"text\/html"
+        }
+      ],
+      "summary":{
+        "direction":"ltr",
+        "content":"\u003Cdiv\u003E所谓海量是指从海量数据里找出满足条件的数据做计算分析。满足条件的数据不会很大，但是超过10W记录是常有的情况。然后对这些记录做group、sort、sum、count、distinct等操作。\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cstrong\u003E\u003Cbr\u003E\n\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cstrong\u003Emongodb？\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003E单说计算上：group只能最大到10000个，用MapReduce方式响应时间太慢，即使不用mapreduce响应时间也很慢。不考虑\u003C\/div\u003E\n\u003Cp\u003E\u003Cspan\u003E\u003C\/span\u003E\u003C\/p\u003E\n\u003Cdiv\u003E\u003Cstrong\u003E为什么要实时？\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003E数据无法做预算。\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cstrong\u003E需要的资源？\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003ECPU(计算)、IO(取数据)、内存（获取数据进程序里刷选计算）\u003C\/div\u003E\n\u003Ch1\u003E数据存储\u003C\/h1\u003E\n\u003Cdiv\u003E从响应时间来看，IO占很大比重。所以先从储存说起。\u003C\/div\u003E\n\u003Cdiv\u003E储存是为了更好的查询  -\u003E nosql\u003C\/div\u003E\n\u003Cdiv\u003E两类： 知道key分布、不知道key分布\u003C\/div\u003E\n\u003Cdiv\u003E知道key分布：客户端程序控制数据分片，比如数据按天分布在不同的节点\u003C\/div\u003E\n\u003Cdiv\u003E不知道key分布：key的分片由存储系统决定，比如hbase、cassandra\u003C\/div\u003E\n\u003Cdiv\u003Ekey的设计很重要，因为hbase的索引是按照key做排序的，如何更好的读取？根据计算\u003C\/div\u003E\n\u003Cdiv\u003E业务决定key。\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cstrong\u003E数据类型优先级\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003Ebit \u003E number \u003E String\u003C\/div\u003E\n\u003Cdiv\u003E定长 \u003E 变长\u003C\/div\u003E\n\u003Cdiv\u003E数据冗余: 顺序读 替换 批量随机读\u003C\/div\u003E\n\u003Cdiv\u003E不做冗余: 全内存数据库\u003C\/div\u003E\n\u003Ch1\u003E计算\u003C\/h1\u003E\n\u003Cp\u003E计算是CPU密集型任务\u003C\/p\u003E\n\u003Ch2\u003E\u003Cstrong\u003E多线程计算\u003C\/strong\u003E\u003C\/h2\u003E\n\u003Cdiv\u003E一个计算任务分成多个任务，比如一个7天数据计算，可以按天分配。每个线程计算一天，最后在总线程里做汇总。 每个线程需要取大量数据，网卡可能成为瓶颈。且数据量大网络传输时间比较长。\u003C\/div\u003E\n\u003Ch2\u003E\u003Cstrong\u003E分布式计算\u003C\/strong\u003E\u003C\/h2\u003E\n\u003Cdiv\u003E将任务分给其他计算节点，被分任务的节点做最优计算，尽量减少传输到主节点的数据量(挑战 distinct)最后汇总。情况复杂，取数据io还没优化\u003C\/div\u003E\n\u003Cdiv\u003E\u003Cstrong\u003E节点间通信\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003Esocket、二进制，绝对不用json\u003C\/div\u003E\n\u003Ch2\u003E端计算\u003C\/h2\u003E\n\u003Cdiv\u003E把计算请求发给指定数据节点，读取数据做了优化，不走网络。\u003C\/div\u003E\n\u003Cdiv\u003E知道数据分片，把计算迁移到数据节点，走unix socket读取数据最佳\u003C\/div\u003E\n\u003Cdiv\u003E不知道数据分片，扩展系统接口，比如hbase\u003C\/div\u003E\n\u003Ch2\u003E缓存\u003C\/h2\u003E\n\u003Cdiv\u003E中间计算结果缓存，比如单天的数据做缓存\u003C\/div\u003E\n\u003Cdiv\u003E内部缓存，不解释\u003C\/div\u003E\n\u003Ch1\u003E计算规则\u003C\/h1\u003E\n\u003Cdiv\u003E计算无外乎求count、sum、avg、distinct\u003C\/div\u003E\n\u003Cdiv\u003E区别主要在\u003Cstrong\u003E是否做group\u003C\/strong\u003E\u003C\/div\u003E\n\u003Cdiv\u003E否：一般场景很少用到，实现简单，计算快。\u003C\/div\u003E\n\u003Cdiv\u003E是：大量数据分析的场景中会需要，一般是自己实现hashmap过滤，挑战是group个数(上万)非常大。内存、响应时间都会遇到问题。对于group确定的情况(比如性别)，就不需要map的方式，直接用数组表示，通过数据下标快速定位。\u003C\/div\u003E\n\u003Ch1\u003E最后\u003C\/h1\u003E\n\u003Cdiv\u003E计算的通用性 和 性能 权衡\u003C\/div\u003E\n\u003Cdiv\u003E定制化的程序 更好的性能\u003C\/div\u003E\n\u003Cdiv\u003E大内存gc问题\u003C\/div\u003E\n\u003Cp\u003E写的很乱，有时间了分篇细说\u003C\/p\u003E"
+      },
+      "author":"yiihsia",
+      "likingUsers":[
+        
+      ],
+      "comments":[
+        
+      ],
+      "commentsNum":-1,
+      "annotations":[
+        
+      ],
+      "origin":{
+        "streamId":"feed\/http:\/\/www.yiihsia.com\/feed\/",
+        "title":"yiihsia[互联网后端技术]_yiihsia[互联网后端技术]",
+        "htmlUrl":"http:\/\/www.yiihsia.com"
+      }
+    }
+  ]
+}
