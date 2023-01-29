@@ -27,9 +27,11 @@ Blogroll:
   - name: Beyond the Void
     href: https://www.byvoid.com/
     title: Byvoid's blog
+    description: "环球旅行，语言学，程序员"
   - name: Bojie Li
     href: https://ring0.me/
     title: Bojie Li's blog
+    description: "华为天才少年，计算机网络大拿，OI，数学竞赛"
 
 # 导航栏的外链
 header_link:
