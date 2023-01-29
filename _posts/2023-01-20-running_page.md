@@ -1,6 +1,6 @@
 ---
 title:  "Running Page"
-date: 2000-00-00T00:00:00+08:00
+date: 2023-01-20T00:00:00+08:00
 author: lmm333
 layout: post
 comments: true
@@ -22,8 +22,8 @@ xx项目可以快速建立，非常方便
 # 我的页面
 截图
 欢迎体验：
-- link2
-- link2
+- [link of running page](https://lmmsoft.github.io/running_page/)
+- [link of multi activities page](https://lmmsoft.github.io/activities/)
 
 # 跑步页面创建
 - fork
