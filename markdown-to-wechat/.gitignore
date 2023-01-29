@@ -8,3 +8,6 @@ cache.bin
 ob
 ob-pub
 node_modules
+
+*.sqlite3
+env.sh
