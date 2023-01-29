@@ -45,7 +45,7 @@ Have a good day~!
 
 如果你想尝试其他旧版本，也可以在[这里](https://www.crx4chrome.com/history/10755/)搜寻。
 
-希望本文能解决你的问题~！
+希望本文能解决你的问题^^ 如果有效，欢迎在下面评论或点赞，谢谢！
 
 ### My comments on Chrome App Store:
 
