@@ -16,7 +16,8 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
 ## Changelog
-
+- 2023-01-29
+  - 根目录下非 _xxx 下划线开头的目录都会被发布到生成的网站中，输入 http://{site_url}/xxx/会自动打开xxx目录下的readme.md文件，所以把 xxx 改名成 _xxx 避免发布不必要的文件。 
 - 2022-12-29
   - google analytics 更新，用 GA4 替换 UA，UA会在2023-06停止
   - 用 busuanzi 进行页面 PV/UV 统计

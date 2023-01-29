@@ -1,6 +1,6 @@
 # 数据
 - feedly 基本等同于 google reader的数据，160个订阅源，接着2023-01-17, 40个三个月没发文，80个已失效
-- inorader 有 350+个订阅源，更丰富一点
+- inoreader 有 350+个订阅源，更丰富一点
 
 # 文件
 - rss_Inoreader export 20230117
