@@ -17,6 +17,8 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 
 ## Changelog
 - 2023-01-30
+  - 全平台统一名称，博客从"明明如月的博客"改名为"明明如月成长笔记"
+- 2023-01-30
   - 优化了友情链接，补充了推荐语description
 - 2023-01-29
   - 根目录下非 _xxx 下划线开头的目录都会被发布到生成的网站中，输入 http://{site_url}/xxx/会自动打开xxx目录下的readme.md文件，所以把 xxx 改名成 _xxx 避免发布不必要的文件。 
