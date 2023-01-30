@@ -111,8 +111,9 @@ def file_processed(file_path):
 def upload_image_from_path(image_path):
     image_digest = file_digest(image_path)
     res = cache_get(image_digest)
-    if res != None:
+    if res:
         return res[0], res[1]
+
     client, _ = Client()
     print("uploading image {}".format(image_path))
     try:
@@ -299,8 +300,10 @@ def upload_media_news(post_path):
         media_id = ''
         media_url = ''
         if image.startswith("http"):
+            # 包含 http, https
             media_id, media_url = upload_image(image)
         else:
+            # 本地文件
             media_id, media_url = upload_image_from_path("./blog-source/source" + image)
         if media_id != None:
             uploaded_images[image] = [media_id, media_url]
