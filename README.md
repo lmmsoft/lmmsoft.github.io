@@ -16,6 +16,8 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
 ## Changelog
+- 2023-02-01
+  - 增加 plausible.io 统计，号称GA平替
 - 2023-01-30
   - 全平台统一名称，博客从"明明如月的博客"改名为"明明如月成长笔记"
 - 2023-01-30
