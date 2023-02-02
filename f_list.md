@@ -1,0 +1,46 @@
+---
+layout: page
+title: 我的清单
+comments: yes
+permalink: /list/
+---
+生活中的各种清单，收集记录如下，欢迎交流~
+
+计划包括：**读书，电影，电视剧，纪录片，短视频，在线课程，旅行目的地**。能附上链接/时间/评价/攻略就更好了，事事有回应~
+
+# 在线课程
+包括：平台，课程，链接，学习时间，星级，评价，收获总结
+
+## 得到
+得到是我非常喜欢的平台，日更的内容非常丰富，有很多优秀的老师，我在这里学习了很多知识，也收获了很多。它的APP长期位于我的手机首屏，除了免费的《罗胖精选》《得到头条》等栏目外，我在这里学习的课程有：
+
+- [吴军来信·世界文明史](https://www.dedao.cn/course/detail?id=D75xge6dAqWVpPas3eVYRzmGO14jPZ) 2022-10-24开始学习，尚未学完
+- [吴军·硅谷来信](https://www.dedao.cn/course/detail?id=1w2YlEkp7AMKr5ahY3Xy4Zd8oLjg0a) ★★★★★ 非常精彩的专栏，没有固定的主题，却展示了吴军的广度和深度，每一期都是精品。主题包括并不限于工作和成长、生活和艺术、投资和创业、旅行和教育、硅谷和中关村。
+- [硅谷来信2·谷歌方法论](https://www.dedao.cn/course/detail?id=PZNRwQ0qL1MVEbAskxJ3lmz4kgWEnx) ★★★★★ 这一季主要包含四个话题：Google的计算机思维、改变人类的发明逻辑、世界一流的教育理念和学习方法、社会和职场中的人生智慧。 其中教育和职场内容让我收获最大。此外老师看歌剧，旅行游记的内容也让我非常向往，这就是精神和物质都双丰富的成功人士的生活吧。
+- [吴军·硅谷来信3](https://www.dedao.cn/course/detail?id=1w2YlEkp7AMKr5ahDjXy4Zd8oLjg0a) ★★★★★ 相比主题课程，更喜欢看吴老师不限主题的专栏。包罗万象，这一季包括商业、投资、教育、成长、科技、生活、文艺、历史。让我看见了更远的世界。
+- [吴军·信息论40讲](https://www.dedao.cn/course/detail?id=m0GbPnO9NwlJ9p1svZV7p6kr5LQxRd) ★★★★ 从能量和信息量两个角度分析人类的科技进化史。
+- [吴军·阅读与写作50讲](https://www.dedao.cn/course/detail?id=m0GbPnO9NwlJ9p1s6eV7p6kr5LQxRd) 断断续续，没有学完
+- [香帅中国财富报告25讲（2019-2020）](https://www.dedao.cn/course/detail?id=40OR3Yl1pDaJL5DhvaX8wBmNxykP9n) ★★★★★ 每年都听香帅的财富报告，第一季是最精彩的，尤其是房产篇，听了两遍。
+- [香帅中国财富报告（2020-2021）](https://www.dedao.cn/course/detail?id=PZNRwQ0qL1MVEbAsQ8J3lmz4kgWEnx) ★★★ 今年的财富报告没有第一季精彩，感觉内容少了点，意犹未尽。
+- [香帅中国财富报告（2021-2022）](https://www.dedao.cn/course/detail?id=9LnlWEqDj76VzmMsE5KmOA4epMBPxa) ★★★★ 今天多了一些加密资产相关的内容，老师也是与时俱进，比较能把我年轻人的投资诉求。
+- [香帅中国财富报告（2022-2023）](https://www.dedao.cn/course/detail?id=27YMAa9qPv4VMnQsa8Jen0RE5dGLlO) 尚未听完。
+- [薛毅然·怎样找准你的职业路线](https://www.dedao.cn/course/detail?id=Y80DAGnRNE7J3mns9pKLzgZpax1dO5) 2022年职业迷惘期听的，尤其是个人使用说明书的内容，很有启发，记得是从桐庐开车会杭州的路上，听了好几遍。
+- [高爽·天文学通识30讲](https://www.dedao.cn/course/detail?id=wQG0xjrRlNamKY1f8yKg5k293pyOqM) ★★★★ 有很多新的内容，比我小时候学到的天文学知识更新，让我重新对天文学产生了兴趣。记得很多课是在余杭塘河上划浆板时候听的，目前还有一遍听一遍在阳台冲洗桨板的回忆。
+- [刘润·商业洞察力30讲](https://www.dedao.cn/course/detail?id=v12pOMZN7mbJwgMs2pJDrjxdYaGkoE) 刘润老师特殊的嗓音和语气，开拓了我在商业思维的眼界。
+- [刘润·商业通识30讲](https://www.dedao.cn/course/detail?id=nb9L2q1e3OxKBPNsZZJrgN8P0Rwo6B) ★★★★★ 很多思维模型，值得听多几遍。
+
+## 喜马拉雅
+喜马拉雅最初是听书平台，现在的应该是华语圈内容最丰富的音频分享平台，包罗万象，我最常听的是科普和历史内容。
+
+- [科学史评话](https://www.ximalaya.com/zhubo/10946830) 用评书的来讲科学史的科普内容，吴京平的内容我计划都听一遍！
+  - [量子力学外传](https://www.ximalaya.com/album/3308560) ★★★★★ 太精彩了！这是我在喜马拉雅上听的第一个科普类的评书。之前以为评书都是《三国》《水浒》金庸武侠之类的，第一次听到科普类的评书，爱因斯坦pk波尔的各种思想实验，大开眼界，评书还能这么讲！
+  - [行星传奇](https://www.ximalaya.com/album/304601) ★★★★ 行星科普，包括柯伊伯带，褐矮星等。
+  - [航母简史](https://www.ximalaya.com/album/5411224) ★★★★★ 2022-12到2023-未完结 既有航母的科学史，也有二战的军事史。
+- [三体广播剧](https://www.ximalaya.com/album/30816438) ★★★★★ 2021，又是大开眼界，扩展认知边界的内容。首先是三体，早就想看了，可是三本大部头的书一直没能沉下心来看进去。于是跑到喜马拉雅想听评书，有多个版本，几人的评书版本也还不错，但广播剧版本太强了！每个角色都有自己的配音演员，再加上旁边，主题曲。除了没视频，就如同电视剧一样。每天下班路上听，听到第三部追上了周更的连载。
+- [二战史话之太平洋战争](https://www.ximalaya.com/album/48199826) ★★ 讲得不错，就是太监了！另外顺序也有些问题~
+- [二战史话](https://www.ximalaya.com/album/56112456) VIP的付费内容，上面太监的内容的后续在这里。
+## 极客时间
+
+# 播客节目
+## 小宇宙
+小宇宙是个新的播客平台，推荐系统挺好，而且新的领域的内容（比如区块链技术）远远超过传统的平台。
