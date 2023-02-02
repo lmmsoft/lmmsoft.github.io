@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 我的清单
+title: List
 comments: yes
 permalink: /list/
 ---

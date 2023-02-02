@@ -56,7 +56,7 @@ excerpt_separator: <!--more-->
 
 
 ### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+ShowContactInfo: "True" # Personal Info (twitter, github, email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "cn" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
 
@@ -81,6 +81,7 @@ locales:
     Subscribe: "Subscribe"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   cn:
     Aboutme: "关于我"
     Archives: "存档"
@@ -101,6 +102,7 @@ locales:
     Subscribe: "订阅"
     ReadMore: "继续阅读→"
     RunningPage: '跑步记录'
+    List: '我的清单'
   jp:
     Aboutme: "著者"
     Archives: "アーカイブ"
@@ -121,6 +123,7 @@ locales:
     Subscribe: "購読"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   pl:
     Aboutme: "O mnie"
     Archives: "Archiwum"
@@ -141,6 +144,7 @@ locales:
     Subscribe: "Subskrypcja"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   kr:
     Aboutme: "저자 소개"
     Archives: "모든 게시물"
@@ -161,6 +165,7 @@ locales:
     Subscribe: "구독하기"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   ru:
     Aboutme: "Обо мне" # = 'About me'
     Archives: "Архив"
@@ -181,6 +186,7 @@ locales:
     Subscribe: "Подписаться"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   tr:
     Aboutme: "Hakkımda"
     Archives: "Arşivler"
@@ -201,6 +207,7 @@ locales:
     Subscribe: "Abone Ol"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'
   id:
     Aboutme: "Tentang Saya"
     Archives: "Arsip"
@@ -221,3 +228,4 @@ locales:
     Subscribe: "Langganan"
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
+    List: 'My List'

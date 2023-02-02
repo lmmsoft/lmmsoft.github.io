@@ -16,6 +16,8 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
 ## Changelog
+- 2023-02-02
+  - 增加 我的清单 页面
 - 2023-02-01
   - 增加 plausible.io 统计，号称GA平替
 - 2023-01-30
