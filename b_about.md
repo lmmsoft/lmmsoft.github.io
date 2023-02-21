@@ -38,3 +38,5 @@ permalink: /about/
 工作之外，我还游泳，骑车，跑步，铁三，踢球，背包旅行，暴走，潜水，自驾，爬雪山，读历史，码字。。。
 
 这个博客，我会主要用来记录生活中的有趣事情~
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=4Fxzx4HStaWZjEfkndT9sVSysr4CfHbDHWidS6G0J-I&cl=ffffff&w=a"></script>
