@@ -16,6 +16,10 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
 ## Changelog
+- 2023-02-21
+  - about页 增加 访客地理位置统计地图 widget
+    - https://clustrmaps.com/
+    - 使用谷歌邮箱登录
 - 2023-02-02
   - 增加 我的清单 页面
 - 2023-02-01
