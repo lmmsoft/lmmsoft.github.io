@@ -32,6 +32,10 @@ Blogroll:
     href: https://ring0.me/
     title: Bojie Li's blog
     description: "华为天才少年，计算机网络大拿，OI，数学竞赛"
+  - name: Light Cube
+    href: https://github.red/
+    title: E99p1ant's blog
+    description: "信息安全蒟蒟"
 
 # 导航栏的外链
 header_link:
