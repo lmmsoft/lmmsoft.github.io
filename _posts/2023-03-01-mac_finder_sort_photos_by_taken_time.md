@@ -25,13 +25,15 @@ MacOS也有排序功能，但自定义的列非常少，只能根据文件的创
 
 那么MacOS是否有原生的方法在finder里按照照片拍摄时间排序呢？
 
-经过一番搜索，结论是，不行！要么使用 Photos 应用，想要在finder里使用就必须通过第三方工具！
+经过一番搜索，结论是，**不行！**
+
+要么使用 Photos 应用，想要在finder里使用就必须通过第三方工具！
 
 ![app](../images/mac_finder_sort_photos_by_taken_time_3.png)
 
 推荐的免费工具：EXIF Renamer
-- 官方网站： https://www.qdev.de/?location=mac/exifrenamer
-- 下载地址： https://www.qdev.de/download.php?file=ExifRenamer.dmg
+- 官方网站： [https://www.qdev.de/?location=mac/exifrenamer](https://www.qdev.de/?location=mac/exifrenamer)
+- 下载地址： [https://www.qdev.de/download.php?file=ExifRenamer.dmg](https://www.qdev.de/download.php?file=ExifRenamer.dmg)
 ![app_setting](../images/mac_finder_sort_photos_by_taken_time_4.png)
 
 特性（一句话总结：麻雀虽小，五脏俱全）：
@@ -42,7 +44,8 @@ MacOS也有排序功能，但自定义的列非常少，只能根据文件的创
 
 我使用的参数如下:
 > %P%Y-%M-%D_%h-%m-%s%S_%o%C%F
-> 解释： 前缀_年-月-日_时-分-秒_后缀_旧文件名.扩展名
+
+解释： 前缀_年-月-日_时-分-秒_后缀_旧文件名.扩展名
 
 
 参考资料：
