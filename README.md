@@ -20,6 +20,7 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
   - 安装 pangu 工具，用于中文排版自动格式化
 > pip install -U pangu
 > pangu -f ./_posts/2023-03-01-mac_finder_sort_photos_by_taken_time.md >> ./_posts/2023-03-01-mac_finder_sort_photos_by_taken_time.md
+> tekorrect -f _posts/2023-03-01-mac_finder_sort_photos_by_taken_time.md
 - 2023-03-02
   - 文章无法显示，经过检查，是文件名格式问题，错误❌2023-03-01_xx.md 正确✅2023-03-01-xx.md 太隐晦，太坑啦~
   - 图片可以使用 ![app](../images/xx.png) 格式, pycharm本地预览可以，github pages也可以正常显示
