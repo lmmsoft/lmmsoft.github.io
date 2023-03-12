@@ -15,6 +15,12 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 # github
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
+## 发布文章前的自查清单
+- yml头里的日期是否正确？不能使用未来的时间，jekyll在编译时会忽略未来时间的文章
+- 文件名是否符合规范？ 2023-03-01_xx_yy.md 就编译不出来，要用 2023-03-01-xx_yy.md 注意下划线
+- 是否已使用 tekorrect -f _posts/2023-03-01-xx_yy.md 格式化文章?
+- 是否需要加入 <!--more--> 标记，用于首页文章摘要显示
+
 ## Changelog
 - 2023-03-07
   - 安装 pangu 工具，用于中文排版自动格式化
