@@ -27,7 +27,7 @@ permalink: /about/
 
 🗒这个博客，希望能永久储存我在互联网上留下的痕迹。
 
-🔗 [微博](https://weibo.com/lmm333) / [知乎](https://www.zhihu.com/people/mm.lou) / [哔哩哔哩](https://space.bilibili.com/385883467) / [小红书](https://www.xiaohongshu.com/user/profile/5a064bbfb1da1471b0adc436) / [抖音](https://www.douyin.com/user/MS4wLjABAAAAuzST05UwbqfZc0sPvVmEcldC9WUXBvSkpZWl33vx_oA) / 明明如月的成长笔记@公众号 / 明明如月爱生活@视频号 
+🔗 [微博](https://weibo.com/lmm333) / [知乎](https://www.zhihu.com/people/mm.lou) / [哔哩哔哩](https://space.bilibili.com/385883467) / [小红书](https://www.xiaohongshu.com/user/profile/5a064bbfb1da1471b0adc436) / [抖音](https://www.douyin.com/user/MS4wLjABAAAAuzST05UwbqfZc0sPvVmEcldC9WUXBvSkpZWl33vx_oA) / 明明如月成长笔记@公众号 / 明明如月成长笔记@视频号 / lmmsoft@个人微信(备注来自博客) 
 
 ## 自我介绍 2018-05
 
