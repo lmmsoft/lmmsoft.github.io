@@ -51,7 +51,7 @@ acmicpc.info 主办的 diy 群聚衣服，我要了幅图，反白之后印在�
 
 # 2013 台湾地图
 骑车环岛的时候，在垦丁猫鼻头公园里买的，后半程一直穿在身上，回来后让队友签名留念，永久珍藏~
-!()[https://farm4.staticflickr.com/3777/13753817235_e5c017007f_o.jpg]
+![](../images/2014-04-10-my_favourite_tshirt_7.jpg)
 
 # 2014 TBD
 想自己设计一件~
