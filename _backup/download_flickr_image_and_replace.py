@@ -6,8 +6,17 @@ import requests
 dir_path = '../_posts/'
 
 # 定义正则表达式匹配图片行和flickr图片url
-img_pattern = re.compile(r'!\[.*?\]\((.*?)\)')
+md_img_pattern = re.compile(r'!\[.*?\]\((.*?)\)')
+html_image_pattern = re.compile(r'<img.*?src="(.*?farm8\.staticflickr\.com.*?)".*?>')
+
 flickr_pattern = re.compile(r'staticflickr\.com')
+
+# file_type = '.html'
+file_type = '.md'
+if file_type == '.html':
+    img_pattern = html_image_pattern
+else:
+    img_pattern = md_img_pattern
 
 
 def get_count(count, all_image_url):
@@ -59,10 +68,11 @@ def handle_all():
     # 遍历目录下所有md文件
     for root, dirs, files in os.walk(dir_path):
         for file in files:
-            if file.endswith('.md'):
+            if file.endswith(file_type):
                 count = handle_file(file, root)
                 # if count > 1:
                 #     exit()
+
 
 '''
 [x] 递归遍历目录， 找到所有 md 文件，找到 ![]() 格式的图片
@@ -71,6 +81,8 @@ def handle_all():
 [x] 替换 url, 本地预览 + github 能用
 [x] a/b test 先搞一个文件试试
 [x] 本地格式替换 /images/qiniu-trail-151205hangzhou-25 替换为 ../images/mac_finder_sort_photos_by_taken_time_1
+[x] 兼容 html 格式
+[x] 兼容 md 格式
 '''
 if __name__ == '__main__':
     handle_all()
