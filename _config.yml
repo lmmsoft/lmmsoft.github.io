@@ -36,6 +36,10 @@ Blogroll:
     href: https://github.red/
     title: E99p1ant's blog
     description: "信息安全蒟蒟"
+  - name: skykens
+    href: https://skykens.github.io/
+    title: 现役程序员skykens的博客
+    description: "程序员, 游戏, DevOps"
 
 # 导航栏的外链
 header_link:
