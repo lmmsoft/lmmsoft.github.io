@@ -22,6 +22,10 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 是否需要加入 <!--more--> 标记，用于首页文章摘要显示
 
 ## Changelog
+- 2023-03-22
+  - 新增 Jekyll 的中文字数统计插件
+  - 参考文章 https://blog.fooleap.org/jekyll-count-of-chinese-characters.html
+  - 多语言没做，嫌麻烦，都是中文
 - 2023-03-19
   - 使用chatgpt写代码，下载.md/.html文件中flickr的图片到本地，使用github做图床
 - 2023-03-07
