@@ -23,6 +23,11 @@ layout: default
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
     {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%Y-%m-%d" }}
     </time>
+
+    {{ page.content | strip_html | strip_newlines | remove: " " | size }}
+
+    {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }}
+
     </p>
   </header>
 
