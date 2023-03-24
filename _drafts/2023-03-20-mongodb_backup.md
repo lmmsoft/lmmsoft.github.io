@@ -53,6 +53,11 @@ name: mongodb backup
 
 ```
 
+- 试过 MongoDB in GitHub Actions， 好像没有 mongodump 命令
+  - https://github.com/marketplace/actions/mongodb-in-github-actions
+- 于是改用docker, github action 运行docker 参考这里
+  - https://github.com/marketplace/actions/docker-run-action
+
 ## 踩坑
 我使用了Azure Cosmos DB for MongoDB，底层是 Azure Cosmos DB， 上层给了MongoDB的API，所以可以使用MongoDB的命令来操作，但是有一些限制，比如不支持retryWrites，这里记录一下踩坑的过程。
 
