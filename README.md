@@ -20,8 +20,11 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 文件名是否符合规范？ 2023-03-01_xx_yy.md 就编译不出来，要用 2023-03-01-xx_yy.md 注意下划线
 - 是否已使用 tekorrect -f _posts/2023-03-01-xx_yy.md 格式化文章?
 - 是否需要加入 <!--more--> 标记，用于首页文章摘要显示
+- 图片尺寸太大，是否需要压缩？ https://tinypng.com/
 
 ## Changelog
+- 2023-03-30
+    - 打通卡点，第一篇博客和公众号同发的文章
 - 2023-03-22
   - 新增 Jekyll 的中文字数统计插件
   - 参考文章 https://blog.fooleap.org/jekyll-count-of-chinese-characters.html
