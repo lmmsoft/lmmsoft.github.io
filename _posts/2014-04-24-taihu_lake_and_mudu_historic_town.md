@@ -24,8 +24,8 @@ tags:
 # 2014-03-08 太湖西山，林屋洞，缥缈峰
 - 11:12AM 好基友 Lucas 抵达苏州站（人物介绍在最后），然后我们沿北环，太湖大道，直奔太湖
 - 1200PM 到达太湖，先吃再玩，有山有水
-- 先来张全景，摄于林屋洞，点击可看大图
-[![](../images/2014-04-24-taihu_lake_and_mudu_historic_town_01.jpg)](https://www.flickr.com/photos/77913831@N03/13102212545/)
+- 先来张全景，摄于林屋洞
+![](../images/2014-04-24-taihu_lake_and_mudu_historic_town_01.jpg)
 
 ## 太湖三白吃起来
 - 太湖三白：白虾，白鱼，银鱼

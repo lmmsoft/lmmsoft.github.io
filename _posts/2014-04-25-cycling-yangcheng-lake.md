@@ -134,8 +134,8 @@ tags:
 ![](../images/2014-04-25-cycling-yangcheng-lake_51.jpg)
 - 左边是京沪高铁喔
 ![](../images/2014-04-25-cycling-yangcheng-lake_52.jpg)
-- 湖水好蓝吖，点击可以看大图
-[![](../images/2014-04-25-cycling-yangcheng-lake_53.jpg)](https://www.flickr.com/photos/77913831@N03/14016687093//)
+- 湖水好蓝吖
+![](../images/2014-04-25-cycling-yangcheng-lake_53.jpg)
 
 ## 阳澄湖半岛
 - 重点来啦，阳澄湖半岛的自行车道是
