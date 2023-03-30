@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 permalink: /shanghai_history_museum/
 categories:
-- 我的游记
+- Travel-游记
 tags:
 - 上海
 - 博物馆
