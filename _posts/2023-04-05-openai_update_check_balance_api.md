@@ -13,17 +13,19 @@ tags:
 - ChatGPT
 ---
 # TL;DR
-OpenAI修改了查询API余额的方式，原来使用api_key的方式已经失效，现在需要使用session key：
+OpenAI修改了查询API余额的方式，原来使用api_key的方式已经失效，现在需要使用session key
 
 # 背景
 
 新注册的 OpenAI 账号会赠送 18 美金的免费API用量，可以用来学(bai)习(piao)，如何查询余额呢？
 
-登陆网页 https://platform.openai.com/account/usage 是标准查询方式，但是如果多账号多 api key 轮流使用的话，挨个登陆网页比较麻烦，是否可以通过 API 查询呢？**答案是肯定的**
+登陆网页 https://platform.openai.com/account/usage 是标准查询方式，但是如果多账号多 api key 轮流使用的话，挨个登陆网页比较麻烦，是否可以通过 API 查询呢？
+
+**答案是肯定的**
 
 # 旧 API 与报错
 
-旧的API是 https://api.openai.com/dashboard/billing/credit_grants 把api_key加入到header中即可， shell 和 python 参考代码如下
+旧的API是 https://api.openai.com/dashboard/billing/credit_grants 把api_key加入到header中即可， curl 和 python 参考代码如下
 
 ```shell
 curl -X GET https://api.openai.com/dashboard/billing/credit_grants \
@@ -60,7 +62,9 @@ print( response.json())
 
 报错的意思是"只能使用 session key 请求，也就意味着只能用浏览器网页打开"。
 
-按照它的说法，以后只能在网页 https://platform.openai.com/account/usage 上查询API的余额了，那么真的不能使用API了吗？**答案是否定的**
+按照它的说法，以后只能在网页 https://platform.openai.com/account/usage 上查询API的余额了，那么真的不能使用API了吗？
+
+**答案是否定的**
 
 # 新 API 用法
 
@@ -71,20 +75,21 @@ session key可以在 https://platform.openai.com/account/usage 网页的请求�
 
 在浏览器按 F12 打开调试模式，在【网络】里找到  credit_grants 请求
 
-然后在请求的【标头】里找到 authorization 后面的 Bearer sess-xxxx 就是 session key 了
+然后在【标头】里找到 authorization ，后面的 Bearer sess-xxxx 就是 session key 了
 
 ps: 【响应】里可以看到余额，格式和后面api返回是一样的
 
 ![session key 如何获取](../images/23-04-05/2023-04-05-openai_update_check_balance_api-01.png)
 
 
-## 参考代码
+## 新 API 参考代码: shell
 ```shell
 curl -X GET https://api.openai.com/dashboard/billing/credit_grants \
          -H "Content-Type: application/json" \
          -H "Authorization: Bearer sess-xxxx"
 ```
 
+## 新 API 参考代码: python
 ```python
 import requests
 
