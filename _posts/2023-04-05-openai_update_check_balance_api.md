@@ -130,3 +130,6 @@ OpenAI的论坛上查了一下，有多种说法：
 3. 还有人说是4月1日之后大量封号，有的账号4/1之前有 $18 并且能用，4/1之后突然变成0了
 
 看来和最近的大量封号有关，结合画图的AI服务 Midjourney 开始收费，OpenAI 突然加强封控，也许白嫖时代正式结束，AIGC正式进入全面收费时代了，且行且珍惜吧~
+
+## StackOverflow 问题
+本文已回答StackOverflow的问题：[《API to get current balance $$/tokens》](https://stackoverflow.com/questions/75703189/api-to-get-current-balance-tokens/75942443#75942443) 欢迎点赞，帮助到更多的人~
