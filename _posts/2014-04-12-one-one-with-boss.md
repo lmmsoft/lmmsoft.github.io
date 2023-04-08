@@ -1,18 +1,18 @@
 ---
-title: One one with boss
+title: One-one with boss
 date: 2014-04-12T05:16:22Z
 author: lmm333
 layout: post
 permalink: /one-one-with-boss/
 categories:
-  - 【挨踢生涯】
+- 挨踢生涯
 tags:
-  - one-one
+- one-one
 ---
 
 老板问我对办公室有什么意见，上面要收集反馈，我说豆浆太少，老板说那是你来得太晚，我每天都有的喝，23333333
 
-第二天，我来得很早，最后3包豆浆被我拿来2袋，老板又说，太阳从西边出来了，
+第二天，我来得很早，最后3包豆浆被我拿来2袋，老板又说，太阳从西边出来了...
 
 昨天1-1的开场白是：听说奶茶是你的女神，你对强东怎么看？这几天是不是不开心，23333333
 
