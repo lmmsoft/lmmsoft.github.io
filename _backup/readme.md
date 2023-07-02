@@ -9,3 +9,5 @@
   - 2023-01-17 导出的 inoreader简略数据
 - rss_feedly-2023-01-16.opml
   - 203-01-17 导出的 feedly 原始数据
+- rss_NetNewWire-Subscriptions-iCloud-230701.opml
+  - 2023-07-01 导出的 NetNewWire icloud数据
