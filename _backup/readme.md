@@ -1,12 +1,14 @@
 # 数据
-- feedly 基本等同于 google reader的数据，160个订阅源，接着2023-01-17, 40个三个月没发文，80个已失效
+- feedly 基本等同于 google reader的数据，160个订阅源
+  - 2023-01-17, 40个三个月没发文，80个已失效
 - inoreader 有 350+个订阅源，更丰富一点
+- NetNewsWire 主要是web3订阅源，还包括些近期的收集
 
 # 文件
 - rss_Inoreader export 20230117
-  - 2023-01-17 导出的 inoreader详细数据
+  - 2023-01-17 导出的 inoreader 详细数据
 - rss_Inoreader Feeds 20230117.xml
-  - 2023-01-17 导出的 inoreader简略数据
+  - 2023-01-17 导出的 inoreader 简略数据
 - rss_feedly-2023-01-16.opml
   - 203-01-17 导出的 feedly 原始数据
 - rss_NetNewWire-Subscriptions-iCloud-230701.opml
