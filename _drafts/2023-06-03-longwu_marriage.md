@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /longwu_marriage/
 categories:
-- 玩乐
+- 我的生活
 tags:
 - 龙坞
 - 婚礼
