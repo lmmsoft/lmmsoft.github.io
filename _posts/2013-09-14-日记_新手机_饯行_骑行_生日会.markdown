@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 permalink: /bike_trip_and_fantuan_party/
 categories:
-- 日记
+- 我的生活
 tags:
 - 公众号
 links:

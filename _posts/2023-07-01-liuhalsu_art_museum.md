@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /liuhaisu_art_museum/
 categories:
-- 我的旅行
+- Travel-游记
 tags:
 - 博物馆
 - 美术馆

@@ -4,7 +4,7 @@ date: 2011-01-04 11:51:00 +0800
 layout: post
 published: true
 comments: true
-category: 默认分类
+category: acm比赛
 moveForm: baidu_qing
 ---
 <div> <p>http://poj.org/problem?id=3737</p><p>题意：给出圆锥的表面积（包含底面的圆），求圆锥的最大体积，并输出高与半径</p><p>&nbsp;</p><p>常规思路：</p><p>推公式：</p><p>S=pi*r*l + pi*r*r</p><p>&nbsp;l=sqrt(r*r+h*h)，</p><p>联立得， r*2= s*s/(pi*pi*h*h+2*pi*s)</p><p>&nbsp;V=(1/3)*pi*r*r*h，</p><p>代入r*2，求导，令一阶导数为0，</p><p>得出结果h=sqrt(2*s/pi)</p><p>&nbsp;r=sqrt(s*s/(pi*pi*h*h+2*pi*s))&nbsp;</p><p>把h代到r里面，可以得到r=sqrt(s/pi/4)</p><p>v=(1.0/3.0)*(s*s)*h/(pi*h*h+2*s)</p><p>&nbsp;</p><p>其他思路：</p><p>直接二分f'(x)=0</p><p>left=0.0right=sqrt(s/2pi)...</p><p><br /></p><p>ws思路：</p><p>先用excel暴力（三分搜索）出样例的一个比较精确的解：</p><p>v=10.9254843059207</p><p>&nbsp;h=4.37019320246246</p><p>&nbsp;s=1.5450969&nbsp;</p><p>&nbsp;设输入的数是样例的d*d倍（也就是把样例等比例放大d倍）</p><p>&nbsp;v'=v*d*d*d</p><p>&nbsp;h'=h*d</p><p>&nbsp;s'=s*d&nbsp;</p><p>&nbsp;比赛的时候忘记求导公式原来可以用这种ws的方法^_^</p><p>&nbsp;</p><p>ps:可能因为这题数据范围小（1≤<i>S</i>≤10000）而且输出精读要求低（0.01）吧</p><p>&nbsp;</p><p>注意：</p><p>1.pi用&nbsp;#define PI acos(double(-1))&nbsp;比较稳妥，有人pi到了15位ac</p><p>2.printf&nbsp;把%.2f改成%.2lf可能就过了</p><p>3.我用%.2lf &nbsp;g++ wa &nbsp;然而&nbsp;c++ ac</p><p>用%.2f &nbsp;g++ c++都ac了</p><p>&nbsp;</p><p></p> </div>
