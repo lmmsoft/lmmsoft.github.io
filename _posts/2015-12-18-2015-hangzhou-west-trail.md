@@ -18,7 +18,7 @@ tags:
   - 杭州hangzhou
   - 越野trail
 ---
-![00起点照](/images/qiniu-trail-151205hangzhou-00.jpg)
+![00起点照](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-00.jpg)
 
 # 背景：
 
@@ -34,32 +34,32 @@ tags:
 - 周五下班就赶上了去杭州的高铁，由于没买到合适的车子二等座卖光了，被迫买了一等座，从头睡到尾
 - 七点多赶到杭州，小伙伴推荐了知味观，一人食，点了片儿川和蟹黄小笼包
 - 赶到宾馆，拍完定妆照，碎觉，结果夜里太兴奋，不仅醒了好几次，还流了鼻血，一共只睡了2-3小时吧
-![01定妆照](/images/qiniu-trail-151205hangzhou-01.jpg)
+![01定妆照](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-01.jpg)
 <!--more-->
 - 早起吃了点士力架，泡了杯咖啡赶往起点法华寺，现场领参赛包太慢了，志愿者都是大学生，不太熟练，直到起泡赛前5分钟才拿到，来不及热身，匆匆脱衣服存包，参赛手册瞥一眼，拍张照片就冲过拱门了
-![02拱门](/images/qiniu-trail-151205hangzhou-02.jpg)
+![02拱门](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-02.jpg)
 
 ## 起点法华寺->A1大岭 9.5km 用时2h07m
 
 - 刚出发，路上没人指引，最前面的大部队没出发多久就跑进了一个死胡同（杭电信科院），我因为起跑慢，没进死胡同，少跑不少距离，还前进许多名次，挺开心的，哈哈~
 
-![04错路](/images/qiniu-trail-151205hangzhou-04.jpg)
+![04错路](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-04.jpg)
 
 - 大概跑了有2公里，开始爬台阶想看看心率的时候，才发现出发太着急，码表/手机都忘了开
 - 爬了一段台阶后，进入一段野道，我一直跟在一个全马进4的阿姨后面，果然越野大神多
 - 这时候可以明显看出山里在下雪，大家都挺兴奋，杭州的初雪算是给我们碰上了~
 
-![05雪景](/images/qiniu-trail-151205hangzhou-05.jpg)
+![05雪景](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-05.jpg)
 
 - 这次赛道上指路的志愿者大多是杭州登山协会的老爷爷，有个一直在数数的爷爷告诉我，过去了138个人，看起来排名还不错^^
 - 一段野道过了之后就开始了遥遥无期的台阶，有个全身粉红色的姑娘特别醒目，后来一直有碰到，用于成绩对比~
 
-![06粉衣](/images/qiniu-trail-151205hangzhou-06.jpg)
+![06粉衣](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-06.jpg)
 
 - 因为没来得及热身，再加上最近跑量少的缘故，A1前心率控制得都不好，随随便便上个坡就170+了，有点怕爆掉~
 - 起点到A1的路标非常得差，前5公里几乎一个都没见到，还以为路边的HZ100黄色带子就是路标呢。好多岔路的路标都难找，或者要靠猜，路标间距也比较远，常常看到好几个其他比赛的路标后才遇到下一个西部越野的路标，让人跑起来很不放心
 
-![07野道](/images/qiniu-trail-151205hangzhou-07.jpg)
+![07野道](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-07.jpg)
 
 - 后来难得遇到段野道，我在最前面领路，跑得比较过瘾，一会儿遇到了一个很野的下坡，难度很大，后面的大哥超过我一段后回头，说感觉是死胡同，半天没看见路标了，后面人的声音也消失了，果然走错了路~
 - 这次迷路让我损失很大，摔了一跤，滑倒4~5次，后来回到大路上还遇到了上坡堵车，损失了很多时间，到A1的时候大概是180多名
@@ -67,80 +67,80 @@ tags:
 
 ## A1大岭-A3外桐坞，9.1km 用时1h35m
 
-![08A1](/images/qiniu-trail-151205hangzhou-08.jpg)
+![08A1](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-08.jpg)
 
 - 过了A1后心态发生很大变化，A1没热水补充，太冷，之前爬台阶时心率动不动就冲破170，太快了，不安全，于是后面上坡绝不提速，慢慢走，平路慢跑，下坡技术差，本来就跑不动
 
-![09自拍](/images/qiniu-trail-151205hangzhou-09.jpg)
+![09自拍](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-09.jpg)
 
 - 30km和45km分叉的地方风景极好，拍了张全景
 
-![10分叉点全景](/images/qiniu-trail-151205hangzhou-10.jpg)
+![10分叉点全景](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-10.jpg)
 
 - 踏上30km道路的时候，志愿者告诉我两边过去的人差不多，可能45km过去的人更多一点
 
-![11亭子](/images/qiniu-trail-151205hangzhou-11.jpg)
+![11亭子](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-11.jpg)
 
 - 一段茶园与村庄平路后，到的A3
  
-![12茶园](/images/qiniu-trail-151205hangzhou-12.jpg)
+![12茶园](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-12.jpg)
 
 ## A3外桐坞-A4小牙坞，5.4km,用时1h27m
 
-![13A3](/images/qiniu-trail-151205hangzhou-13.jpg)
+![13A3](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-13.jpg)
 
 - A3有姜茶和烤山芋，实在是雪中送炭，顺便还要了两个薄膜手套，对后面手部保温很有帮助，可惜下坡抓着树枝，一会儿就划破了，应该多要几个的
 - 跑过一个根雕园
 
-![14根雕](/images/qiniu-trail-151205hangzhou-14.jpg)
+![14根雕](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-14.jpg)
 
 - 山里雾气弥漫
 
-![15雾气](/images/qiniu-trail-151205hangzhou-15.jpg)
+![15雾气](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-15.jpg)
 
 - 在一段路跑后的上坡追上了粉衣女子，记得她是在我后面的，估计是走错路那段被超的T_T
 - 背后的泥是摔的，这会儿已经干了
 
-![16背影](/images/qiniu-trail-151205hangzhou-16.jpg)
+![16背影](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-16.jpg)
 
 - 台阶路上再次超过粉衣女子没过多久，遇到一段野路，迅速又被秒掉了，之后再也没追上了，后来看时间，这段220米左右的野路下坡我落后的5分钟，粉衣15分钟我20分钟的样子，下坡技术差好多，回去得好好练练~
 
-![17泥泞](/images/qiniu-trail-151205hangzhou-17.jpg)
+![17泥泞](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-17.jpg)
 
 ## A4小牙坞-终点法华寺 6k 用时2h21m
 - 下了野坡后路跑了一段，进入A4
 - A4是补给最好的站，有热的姜茶，现烤的山芋和玉米，以至于冰冷的香蕉橘子都没人吃了，我坐下来慢慢吃，又要了两个薄膜手套，休息了近10分钟才上路，最后6km啦
 - 赛前功课没做到位，以为最后6k很简单，没想到居然是最虐的，爬了2座山，1座半是湿滑的野道，剩下半座是积雪后的台阶
 
-![18](/images/qiniu-trail-151205hangzhou-18.jpg)
+![18](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-18.jpg)
 
 - 第一个山峰爬得很痛苦，很长一段都一个人，也没看到路标，有点虚，雪后再加上被前人走过，更加泥泞，好多地方都是走一步滑半步
 
-![19](/images/qiniu-trail-151205hangzhou-19.jpg)
+![19](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-19.jpg)
 
 - 下了第一个峰，跑了一段公路，此时手套已经烂了扔掉，双手冻得太凉，看到停在路边的汽车，我几次手凑到后面的排气口暖和一下
 - 下第一座山的时候志愿者告诉我还有4km，下到山底说还有4km，跑了一段公路后志愿者说最后4km，还有最后一座美人峰的时候，我简直要崩溃了
 
-![20](/images/qiniu-trail-151205hangzhou-20.jpg)
+![20](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-20.jpg)
 
 - 美人峰爬了半天没看到路标，前后没人，真是绝望。后来被人追上才安心。爬坡的时候把水袋里的水都喝完了，结果最后一颗螺旋藻与盐丸没办法吃了，记得背包里还有最后一个胶，在美人峰上想让一个女孩子帮忙，结果她的手冻僵，没找到
 
-![21](/images/qiniu-trail-151205hangzhou-21.jpg)
+![21](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-21.jpg)
 
 - 最后这段路实在是痛苦，饥饿，寒冷，没了补给，终点迟迟不到，身体逐渐失去温度，手冻肿了，连手机都拿不出来了T_T
 - 突然发现耳机从起跑就挂在脖子上，居然一直都没开，赶紧打开，用激情的跑步音乐提提神
 
-![22](/images/qiniu-trail-151205hangzhou-22.jpg)
+![22](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-22.jpg)
 
 ## 终点:
 
-![23](/images/qiniu-trail-151205hangzhou-23.jpg)
+![23](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-23.jpg)
 
 - 冲线之后，实在是太冷了，简单拍了张照片，就跑去补给
 - 先喝了一碗粥，一杯姜汤就去领奖牌，成绩证书，取存包，赶紧换装，幸亏比赛包里有组委会发的干爽体恤，要不然穿着湿透的衣服回家，非感冒不可！可惜鞋子没得换，只能换双袜子凑合下
 - 最后阶段可能失温比较严重，一共喝了2碗粥，6杯姜汤才晃过神来，回去的路上还吃了个山芋
 
-![24](/images/qiniu-trail-151205hangzhou-24.jpg)
+![24](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-24.jpg)
 
 # 成绩
 - 最终7h31min完赛，排名30km组66名
@@ -150,7 +150,7 @@ tags:
 - 虽然排名很靠后，但退赛率很高，初次比赛排到了31%，还挺满意
 - 赛后查了下，45km只有7男2女完赛，后来才知道最后6km的两座山被取消，30/45在A4打卡后提前结束
 
-![25](/images/qiniu-trail-151205hangzhou-25.jpg)
+![25](/images/2015-12-15-hangzhou-west-trail/qiniu-trail-151205hangzhou-25.jpg)
 
 ## 比赛总评
 - 赛前服务：差，没找到组织群，签到什么的速度很慢

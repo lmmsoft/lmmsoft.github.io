@@ -20,6 +20,10 @@ tags:
 ## 转票到封号
 ## 香港渠道
 - 思路
-- 链接文档
+### 链接文档
+- [https://lmmsoft.github.io/attachments/2023/19_asian_games_qanda.pdf](问答)
+- [https://lmmsoft.github.io/attachments/2023/19_asian_games_ticket_information.pdf](第一批票价和时间表)
+- [https://lmmsoft.github.io/attachments/2023/19_asian_games_second_schedule.pdf](第二批票价和时间表)
+
 
 # 体育场馆，其他感想
