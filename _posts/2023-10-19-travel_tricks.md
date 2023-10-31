@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /travel_tricks/
 categories:
-  - 我的旅行
+  - 我的游记
 tags:
   - 旅行
   - 自驾

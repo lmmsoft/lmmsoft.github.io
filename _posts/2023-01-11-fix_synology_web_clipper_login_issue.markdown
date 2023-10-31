@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /fix_synology_web_clipper_login_issue/
 categories:
-- 修电脑
+- 挨踢生涯
 tags:
 - 群晖
 - Synology

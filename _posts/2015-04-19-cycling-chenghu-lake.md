@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "3694473599"
 categories:
-  - Travel-游记
+  - 我的游记
 tags:
   - 澄湖
   - 苏州

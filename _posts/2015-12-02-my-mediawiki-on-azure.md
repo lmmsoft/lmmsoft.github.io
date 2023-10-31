@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 permalink: /my-mediawiki-on-azure/
 categories:
-  - 修电脑
+  - 挨踢生涯
 tags:
   - azure
   - mediawiki

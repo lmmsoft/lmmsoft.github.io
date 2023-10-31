@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "3520302240"
 categories:
-  - Summary-总结
+  - 我的总结
 ---
 偶尔也要写点没营养的东西，回头看看应该还蛮好玩的~
 

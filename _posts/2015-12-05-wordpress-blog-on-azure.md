@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 permalink: /My-wordpress-blog-on-azure/
 categories:
-  - 修电脑
+  - 挨踢生涯
 tags:
   - wordpress
   - azure

@@ -7,7 +7,7 @@ comments: true
 published: false
 permalink: /aigc_colab_stable_diffusion/
 categories:
-- 修电脑
+- 挨踢生涯
 tags:
 - 群晖
 - nas

@@ -20,7 +20,7 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 文件名是否符合规范？ 2023-03-01_xx_yy.md 就编译不出来，要用 2023-03-01-xx_yy.md 注意下划线
 - 是否已使用 tekorrect -f _posts/2023-03-01-xx_yy.md 格式化文章?
 - 是否需要加入 <!--more--> 标记，用于首页文章摘要显示
-- 图片尺寸太大，是否需要压缩？ https://tinypng.com/
+- 图片尺寸太大，是否需要压缩？ https://tinypng.com/ 调用api压缩，每个月免费500张，代码已实现
 
 ## Changelog
 - 2023-03-30
@@ -65,3 +65,18 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
   - 全站 https 
 - 2011-11-25
   - 迁移博客园的文章
+
+## 分类
+2023-10-30 精简了分类之后，现有标签和文章数量，降序，供参考
+- acm比赛 41 
+- 我的游记 40
+- 我的生活 39
+- 挨踢生涯 33
+- 我的思考 31
+- 我的总结 20
+- 有趣+好玩(博主推荐) 14
+- 学习笔记 11 
+- 我的练笔 9
+- 我的影评 5
+- 我的自由软件 3 
+- 我的比赛经历 1

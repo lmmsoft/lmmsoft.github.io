@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "3493485522"
 categories:
-  - Travel-游记
+  - 我的游记
 tags:
   - 园林
   - 苏州

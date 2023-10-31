@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "3549703410"
 categories:
-  - Travel-游记
+  - 我的游记
 tags:
   - 古镇
   - 水乡

@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "3494170640"
 categories:
-  - Travel-游记
+  - 我的游记
 tags:
   - 苏州
   - 骑行

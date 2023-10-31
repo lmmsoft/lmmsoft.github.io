@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /mac_finder_sort_photos_by_taken_time/
 categories:
-- 修电脑
+- 挨踢生涯
 tags:
 - mac
 - finder

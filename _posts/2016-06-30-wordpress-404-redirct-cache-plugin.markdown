@@ -3,7 +3,7 @@ layout: post
 title: "Wordpress修改固定链接，配好重定向，依然404的解决方法"
 date: 2016-06-30 23:52:58 +0800
 comments: true
-categories: 修电脑
+categories: 挨踢生涯
 keywords: 404 cache wordprss link
 ---
 

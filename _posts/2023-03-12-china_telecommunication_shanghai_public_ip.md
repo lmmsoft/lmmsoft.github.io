@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /china_telecommunication_shanghai_public_ip/
 categories:
-- 修电脑
+- 挨踢生涯
 tags:
 - 群晖
 - nas

@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /drt_shanghai_show/
 categories:
-- Travel-游记
+- 我的游记
 tags:
 - 潜水
 - 上海

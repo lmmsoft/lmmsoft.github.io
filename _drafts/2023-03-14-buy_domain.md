@@ -7,7 +7,7 @@ comments: true
 published: false
 permalink: /buy_domain/
 categories:
-- 修电脑
+- 挨踢生涯
 tags:
 - 域名
 ---
