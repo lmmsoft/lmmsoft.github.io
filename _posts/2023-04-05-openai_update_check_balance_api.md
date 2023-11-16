@@ -79,7 +79,7 @@ session key可以在 https://platform.openai.com/account/usage 网页的请求�
 
 ps: 【响应】里可以看到余额，格式和后面api返回是一样的
 
-![session key 如何获取](../images/23-04-05/2023-04-05-openai_update_check_balance_api-01.png)
+![session key 如何获取](../images/2023-04-05-openai_update_check_balance_api/2023-04-05-openai_update_check_balance_api-01.png)
 
 
 ## 新 API 参考代码: shell
@@ -122,7 +122,7 @@ print(response.json())
 
 我有个上周新注册的账号，理应有 $18 的免费API用量，但事与愿违，API返回如上面的参考返回所示： "total_granted": 0.0, 总授予额度为0，网页查询如下图，Free trial usage 也是 $0
 
-![网页查询余额](../images/23-04-05/2023-04-05-openai_update_check_balance_api-02.png)
+![网页查询余额](../images/2023-04-05-openai_update_check_balance_api/2023-04-05-openai_update_check_balance_api-02.png)
 
 OpenAI的论坛上查了一下，有多种说法：
 1. 有人说是因为用同一台机器注册了多个账号，后面的号都没api quota

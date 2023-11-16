@@ -56,14 +56,14 @@ tags:
   - 此时会弹出"钥匙串访问"窗口，按照下图的顺序，依次点击 1.系统 2.Charles Proxy CA证书 3.信任 4. 始终信任
   - 关闭窗口时，会弹出密码窗口，输入电脑密码，点击确定，证书就安装并信任成功了
 
-![img.png](../images/23-04-12/cert.png)
+![img.png](../images/2023-04-12-charles_crawler/cert.png)
 
 ## 开始抓包
 - 证书安装完成后，打开 Charles -> Proxy -> 勾选 macOS Proxy
 - Proxy 打开后，用浏览器访问的记录都会记录在 Charles 中
 - 此时Charles界面上记录下所有网络请求，如果没有开始，点击 Proxy -> Start Recording 手动开始
 
-![img_1.png](../images/23-04-12/macos_proxy.png)
+![img_1.png](../images/2023-04-12-charles_crawler/macos_proxy.png)
 
 ## 打开全部网站的 https 解析
 - Charles 默认不会解密http的请求，看到的返回都是乱码，需要手动添加需要解密的网址，这里我们用通配符添加所有网站
@@ -71,7 +71,7 @@ tags:
 - 在打开的窗口中，SSL Proxying 下点击 Add, 添加 Host: * , Port: 443, 点击 OK
 - 此时所有 https 请求都会解密
 
-![img.png](../images/23-04-12/https.png)
+![img.png](../images/2023-04-12-charles_crawler/https.png)
 
 到此 Charles 的配置就完成了，可以顺利完成后续的抓包任务。如果没搞清楚，可以观看这个视频，讲得很详细 https://www.zhihu.com/zvideo/1409544387408424960
 
@@ -81,7 +81,7 @@ tags:
 - 这里用使用微信电脑版，实现手机上同样的操作，Charles 可以直接抓包，比较方便
 
 - 下图是微信网页里搜索门票的页面，可以看见所有时段的票都是 "余量0"
-![img_2.png](../images/23-04-12/ticket_status.png)
+![img_2.png](../images/2023-04-12-charles_crawler/ticket_status.png)
 
 - 打开 Charles， 在 sequence 里查看网页的请求
 - 如果电脑上的请求过多，看花了眼，可以用界面中间的 Filter 过滤，输入网址中的关键词 taoart
@@ -89,18 +89,18 @@ tags:
 - 可以看出请求有两种， /ticket/ajax-ticket-date.htm 和 /ticket/ajax-time.htm
 - 根据下方返回的 json 内容判断， ajax-ticket-date.htm 对应上图中的选择票种，ajax-time.htm 对应上图中的选择场次，选择场次就是我们想要的余票数据。
 
-![img_3.png](../images/23-04-12/charles_ui.png)
+![img_3.png](../images/2023-04-12-charles_crawler/charles_ui.png)
 
 # 六、用 Python 写爬虫
 抓到了具体请求之后，我们就可以写爬虫轮询了，发现余票就发通知，然后手动下单（自动下单涉及支付，比较麻烦，暂时没精力折腾）
 
 ## 找到 curl
 在Charles里，右键点击我们想要的请求（这里就是 /ticket/ajax-time.htm） -> Copy cURL Request
-![img_5.png](../images/23-04-12/copy_curl.png)
+![img_5.png](../images/2023-04-12-charles_crawler/copy_curl.png)
 
 ## 测试 curl
 打开"终端"，粘贴刚才复制的 curl 请求，回车。如果返回如下图所示的 json 数据，{"success": true, ...} 说明这个请求可以直接使用。
-![img_4.png](../images/23-04-12/curl.png)
+![img_4.png](../images/2023-04-12-charles_crawler/curl.png)
 
 ## 用 ChatGPT 把 curl 转换成 python requests 代码
 - 询问 ChatGPT，要求它帮我们把 curl 转换成 python 代码，参考 prompt 如下 
@@ -114,7 +114,7 @@ curl -H "Host: ws.taoart.com" -H "Accept: application/json, text/javascript, */*
 
 - 小提示：如果你使用代理访问 ChatGPT，代理可能会和 Charles 冲突，导致同时只有一个能用
 - ChatGPT 的回复如下图所示，直接给出了可用的 python 代码
-![img_7.png](../images/23-04-12/chatgpt_curl.png)
+![img_7.png](../images/2023-04-12-charles_crawler/chatgpt_curl.png)
 
 生成的代码如下（用 ****** 代替了部分隐私信息）
 
@@ -183,7 +183,7 @@ for export in exports:
 - 也可以给 ChatGPT 提需求，让它帮忙写代码
 - 比如我问 "优化上面的代码，定时每30秒运行一次"， ChatGPT 写了个 while True + sleep 的死循环，和我想的一样
 
-![img_8.png](../images/23-04-12/chatgpt_time.png)
+![img_8.png](../images/2023-04-12-charles_crawler/chatgpt_time.png)
 
 ```python
 import time
@@ -208,7 +208,7 @@ while True:
 
 
 - 我自己比较熟悉钉钉机器人， 让 ChatGPT 帮我写出参考代码
-![img_9.png](../images/23-04-12/chatgpt_ding.png)
+![img_9.png](../images/2023-04-12-charles_crawler/chatgpt_ding.png)
 
 ```python
 import requests
@@ -243,7 +243,7 @@ print(response.text)
 # 最终代码
 - 把爬虫和通知组合起来，最终代码如下，可以直接运行，抢票成功后，会发钉钉消息
 - github 地址: https://github.com/lmmsoft/crawler/blob/main/ticket.py
-![img.png](../images/23-04-12/ding_group.png)
+![img.png](../images/2023-04-12-charles_crawler/ding_group.png)
 
 # 下回预告
 - 我最终有没有抢到票？除了自己抢到票外，后续如何变现？请关注后续的文章~
