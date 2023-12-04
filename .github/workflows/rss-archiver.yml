@@ -21,5 +21,7 @@ jobs:
         pip install wordpress-rss-archiver
 
     - name: Run archiver
+      env:
+        IA_S3: ${{ secrets.IA_S3 }}
       run: |
-        wordpress-rss-archiver https://lmmsoft.github.io/feed.atom --ia-s3 ${{ secrets.IA_S3 }}
+        wordpress-rss-archiver https://lmmsoft.github.io/feed.atom --ia-s3 "$SUPER_SECRET"
