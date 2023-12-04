@@ -1,0 +1,24 @@
+name: RSS Archiver
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # 每周日午夜运行
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install wordpress-rss-archiver
+
+    - name: Run archiver
+      run: |
+        wordpress-rss-archiver https://lmmsoft.github.io/feed.atom --ia-s3 ${{ secrets.IA_S3 }}
