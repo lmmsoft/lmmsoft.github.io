@@ -24,4 +24,4 @@ jobs:
       env:
         IA_S3: ${{ secrets.IA_S3 }}
       run: |
-        wordpress-rss-archiver https://lmmsoft.github.io/feed.atom --ia-s3 "$SUPER_SECRET"
+        wordpress-rss-archiver https://lmmsoft.github.io/feed.atom --ia-s3 $IA_S3
