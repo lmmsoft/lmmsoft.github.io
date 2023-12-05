@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /anti_layoff/
 categories:
-- 我的见闻
+- 我的思考
 tags:
 - 裁员
 ---

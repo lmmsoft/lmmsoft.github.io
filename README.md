@@ -63,7 +63,7 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
   - 修复 category url 的bug, 因把页面permalink从 categories 改名成 category ，但超链接没更新导致
 - 2022-12-05
   - 全站 https 
-- 2011-11-25
+- 2021-11-25
   - 迁移博客园的文章
 
 ## 分类

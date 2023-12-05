@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /visit_shenzhen_mangrove_forest_seashore_ecology_park_with_baby/
 categories:
-  - 我的旅行
+  - 我的游记
 tags:
   - 深圳
   - 宝宝

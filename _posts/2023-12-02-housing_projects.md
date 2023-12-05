@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /housing_projects/
 categories:
-- 我的见闻
+- 我的思考
 tags:
 - 房产
 ---

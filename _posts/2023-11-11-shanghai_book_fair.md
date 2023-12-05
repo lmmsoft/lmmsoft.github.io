@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /shanghai_book_fair/
 categories:
-- 我的旅行
+- 我的游记
 tags:
 - 上海
 - 书展
