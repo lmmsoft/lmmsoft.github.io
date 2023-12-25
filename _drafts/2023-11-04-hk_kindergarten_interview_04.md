@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /hk_kindergarden_interview_Causeway_Bay_Victoria_Kindergarten/
+permalink: /hk_kindergarten_interview_Causeway_Bay_Victoria_Kindergarten/
 categories:
 - 幼儿园
 tags:

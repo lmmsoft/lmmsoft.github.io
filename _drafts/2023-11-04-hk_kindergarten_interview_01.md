@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /hk_kindergarden_interview_xxx_Kindergarten/
+permalink: /hk_kindergarten_interview_xxx_Kindergarten/
 categories:
 - 幼儿园
 tags:

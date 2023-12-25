@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /hk_kindergarden_interview_san_stephine_church_kindergarten/
+permalink: /hk_kindergarten_interview_san_stephine_church_kindergarten/
 categories:
 - 幼儿园
 tags:
