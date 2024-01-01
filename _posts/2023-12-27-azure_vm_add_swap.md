@@ -1,6 +1,6 @@
 ---
 title:  "Azure 免费虚拟机增加 swap 空间提高性能"
-date: 2023-12-27T00:00:00+08:00
+date: 2023-12-27T12:00:00+08:00
 author: lmm333
 layout: post
 comments: true
