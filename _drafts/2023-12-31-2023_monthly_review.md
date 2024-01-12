@@ -100,3 +100,31 @@ tags:
 12-16 梅家坞 + 法喜寺 《公众号》
 
 12-23 新年音乐会
+
+## 浏览器输入A-Z提示的第一个网页是什么(剔除了公司内网地址)
+- **A archive.org** 互联网档案馆，可以查看过去的网页。今年好几次遇到网页/博客失效，都是在这里找到了备份，比如亚运会的成绩发布网站，再比如新浪博客。我也定期推送自己博客的备份上去。
+- **B baidu.com** 百度，墙内搜索首选
+- **C chat.openai.com** ChatGPT 的聊天页面
+- **D douban.com** 豆瓣，平时用了标记电影和书籍
+- **E ethshanghai.org** 以太坊上海大会的官网，本来以为能在上海参与活动，最后发现完全是线上
+- **F flight.google.com** 谷歌的机票搜索
+- **G google.com** 谷歌搜索，墙外搜索首选
+- **H hz[xxx].feishu.cn/wiki/** 飞书的wiki页面，家庭的资料/晨间日记/文章剪藏都放在这里
+- **I ipplus360.com** 埃文的IP地址查询页，今天做了IP地址查询的项目
+- **J jsonformatter.org** 在线json格式化工具
+- **K kimi.moonshot.cn** 月之暗面的大模型对话页，有特色的国产大语言模型，支持网络连接，上下文长达128K
+- **L lmmsoft.github.io** 我的官方网站，博客
+- **M mp.weixin.qq.com** 微信公众号，看文章/写文章的地方
+- **N nominatim.openstreetmap.org** 开源地图的地理编码服务，用来查询地理位置的经纬度，今年做 IP 相关工作时调用了 osm 的API 
+- **O omnivore.app** 一个新兴的稍后阅读工具
+- **P portal.azure.com** 微软云的控制台，我的虚拟机/OpenAI API都在这里
+- **Q quickconnect.to/xxx** 群晖的远程连接地址
+- **R rsshub.app** 今年重启了 RSS 阅读，这是一个开源的RSS聚合工具，可以聚合很多非RSS的网站
+- **S strava.com** 体育社交网站，记录运动数据用
+- **T twitter.com** 今年重新开始刷推，键政、web3、女菩萨等
+- **U user.qzone.qq.com** QQ空间，我一直使用的社交网站，虽然今年用得很少很少
+- **V v2ex.com** 偶尔刷刷的技术社区
+- **W weibo.com** 新浪微博，今年刷的很多，后来(为了节约时间)删了APP之后，偶尔刷刷网页
+- **X x.com** 推特的新域名
+- **Y youtube.com** 油管，谷歌旗下的视频网站，这是今年刷的第二多的视频网站，第一是B站，但B站以手机APP为主。
+- **Z zhihu.com** 知乎，问答网站，每天都刷一下热搜
