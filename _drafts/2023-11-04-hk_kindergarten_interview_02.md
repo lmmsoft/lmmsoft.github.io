@@ -77,3 +77,12 @@ SACRED HEART CANOSSIAN KINDERGARTEN
 - [学校介绍 by 好学校](https://www.goodschool.hk/%E5%98%89%E8%AB%BE%E6%92%92%E8%81%96%E5%BF%83%E5%B9%BC%E7%A8%9A%E5%9C%92)
 - [嘉諾撒聖心幼稚園_质素评核报告_by_香港教育局](https://www.edb.gov.hk/attachment/tc/edu-system/preprimary-kindergarten/quality-assurance-framework/qr/qr-report/SacredHeart_Canossian.pdf)
 - [香港教育局_幼稚園教育計劃](https://www.edb.gov.hk/tc/edu-system/preprimary-kindergarten/free-quality-kg-edu/index.html)
+
+- https://www.kidemy.hk/blog/%E5%98%89%E8%AB%BE%E6%92%92%E8%81%96%E5%BF%83%E5%B9%BC%E7%A8%9A%E5%9C%92/
+- 
+- 中西区幼儿园，by 中原地产 https://hk.centanet.com/school/zh-cn/%E4%B8%AD%E8%A5%BF%E5%8C%BA%E5%B9%BC%E7%A8%9A%E5%9B%AD_d1-k
+- 中西区汇总，这个有价格、学位、半天全天 https://www.schooland.hk/kg/central-west
+
+- 教育局【2024/25 學年幼稚園幼兒班（K1）收生安排】 https://www.edb.gov.hk/tc/edu-system/preprimary-kindergarten/kindergarten-k1-admission-arrangements/index-2425.html#k1%20vacancy
+- 政府，幼儿园计划网页 https://www.edb.gov.hk/tc/edu-system/preprimary-kindergarten/free-quality-kg-edu/index.html
+- 空位实时 https://data.gov.hk/tc-data/dataset/hk-edb-freekg-k1-vacancy-information

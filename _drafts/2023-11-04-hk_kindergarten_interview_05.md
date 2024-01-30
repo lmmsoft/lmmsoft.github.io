@@ -70,4 +70,5 @@ TBD
 ## 参考链接
 - [学校官网](http://www.ssck.edu.hk/)
 - [升学天地](https://www.schooland.hk/kg/sscpsk)
+- https://www.myschool.hk/kindergarten/St-Stephens-Church-Primary-School-Kindergarten
 - [小红书面经](https://www.xiaohongshu.com/explore/64ff334a000000001e00e925)
