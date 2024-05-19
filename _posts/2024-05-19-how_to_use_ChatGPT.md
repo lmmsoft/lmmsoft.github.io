@@ -85,7 +85,9 @@ ChatGPT 是一种由 OpenAI 开发的先进对话模型。它基于 GPT-4 架构
 
 ---
 
-### Q4: 上次启昌分享时，投资建议（这里在群里发了上次分享会的 pdf 逐字稿）
+### Q4: 上次启昌分享时，提到哪些投资品类，每种的投资建议是什么
+- 这里在群里发了上次分享会的 pdf 逐字稿
+- 现场大家操作，第一个把正确结果截图发到群里的，奖励一份小礼物
 
 - A4.1 微信小程序（最优方法，可以直接上传文件）
   - 打开【Kimi智能助手】小程序
@@ -145,6 +147,7 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 
 ### Q8: 请用文言文，写一篇今天分享会的日记，100字左右
 - A8: 用语言输入的方式，简单描述今天分享会的内容，要求用文言文润色后输出
+![P8_wyw.jpg](../images/2024-05-19-how_to_use_ChatGPT/P8_wyw.jpg)
 
 ---
 
@@ -156,7 +159,7 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 - A9: 参考提示词：用宫崎骏卡通风格，画出分享会的场景，包括主讲人、听众。听众围坐在茶桌旁，桌上有茶杯，主讲人背后有投影仪。
 
 - 下面三幅是我提前画好的参考图，前两张是 ChatGPT 的 Dalle 画的，第三张是豆包。
-![Q6_P1.jpg](../images/2024-05-19-how_to_use_ChatGPT/Q6_P1.jpg)
+![Q6_P1.jpg](? Q6_P1.jpg)
 ![Q6_P2.JPG](../images/2024-05-19-how_to_use_ChatGPT/Q6_P2.JPG)
 ![Q6_P3.JPG](../images/2024-05-19-how_to_use_ChatGPT/Q6_P3.JPG)
 
@@ -181,6 +184,7 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 ![w9_15.JPG](../images/2024-05-19-how_to_use_ChatGPT/w9_15.JPG)
 ![w9_16.JPG](../images/2024-05-19-how_to_use_ChatGPT/w9_16.JPG)
 ![w9_17.JPG](../images/2024-05-19-how_to_use_ChatGPT/w9_17.JPG)
+
 - 现场最佳颁奖🏆
 ![w9_99_best.JPG](../images/2024-05-19-how_to_use_ChatGPT/w9_99_best.JPG)
 ![w9_award.JPG](../images/2024-05-19-how_to_use_ChatGPT/w9_award.JPG)
