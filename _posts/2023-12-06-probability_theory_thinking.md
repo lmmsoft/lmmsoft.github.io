@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /probability_theory_thinking/
 categories:
-  - 我的学习
+  - 学习笔记
 tags:
   - 概率论
   - 思维
