@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /children_sports_meeting/
 categories:
-- 我的生活
+- 珊瑚海兔
 tags:
 - 幼儿园
 - 宝宝

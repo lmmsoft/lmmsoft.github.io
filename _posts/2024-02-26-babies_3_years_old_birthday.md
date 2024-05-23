@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /babies_3_years_old_birthday/
 categories:
-- 我的生活
+- 珊瑚海兔
 tags:
 - 生日
 - 祝福
