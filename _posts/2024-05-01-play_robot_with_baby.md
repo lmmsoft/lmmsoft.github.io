@@ -1,6 +1,6 @@
 ---
 title:  "朋友圈到处是广告，机器人编程，体验到底怎么样？"
-date: 2024-05-01T00:00:00+08:00
+date: 2024-05-01T12:00:00+08:00
 author: lmm333
 layout: post
 comments: true
