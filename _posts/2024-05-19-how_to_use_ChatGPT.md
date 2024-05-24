@@ -159,7 +159,7 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 - A9: 参考提示词：用宫崎骏卡通风格，画出分享会的场景，包括主讲人、听众。听众围坐在茶桌旁，桌上有茶杯，主讲人背后有投影仪。
 
 - 下面三幅是我提前画好的参考图，前两张是 ChatGPT 的 Dalle 画的，第三张是豆包。
-![Q6_P1.jpg](? Q6_P1.jpg)
+![Q6_P1.jpg](../images/2024-05-19-how_to_use_ChatGPT/Q6_P1.jpg)
 ![Q6_P2.JPG](../images/2024-05-19-how_to_use_ChatGPT/Q6_P2.JPG)
 ![Q6_P3.JPG](../images/2024-05-19-how_to_use_ChatGPT/Q6_P3.JPG)
 
