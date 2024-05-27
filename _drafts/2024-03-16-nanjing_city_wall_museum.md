@@ -1,6 +1,6 @@
 ---
 title:  "参观南京城墙博物馆"
-date: 2024-03-21T00:00:00+08:00
+date: 2024-03-16T20:00:00+08:00
 author: lmm333
 layout: post
 comments: true
@@ -16,7 +16,7 @@ tags:
 - 官网 https://www.njcitywall.com/
 - 百度百科 https://baike.baidu.com/item/%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%A2%99%E5%8D%9A%E7%89%A9%E9%A6%86
 
-![img.png](nanjing_city_wall_museum_01.png)
+![nanjing_city_wall_museum_01.png](../images/2024-03-16-nanjing_city_wall_museum/nanjing_city_wall_museum_01.png)
 
 ## 一句话总结
 2024年03月16日，我和母亲一起参观了南京城墙博物馆，听了很专业的讲解，深入了解了南京城墙的历史和文化。
@@ -176,7 +176,8 @@ by AI:
 
 - 会议百科 https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%98%8E%E6%B8%85%E5%9F%8E%E5%A2%99%E8%81%94%E5%90%88%E7%94%B3%E9%81%97%E5%B7%A5%E4%BD%9C%E4%BC%9A%E8%AE%AE/24592535
 - 南京市文旅局《中国明清城墙申报世界文化遗产工作概况》 https://wlj.nanjing.gov.cn/ztzl/mcq/sygk/201710/t20171026_794967.html
-- 《明清城墙申遗为何迟迟申不下来》 https://www.thepaper.cn/newsDetail_forward_7848410
-  - https://mp.weixin.qq.com/s?__biz=Mzg3NjA2MTk0Mw==&mid=2247495998&idx=1&sn=8a5af7095975f013f9b3da7556dcdc56&source=41#wechat_redirect
+- 《明清城墙申遗为何迟迟申不下来》
+  - https://www.thepaper.cn/newsDetail_forward_7848410
+  - https://mp.weixin.qq.com/s/ULIVBQEzm5ibefWe0bEB7g
 
 另外，南京的中轴线，和北京的中轴线一起，也在做申遗准备工作。
