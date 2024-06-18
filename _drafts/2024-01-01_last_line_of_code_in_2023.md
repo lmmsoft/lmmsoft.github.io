@@ -15,7 +15,7 @@ tags:
 - 微信
 ---
 
-- 刚夸完谷歌文档，gemini不想 chatgpt api 一样经常挂掉，我就时不时遇到了下面的内部错误。
+- 刚夸完谷歌文档，gemini不像 chatgpt api 一样经常挂掉，我就时不时遇到了下面的内部错误。
 - 于是改成 gemini 挂了就用 gpt 重试的逻辑。
 ```json
 {
