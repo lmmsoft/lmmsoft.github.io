@@ -14,8 +14,6 @@ tags:
 - 南京
 ---
 
-# 人生首场铁人三项比赛记录
-
 > ## Excerpt
 > 我的首场铁人三项比赛，南京羊山湖训练赛的记录
 
@@ -23,7 +21,7 @@ tags:
 上一篇[《如何备战第一场铁人三项比赛》](http://mp.weixin.qq.com/s?__biz=MzkxMzM0MTQyNg==&mid=2247483697&idx=1&sn=3c84ee525668b873dc9a75296a329760&chksm=c17e6facf609e6bab01feb14db3efb23b5b492e4328a87f6286431edae5f3980a6286ebc4ebd&scene=21#wechat_redirect) 中写了我的主要铁三比赛经历，2015是我的铁三元年，循序渐进，依次完成了训练赛，半程奥运标准距离的中铁协比赛，奥运标准距离的商业赛，突破了自己的边界。
 
 ![img.png](../images/2022-10-10-my_first_triathlon_race/img.png)
-
+<!--more-->
 最近计划通过连载的方式整理这些比赛的经历，这篇是我的首场铁人三项比赛：南京羊山湖训练赛的记录：
 
 ![img_1.png](../images/2022-10-10-my_first_triathlon_race/img_1.png)
