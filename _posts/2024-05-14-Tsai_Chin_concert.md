@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /Tsai_Chin_concert/
 categories:
-- 我在游记
+- 我的生活
 tags:
 - 蔡琴
 - 演唱会

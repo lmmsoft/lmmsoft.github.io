@@ -13,7 +13,7 @@ views:
 dsq_thread_id:
   - "4414940886"
 categories:
-  - 我的比赛经历
+  - 我比赛经历
 tags:
   - 杭州hangzhou
   - 越野trail

@@ -79,4 +79,4 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 我的练笔 9
 - 我的影评 5
 - 我的自由软件 3 
-- 我的比赛经历 1
+- 我的比赛 1
