@@ -75,7 +75,7 @@ tags:
 
 综合考虑后，我决定不打斯美格鲁肽，最后在拼多多上买了广药白云山的代餐奶昔，性价比高！再配合运动。同时还用动态血糖仪收集了一些血糖数据，再去大医院的内分泌科系统得看一下。
 
-![goods.jpg](..%2Fimages%2F2024-06-18-weight_loss_with_meal_replacements%2Fgoods.jpg)
+![goods.jpg](../images/2024-06-18-weight_loss_with_meal_replacements/goods.jpg)
 
 ## 工具分享
 
