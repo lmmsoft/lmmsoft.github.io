@@ -67,6 +67,17 @@ tags:
   - 一般是 哈希环 上顺时针往后的 N 个节点，如果有虚拟节点，适当跳过，选择不同的物理节点
   - 一般同一个数据中心的机器会同时发生 电力/网络/自然灾难 等故障，最好放到不同的数据中心，数据中心之间用高速网络连接
 - Consistency 一致性
+  - 强弱一致性定长
+    - N = 副本总数
+    - Q = 写操作至少需要确认的节点个数
+    - R = 读操作至少需要确认的节点个数
+    - 如果 W + R > N， 就满足强一致性， 一般 N = 3, W = R = 2
+    - 如果 R = 1， W = N 就是为快速读取设计的
+    - 如果 W = 1， R = N 就是为快速写入设计的
+  - 一致性模型
+    - 强一致性：任何读写操作，都是最近数据，没有脏数据（不够高可用）
+    - 弱一致性：不能保证
+    - 最终一致性：给足够的时间同步数据，最终数据都是一致的（高可用的服务，一般用这种，比如 Dynamo Cassandra）
 - Inconsistency resolution 不一致性恢复
 - Handling failures 错误处理
 - System architecture diagram 系统架构图
@@ -74,7 +85,13 @@ tags:
 - Read path 写路径
 
 ### 词汇表
-tradeoff 权衡
+- tradeoff 权衡
+- opaque 不透明的
+- sacrificing availability 牺牲可用性
+- unavoidable 不可避免的 
+- immutable 不可变的
+- replica 复制
+- high 
 
 ## ChangeLog
 - 24-07-01 新建文档，部分发布：第六章：KV存储
