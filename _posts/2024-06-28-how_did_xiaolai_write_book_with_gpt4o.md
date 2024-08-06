@@ -74,7 +74,7 @@ This phrase originates from the standard working hours, from 9 AM to 5 PM, which
 ![img_6.png](../images/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_6.png)
 ![img_7.png](../images/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_7.png)
 
-从笑来老师的微博发布时间来看，第一天花了一小时写代码，然后用了一夜时间调用模型，生成了全书和音频，第二天早上又发微薄，。
+从笑来老师的微博发布时间来看，第一天花了一小时写代码，然后用了一夜时间调用模型，生成了全书和音频，第二天早上发微博。。。。
 
 TBD 分享合作精神
 
