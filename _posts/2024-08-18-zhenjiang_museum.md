@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /zhenjiang_museum/
 categories:
-- 我的旅行
+- 我的游记
 tags:
 - 镇江
 - 博物馆
