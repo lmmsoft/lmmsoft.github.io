@@ -1,32 +1,13 @@
 <div class="sidebar-module">
   <h4>{{ site.locales[site.default_locale].Archives }}</h4>
 
-  {% for post in site.posts %}
-  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% unless year == this_year %}
-  {% assign year = this_year %}
-  {% unless post == site.posts.first %}
-  {% endunless %}
-  <li id="{{ year }}" > <a href="{{ site.baseurl }}/archives/#{{year}}">{{ year }}</a></li>
-  {% endunless %}
-  {% endfor %}
-
-</div>
-
-<div class="sidebar-module">
-  <h4>{{ site.locales[site.default_locale].Archives }}</h4>
-
   {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
   
-  <ul>
-    {% for year in posts_by_year %}
-      <li id="{{ year.name }}">
-        <a href="{{ site.baseurl }}/archives/#{{ year.name }}">
-          {{ year.name }} ({{ year.items | size }})
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for year in posts_by_year %}
+    <li id="{{ year.name }}">
+      <a href="{{ site.baseurl }}/archives/#{{ year.name }}">
+        {{ year.name }} ({{ year.items | size }})
+      </a>
+    </li>
+  {% endfor %}
 </div>
-
-
