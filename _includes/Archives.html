@@ -13,3 +13,20 @@
 
 </div>
 
+<div class="sidebar-module">
+  <h4>{{ site.locales[site.default_locale].Archives }}</h4>
+
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  
+  <ul>
+    {% for year in posts_by_year %}
+      <li id="{{ year.name }}">
+        <a href="{{ site.baseurl }}/archives/#{{ year.name }}">
+          {{ year.name }} ({{ year.items | size }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
