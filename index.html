@@ -29,9 +29,6 @@ layout: default
       {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%Y-%m-%d" }}
       </time>
 
-      | 本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字
-      | 阅读全文约需 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
-
       | 本文 {{ post.content | strip_html | strip_newlines | remove: " " | size }} 字
       | 阅读全文约需 {{ post.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
 
