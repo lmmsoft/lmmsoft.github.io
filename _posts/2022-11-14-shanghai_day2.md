@@ -1,5 +1,5 @@
 ---
-title:  "上海生活Day2: 新公司报道"
+title:  "上海生活Day2：新公司报道"
 date: 2022-11-14T12:00:00+08:00
 author: lmm333
 layout: post
