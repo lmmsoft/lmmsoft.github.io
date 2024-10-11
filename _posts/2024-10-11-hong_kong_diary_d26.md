@@ -11,6 +11,7 @@ categories:
 tags:
 - 香港
 - 日记
+- 作业
 ---
 ![homework.jpg](../images/2024-10-11-hong_kong_diary_d26/homework.jpg)
 2024-10-11 周五 香港多云
