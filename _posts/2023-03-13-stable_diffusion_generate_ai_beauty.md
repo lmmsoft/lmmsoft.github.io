@@ -16,12 +16,10 @@ tags:
 
 Hello World!
 
-今晚动手学习了生成AI小姐姐，记录一下过程。
+今晚动手学习了用谷歌colab生成AI小姐姐，记录一下过程。
 
+<!--more-->
 前置条件：科学上网
-
-jupter notebook是什么
-为啥呀
 
 ## step1
 - 打开谷歌的网址：https://colab.research.google.com/
