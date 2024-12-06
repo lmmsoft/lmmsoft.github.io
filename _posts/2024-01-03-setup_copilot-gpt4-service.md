@@ -25,14 +25,8 @@ github copilot 插件原理是通过将代码与上下文发送到 github copilo
 这个开源项目的原理类似，通过拿到 github copilot api的授权，然后代理转发 api，就可以实现白嫖 gpt4 的效果。
 
 ## 搭建大致流程
-原始文档写得不算太清晰，我这里总结一下大致流程：
 
-
-## 我的搭建步骤
-1. 申请 github copilot 授权
-
-测试 8080 api
-关闭 api
+（ps: 项目已过期，这里省略若干字）
 
 ## 其他注意事项
 - Github Copilot 只支持 GPT-4 和 GPT-3.5-turbo模型。如果选了 gpt-4-32k-0613 模型，实际上是在用 GPT-3.5-turbo 模型 [ref](https://github.com/aaamoon/copilot-gpt4-service/issues/254)
