@@ -1,6 +1,6 @@
 ---
 title:  "动手玩AI系列之一：免费使用谷歌的云上机器画小姐姐，有手机就能用"
-date: 2023-03-12T00:00:00+08:00
+date: 2023-03-13T00:00:00+08:00
 author: lmm333
 layout: post
 comments: true
@@ -13,8 +13,7 @@ tags:
 - nas
 - 电信
 ---
-
-Hello World!
+![00.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/00.png)
 
 今晚动手学习了用谷歌colab生成AI小姐姐，记录一下过程。
 
@@ -25,6 +24,8 @@ Hello World!
 - 打开谷歌的网址：https://colab.research.google.com/
 - 连接机器
 - 选择GPU
+
+![01.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/01.png)
 
 ## step2: 安装
 - 开启新的jupyter notebook窗口
@@ -46,7 +47,10 @@ Hello World!
 
 ```
 - 安装完成后，会出现一个网址，格式是 xxx.gradio.live 点击网址,进入stable diffusion的web ui，如下图所示
-![](../images/stable_diffusion_01.png)
+
+![stable_diffusion_01.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/stable_diffusion_01.png)
+
+![02.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/02.png)
 
 ## step3: 生成AI小姐姐
 - 在左上方的两个文本框里输入正面和负面提示词
@@ -62,3 +66,5 @@ sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal
 - Width 选择 512, Height 选择 768, CFG Scale 7 
 - 右边 Batch count 1, Batch size 1 
 - 点击Generate，不到一分钟，就可以看到生成的小姐姐了
+
+![00013-1039552976-,best quality ,masterpiece, illustration, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,8k wallpaper, Amaz.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/00013-1039552976-,best quality ,masterpiece, illustration, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,8k wallpaper, Amaz.png)
