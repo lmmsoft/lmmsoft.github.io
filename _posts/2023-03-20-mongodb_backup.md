@@ -14,6 +14,8 @@ tags:
 ---
 这两天学习了 mongodb 的备份和恢复命令，可以使用容器里的 mongoexport/mongoimport/mongodump/mongorestore 命令来备份和恢复数据，并且做成了github action 的定时任务，每天把备份的数据提交的私有的代码仓库，这里记录一下。
 
+<!--more-->
+
 ## 备份命令
 ```shell
 # mongoexport/mongoimport 是按照单表导入导出为 json/csv 的命令
@@ -45,12 +47,6 @@ docer exec -w /backup mongo4 mongodump  --uri "mongodb://USERNAME:PASSWORD@domai
 
 # 删除容器
 docker rm -rf mongo4
-```
-
-## github action 里每天定时备份
-```yaml
-name: mongodb backup
-
 ```
 
 - 试过 MongoDB in GitHub Actions， 好像没有 mongodump 命令
