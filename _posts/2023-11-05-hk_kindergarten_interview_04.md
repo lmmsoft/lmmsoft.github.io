@@ -12,13 +12,13 @@ tags:
 - 双胞胎
 - 面试
 ---
-![02_daddy.jpeg](..%2Fimages%2F2023-11-14-hk_kindergarten_interview%2F02_daddy.jpeg)
+![02_daddy.jpeg](../images/2023-11-14-hk_kindergarten_interview/02_daddy.jpeg)
 
 ## 面试系列文章：
 <!--more-->
 
-1. [报名]()
-2. [10-28_民生幼稚园]()
+1. [报名准备]()
+2. [2023-10-28_民生幼稚园]()
 3. [2023-11-03_嘉诺撒圣心幼稚园](/hk_kindergarten_interview_Sacred_Heart_Canossian_Kindergarten)
 4. [2023-11-04_崇真小学暨幼稚园](/hk_kindergarten_interview_Tsung_Tsin_Primary_School_Kindergarten)
 5. [2023-11-04_铜锣湾维多利亚幼稚园](/hk_kindergarten_interview_Causeway_Bay_Victoria_Kindergarten)

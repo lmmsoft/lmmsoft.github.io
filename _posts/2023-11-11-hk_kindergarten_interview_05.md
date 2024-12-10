@@ -17,7 +17,7 @@ tags:
 <!--more-->
 
 1. [报名]()
-2. [10-28_民生幼稚园]()
+2. [2023-10-28_民生幼稚园]()
 3. [2023-11-03_嘉诺撒圣心幼稚园](/hk_kindergarten_interview_Sacred_Heart_Canossian_Kindergarten)
 4. [2023-11-04_崇真小学暨幼稚园](/hk_kindergarten_interview_Tsung_Tsin_Primary_School_Kindergarten)
 5. [2023-11-04_铜锣湾维多利亚幼稚园](/hk_kindergarten_interview_Causeway_Bay_Victoria_Kindergarten)
