@@ -12,17 +12,17 @@ tags:
 - 双胞胎
 - 面试
 ---
-
+![03_ding_ding_tram.jpeg](../images/2023-11-14-hk_kindergarten_interview/03_ding_ding_tram.jpeg)
 ## 面试系列文章：
 <!--more-->
 
 1. [报名]()
 2. [10-28_民生幼稚园]()
-3. [11-03_嘉诺撒圣心幼稚园]()
-4. [11-04_崇真小学暨幼稚园]()
-5. [11-04_铜锣湾维多利亚幼稚园]()
-6. [11-11_圣士提反堂小学暨幼稚园]()
-7. [11-14_小世界幼稚园]()
+3. [2023-11-03_嘉诺撒圣心幼稚园](/hk_kindergarten_interview_Sacred_Heart_Canossian_Kindergarten)
+4. [2023-11-04_崇真小学暨幼稚园](/hk_kindergarten_interview_Tsung_Tsin_Primary_School_Kindergarten)
+5. [2023-11-04_铜锣湾维多利亚幼稚园](/hk_kindergarten_interview_Causeway_Bay_Victoria_Kindergarten)
+6. [2023-11-11_圣士提反堂小学暨幼稚园](/hk_kindergarten_interview_san_stephine_church_kindergarten)
+7. [2023-11-14_小世界幼稚园](/hk_kindergarten_interview_small_world_Kindergarten)
 
 ## 学校介绍
 
@@ -64,7 +64,7 @@ tags:
 宝宝动手能力还不错，但过于害羞，问问题什么都不说，有人扶宝宝下楼梯也不愿意，必须要家长扶。
 
 ## 面试结果
-拿到了offer，学校位置很好，但是因为对口小学和中学不是特别理想，所以没有选择这个学校。
+拿到了下午班的 offer，学校位置很好，靠近港大，也是券幼，不需要学费。但是因为对口的小学和中学不是特别理想，所以没有选择这个学校。
 
 ## 参考链接
 - [学校官网](http://www.ssck.edu.hk/)
