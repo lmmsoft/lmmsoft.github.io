@@ -14,6 +14,7 @@ tags:
 - 皇马
 - 巴萨
 ---
+![00_official_poster.png](../images/2024-12-20-real_madrid_vs_barclona/00_official_poster.png)
 ![23_group.jpeg](../images/2024-12-20-real_madrid_vs_barclona/23_group.jpeg)
 2024-12-20于我的球迷生涯而言，堪称一座崭新的里程碑！在香港大球场观看了皇马传奇vs巴萨英雄的元老赛，竟能一次性见到卡西、卡洛斯、菲戈、欧文、卡纳瓦罗，莫伦特斯，坎比亚索、普约尔、哈维、亨利，夸雷斯马、比利亚，克鲁伊维特，萨维奥拉等一众璀璨球星，心中的激动简直难以言表！
 <!--more-->
