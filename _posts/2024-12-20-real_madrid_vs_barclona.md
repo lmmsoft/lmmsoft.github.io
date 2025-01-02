@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /real_madrid_vs_barclona/
 categories:
-- 珊瑚海兔
+- 我的游记
 tags:
 - 香港
 - 足球
