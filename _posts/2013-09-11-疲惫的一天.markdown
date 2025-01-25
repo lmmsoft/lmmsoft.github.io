@@ -12,7 +12,7 @@ links:
 - https://www.jianshu.com/p/tCMmFB
 - https://blog.sina.com.cn/s/blog_8778bf620101fjts.html
 ---
-![](../images/sina_blog_image1.jpeg)
+![](../images/other/sina_blog_image1.jpeg)
 
 今天好疲惫啊，其实挺对不住小馒头的，今天只写了不到100行代码，做了好多事。
 
