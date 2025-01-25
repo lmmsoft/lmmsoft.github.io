@@ -12,7 +12,7 @@ tags:
 - 洗衣机
 - 上海
 ---
-![2023-08-29-shanghai-songjiang-1600x1200.JPG](../images/2023-08-29-shanghai-songjiang-1600x1200.JPG)
+![2023-08-29-shanghai-songjiang-1600x1200.JPG](../images/2023-other/2023-08-29-shanghai-songjiang-1600x1200.JPG)
 题图：上海松江的农田，2023-08-29 @ 摄于沪杭高铁上🚄
 
 ## 如何让房东换洗衣机

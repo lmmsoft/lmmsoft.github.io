@@ -23,7 +23,7 @@ tags:
 
 原则上，护照上不能乱涂乱画，这一页是唯一可以自由发挥书写的页面✍🏻 正确留下必要的信息，能提高护照丢失后找回的概率，也有助于找到紧急联系人，一定要写哦！
 
-![passport-emergencies-page.png](../images/2023-08-10-passport-emergencies-page.png)
+![passport-emergencies-page.png](../images/2023-other/2023-08-10-passport-emergencies-page.png)
 
 <!--more-->
 
