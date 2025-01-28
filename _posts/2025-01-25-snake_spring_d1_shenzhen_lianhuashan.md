@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /snake_spring_d1_shenzhen/
+permalink: /snake_spring_d1_shenzhen_lianhuashan/
 categories:
 - 珊瑚海兔
 tags:
