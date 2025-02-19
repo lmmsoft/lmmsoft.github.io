@@ -16,14 +16,14 @@ tags:
 ---
 ![04_room_view.JPG](../images/2025-02-02-snake_spring_d9_jiangmen_to_dongguan/04_room_view.JPG)
 2025-02-02，大年初五，江门，多云
-
+<!--more-->
 ## 江景早餐
 ![01_view.JPG](../images/2025-02-02-snake_spring_d9_jiangmen_to_dongguan/01_view.JPG)
 
 ![02_view.JPG](../images/2025-02-02-snake_spring_d9_jiangmen_to_dongguan/02_view.JPG)
 
 早上，我们在酒店27楼的餐厅用餐。透过宽大的落地窗，270度全景西江尽收眼底，江水降静静流淌，晨光熠熠生辉，与美味的早餐相得益彰，让这个早晨格外惬意。
-<!--more-->
+
 ![03_me.JPG](../images/2025-02-02-snake_spring_d9_jiangmen_to_dongguan/03_me.JPG)
 
 ## 侨都之行，探寻海外赤子的家国情怀
