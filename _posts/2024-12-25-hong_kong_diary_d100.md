@@ -27,10 +27,10 @@ tags:
 一同感受这份美好：
 
 可爱宝宝带来的希望之光☀️
-![01_kids.jpg](../images/2024-12-25-hong_kong_diary_d100/01_kids.jpg)
+![01_kids.jpg](../images/2024/2024-12-25-hong_kong_diary_d100/01_kids.jpg)
 
 全家团聚的幸福模样❤️
-![02_family.jpg](../images/2024-12-25-hong_kong_diary_d100/02_family.jpg)
+![02_family.jpg](../images/2024/2024-12-25-hong_kong_diary_d100/02_family.jpg)
 
 祥光熠熠，圣诞欣临。
 
@@ -53,4 +53,4 @@ tags:
 一帧为稚子娇容，祥光蕴藉。
 
 一幅是阖家笑影，喜意氤氲。 
-![03_hk.JPG](../images/2024-12-25-hong_kong_diary_d100/03_hk.JPG)
+![03_hk.JPG](../images/2024/2024-12-25-hong_kong_diary_d100/03_hk.JPG)

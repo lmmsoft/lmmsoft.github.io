@@ -13,7 +13,7 @@ tags:
 - nas
 - 电信
 ---
-![00.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/00.png)
+![00.png](../images/2023/2023-03-13-stable_diffusion_generate_ai_beauty/00.png)
 
 今晚动手学习了用谷歌colab生成AI小姐姐，记录一下过程。
 
@@ -25,7 +25,7 @@ tags:
 - 连接机器
 - 选择GPU
 
-![01.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/01.png)
+![01.png](../images/2023/2023-03-13-stable_diffusion_generate_ai_beauty/01.png)
 
 ## step2: 安装
 - 开启新的jupyter notebook窗口
@@ -48,9 +48,9 @@ tags:
 ```
 - 安装完成后，会出现一个网址，格式是 xxx.gradio.live 点击网址,进入stable diffusion的web ui，如下图所示
 
-![stable_diffusion_01.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/stable_diffusion_01.png)
+![stable_diffusion_01.png](../images/2023/2023-03-13-stable_diffusion_generate_ai_beauty/stable_diffusion_01.png)
 
-![02.png](../images/2023-03-13-stable_diffusion_generate_ai_beauty/02.png)
+![02.png](../images/2023/2023-03-13-stable_diffusion_generate_ai_beauty/02.png)
 
 ## step3: 生成AI小姐姐
 - 在左上方的两个文本框里输入正面和负面提示词

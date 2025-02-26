@@ -12,7 +12,7 @@ tags:
 - 黑客
 - 数据库
 ---
-![hacked.png](../images/2024-05-28-hacked_for_ransom/hacked.png)
+![hacked.png](../images/2024/2024-05-28-hacked_for_ransom/hacked.png)
 
 ## 一句话总结
 经常在网上看到黑客勒索攻击的案例，没想到今天我也中招了！
@@ -26,7 +26,7 @@ tags:
 
 继续登录管理网页，发现登不上去了，密码不可能被改，应该是数据库的问题。
 
-![log.png](../images/2024-05-28-hacked_for_ransom/log.png)
+![log.png](../images/2024/2024-05-28-hacked_for_ransom/log.png)
 
 查看数据库容器的日志，发现了大量的 `[Warning] Access denied for user 'Test'@'94.232.45.152' (using password: YES) `， ip 地址各不相同，但都是一秒一次，很集中，我试着查了几个ip的来源，包括丹麦的🇩🇰荷兰🇳🇱白俄罗斯🇧🇾等地，应该是有黑客在爆破。
 
@@ -36,7 +36,7 @@ tags:
 
 里面有一个表，叫做 README，打开有一行数据(已隐藏黑客的具体信息)：
 
-![db.png](../images/2024-05-28-hacked_for_ransom/db.png)
+![db.png](../images/2024/2024-05-28-hacked_for_ransom/db.png)
 
 ```
 I have backed up all your databases. To recover them you must pay 0.007 BTC (Bitcoin) to this address: xxx . Backup List: XXX. After your payment email me at xxx@airmail.cc with your server IP (20.x.x.x) and transaction ID and you will get a download link to your backup. Emails without transaction ID and server IP will be ignored. 

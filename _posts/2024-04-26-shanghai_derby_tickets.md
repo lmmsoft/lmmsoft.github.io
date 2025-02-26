@@ -13,7 +13,7 @@ tags:
 - 足球
 - 德比
 ---
-![sipg_vs_shenghua.png](../images/2024-04-26-shanghai_derby_tickets/sipg_vs_shenghua.png)
+![sipg_vs_shenghua.png](../images/2024/2024-04-26-shanghai_derby_tickets/sipg_vs_shenghua.png)
 
 本周六2024-04-27，本赛季的第二场上海德比即将开打，海港主场对阵申花。今天讲一讲购票的故事😜
 
@@ -27,7 +27,7 @@ tags:
 海港源于上海足球教父徐根宝在崇明岛的青训，后来组建了东亚队，从中乙一直升到中超，财力雄厚的上港集团收购后，实力大增，上海德比从此成为中国最精彩最激烈最火药的德比。
 
 ## 接着说说卖票的历史
-![wulei.png](../images/2024-04-26-shanghai_derby_tickets/wulei.png)
+![wulei.png](../images/2024/2024-04-26-shanghai_derby_tickets/wulei.png)
 海港主场对申花，一直有不公开售票的传统（1.为了安全 2.怕申花球迷占领看台），往往只按照对等原则分600张左右客队票，由大巴直接拉进客队看台。
 
 去年是疫情后开放看台的首个赛季。海港首次在新主场“白玉碗”浦东足球场对阵申花，出于安保等原因，当时并未公开售票，除了季票持有者，票源都在球迷会、工会等内部渠道，申花球迷购票困难🤔
@@ -36,7 +36,7 @@ tags:
 
 不过，海港球迷想放开手助威，还是去客队球迷看台更合适，通过球迷会渠道购票，到源深体育场集合，再乘大巴前往，若穿红衣服直接去八万人看球，很可能会被打🤕穿曼联红衣也一样遭殃，网上还有不少视频可查呢😲
 
-![SUPER_DERBY.jpeg](../images/2024-04-26-shanghai_derby_tickets/SUPER_DERBY.jpeg)
+![SUPER_DERBY.jpeg](../images/2024/2024-04-26-shanghai_derby_tickets/SUPER_DERBY.jpeg)
 
 ## 超级杯抢票
 本赛季的德比已经踢了一场🎉
@@ -49,7 +49,7 @@ tags:
 
 虹口有3.5w个座位，超级杯卖了不到2w张票，最后实际到场1.8w+。好像海港的880元球票没卖完，后期中立球迷也能买海港看台了。
 
-![super_derby_ticket.png](../images/2024-04-26-shanghai_derby_tickets/super_derby_ticket.png)
+![super_derby_ticket.png](../images/2024/2024-04-26-shanghai_derby_tickets/super_derby_ticket.png)
 
 ## 联赛抢票
 最后说说这场联赛德比的抢票那些事。
@@ -57,7 +57,7 @@ tags:
 ### 球迷会渠道
 最近，我所在的海港球迷群里，混入了不少新晋的申花球迷，其中有一个人的头像居然还是小孩穿着申花球衣的照片，太容易就被群友发现并圈出来了🧐。因为群内的票很紧张，所以大家勇于抓“间谍”，混子无处可藏🤷
 
-![spy.jpg](../images/2024-04-26-shanghai_derby_tickets/spy.jpg)
+![spy.jpg](../images/2024/2024-04-26-shanghai_derby_tickets/spy.jpg)
 
 上周突然群消息暴增，一看原来是出方案了：本赛季必须在群里通过接龙的方式买过一场球票，才能拥有这次德比的抢票资格🎫，这个规则倒是挺合理的，一方面可以在票源紧张的情况下保护老球迷的利益，另一方面也能防止临时混进来的“间谍”买票。
 
@@ -69,15 +69,15 @@ tags:
 
 球迷会渠道开始后不久，官方的售票方式也出来了🎫 满足条件的海港球迷优先购买：上赛季（包括亚冠）和本赛季买过 3 场主场票的球迷，或本赛季前三场买过两场主场票的，可以优先购票。我刚好在大麦上买过 3 个主场票，（甚至还买过海港客场平浙江的比赛），所以拿到了这个优先购买的资格😎。
 
-![ticket.jpg](../images/2024-04-26-shanghai_derby_tickets/ticket.jpg)
+![ticket.jpg](../images/2024/2024-04-26-shanghai_derby_tickets/ticket.jpg)
 
 购买形式是在大麦里发一张【优先购】的券，上周六晚上开售，没卖完的话，3 天之后再公开销售。这样预售阶段很可能票就卖完了，也能保证进来的都是海港球迷，蓝皮就进不来了😒。
 
-![special.jpg](../images/2024-04-26-shanghai_derby_tickets/special.jpg)
+![special.jpg](../images/2024/2024-04-26-shanghai_derby_tickets/special.jpg)
 
 【优先购】券上写符合资格可以买 4 张🤔，导致很多人以为能帮朋友买 3 张，于是闲鱼上多了一堆“有资格”帮抢票的“红皮黄牛”，很多“蓝皮”暗中购票，表示自己文明看球，不穿蓝色衣服，进球不庆祝，最后实际情况是只能给符合资格的人自己买，无法代抢。
 
-![special2.jpg](../images/2024-04-26-shanghai_derby_tickets/special2.jpg)
+![special2.jpg](../images/2024/2024-04-26-shanghai_derby_tickets/special2.jpg)
 
 球票有130/230/330/430四种，比平时贵不少，而且不能像平时一样选座，会根据票价自动分配。
 

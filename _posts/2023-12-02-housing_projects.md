@@ -11,7 +11,7 @@ categories:
 tags:
 - 房产
 ---
-![stand_on_street.png](../images/2023-12-02-housing_projects/stand_on_street.png)
+![stand_on_street.png](../images/2023/2023-12-02-housing_projects/stand_on_street.png)
 
 前段时间和朋友聚餐，其中一个是律师。我们聊到了房子，互相分享了关于同一个开发商的故事。
 
@@ -29,4 +29,4 @@ tags:
 
 现在的问题是，开发商不仅停工了，还欠了外面一些供应商的钱，导致没有流动资金去盘活这个项目。虽然预计保交楼的钱账上有余，但流动资金转不起来，所以工程难以为继，这个楼盘现在是该区区政府重点预警的保交楼工程，大家都很着急。
 
-![space_city.png](../images/2023-12-02-housing_projects/space_city.png)
+![space_city.png](../images/2023/2023-12-02-housing_projects/space_city.png)

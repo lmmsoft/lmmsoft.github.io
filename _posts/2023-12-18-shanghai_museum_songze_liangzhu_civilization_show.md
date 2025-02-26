@@ -12,7 +12,7 @@ tags:
   - 上海
   - 看展
 ---
-![09_玉琮王.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/09_玉琮王.JPG)
+![09_玉琮王.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/09_玉琮王.JPG)
 
 ## 一句话总结
 2023年8月19日，我第二次来到了上海博物馆主馆参观，重点参观了一楼的良渚特展和三楼的中国书画常设展，十一后浦西主馆会关门改造，年底浦东的东馆会全新开业。
@@ -28,16 +28,16 @@ tags:
 浦东是城市的副中心，副馆搬过去很合理，而之江去哪儿都远，附近人口也不多，不知道为啥要建在之江。感觉未来科技城的五常湿地上的公共中心更合适呀，难道一个归省里管，一个归市里管？
 
 ## "实证中国——崧泽·良渚文明考古大展"
-![01实证中国海报.png](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/01_实证中国海报.png)
+![01实证中国海报.png](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/01_实证中国海报.png)
 
 去年上海博物馆举办过“宅兹中国——河南夏商周三代文明展”，是“何以中国”系列的第一展，非常火热，可惜当时我还住在杭州，没有关注到。
-![02_总序.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/02_总序.JPG)
+![02_总序.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/02_总序.JPG)
 
 今年继续举办了“何以中国”的第二场“实证中国——崧泽·良渚文明考古大展”，汇集了华东三省一市的文物精品。
-![03_展览序言.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/03_展览序言.JPG)
+![03_展览序言.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/03_展览序言.JPG)
 
 我去过多个太湖流域的博物馆，所以对崧泽、良渚都有初步的了解和兴趣，这次的展品最全面最高级，不仅能看到国宝，还可以看清发展脉络。
-![04_展览前言.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/04_展览前言.JPG)
+![04_展览前言.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/04_展览前言.JPG)
 
 ```
 崧泽：距今5800-5300
@@ -47,23 +47,23 @@ tags:
 
 崧泽文化，因发现于上海市青浦区崧泽遗址而得名，距今约5800-5300年，上承马家浜文化、下启良渚文化，是长江下游环太湖地区时期新石器时代文化发展的重要阶段。
 
-![07_文明线索_崧泽.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/07_文明线索_崧泽.JPG)
+![07_文明线索_崧泽.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/07_文明线索_崧泽.JPG)
 
 凌家滩文化：文明的先锋
 
 凌家滩文化距今约5800-5300年，遗址位于安徽省马鞍山市含山县铜闸镇，总面积约140万平方米，是迄今发现长江下游巢湖流域面积最大、保存最完整的新石器时代中心性聚落。遗址区内发现有新石器时代晚期的人工祭坛、大型墓地及祭祀坑、积石圈、环壕等重要遗迹，出土大量精美玉器、石器、陶器等珍贵文物。凌家滩文化是一支制玉、用玉高度发达的文化，被誉为中国“史前三大治玉中心”，也是良渚文明的源头之一。
 
-![06_文明线索_良渚.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/06_文明线索_良渚.JPG)
+![06_文明线索_良渚.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/06_文明线索_良渚.JPG)
 
 良渚文化：实证中华五千多年文明史 
 
 良渚文化距今5300-4300年，是长江下游环太湖地区在马家浜文化、崧泽文化之后发展起来的新石器时代晚期文化，目前共发现600余处遗址，其中良渚古城遗址为整个良渚社会的“王城”，此外还有如寺墩、福泉山等为代表的次一级中心性聚落。这一时期，生产力进步、人口激增使得社会分工发展到了新的高度，更大范围内的区域社会整合开展得如火如荼，最终形成了踏入文明社会最根本的标志——国家。良渚古国依托其发达的稻作农业经济，以统一的“神徽”信仰为支柱，以精美复杂的玉器作为管理秩序的工具，建立了神权与王权统一的早期区域性国家。良渚以超大型的礼制性中心、严明的社会等级、庞大的公共工程造就了世界史前史上稻作文明发展的高峰，也是东亚最早的国家社会。
 
 ### 第一展厅 “古国文明”
-![05_展品地图.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/05_展品地图.JPG)
+![05_展品地图.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/05_展品地图.JPG)
 
 中间是文物精品，包括来自浙江博物馆的“玉琮王”，重达6.5kg，这是迄今发现最大的玉琮，刻有神人兽面纹“神徽”，应该是"良渚王"的宝物，原本7-23会换展回杭州，后来延长到8-19，我赶上了最后一天，非常幸运。
-![08_玉琮王.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/08_玉琮王.JPG)
+![08_玉琮王.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/08_玉琮王.JPG)
 
 （这里插一句，不久之后，我在九月底浙博新馆的开幕展上又看到这个玉琮王，非常有缘，那次展览拿出了多个浙博的镇馆之宝，有机会下次再写哈。）
 
@@ -71,18 +71,18 @@ tags:
 四周是按照考古遗址顺序的展览，从安徽含山的凌家滩遗址开始，然后是上海青浦福泉山，浙江杭州良渚反山，常州寺墩遗址。
 
 展览只给了隐含的线索，没有明文说明这些遗址之间的关系，租借的导游讲解器也只选了代表性的藏品介绍，没有介绍大的脉络。倒是现场蹭的导游让我很有收获，导游在给几个小朋友做讲解，讲的超级好，既有线索。也有代表文物的赏析。
-![10_玉琮讲解.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/10_玉琮讲解.JPG)
+![10_玉琮讲解.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/10_玉琮讲解.JPG)
 
 根据最新的考古和基因研究，凌家滩可能是良渚文明的源头之一，后来东迁到杭州的良渚古城，再后来迁移到常州寺墩。再往后，良渚这可能继续北上和山东的龙山文化交流，变成了颛顼这一支。
-![11_凌家滩遗址.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/11_凌家滩遗址.JPG)
-![12_凌家滩玉璜.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/12_凌家滩玉璜.JPG)
+![11_凌家滩遗址.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/11_凌家滩遗址.JPG)
+![12_凌家滩玉璜.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/12_凌家滩玉璜.JPG)
 
 反山的20号墓东西最全，反山的12号墓级别最高，应该是国王，“玉琮王”等大的物件都出土于反山M12墓。
-![13_反山遗址.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/13_反山遗址.JPG)
-![14_反山玉琮.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/14_反山玉琮.JPG)
+![13_反山遗址.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/13_反山遗址.JPG)
+![14_反山玉琮.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/14_反山玉琮.JPG)
 
 寺墩有高节玉琮（13节），这是良渚晚期的标志。
-![15_寺墩高节玉琮.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/15_寺墩高节玉琮.JPG)
+![15_寺墩高节玉琮.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/15_寺墩高节玉琮.JPG)
 
 ```
 玉璧，圆形，礼天
@@ -90,28 +90,28 @@ tags:
 ```
 
 ### 第二展厅 “稻作文明”
-![20_稻作文明.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/20_稻作文明.JPG)
+![20_稻作文明.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/20_稻作文明.JPG)
 展示了猪形陶器，石犁，动物骨头，还有碳化稻谷、菱角、芡实、甜瓜、桃等。
-![21_稻谷.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/21_稻谷.JPG)
+![21_稻谷.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/21_稻谷.JPG)
 
 ### 第三展厅 “手工业文明”
 有一些手工业相关的展品。
-![22_寺墩彩绘陶壶.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/22_寺墩彩绘陶壶.JPG)
+![22_寺墩彩绘陶壶.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/22_寺墩彩绘陶壶.JPG)
 
 ### 第四展厅是“玉器文明”
-![31_玉器文明.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/31_玉器文明.JPG)
+![31_玉器文明.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/31_玉器文明.JPG)
 这是第二大展厅，展示了很多玉器：动物就包括玉蝉，龟，蛙，鱼，鸟，鹰，虎，豕猪，人，觿，龙。
-![32_玉器.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/32_玉器.JPG)
+![32_玉器.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/32_玉器.JPG)
 
 还有象牙权杖，象牙是有机物，之前也有发现，但很难保存和复原，下图这个发现于上海青浦福泉山，把墓葬完整带回实验室再清理，得以完整保存，还用3D打印复刻了一个。
-![34_玉器.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/34_玉器.JPG)
+![34_玉器.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/34_玉器.JPG)
 
 ## 感想和下一步计划
 我在苏州、杭州、上海三个城市已经生活了十年，参观过上海、苏州、嘉兴、杭州等地的大小博物馆和考古遗址，它们都以各自的方式展示了当地的历史和文化，特别是新石器时代马家浜、崧泽、良渚文化的考古发现。
 
 此外，我还多次参观了良渚博物院，那里的展览主要聚焦于良渚文明的核心区域，通过详细的介绍和丰富的实物展品，使我对这个文明有了浓厚的兴趣，尤其是各种精美的玉器。
 
-![33_玉器展厅.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/33_玉器展厅.JPG)
+![33_玉器展厅.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/33_玉器展厅.JPG)
 
 然而，这次上海博物馆的“崧泽·良渚文明考古大展”却给我带来了全新的体验。这个展览的新颖之处在于，它汇集了多家博物馆和遗址的精华，不仅仅是展示单个地区的考古发现，而是通过对比和联系，勾勒出了整个江南文明的发展脉络。这种跨地域的视角，使我能够更全面地理解江南文化在中华文明历史中的地位和影响。
 
@@ -119,7 +119,7 @@ tags:
 
 这次展览也为我未来的旅程提供了新的方向，安徽含山离我老家江浦不远，都在长江北岸，之前去过那里的褒禅山景区，因为王安石的《游褒禅山记》，下次想去含山博物馆和凌家滩遗址公园。
 
-![40_相关博物馆.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/40_相关博物馆.JPG)
+![40_相关博物馆.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/40_相关博物馆.JPG)
 
 ## 小贴士：
 
@@ -133,7 +133,7 @@ tags:
 上海博物馆主馆的常设展还有很多，这次看完一楼的良渚特展之后，走马观花看了一下一楼的青铜馆，然后重点看了三楼的主馆书法、绘画、印章告别展。下一篇再写啦~
 
 下图为大家在特展厅门口，排队盖章的场景
-![41_排队盖章.JPG](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/41_排队盖章.JPG)
+![41_排队盖章.JPG](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/41_排队盖章.JPG)
 
 ## 相关链接
 - [新民晚报_以物论史，实证长三角先民了不起——观“实证中国：崧泽·良渚文明考古特展”](https://paper.xinmin.cn/html/xmwb/2023-07-08/13/164675.html)
@@ -141,4 +141,4 @@ tags:
 - [上观_上海博物馆重磅考古大展“宅兹中国”，这四个字背后有一段怎样惊心动魄的历史](https://export.shobserver.com/baijiahao/html/533198.html)
 - [画游记_实证中国•何以崧泽•宅兹良渚•只此凌家滩(多图)](https://mp.weixin.qq.com/s/F10k0BE8QytSJbRnTy0y9Q)
 
-![00_实证中国海报.jpg](../images/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/00_实证中国海报.jpg)
+![00_实证中国海报.jpg](../images/2023/2023-12-18-shanghai_museum_songze_liangzhu_civilization_show/00_实证中国海报.jpg)

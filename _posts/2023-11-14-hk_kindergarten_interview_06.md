@@ -12,7 +12,7 @@ tags:
 - 双胞胎
 - 面试
 ---
-![01_grandpa.jpeg](../images/2023-11-14-hk_kindergarten_interview/01_grandpa.jpeg)
+![01_grandpa.jpeg](../images/2023/2023-11-14-hk_kindergarten_interview/01_grandpa.jpeg)
 
 ## 面试系列文章：
 <!--more-->

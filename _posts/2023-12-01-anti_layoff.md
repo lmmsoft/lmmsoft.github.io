@@ -11,7 +11,7 @@ categories:
 tags:
 - 裁员
 ---
-![dinner.png](../images/2023-12-01-anti_layoff/dinner.png)
+![dinner.png](../images/2023/2023-12-01-anti_layoff/dinner.png)
 
 前段时间，我和几位小学同学聚餐，其中一位是HRBP（人力资源业务合作伙伴），拥有多个行业和外企、民企的工作经验。
 
@@ -39,7 +39,7 @@ tags:
 
 此处暂停一下，请思考：是什么原因让人力预感不妙么？
 
-![one_one.png](../images/2023-12-01-anti_layoff/one_one.png)
+![one_one.png](../images/2023/2023-12-01-anti_layoff/one_one.png)
 
 ## 狠招
 果然，她表示：“哎呀，你难道不知道吗？我居然又怀孕了。你看看这份报告，已经怀孕数周了“，然后递上了体检报告。

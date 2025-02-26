@@ -13,7 +13,7 @@ tags:
 - 城墙
 - 博物馆
 ---
-![01_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/01_gate.JPG)
+![01_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/01_gate.JPG)
 
 ## 一句话总结
 2024年3月16日，我和母亲一起参观了南京城墙博物馆，听到了专业而生动的讲解，深入了解了南京城墙——这个世界上现存最长、规模最大的城墙的的历史和文化。
@@ -27,7 +27,7 @@ tags:
 
 进入博物馆，下到地下 1 楼，左手边便是长设展“旷世城垣——南京城墙历史文化陈列”，系统展示了南京城墙的从古到今，历史与文化。
 
-![02_begin.JPG](../images/2024-03-16-nanjing_city_wall_museum/02_begin.JPG)
+![02_begin.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/02_begin.JPG)
 
 "旷世城垣"四个大字左边的前言里介绍提到了南京城墙的几个特点：
 
@@ -42,7 +42,7 @@ tags:
 
 ### 南京城的历史
 
-![04_history.JPG](../images/2024-03-16-nanjing_city_wall_museum/04_history.JPG)
+![04_history.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/04_history.JPG)
 
 - 南京建城历史可以追溯到新石器时代的原始村落，到了春秋战国时期，吴越楚国等建立了邑城。
 - 秦灭六国后，在此设立了郡县。
@@ -57,19 +57,19 @@ tags:
 最近火热的🔥虚拟货币铭文，翻译也十分巧妙，城砖上的铭文是把字烧制在砖头上，虚拟的铭文也是把特殊的标记附加在比特币上，二者有异曲同工，一实一虚。
 
 ### 明城墙的历史
-![30_zhu_yuanzhang.JPG](../images/2024-03-16-nanjing_city_wall_museum/30_zhu_yuanzhang.JPG)
+![30_zhu_yuanzhang.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/30_zhu_yuanzhang.JPG)
 
 明城墙始建于 1366 年，朱元璋命令刘基等人在南京开始营建新城，随后 1368 年朱元璋在应天也就是南京称帝，建立大明王朝， 1378 年，经过十年的反复斟酌，最终将南京确定为京师，并开始重点建造城墙。
 
 这里有一个放映厅，半球形的，讲了是天上的天象对南京城市格局的影响，比如紫微垣对应下面的紫禁城，城市的格局，皇宫的布局，跟天象之间的联系，很有意思，值得一看。
 
-![03_video.JPG](../images/2024-03-16-nanjing_city_wall_museum/03_video.JPG)
+![03_video.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/03_video.JPG)
 
 还有个"燕雀填湖"的故事，老城区人口密集，修建宫殿需要大量搬迁，不好弄，后来就在城东雁雀湖这里填湖建皇宫，这里靠着中山的龙脉，前面有秦淮河，后面有富贵山，背山靠河，风水特别好。
 
 ## 一砖一石，众志成城
 
-![06_guide.JPG](../images/2024-03-16-nanjing_city_wall_museum/06_guide.JPG)
+![06_guide.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/06_guide.JPG)
 （蹭了上图中讲解员的讲解，讲得极好，既专业，又生动！）
 
 第二个章节叫做"一砖一石，众志成城"，讲的是城墙修筑、城砖的运输制作相关的内容。
@@ -91,7 +91,7 @@ tags:
 
 在“一砖一石，众志成城”展厅中，有一幅“南京城墙砖产地及运输水系图”，通过文字介绍和地图资料将具体情况全盘呈现给观众。该地图以长江中下游河流为主干，通过灯带方式动感地展现了多条不同水系的城砖运输路线，一览无余。
 
-![05_water.JPG](../images/2024-03-16-nanjing_city_wall_museum/05_water.JPG)
+![05_water.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/05_water.JPG)
 
 如上水系图，主线是长江
 
@@ -108,16 +108,16 @@ tags:
 ## 物勒工名，缤纷砖文
 第三个章节是 "物勒工名，缤纷砖文"，这里主要展示了墙砖，满满摆满三面墙。这些墙砖不仅体现了当时的追责制度，更可以用来研究百家姓、古代不同的篆刻技术、徭役制度。
 
-![35_bricks.JPG](../images/2024-03-16-nanjing_city_wall_museum/35_bricks.JPG)
+![35_bricks.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/35_bricks.JPG)
 
 ### 城砖百家姓 
 城砖百家姓这部分非常有趣，砖文上记录了制造砖人的姓名，包括当地的知府、知县、窑匠、批批匠等等。这样一来，所有的姓氏都可以在这里看到。这里展示了 700 块城砖，几乎涵盖了百家姓中的所有姓氏。
 
-![34_names.JPG](../images/2024-03-16-nanjing_city_wall_museum/34_names.JPG)
+![34_names.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/34_names.JPG)
 
 门口有两台查询机，我查了一下我的姓氏"娄"，果然在某一块砖里有"娄谷俊"；然后查询我妈妈的姓氏“何”，能查到多块都有“何”，这说明姓“何”的人在明朝也明显多一些。
 
-![07_lou.JPG](../images/2024-03-16-nanjing_city_wall_museum/07_lou.JPG)
+![07_lou.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/07_lou.JPG)
 
 砖头有多方烧制：
 
@@ -125,7 +125,7 @@ tags:
 - 第二种是军队砖，军队也是烧造和修筑的主要劳动力来源之一，很多军队都会进行烧制
 - 第三种是地方砖，各地的府州县，主要是五个省，都在一起烧砖
 
-![08_liu_dehua.JPG](../images/2024-03-16-nanjing_city_wall_museum/08_liu_dehua.JPG)
+![08_liu_dehua.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/08_liu_dehua.JPG)
 
 比如能看到"刘德华"烧的城砖(上图)，这是一个同名的明朝工匠的名字。
 
@@ -137,7 +137,7 @@ tags:
 
 下一章节"四重城垣，皇都威仪"是展厅高潮部分，系统介绍了南京的外郭、京城、皇城、宫城四重城池。
 
-![09_video2.JPG](../images/2024-03-16-nanjing_city_wall_museum/09_video2.JPG)
+![09_video2.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/09_video2.JPG)
 
 中间有一个很大的南京城沙盘模型，后面大屏幕循环播放短片，然后介绍了 里 13 外 18，护城河等相关的故事。
 
@@ -149,12 +149,12 @@ tags:
 
 南京城发展到现在，"里十三"已经全部都属于"市区"甚至是"老城区"了；"里十三"的西侧，长江的东侧，是新城的发展重点；而"外十八"所在的北、东、南三个方向，依然还属于郊区，可见当年的外郭城规模之大。
 
-![10_outer_city.JPG](../images/2024-03-16-nanjing_city_wall_museum/10_outer_city.JPG)
+![10_outer_city.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/10_outer_city.JPG)
 
 ### 皇城：
 皇城南大门是正阳门，它是明朝，也就是大明王朝的国门，地位极为崇高。它与洪武门、承天门、端门、午门以及象征皇权的三大殿——奉天殿、华盖殿、谨身殿，都处在同一条中轴线之上。现在北京和南京的中轴线也都在申遗。
 
-![09_video3.JPG](../images/2024-03-16-nanjing_city_wall_museum/09_video3.JPG)
+![09_video3.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/09_video3.JPG)
 
 ### 中轴线：
 皇城的中轴线上的很多地名还保留至今。比如北门叫做北安门，现在就叫北安门街；皇城的午门，现在有午朝门公园；宫城现在是明故宫遗址，南边的御街，现在叫做御道街。这些地名在南京城东都还能找到。
@@ -162,14 +162,14 @@ tags:
 ### 城门今夕
 沙盘外圈的展板，详细介绍了南京城门的历史。这块我特别感兴趣，仔细看了很久。大学时期，我就和好友一起，先用暴走（现在叫 city walk）的方式，徒步丈量过"里十三"，后来又骑车，环绕外十八，寻访内外城门。
 
-![nanjing_city_wall_museum_01.png](../images/2024-03-16-nanjing_city_wall_museum/nanjing_city_wall_museum_01.png)
+![nanjing_city_wall_museum_01.png](../images/2024/2024-03-16-nanjing_city_wall_museum/nanjing_city_wall_museum_01.png)
 
 **光华门** 在 1958 年被拆除了，**通济门**也在 1963 年被拆掉了。到了民国时期，又新开了武定门、雨花门和中华东门。
 
 **武定门**是在 1933 年修建的，**雨花门**是在 1936 年，**中华东门**则是在 1931 年。然后在 1958 年，武定门、雨花门和中华东门都被拆除了。不过，它们分别在 2007 年、2009 年和 2007 年又被重新修建了。
 
 **聚宝门**现在被称为**中华门**，它是南京城的正南门，也是面朝外秦淮河的最大城门。李白的《长干行》中描绘了中华门外长干里的生活，其中最著名的一句就是“同居长干里，两小无嫌猜”，这也是“两小无猜”这个成语的来源呢。
-![12_jubao_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/12_jubao_gate.JPG)
+![12_jubao_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/12_jubao_gate.JPG)
 
 **三山门**现在叫**水西门**，**石城门**现在叫**汉西门**，而**汉中门**还是叫**汉中门**。在民国时期建了一个新的门，也叫汉中门，位于汉中路。1931 年汉中门开辟，1976 年汉中门被拆除，后来城西干道与汉中路相连接。这些城门的变迁反映了城市的发展和历史的演变呢😄
 
@@ -182,7 +182,7 @@ tags:
 **挹江门**是民国时期修的，在南京保卫战中，日军也没能攻下它。在奉安大典中，孙中山的灵柩从挹江门进入南京。后来，挹江门在 1954 年重建。
 
 **仪凤门**是明朝时期的，后来修建了挹江门之后，它通往中山门的交通地位下降，中间改名为**新中门**，有振兴中华的寓意。后来修造长江大桥之后，仪凤门的交通节点作用也有所提高。后来在 70 年代，为了修建宁溧路，仪凤门被拆除。然后在 2005 年又重新修建了仪凤门。
-![13_yifeng_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/13_yifeng_gate.JPG)
+![13_yifeng_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/13_yifeng_gate.JPG)
 
 **钟阜门**是明洪武十七年的东门，在 1962 年被拆除。
 
@@ -202,7 +202,7 @@ tags:
 
 ## 皇权中心，皇城工程
 下一个章节叫"皇权中心，皇城工程"，介绍了明朝皇城的相关知识，比如明初三郡，就是南京，中都凤阳，北京。
-![33_captials.JPG](../images/2024-03-16-nanjing_city_wall_museum/33_captials.JPG)
+![33_captials.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/33_captials.JPG)
 
 ### 明故宫的变迁
 明朝是明故宫，清朝是住房，太平天国占领南京之后，把明故宫都拆掉了，然后修建新的宫殿，再后来是清末战乱，民国初年，明故宫已经大部分焚毁，国民政府在遗址上修建了明故宫机场，五八年前明故宫机场都在使用，后来为迎接孙中山先生的灵柩，安葬中山陵，修中山东路，穿过将明故宫，将其一分为二，南北断开了。
@@ -221,14 +221,14 @@ tags:
 
 太平天国的"天京陷落"，曾国藩打太平天国，围攻南京城，把太平门龙脖子的城墙炸了一个缺口入城，击溃了太平天国军队。事后曾国藩令人修复了这处城的缺口，还在缺口处竖了一个碑，亲自撰文，记录收复南京的始末，后世称为太平门缺口碑。
 
-![15_tianjing.JPG](../images/2024-03-16-nanjing_city_wall_museum/15_tianjing.JPG)
+![15_tianjing.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/15_tianjing.JPG)
 
 民国时期有南京保卫战，南京城的最后一场战争是渡江战役，"钟山风雨起苍黄，百万雄师过大江。 虎踞龙盘今胜昔，天翻地覆慨而慷。"
 
 ## 城墙记忆，遗产遗存
 下一个板块叫做"城墙记忆,遗产遗存"，包括民国和新中国对城墙的保护，民国徐悲鸿、孙科都建议保护明城墙，对建国之后我们也是一直在保护，然后并且对民国城门进行更名。
 
-![14_taiping_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/14_taiping_gate.JPG)
+![14_taiping_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/14_taiping_gate.JPG)
 
 有些城门改名的历史还是挺有趣的：
 
@@ -247,7 +247,7 @@ tags:
 
 ### 申遗
 
-![11_un.JPG](../images/2024-03-16-nanjing_city_wall_museum/11_un.JPG)
+![11_un.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/11_un.JPG)
 "中国明清城墙联合申报世界文化遗产项目"，其中包括南京、西安、辽宁新城、湖北荆州、湖北襄阳、浙江临海、安徽寿县和安徽凤阳这八座城市的城墙。南京主导，目前工作会议已经开了七次，不断有新的城市加入，继续推进中。
 
 另外，北京的中轴线也在做申遗工作，南京的中轴线好像并没有打包一起。
@@ -261,11 +261,11 @@ tags:
 
 逛完博物馆，可以去西边的中华门城堡，买票实地登上城楼，也可以去东边的老门东，吃吃喝喝。
 
-![16_zhonghua_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/16_zhonghua_gate.JPG)
+![16_zhonghua_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/16_zhonghua_gate.JPG)
 
-![17_with_mon_zhonghua_gate.JPG](../images/2024-03-16-nanjing_city_wall_museum/17_with_mon_zhonghua_gate.JPG)
+![17_with_mon_zhonghua_gate.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/17_with_mon_zhonghua_gate.JPG)
 
-![18_lao_men_dong.JPG](../images/2024-03-16-nanjing_city_wall_museum/18_lao_men_dong.JPG)
+![18_lao_men_dong.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/18_lao_men_dong.JPG)
 
 ## 参考资料
 - 南京城墙官网 https://www.njcitywall.com/
@@ -276,8 +276,8 @@ tags:
   - https://www.thepaper.cn/newsDetail_forward_7848410
   - https://mp.weixin.qq.com/s/ULIVBQEzm5ibefWe0bEB7g
 
-![20_nanjing_logo.JPG](../images/2024-03-16-nanjing_city_wall_museum/20_nanjing_logo.JPG)
+![20_nanjing_logo.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/20_nanjing_logo.JPG)
 
-![21_dragon.JPG](../images/2024-03-16-nanjing_city_wall_museum/21_dragon.JPG)
+![21_dragon.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/21_dragon.JPG)
 
-![22_people_montain.JPG](../images/2024-03-16-nanjing_city_wall_museum/22_people_montain.JPG)
+![22_people_montain.JPG](../images/2024/2024-03-16-nanjing_city_wall_museum/22_people_montain.JPG)

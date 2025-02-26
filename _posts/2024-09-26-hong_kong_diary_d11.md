@@ -16,7 +16,7 @@ tags:
 - 米家
 - 晨间习惯
 ---
-![03_ronalodo.JPG](../images/2024-09-26-hong_kong_diary_d11/03_ronalodo.JPG)
+![03_ronalodo.JPG](../images/2024/2024-09-26-hong_kong_diary_d11/03_ronalodo.JPG)
 2024 年 9 月 26 日，周四，天气晴
 
 # 一、“回国”的迫切性
@@ -42,7 +42,7 @@ tags:
 
 无奈之下，只能先连米家，再想用 HomeAssistant 进行设置。然而，其中一台灯弄了半天都无法配网，后来干脆不亮了，等了一会儿重新跳闸才恢复正常。目前四个灯只有三个灯连上网，还有一个未成功连接，成了半拉子工程，实在有些小遗憾！
 
-![02_messi.JPG](../images/2024-09-26-hong_kong_diary_d11/02_messi.JPG)
+![02_messi.JPG](../images/2024/2024-09-26-hong_kong_diary_d11/02_messi.JPG)
 
 ## 四、海兔宝宝的哭闹
 

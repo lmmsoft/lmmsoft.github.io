@@ -11,7 +11,7 @@ categories:
 tags:
 - 上海
 ---
-![达菲.JPG](../images/2023-11-29-suffering_from_influenza_A/达菲.JPG)
+![达菲.JPG](../images/2023/2023-11-29-suffering_from_influenza_A/达菲.JPG)
 ## TL;DR
 星期一，我被确诊患上了甲流。
 
@@ -41,7 +41,7 @@ tags:
 
 **治疗甲流的经典药物是达菲，新出的药叫速福达。**
 
-![速福达.PNG](../images/2023-11-29-suffering_from_influenza_A/速福达.PNG)
+![速福达.PNG](../images/2023/2023-11-29-suffering_from_influenza_A/速福达.PNG)
 
 天山中医院没有速福达，医生给我开了一盒奥司他韦(达菲)，是意大利米兰工厂制造，上海罗氏分装的进口药。虽然171元一盒，比国产仿制药贵不少，且乙类药还要自付10%，但品质让人放心。 今年吃过好几次**集采药便宜但是疗效不佳**的亏，这次还是药效要紧。 另外还开了一盒抗生素。
 
