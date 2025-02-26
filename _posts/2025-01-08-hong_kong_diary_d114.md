@@ -13,7 +13,7 @@ tags:
 - AI
 - Klook
 ---
-![baby](../images/2025-01-08-hong_kong_diary_d114/baby.jpeg)
+![baby](../images/2025/2025-01-08-hong_kong_diary_d114/baby.jpeg)
 2025年1月8日，星期二，晴
 
 ## 港漂生活必备：APP 推荐
@@ -21,13 +21,13 @@ tags:
 <!--more-->
 
 ## 粤语学习好帮手：商量Sensechat
-![sensechat](../images/2025-01-08-hong_kong_diary_d114/sensechat.jpeg)
+![sensechat](../images/2025/2025-01-08-hong_kong_diary_d114/sensechat.jpeg)
 首先推荐的是商量Sensechat，现在各种AI工具层出不穷，比我常用的有中国的豆包、Kimi，美国的ChatGPT等，而商量Sensechat的宣传语是“更懂香港人的AI助手”，它是现在市面上唯一一款专做粤语的大语言模型 APP，拥有多模态能力，支持语音、文字、图片等。
 
 鉴于我粤语水平有限，日常会用它来完成粤语的语音转文字翻译工作，十分便捷。而且用它来辅助学习也是个不错的选择，它可以听我说普通话，并用粤语回答，能帮助像我这样的粤语初学者更好地掌握这门语言。
 
 ## 本地活动集结站：Klook
-![klook](../images/2025-01-08-hong_kong_diary_d114/klook.png)
+![klook](../images/2025/2025-01-08-hong_kong_diary_d114/klook.png)
 另一款是 Klook，这是一家总部位于香港的旅游类 APP，其功能与携程类似。它在活动信息分类方面做得相当出色，无论是演唱会，还是各类本地嘉年华活动，都能在上面找到详细且集中的信息展示。更棒的是，它具有开放性，能够通过外链直接跳转至活动主页，方便用户进行报名等操作。每次临近周末，我都会习惯性地在这个 APP 上浏览，查看是否有适合带宝宝一起参与的新鲜活动，让周末生活更加丰富多彩。 
 
 ## 结语：让生活更加便利精彩

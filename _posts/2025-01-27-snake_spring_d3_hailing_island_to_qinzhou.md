@@ -16,45 +16,45 @@ tags:
 - 亲子房
 - 悬崖餐厅
 ---
-![12_family.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/12_family.JPG)
+![12_family.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/12_family.JPG)
 
 ## 清晨的海陵岛：阳光与海景
 2025年1月27日，腊月二十八，迎来了我们春节自驾的第三天。昨晚留宿海陵岛，狂风呼啸，闹腾了一夜。今早醒来，风势依旧强劲，不过阳光倒是格外明媚。
 <!--more-->
 
-![07_sea_view_big.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/07_sea_view_big.JPG)
+![07_sea_view_big.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/07_sea_view_big.JPG)
 
 推开窗，湛蓝的海水在阳光的照耀下波光粼粼，海景房终于有了它应有的模样，美得让人陶醉。这般美景，一扫昨夜狂风带来的阴霾，给新的一天开了个好头。
 
 ## 分工行动：宝妈遛娃，我忙创作
 
-![03_homework.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/03_homework.JPG)
+![03_homework.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/03_homework.JPG)
 
 上午，宝宝们先在房间里做寒假作业，随后宝妈带着宝宝们去沙滩玩耍。她给孩子们买了小铲子和小桶，让他们尽情地在沙滩上堆沙堡、挖沙坑。看着孩子们在沙滩上嬉笑玩耍的模样，满满的幸福感涌上心头。
 
-![01_beach_play.jpg](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/01_beach_play.jpg)
+![01_beach_play.jpg](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/01_beach_play.jpg)
 
 而我则留在房间里，忙着更新公众号。年底前制作的3款微信红包封面终于都审批通过，得赶在除夕前发布文章，把这些红包封面分享出去。于是，我静下心来，认真地编辑文章、修改内容，沉浸在创作的世界里。
 
 ## 骑车出游：意外与美景
 
-![02_beach.jpg](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/02_beach.jpg)
+![02_beach.jpg](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/02_beach.jpg)
 
 临近12点，文章终于改完。我下楼办理了退房手续，把行李寄存在酒店一楼后，便租借了一辆共享山地车，出去溜达一圈。时间有限，直奔海滩。由于出门匆忙，戴着墨镜，注意力也不太集中，从硬实的泥土路转到沙子路时，车速又快，结果一个不小心就翻车了。好在摔在了柔软的沙子上，并无大碍，要是摔在硬地面上，估计得受伤。
 
-![04_reading.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/04_reading.JPG)
+![04_reading.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/04_reading.JPG)
 
 爬起来后，推车到海边，眼前的景象让我瞬间忘却了刚才的小意外。沙滩上阳光明媚，海风轻拂，景色美不胜收。虽然海水有些凉，不能下水畅游，但这般美景已足够让人陶醉。海边还有一些水上运动基地，一艘小船上写着“人生不过三万天，一定要享受每一天”，这句话深深触动了我。生活确实需要我们放慢脚步，好好享受每一个当下，而不是一味地忙碌奔波。 
 
 ## 考察海景房：楼市现状与租赁行情
 
-![08_beach_view.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/08_beach_view.JPG)
+![08_beach_view.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/08_beach_view.JPG)
 
 从海滩离开后，我骑车前往隔壁的几个海景房楼下考察。其中一个楼下有个售楼处，我便进去想向保安了解一下房子的售价。保安直接告知我，开发商和银行存在债务纠纷，现在买房无法办理房产证，不建议我购买。门口有一些销售的名片，可以拿去咨询，不过临近过年，售楼处似乎没有销售人员，估计是如今房子不太好卖，即便春节期间游客众多，销售们也没想着抓住这个时机冲业绩。 
 
 随后，我和保安聊起了房价。这边的新房售价七八千，而隔壁二手房的广告标价仅四千左右，看来这两年海景旅游地产的行情确实不景气。即便海陵岛拥有优质的海景资源，距离广州、深圳等经济中心也仅需两三个小时的车程，海景房市场还是受到了较大的冲击。
 
-![15_town_view.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/15_town_view.JPG)
+![15_town_view.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/15_town_view.JPG)
 
 接着，我又去隔壁的酒店公寓了解情况。平时淡季，一套50平的酒店公寓，配备网络且可以在屋内做饭的海景房，一晚大概120元；到了春节旺季，价格就飙升至五六百一晚，春节过后又会回落至低价区间。如果选择长租，节后一个月只需1200元，相当于旺季2天的价格就能租上一个月。每年5-10月是海陵岛的旺季，酒店公寓不做长租，只做日租，房价也会在低价基础上上浮，其中七八月份生意最为火爆。
 
@@ -62,42 +62,42 @@ tags:
 
 ## 星辰屿海的午餐时光：美食海景相伴，惬意满满
 
-![09_full_view.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/09_full_view.JPG)
+![09_full_view.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/09_full_view.JPG)
 
 中午前往星辰屿海悬崖餐厅，在这绝佳的观景之地，一边品尝着美味佳肴，一边欣赏着眼前辽阔的海景，这样温馨又惬意的时光，无疑会成为我们记忆中无比美好的一页。 
 
-![10_mum_baby.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/10_mum_baby.JPG)
+![10_mum_baby.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/10_mum_baby.JPG)
 
 而且对比也很强烈，昨天在海陵岛，凛冽的五级海风裹挟着阵阵寒意，直往骨子里钻，把我冻得够呛。没想到今天天气转好，虽说海风依旧强劲，可阳光灿烂，明媚的光线洒在海面上，波光粼粼。澄澈纯粹的海水在日光下闪烁着迷人的光彩，美得动人心弦。
 
-![05_sea_view.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/05_sea_view.JPG)
+![05_sea_view.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/05_sea_view.JPG)
 
 上一次有类似的体验，还是在巴厘岛的网红景点之一"阿雅娜酒店"内的日落悬崖酒吧Rock Bar，那是我和宝妈婚后的蜜月，这里面朝南中国海，那里面朝印度洋，都有广阔的海景，远处的海面与天际线交融，水天一线，宁静深邃。
 
-![13_family_stand.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/13_family_stand.JPG)
+![13_family_stand.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/13_family_stand.JPG)
 
 这里的风景美，食物以网红菜为主，摆盘都很漂亮，楼顶还有专门拍照打卡的平台，甚至配备了自拍架，方便独行的旅客。缺点是食物口味稍逊，而且全场只有2个宝宝座椅，不够用呀。
 
 ## 广东广西自驾见闻
-![16_dji_express.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/16_dji_express.JPG)
+![16_dji_express.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/16_dji_express.JPG)
 
 下午继续赶路，原计划是前往广西北海，可惜耽误了时间，考虑到明天下午还要去南宁机场接外婆，就在更靠近南宁，也市区离高速更近的广西钦州停留。
 
-![18_cross.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/18_cross.JPG)
+![18_cross.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/18_cross.JPG)
 
 阳江到湛江的沈海高速都是四车道，非常宽阔，湛江到北海的高速在广东段只有两车道，比较难开。到了广西，又变成宽阔的三/四车道了，车流量也小些，两旁的车速明显加快。在这里，我才第一次发现理想ONE的最大巡航速度是130，而我巡航的时候，也经常有车从我身边呼啸而去，有一次看到路边的流动测速显示138，估计前面车上的仪表盘有140+了，也许这边只有区间测速吧。
 
-![17_dji_stop.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/17_dji_stop.JPG)
+![17_dji_stop.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/17_dji_stop.JPG)
 
 时值春运，在广东省内自驾的时候，服务区里面一次充电都没排上过，到了广西，在北海的铁山服务区，终于可以把电充满，油加满，看到远处的村庄在放烟花，我也给陪宝宝放了昨天在海陵岛买了却因为风大没法放的手持小烟花，太开心了~
 
-![19_firework.jpg](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/19_firework.jpg)
+![19_firework.jpg](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/19_firework.jpg)
 
 ## 亲子套房的舒适
-![21_room.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/21_room.JPG)
+![21_room.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/21_room.JPG)
 
 晚上在钦州，因为物价低，住宿相对便宜，我特意搜了亲子房，最后入住的是个亲子套房，客厅里有小帐篷、摇摇马、宝宝小车，房间里还有一大一小两张床，床单和枕头是多啦A梦主题，还摆了两个毛绒玩具，俩宝宝一进去就玩得不亦乐乎，开心极了。
 
-![22_bed.JPG](../images/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/22_bed.JPG)
+![22_bed.JPG](../images/2025/2025-01-27-snake_spring_d3_hailing_island_to_qinzhou/22_bed.JPG)
 
 我也觉得很方便，等晚上宝宝们睡着，我还能在客厅安静写作、充电、传图，不用因为担心吵到宝贝，而像前几天一样跑去大堂吧，在那儿又冷又吵，夜里还会看见形形色色来开房的人。。。
