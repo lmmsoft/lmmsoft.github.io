@@ -41,7 +41,7 @@ tags:
 
 下面介绍我是怎么分析的。
 
-[lmmsoft.github.io/archives/](https://lmmsoft.github.io/archives/) 这是我的博文列表页，里面有全部的标题，可以借助这个网页的源码，拿到全部的标题。
+[lmmsoft.github.io/archives](https://lmmsoft.github.io/archives/) 这是我的博文列表页，里面有全部的标题，可以借助这个网页的源码，拿到全部的标题。
 
 我使用了 kimi， 提示词 ```写段js代码，在浏览器的控制台里运行，输出文章列表 json, 包含 日期，标题， 网页的 html格式如下：``` +  部分网页源码，因为上下文长度有限制，没能贴上全部的网页源码，不过结构都是一样的，足够AI找到规律了。
 
