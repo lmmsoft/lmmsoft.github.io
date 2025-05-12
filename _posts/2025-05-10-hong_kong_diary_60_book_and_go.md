@@ -1,5 +1,5 @@
 ---
-title:  "港漂日记60：西营盘旧书店 Book & Go 淘书记"
+title:  "港漂日记60：西营盘网红旧书店 Book & Go 淘书记"
 date: 2025-05-10T12:00:00+08:00
 author: lmm333
 layout: post
@@ -7,7 +7,7 @@ comments: true
 published: true
 permalink: /hong_kong_diary_60_book_and_go/
 categories:
-- 珊瑚海兔
+- 我的游记
 tags:
 - 西营盘
 - 书店
