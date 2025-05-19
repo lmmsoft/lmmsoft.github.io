@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /yangzhou_trip.md/
+permalink: /yangzhou_trip/
 categories:
 - 我的游记
 tags:

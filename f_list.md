@@ -151,6 +151,8 @@ permalink: /list/
 - 南京
   - 南京博物院
   - 南京博物馆
+  - [六朝博物館](/liuchao_museum/)
+  - [南京城墙博物馆](/nanjing_city_wall_museum/)
   - 林散之、萧娴、高二适、胡小石纪念馆
   - 【规划】南京市规划建设展览馆
   - 【规划】江北新区规划展览馆
@@ -165,7 +167,10 @@ permalink: /list/
   - 吴中博物馆（吴文化博物馆）
   - 【规划】苏州园区规划展示馆
   - 【图书】独墅湖图书馆
+- 镇江
+  - [镇江博物馆](/zhenjiang_museum/)
 - 扬州
+  - [扬州博物馆](/yangzhou_trip)
   - 江都博物馆
 - 泰州
   - 泰州博物馆
@@ -184,6 +189,7 @@ permalink: /list/
   - 浙江博物馆（孤山馆区）
   - 浙江博物馆（武林馆区）
   - 浙江自然博物馆（西湖文化广场）
+  - [浙江省地质博物馆](/Zhejiang_geological_museum_with_baby/)
   - 良渚博物院
   - 临安博物馆
   - 中国刀剪剑博物馆
@@ -217,18 +223,24 @@ permalink: /list/
 
 ### 华东-上海
 - 上海
-  - 上海博物馆
+  - 上海博物馆 [上海博物馆：实证中国——崧泽·良渚文明考古大展](/shanghai_museum_songze_liangzhu_civilization_show/)
+  - 上海博物馆东馆
   - 上海历史博物馆 [参观上海市历史博物馆](/shanghai_history_museum/)
+  - 闵行区博物馆
+  - 奉贤区博物馆
+  - 苏州河工业文明展示馆 [见证苏州河的华丽蜕变：苏州河工业文明展示馆参观记](/shanghai_suzhou_creek_industrial_civilization_museum/)
   - 刘海粟美术馆 [刘海粟美术馆参观记](/liuhaisu_art_museum/)
-  - 程十发美术馆
+  - 程十发美术馆 [程十发美术馆：不仅能看展，还有上海第一家书画自习室](/chengshifa_art_museum/)
   - 【图书】
     - 上海图书馆东馆
     - 长宁区图书馆
   - 【展会】
     - ChinaJoy
     - 世界人工智能大会
-    - 上海潜水展
+    - 2023上海潜水展 [2023上海潜水展参观记](https://lmmsoft.github.io/drt_shanghai_show/)
     - 金庸展（2022 上海图书馆东馆）
+    - 2023上海书展 [走进上海书展，畅游书海，感受文化盛宴](/shanghai_book_fair/)
+    - 2023上海国际电影节  [平民视角体验2023上海国际电影节](/shanghai_international_film_festival_2023/)
 
 ### 华东-安徽
 - 黄山
@@ -277,10 +289,33 @@ permalink: /list/
   - 南越王博物馆
 - 深圳
   - 深圳博物馆
+  - 南山博物館
+  - [中英街博物馆](/hong_kong_diary_d71/)
+- 珠海
+  - 珠海市博物館
+- 惠州
+  - 惠州博物馆
+- 茂名
+  - [茂名博物館](maoming_museum)  [茂名博物館日记](/snake_spring_d7_maoming/)
+- 江门
+  - [中国侨都华侨华人博物馆](/snake_spring_d9_jiangmen_to_dongguan/)
+- 阳江
+  - [广东海上丝绸之路博物馆](/snake_spring_d2_shenzhen_to_hailing_island/)
+
+
+### 华南-广西
+- 南宁
+  - [广西壮族自治区博物馆](//snake_spring_d5_nanning//)
+  - [邓颖超纪念馆](/snake_spring_d5_nanning/)
 
 ### 特别行政区
 - 香港
-  - 香港历史博物馆 TBD
+  - [香港历史博物馆](/hong_kong_history_museum/)
+  - [香港故宫文化博物馆](/hong_kong_diary_d19/)
+  - [杜莎夫人蜡像馆](/hong_kong_diary_d15/)
+  - 展会
+    - [幸福家庭博览会](/hong_kong_diary_d104/)
+    - [2024香港潜水展](/2024_drt_hong_kong_show/)
 - 澳门
   - 澳门博物馆
 
