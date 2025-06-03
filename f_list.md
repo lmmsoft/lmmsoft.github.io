@@ -151,8 +151,8 @@ permalink: /list/
 - 南京
   - 南京博物院
   - 南京博物馆
-  - [六朝博物館](/liuchao_museum/)
-  - [南京城墙博物馆](/nanjing_city_wall_museum/)
+  - 六朝博物館 [在南京六朝博物馆，我看到了195件禁止出国文物中的2件](/liuchao_museum/)
+  - 南京城墙博物馆 [在南京六朝博物馆，我看到了195件禁止出国文物中的2件](/nanjing_city_wall_museum/)
   - 林散之、萧娴、高二适、胡小石纪念馆
   - 【规划】南京市规划建设展览馆
   - 【规划】江北新区规划展览馆
@@ -170,9 +170,9 @@ permalink: /list/
 - 无锡
   - 无锡博物院
 - 镇江
-  - [镇江博物馆](/zhenjiang_museum/)
+  - 镇江博物馆 [镇江博物馆：精美的器物与缺失的展示](/zhenjiang_museum/)
 - 扬州
-  - [扬州博物馆](/yangzhou_trip)
+  - 扬州博物馆 [扬州一日游：博物馆、历史、恐龙、雕版印刷、富春茶社](/yangzhou_trip)
   - 江都博物馆
 - 泰州
   - 泰州博物馆
@@ -190,7 +190,7 @@ permalink: /list/
   - 浙江博物馆（孤山馆区）
   - 浙江博物馆（武林馆区）
   - 浙江自然博物馆（西湖文化广场）
-  - [浙江省地质博物馆](/Zhejiang_geological_museum_with_baby/)
+  - 浙江省地质博物馆 [这个新开不久的博物馆，能看到浙江本省的恐龙化石，太适合遛娃了！](/Zhejiang_geological_museum_with_baby/)
   - 良渚博物院
   - 临安博物馆
   - 中国刀剪剑博物馆
@@ -303,34 +303,34 @@ permalink: /list/
 - 深圳
   - 深圳博物馆
   - 南山博物館
-  - [中英街博物馆](/hong_kong_diary_d71/)
+  - 中英街博物馆 [港漂日记D71：盐田中英街漫记：海岸盛景，历史长歌](/hong_kong_diary_d71/)
 - 珠海
   - 珠海市博物館
 - 惠州
   - 惠州博物馆
 - 茂名
-  - [茂名博物館](maoming_museum)  [茂名博物館日记](/snake_spring_d7_maoming/)
+  - 茂名博物館 [茂名博物馆参观记](/maoming_museum/) [蛇年春节自驾D7：茂名 中国第一摊 茂名博物馆 亚朵酒店](/snake_spring_d7_maoming/)
 - 江门
-  - [中国侨都华侨华人博物馆](/snake_spring_d9_jiangmen_to_dongguan/)
+  - 中国侨都华侨华人博物馆 [蛇年春节自驾D7：茂名 中国第一摊 茂名博物馆 亚朵酒店](/snake_spring_d9_jiangmen_to_dongguan/)
 - 阳江
-  - [广东海上丝绸之路博物馆](/snake_spring_d2_shenzhen_to_hailing_island/)
+  - 广东海上丝绸之路博物馆 [蛇年春节自驾D7：茂名 中国第一摊 茂名博物馆 亚朵酒店](/snake_spring_d2_shenzhen_to_hailing_island/)
 - 揭阳
   - 普宁博物馆
 
 ### 华南-广西
 - 南宁
-  - [广西壮族自治区博物馆](//snake_spring_d5_nanning//)
-  - [邓颖超纪念馆](/snake_spring_d5_nanning/)
+  - 广西壮族自治区博物馆 [蛇年春节自驾D5：南宁过大年 醒狮贺岁 三街两巷 特色美食 骑行穿城 琅西夜市 打铁花](/snake_spring_d5_nanning/)
+  - 邓颖超纪念馆 [蛇年春节自驾D5：南宁过大年 醒狮贺岁 三街两巷 特色美食 骑行穿城 琅西夜市 打铁花](/snake_spring_d5_nanning/)
 
 ### 特别行政区
 - 香港
   - 香港科技馆 
-  - [香港历史博物馆](/hong_kong_history_museum/)
-  - [香港故宫文化博物馆](/hong_kong_diary_d19/)
-  - [杜莎夫人蜡像馆](/hong_kong_diary_d15/)
+  - 香港历史博物馆 [香港历史博物馆：看秦始皇兵马俑，还能和孔子比身高？](/hong_kong_history_museum/)
+  - 香港故宫文化博物馆 [港漂日记D19：香港故宫文化博物馆 神秘酒吧](/hong_kong_diary_d19/)
+  - 杜莎夫人蜡像馆 [港漂日记D15：参观幼儿园，登太平山看夜景，杜莎夫人蜡像馆](/hong_kong_diary_d15/)
   - 展会
-    - [幸福家庭博览会](/hong_kong_diary_d104/)
-    - [2024香港潜水展](/2024_drt_hong_kong_show/)
+    - 幸福家庭博览会 [港漂日记D104：港大幸福家庭博览会，亲子工坊与未来趋势](/hong_kong_diary_d104/)
+    - 2024香港潜水展 [2024香港潜水展参观记](/2024_drt_hong_kong_show/)
   - 图书
     - 香港中央图书馆
     - 石塘咀图书馆
