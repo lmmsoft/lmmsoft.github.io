@@ -5,7 +5,7 @@ author: lmm333
 email: lmm333@126.com
 description: "Mingming's blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, blog, lmm333"
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://lmmsoft.github.io/" # the base hostname & protocol for your site
 locale: en_US
 
