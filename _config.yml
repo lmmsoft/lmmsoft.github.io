@@ -90,6 +90,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: 'Table of Contents'
   cn:
     Aboutme: "关于我"
     Archives: "存档"
@@ -111,6 +112,7 @@ locales:
     ReadMore: "继续阅读→"
     RunningPage: '跑步记录'
     List: '我的清单'
+    TableOfContents: '文章导航'
   jp:
     Aboutme: "著者"
     Archives: "アーカイブ"
@@ -132,6 +134,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: '目次'
   pl:
     Aboutme: "O mnie"
     Archives: "Archiwum"
@@ -153,6 +156,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: 'Spis treści'
   kr:
     Aboutme: "저자 소개"
     Archives: "모든 게시물"
@@ -174,6 +178,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: '목차'
   ru:
     Aboutme: "Обо мне" # = 'About me'
     Archives: "Архив"
@@ -195,6 +200,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: 'Содержание'
   tr:
     Aboutme: "Hakkımda"
     Archives: "Arşivler"
@@ -216,6 +222,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: 'İçindekiler'
   id:
     Aboutme: "Tentang Saya"
     Archives: "Arsip"
@@ -237,3 +244,4 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    TableOfContents: 'Daftar Isi'
