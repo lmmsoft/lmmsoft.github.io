@@ -1,4 +1,4 @@
-{% if page.layout == 'post' %}
+{% if page.layout == 'post' or page.permalink == '/list/' %}
 <div class="sidebar-module toc">
   <h4>{{ site.locales[site.default_locale].TableOfContents }}</h4>
   <div id="toc-content">
