@@ -1,5 +1,5 @@
 ---
-title:  "2025年9月童书推荐"
+title:  "双胞胎女儿去年借书122本，这份9月私藏书单请收好！"
 date: 2025-09-27T12:00:00+08:00
 author: lmm333
 layout: post
@@ -13,146 +13,143 @@ tags:
 - 读书
 - 总结
 ---
+2025-9-27 周六 香港 多云
 
----
-2025-9-27 周五 香港 多云
-
-![01_跟著大灰寶逛美術館_内页2.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页2.JPG)
+![01_跟著大灰寶逛美術館_内页2](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页2.JPG)
 
 ## 香港儿童及青少年阅读计划
 
-作为四岁双胞胎女儿的爸爸，去年9月搬家到香港后，带着娃参与了香港公共图书馆的儿童及青少年阅读计划。一年下来，两个小家伙累计读完122本书，每次读完能在记录册上盖章，年底还会收到官方证书，这份仪式感让孩子越来越爱读书，今年我们果断继续参与。
+作为四岁双胞胎女儿的爸爸，去年9月搬家到香港后，带着娃参与了香港公共图书馆的儿童及青少年阅读计划。一年下来，两个小家伙累计读完122本书，几乎全是绘本，每次读完能在"阅读足印"纪录册上盖章，年底还会收到官方证书，这份仪式感让孩子越来越爱读书，今年我们果断继续参与。
+
 <!--more-->
+
 去年借过的122本书里，不少都让我和孩子眼前一亮，可惜没有记录下来，还掉之后就逐渐忘记了，为此我还专门注册过一个宝宝的豆瓣，想把她们看过的书做标记，可惜港台的童书，豆瓣上大多搜不到，就连从内地带来的童书，很多也没有条目，无法标记。
 
-![00_record_book.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/00_record_book.JPG)
+![00_record_book](../images/2025/2025-09-27-2025_09_children_book_recommendations/00_record_book.JPG)
 
-今年的阅读计划从9月开始，持续到明年8月底，所以从这个月开始，我打算每月整理“宝宝私藏童书清单”，把亲测优质的书分享出来，或许能给同样为孩子选书的你一些参考，其他的书也拍照留念，给她们留个记录。
-
+今年的阅读计划从9月开始，持续到明年8月底，从这个月开始，我打算每月整理“宝宝私藏童书清单”，把亲测优质的书分享出来，或许能给同样为孩子选书的你一些参考，其他的书也拍照留念，给宝宝们留个记录。
 
 # 借阅规则和共读习惯
 
-香港图书馆的借阅规则很友好，每个宝宝的借书证一次能借10本，我们家两个娃，每次能带回20本“精神食粮”。为了兼顾语言启蒙，我会特意选“中文+英文”各一半的书；阅读时间也融入日常：晚上睡前我和孩子妈妈陪读中文书，下午孩子午睡醒、吃水果时，菲佣姐姐会带他们读英文书，轻松又高效。
+香港图书馆的借阅规则很友好，每个宝宝的借书证一次能借10本，我们家两个娃，每次能带回20本“精神食粮”。为了兼顾语言启蒙，我会特意选“中文+英文”各一半的书；阅读时间也融入日常：晚上睡前我陪宝宝读中文书，宝妈中英文兼顾，下午宝宝午睡醒、吃水果时，菲佣姐姐会带他们读英文书，轻松又高效。
 
 九月初，菲佣姐姐带孩子在石塘咀公共图书馆借了20本书回来，刚好中文10本、英文10本，经过一个月的亲子共读，有几本童书脱颖而出，下面就按五星、四星、三星的顺序，和大家详细分享：
 
-
 ## 五星推荐：《跟着大灰宝逛美术馆》，用梦境开启孩子的艺术启蒙
 
-![01_跟著大灰寶逛美術館_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_封面.JPG)
+![01_跟著大灰寶逛美術館_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_封面.JPG)
 
 这本让孩子追着要我还书前"再讲一遍"的书，作者是克里斯汀·史耐德，我们借到的是台湾的翻译版，每个汉字后都有注音，内地用拼音，香港用粤拼，台湾用注音，都是不同的符号系统。
 
 故事围绕一场奇妙的梦境展开：小女孩梦见一只叫"大灰宝"的温柔大象，带着她逛美术馆。一人一象先后看了11幅世界名画，从达芬奇的《蒙娜丽莎》、席里柯的《梅杜萨之筏》，到老勃鲁盖尔的《有滑冰者和捕鸟器的冬景》、梵高的《鸢尾花》，每一幅都是藏于世界各大博物馆的经典。
 
-![01_跟著大灰寶逛美術館_内页1.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页1.JPG)
+![01_跟著大灰寶逛美術館_内页1](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页1.JPG)
 
 最妙的是它讲解名画的方式，从不说高深理论，而是用孩子能懂的语言引导感知。比如看《冬景》时，会让孩子观察"光秃秃的树枝、白茫茫的雪地"，感受"凉丝丝的冬天味道"；讲《鸢尾花》时，会说"这些紫色的花像在对着你笑"。以前带着宝宝去博物美术馆，两个孩子都是到处乱跑，无心看展，希望下次孩子能想象"大灰宝带我们看画"的场景，然后开始欣赏。
 
-![01_跟著大灰寶逛美術館_内页2.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页2.JPG)
+![01_跟著大灰寶逛美術館_内页2](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_内页2.JPG)
 
 这本书故事有趣，还有潜移默化的艺术启蒙，让它成为本月最推荐的五星好书。
 
 ## 四星推荐：《你有看到我的龙吗》，在找龙游戏里挖细节
 
-![02_你有看到我的龍嗎_封面.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_封面.jpg)
+![02_你有看到我的龍嗎_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_封面.jpg)
 
 由史蒂夫·莱特创作、台湾翻译出版的这本绘本，光"找龙"的主题就抓住了孩子的心。故事很简单：一个小朋友说自己的龙丢了，于是在城市里四处寻找，从游乐场到公寓楼，从公交车到地铁站，每一页都是一场惊喜满满的搜寻。
 
 它的巧思藏在细节里：从第一页的"1条龙"开始，数字一路递增，第二页是"2个热狗"、第三页是"3辆公交车"，直到后面的"16节地铁车厢""17辆出租车""18辆脚踏车"，孩子读着读着就巩固了数字认知。更有意思的是画面的细致度，比如每页都有无数的细节，可以和孩子一起探寻，逐步发现新亮点。
 
-![02_你有看到我的龍嗎_内页.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_内页.JPG)
+![02_你有看到我的龍嗎_内页](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_内页.JPG)
 
 最让孩子着迷的是"捉迷藏"设计：每一页里，小朋友和他的龙都会藏在画面角落，可能在公交车窗后，也可能在滑梯旁。每次找到时孩子都兴奋拍手，这种互动感让读书变成了游戏，值得四星推荐。
 
-![02_你有看到我的龍嗎_展开页.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_展开页.JPG)
-
+![02_你有看到我的龍嗎_展开页](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_展开页.JPG)
 
 ## 四星推荐：《小红色纸的拼贴游戏》，把绘本变成动手灵感库
 
-![03_小紅色紙的拼貼遊戲_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/03_小紅色紙的拼貼遊戲_封面.JPG)
+![03_小紅色紙的拼貼遊戲_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/03_小紅色紙的拼貼遊戲_封面.JPG)
 
 日本作家松田奈奈子的这本绘本，完美诠释了"简单即美好"。书里没有复杂剧情，只有几张彩色纸——小朋友把红色纸撕成小片，拼出红彤彤的苹果；把彩色纸拼在一起，变成五颜六色的花、香甜的蛋糕、色彩斑斓的小火车。每一页拼贴作品都充满童趣，孩子看的时候总忍不住感叹"纸还能变这么多东西"。
 
 最棒的是它的“实践引导”：最后一页直接鼓励小朋友“你也可以试试”，找彩色纸撕一撕、粘一粘，拼出自己喜欢的图案。我们家正好有之前买的手工彩色纸，读完书后的第二天和孩子一起玩拼贴，虽然作品稚嫩，但那种“从绘本到动手”的成就感特别珍贵。作为还能做手工的绘本，它能培养孩子审美和创造力，必须给四星。
 
-![00_craft.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/00_craft.JPG)
+![00_craft](../images/2025/2025-09-27-2025_09_children_book_recommendations/00_craft.JPG)
 
 ## 三星推荐：《大猩猩挖鼻屎》，用幽默教孩子接纳自己
 
-![04_大猩猩挖鼻屎_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/04_大猩猩挖鼻屎_封面.JPG)
+![04_大猩猩挖鼻屎_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/04_大猩猩挖鼻屎_封面.JPG)
 
 这本由韩国作家创作的绘本，走的是接地气的幽默路线。主角是一只超爱挖鼻屎的大猩猩，它因为挖鼻屎遇到不少小烦恼——在公共场合不好意思挖，挖完不知道把鼻屎放哪儿，最后终于"噗"地一下把鼻屎喷出去，结果耳朵又开始痒了，转而挖起耳屎。整个故事充满孩子式的小尴尬，宝宝每次听都笑得前仰后合。
 
 虽然情节看似“无厘头”，但藏着温柔的教育意义：它没有批评“挖鼻屎”的小习惯，而是用轻松方式告诉孩子，每个人都有这样的小瞬间，不用害羞，要接纳自己的小缺点。作为一本能给孩子带来纯粹快乐的读物，我给它三星推荐。
 
-
 ## 写在最后：期待下个月的好书之约
-下面是本月借阅的其他书列表，没推荐不代表不好，只是由宝妈和菲佣陪读，我无法贸然推荐，下个月争取让宝妈或菲佣也推荐几本:)
+下面是本月借阅的其他书列表，没推荐不代表不好，只是由宝妈或菲佣陪读，我无法贸然推荐，下个月争取让宝妈或菲佣也推荐几本:)
 
 ### 中文书籍
 - 跟著大灰寶逛美術館 / 克莉絲汀。史奈德文；艾維...
 
-![01_跟著大灰寶逛美術館_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_封面.JPG)
+![01_跟著大灰寶逛美術館_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/01_跟著大灰寶逛美術館_封面.JPG)
 - 你有看到我的龍嗎？/ 史提夫。萊特 (Steve Light) ...
 
-![02_你有看到我的龍嗎_封面.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_封面.jpg)
+![02_你有看到我的龍嗎_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/02_你有看到我的龍嗎_封面.jpg)
 - 小紅色紙的拼貼遊戲 / 松田奈那子文圖；黃惠綺...
 
-![03_小紅色紙的拼貼遊戲_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/03_小紅色紙的拼貼遊戲_封面.JPG)
+![03_小紅色紙的拼貼遊戲_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/03_小紅色紙的拼貼遊戲_封面.JPG)
 - 大猩猩挖鼻屎 / 金鎮完文；鄭雪熙圖；丁海權譯
 
-![04_大猩猩挖鼻屎_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/04_大猩猩挖鼻屎_封面.JPG)
+![04_大猩猩挖鼻屎_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/04_大猩猩挖鼻屎_封面.JPG)
 - 動物找朋友 / Kestutis Navakas 文；Marija Smir...
 
-![05_動物找朋友_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/05_動物找朋友_封面.JPG)
+![05_動物找朋友_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/05_動物找朋友_封面.JPG)
 - 小鱷魚快樂學分享 / 曾玫蕙編；椰子 cocoillust 繪
 
-![06_小鱷魚快樂學分享_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/06_小鱷魚快樂學分享_封面.JPG)
+![06_小鱷魚快樂學分享_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/06_小鱷魚快樂學分享_封面.JPG)
 - 樱花船 / 菊地知己文。圖；米雅譯
 
-![07_樱花船_封面.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/07_樱花船_封面.jpg)
+![07_樱花船_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/07_樱花船_封面.jpg)
 - 老夫子再版精選。第 096 冊，就愛玩具 / 王澤 [著]
 
-![08_老夫子就愛玩具_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/08_老夫子就愛玩具_封面.JPG)
+![08_老夫子就愛玩具_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/08_老夫子就愛玩具_封面.JPG)
 - 節日小書。母親節。父親節，阿拉丙神燈 / [牛津大...
+
+### 英文书籍
 - Edward / based on The railway series by the R...
 - Colin / based on The railway series by the Rev....
 - Mr. Messy / by Roger Hargreaves
 
-![09_節日小書_17_Edward_18_Colin_19_Mr_Messy_四本合影.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/09_節日小書_17_Edward_18_Colin_19_Mr_Messy_四本合影.jpg)
+![09_節日小書_17_Edward_18_Colin_19_Mr_Messy_四本合影](../images/2025/2025-09-27-2025_09_children_book_recommendations/09_節日小書_17_Edward_18_Colin_19_Mr_Messy_四本合影.jpg)
 
-### 英文书籍
 - Twinkle / Katharine Holabird and Sarah Warbu...
 
-![10_Twinkle_封面.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/10_Twinkle_封面.jpg)
+![10_Twinkle_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/10_Twinkle_封面.jpg)
 
 - Alfie : Alfie on holiday / Shirley Hughes
 
-![11_Alfie_on_holiday_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/11_Alfie_on_holiday_封面.JPG)
+![11_Alfie_on_holiday_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/11_Alfie_on_holiday_封面.JPG)
 
 - The nature girls / Aki
 
-![12_The_nature_girls_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/12_The_nature_girls_封面.JPG)
+![12_The_nature_girls_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/12_The_nature_girls_封面.JPG)
 
 - Don't feed the coos! / Jonathan Stutzman ; ill...
 
-![13_Don't_feed_the_coos_封面.jpg](../images/2025/2025-09-27-2025_09_children_book_recommendations/13_Don't_feed_the_coos_封面.jpg)
+![13_Don't_feed_the_coos_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/13_Don't_feed_the_coos_封面.jpg)
 
 - Easter babies : a springtime counting book / w...
 
-![14_Easter_babies_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/14_Easter_babies_封面.JPG)
+![14_Easter_babies_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/14_Easter_babies_封面.JPG)
 
 - Alfie and mum / Shirley Hughes
 
-![15_Alfie_and_mum_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/15_Alfie_and_mum_封面.JPG)
+![15_Alfie_and_mum_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/15_Alfie_and_mum_封面.JPG)
 
 - Peter Pan / written by J. M. Barrie ; retold by C...
 
-![16_Peter_Pan_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/16_Peter_Pan_封面.JPG)
+![16_Peter_Pan_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/16_Peter_Pan_封面.JPG)
 
 - Little Lola saves the show / by Julie Saab ; pic...
 
-![20_Little_Lola_saves_the_show_封面.JPG](../images/2025/2025-09-27-2025_09_children_book_recommendations/20_Little_Lola_saves_the_show_封面.JPG)
+![20_Little_Lola_saves_the_show_封面](../images/2025/2025-09-27-2025_09_children_book_recommendations/20_Little_Lola_saves_the_show_封面.JPG)
 
-以上就是这个月珊瑚和海兔的童书清单，今天下午孩子会去还书并再借20本，期待下个月能继续给大家推荐更多好玩的童书～
+以上就是这个月珊瑚和海兔的童书清单，今天下午去石塘咀公共图书馆又借了20本，期待下个月能继续给大家推荐更多好玩的童书～
