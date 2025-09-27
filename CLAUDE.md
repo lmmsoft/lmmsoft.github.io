@@ -10,16 +10,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### 本地开发
 - `_preview.sh` - 启动Jekyll开发服务器，支持草稿和未来文章（端口4000）
-- `make serve` - 基于Docker的本地开发服务器，使用Jekyll 3.8.5
-- `make build` - 基于Docker的Jekyll构建
+- `make serve` - 基于Docker的本地开发服务器，使用Jekyll 3.8.5（端口3000或4000）
+- `make build` - 基于Docker的Jekyll构建，验证站点是否能正常编译
 
 ### 内容管理
 - `_new_draft.sh [文件名]` - 从`_drafts/`中的模板创建新草稿
 - `_publish.sh 文件名.md` - 将草稿移动到`_posts/`，自动添加日期前缀并处理git操作
 
 ### 内容质量工具
-- `pangu -f 文件名.md` - 格式化中文排版和空格
-- `tekorrect -f 文件名.md` - 应用文本校正
+- `pangu -f 文件名.md` - 格式化中文排版和空格（自动在中英文之间添加空格）
+- `tekorrect -f 文件名.md` - 应用文本校正（修复常见拼写和标点错误）
+- 建议发布前总是运行这两个工具确保内容质量
 
 ## 架构说明
 
@@ -39,10 +40,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 发布流程
 
 1. 创建草稿：`_new_draft.sh 文章标题`
-2. 在`_drafts/`目录中编辑
+2. 在`_drafts/`目录中编辑内容
 3. 预览：`_preview.sh` 或 `make serve`
-4. 格式化：对中文内容使用`pangu -f`和`tekorrect -f`
-5. 发布：`_publish.sh 文件名.md`（自动处理git add/mv操作）
+4. 格式化：对中文内容使用`pangu -f 文件名.md`和`tekorrect -f 文件名.md`
+5. 验证：运行`make build`确保没有构建错误
+6. 发布：`_publish.sh 文件名.md`（自动处理git add/mv操作）
 
 ## 重要注意事项
 
