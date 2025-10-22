@@ -16,7 +16,7 @@ tags:
 
 ## 源起
 
-今天的 AI CLI 工具特别火，尤其在编码等方面， Agent 技术大大提高了效率，可以闭环完成改代码、运行、验收测试、等任务的闭环，直到程序能正常工作，大大提升了编码的效率。
+今年的 AI CLI 工具特别火，尤其在编码等方面，Agent 技术大大提高了效率，可以闭环完成改代码、运行、验收测试、修复bug等任务的闭环，直到程序能正常工作，大大提升了vibe coding的效率。
 
 我平时也几乎每天都在使用 Claude Code, Codex, Gemini CLI, Qwen code, CodeBuddy cli, cursor-agent 等 CLI 工具，来辅助我完成各种编程任务。
 
@@ -66,7 +66,7 @@ cursor-agent --version
 - [CodeBuddy CLI](https://mp.weixin.qq.com/s/twmCoGDSr7Sv6UxQUBvRmg)
 
 ## 启动
-直接使用 claude , codex , gemini , qwen , codebuddy 等命令就能启动。
+直接使用 ```claude  codex  gemini qwen codebuddy cursor-agent``` 等命令就能启动。
 
 但是默认启动参数，很多操作需要手动确认（eg: 修改代码，阅读外部目录，访问网络等），为了提高效率，我一般会使用 yolo 模式启动，省去确认环境，一把梭！
 
@@ -79,16 +79,15 @@ codebuddy --dangerously-skip-permissions
 ```
 
 ## 启动快捷方式
-上面的  yolo 模式启动参数太长了，我一般会写成别名，加到 .zshrc 里面，方便记忆：
+上面的  yolo 模式启动参数太长了，我一般会写成别名，加到 .zshrc 里面，方便记忆和快速启动：
 
 ```sh
-alias claude-yolo='claude -dangerously-skip-permissions'
-alias codex-yolo='codex --dangerously-bypass-approvals-and-sandbox'
-alias gemini-yolo='gemini --yolo'
-alias qwen-yolo='qwen --yolo'
-alias codebuddy-yolo='codebuddy --dangerously-skip-permissions'
+alias cl-yolo='claude -dangerously-skip-permissions'
+alias co-yolo='codex --dangerously-bypass-approvals-and-sandbox'
+alias ge-yolo='gemini --yolo'
+alias qw-yolo='qwen --yolo'
+alias cb-yolo='codebuddy --dangerously-skip-permissions'
 ```
-
 
 ## TBD 恢复对话
 
@@ -102,8 +101,8 @@ qwen resume <conversation_id>
 codebuddy resume <conversation_id>
 ```
 
-
 ## MCP
+MCP 技术，让大模型能和外部的工具更好地结合起来，完成更复杂的任务。
 
 查询 mcp 状态
 ```shell
@@ -114,9 +113,9 @@ qwen mcp list
 ```
 
 ### Playwright MCP
-我平时使用最多的 mcp 是  playwright mcp, 用来做浏览器自动化的，几乎可以帮我完成大部分 UI Automation 的任务， 比如改了一个功能，需要在网点上点点鼠标，验收的场景。
+我平时使用最多的 mcp 是  playwright mcp, 用来做浏览器自动化的，几乎可以帮我完成大部分 UI Automation 的任务， 比如改了一个功能，让AI自动在网页上点点鼠标，验收测试的场景。
 
-下面是不同 cli 安装 mcp 的命令：
+下面是不同 cli 安装 playwright mcp 的命令：
 
 ```sh
 claude mcp add playwright npx @playwright/mcp@latest
