@@ -94,11 +94,23 @@ alias cb-yolo='codebuddy --dangerously-skip-permissions'
 不同 cli 恢复对话的命令略有不同：
 
 ```sh
-claude resume <conversation_id>
-codex resume <conversation_id>
-gemini resume <conversation_id>
-qwen resume <conversation_id>
-codebuddy resume <conversation_id>
+# claude 会自动保存对话，意外退出后，可以使用下面的命令，恢复对话，然后选择需要的上下文
+claude --resume 
+
+codex tbd
+
+# gemini 不会自动保存会话，需要手动对话过程中，使用/chat 命令保存会话，意外退出，无法恢复
+/chat list 列出保存的会话
+/chat save <tag> 手动保存会话
+/chat resume <tag> 恢复会话
+/chat delete <tag> 删除会话
+/chat share <tag> 使用md/json分享会话
+
+qwen tbd
+codebuddy tbd
+
+# cursor-agent 自动保存会话，在合适的目录，运行下面的命令即可恢复
+cursor-agent resume
 ```
 
 ## MCP
