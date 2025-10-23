@@ -106,6 +106,8 @@ codex tbd
 /chat delete <tag> 删除会话
 /chat share <tag> 使用md/json分享会话
 
+/chat 的参考文档 https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/commands.md
+
 qwen tbd
 codebuddy tbd
 
