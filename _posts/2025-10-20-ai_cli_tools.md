@@ -145,6 +145,10 @@ claude.md/gemini.md/agents.md
 ## 配置文件
 类似于 setting.json, 这个用的不多，简单记录：
 
+- claude code
+  - `~/.claude/settings.json`
+  - 全局，项目，企业 级别
+  - https://docs.claude.com/en/docs/claude-code/settings
 - cursor-agent: 
   - `cli-config.json`
   - 有全局和项目的
@@ -216,9 +220,11 @@ cursor IDE 一键安装 mcp 的网址  https://cursor.com/cn/docs/context/mcp/di
 ```shell
 claude mcp add context7 -- npx -y @upstash/context7-mcp
 ```
-
 参考文档
 - [lobehub Context7 MCP](https://lobehub.com/zh/mcp/upstash-context7)
+
+### 文档
+- [claude-code mcp](https://docs.claude.com/en/docs/claude-code/mcp)
 
 ## 高级技巧、案例
 
@@ -237,3 +243,42 @@ claude mcp add context7 -- npx -y @upstash/context7-mcp
 - github action 自动更新文档 https://cursor.com/cn/docs/cli/cookbook/update-docs
 - github action 自动翻译i18n  https://cursor.com/cn/docs/cli/cookbook/translate-keys
 - github action 自动密钥审计 https://cursor.com/cn/docs/cli/cookbook/secret-audit
+- gitlab + claude 相关配置 https://docs.claude.com/en/docs/claude-code/gitlab-ci-cd
+
+```shell
+# 解读日志
+tail -f app.log | claude -p "Slack me if you see any anomalies appear in this log stream"
+
+# 分批提交代码
+claude -p "Stage my changes and write a set of commits for them" \
+  --allowedTools "Bash,Read" \
+  --permission-mode acceptEdits
+```
+
+## 杂项
+- iterm2 提示音
+  - 任务在后台完成时，播放系统提示音
+  - https://docs.claude.com/en/docs/claude-code/terminal-config#iterm-2-system-notifications
+- VIM 模式
+  - claude code /vim https://docs.claude.com/en/docs/claude-code/terminal-config#vim-mode
+    - 模式切换
+      - Esc：退回 NORMAL 模式。
+      - i / I：在光标处插入 / 在行首插入。
+      - a / A：在光标后插入 / 在行尾追加。
+      - o / O：在下方新开一行 / 在上方新开一行并进入 INSERT。
+  - 移动光标
+      - h j k l：左、下、上、右。
+      - w / e / b：下一个单词开头 / 当前或下一个单词结尾 / 上一个单词开头。
+      - 0 / ^ / $：行首第 0 列 / 行首首个非空字符 / 行尾。
+      - gg / G：跳到文件开头 / 文件结尾。
+  - 编辑操作
+      - x：删除光标下字符。
+      - dw / de / db：删到下个单词开头 / 删到单词末尾 / 向后删一个单词。
+      - dd / D：删除当前行 / 从光标删到行尾。
+      - cw / ce / cb：改写到单词开头 / 单词结尾 / 向后一个单词。
+      - cc / C：替换整行 / 从光标起替换到行尾。
+      - .：重复上一次 Normal 模式命令，常用来快速连做相同操作。
+  - cursor-agent /vim https://cursor.com/cn/docs/cli/reference/slash-commands
+
+## 最后
+这是 claude code 的官方文档，通读一遍，收获比刷x/短视频/公众号 要大很多： https://docs.claude.com/en/docs/claude-code/overview
