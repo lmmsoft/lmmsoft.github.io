@@ -22,6 +22,8 @@ tags:
 
 使用中有很多常用的命令，在不同 CLI 之间略有不同，这里整理一下，方便自己和大家参考：
 
+<!--more-->
+
 ## 更新版本
 
 这些 cli 工具都在快速迭代，隔三差五都会有更新，我每天开机后都会运行下面的【一键检查版本+更新】的命令，获取最新的版本：
@@ -107,7 +109,7 @@ Gemini CLI 需要特殊配置一下 .gemini/settings.json 文件：
 { "contextFileName": "AGENTS.md" }
 ```
 
-gemini 系的 cli 应该都能使用这个参数，比如 qwen code 也支持： https://qwenlm.github.io/qwen-code-docs/zh/cli/configuration-v1/#settingsjson-%E4%B8%AD%E5%8F%AF%E7%94%A8%E7%9A%84%E9%85%8D%E7%BD%AE%E9%A1%B9
+gemini 系的 cli 应该都能使用这个参数，比如 qwen code 也支持， [参考文档](https://qwenlm.github.io/qwen-code-docs/zh/cli/configuration-v1/#settingsjson-%E4%B8%AD%E5%8F%AF%E7%94%A8%E7%9A%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
 
 ### 其他语言
 - claude
