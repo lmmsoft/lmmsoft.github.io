@@ -76,20 +76,66 @@ codex --dangerously-bypass-approvals-and-sandbox
 gemini --yolo
 qwen --yolo
 codebuddy --dangerously-skip-permissions
+cursor-agent --force
 ```
 
 ## 启动快捷方式
 上面的  yolo 模式启动参数太长了，我一般会写成别名，加到 .zshrc 里面，方便记忆和快速启动：
 
 ```sh
-alias cl-yolo='claude -dangerously-skip-permissions'
-alias co-yolo='codex --dangerously-bypass-approvals-and-sandbox'
-alias ge-yolo='gemini --yolo'
-alias qw-yolo='qwen --yolo'
-alias cb-yolo='codebuddy --dangerously-skip-permissions'
+alias cc='claude -dangerously-skip-permissions'
+alias cx='codex --dangerously-bypass-approvals-and-sandbox'
+alias ge='gemini --yolo'
+alias qw='qwen --yolo'
+alias cb='codebuddy --dangerously-skip-permissions'
+alias cu='cursor-agent --force'
 ```
 
-## TBD 恢复对话
+## 配置文档 AGENTS.md
+各种 llm cli 都有自己的 .md 配置文件，类似于Cursor的Rules文件，规定了AI怎样生成代码，可以在里面指定代码风格、开发环境、仓库规范等等。 文件会作为上下文，一起发送给大模型，帮助理解项目，规范输出。
+
+一般会可以在全局，根目录，子目录等多个位置放置 .md 的配置文件。用户 prompt 优先级最高，然后离编辑文件越近的 .md 文件优先级越高。
+
+### 统一的 AGENTS.md
+不同 llm 都有自己的 .md 文件，一般可以使用 /init 命令自动生成，如果一个项目同时使用多个 cli 开发， .md 文件的差异比较麻烦，目前 openai 提出了统一的 AGENTS.md 方案，统一了部分cli， 详情可以参考文档 [agents.md](https://agents.md/)
+
+我常用的 codex/cursor/gemini cli/warp 都支持
+
+Gemini CLI 需要特殊配置一下 .gemini/settings.json 文件：
+
+```json
+{ "contextFileName": "AGENTS.md" }
+```
+
+gemini 系的 cli 应该都能使用这个参数，比如 qwen code 也支持： https://qwenlm.github.io/qwen-code-docs/zh/cli/configuration-v1/#settingsjson-%E4%B8%AD%E5%8F%AF%E7%94%A8%E7%9A%84%E9%85%8D%E7%BD%AE%E9%A1%B9
+
+### 其他语言
+- claude
+  - claude 使用 claude.md （推荐提交到代码仓库，团队共享） 和 claude.local.md （推荐加入 .gitignore 个人使用，比如开发环境的配置）
+  - claude.md 有四种位置
+    - 企业策略: eg: Linux: /etc/claude-code/CLAUDE.md 公司编码标准、安全策略、合规要求
+    - 项目：./CLAUDE.md 项目架构、编码标准、常见工作流程
+    - 个人：~/.claude/CLAUDE.md 代码样式偏好、个人工具快捷方式
+    - 项目内个人: ./CLAUDE.local.md （已弃用，建议用"引用其他文件"） 沙盒 URL、首选测试数据
+  - 引用其他文件：CLAUDE.md 文件可以使用 @path/to/import 语法导入其他文件
+  - 详情参考 https://docs.claude.com/zh-CN/docs/claude-code/memory
+
+
+### 我的常用 .md 配置
+
+- 全局配置：
+```markdown
+用中文回答我
+每次对用审视的目光，仔细看我输入的潜在问题，你要指出我的问题，并给出明显在我思考框架之外的建议
+如果你觉得我说得太离谱了，你就骂回来，帮我瞬间清醒
+```
+
+- 项目配置：
+  - 如果是 python 项目，会告诉它虚拟环境 venv 的目录在哪里，如何启动，方便它在虚拟环境里运行程序
+
+claude.md/gemini.md/agents.md 
+
+## 恢复对话
 
 不同 cli 恢复对话的命令略有不同：
 
@@ -106,7 +152,7 @@ codex tbd
 /chat delete <tag> 删除会话
 /chat share <tag> 使用md/json分享会话
 
-/chat 的参考文档 https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/commands.md
+gemini chat 的参考文档 https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/commands.md
 
 qwen tbd
 codebuddy tbd
@@ -136,6 +182,7 @@ claude mcp add playwright npx @playwright/mcp@latest
 codex mcp add playwright npx @playwright/mcp@latest
 gemini mcp add playwright npx @playwright/mcp@latest
 qwen mcp add playwright npx @playwright/mcp@latest
+cursor-agent # 在cursor IDE 安装，然后启动 cli 的时候，会弹出授权选项，通过即可
 ```
 
 参考文档：
