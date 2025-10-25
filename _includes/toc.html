@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     var link = document.createElement('a');
     link.href = '#' + heading.id;
-    link.textContent = heading.textContent;
+    link.textContent = heading.textContent.replace(/\s*#\s*$/, '');
     
     // 添加平滑滚动
     link.addEventListener('click', function(e) {
