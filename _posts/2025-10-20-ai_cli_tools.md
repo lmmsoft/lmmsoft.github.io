@@ -18,7 +18,7 @@ tags:
 
 今年的 AI CLI 工具特别火，尤其在编码等方面，Agent 技术大大提高了效率，可以闭环完成改代码、运行、验收测试、修复bug等任务的闭环，直到程序能正常工作，大大提升了vibe coding的效率。
 
-我平时也几乎每天都在使用 Claude Code, Codex, Gemini CLI, Qwen code, CodeBuddy cli, cursor-agent 等 CLI 工具，来辅助我完成各种编程任务。
+我平时也几乎每天都在使用 Claude Code, Codex, Gemini CLI, Qwen code, CodeBuddy cli, cursor-agent 等 CLI 工具，来辅助我完成各种编程任务，**大大扩展了我的能力边界，也提高了我的开发速度，有种代码写得太快，来不及review的感觉**。
 
 使用中有很多常用的命令，在不同 CLI 之间略有不同，这里整理一下，方便自己和大家参考：
 
@@ -119,6 +119,13 @@ gemini 系的 cli 应该都能使用这个参数，比如 qwen code 也支持：
     - 项目内个人: ./CLAUDE.local.md （已弃用，建议用"引用其他文件"） 沙盒 URL、首选测试数据
   - 引用其他文件：CLAUDE.md 文件可以使用 @path/to/import 语法导入其他文件
   - 详情参考 https://docs.claude.com/zh-CN/docs/claude-code/memory
+- cursor
+  - 同时兼容
+    - cursor IDE 的 rule 目录： .cursor/rules
+    - codex 的 AGENTS.md
+    - claude 的 CLAUDE.md
+  - rules 文档 https://cursor.com/docs/context/rules
+  - cli 文档 https://cursor.com/cn/docs/cli/using#-1
 
 
 ### 我的常用 .md 配置
@@ -134,6 +141,14 @@ gemini 系的 cli 应该都能使用这个参数，比如 qwen code 也支持：
   - 如果是 python 项目，会告诉它虚拟环境 venv 的目录在哪里，如何启动，方便它在虚拟环境里运行程序
 
 claude.md/gemini.md/agents.md 
+
+## 配置文件
+类似于 setting.json, 这个用的不多，简单记录：
+
+- cursor-agent: 
+  - `cli-config.json`
+  - 有全局和项目的
+  - https://cursor.com/cn/docs/cli/reference/configuration
 
 ## 恢复对话
 
@@ -158,7 +173,10 @@ qwen tbd
 codebuddy tbd
 
 # cursor-agent 自动保存会话，在合适的目录，运行下面的命令即可恢复
-cursor-agent resume
+cursor-agent resume # 恢复最新对话
+cursor-agent ls # 列出所有历史聊天记录
+cursor-agent --resume="chat-id-here" # 恢复指定对话
+参考文档: https://cursor.com/cn/docs/cli/overview#-3
 ```
 
 ## MCP
@@ -182,7 +200,9 @@ claude mcp add playwright npx @playwright/mcp@latest
 codex mcp add playwright npx @playwright/mcp@latest
 gemini mcp add playwright npx @playwright/mcp@latest
 qwen mcp add playwright npx @playwright/mcp@latest
+
 cursor-agent # 在cursor IDE 安装，然后启动 cli 的时候，会弹出授权选项，通过即可
+cursor IDE 一键安装 mcp 的网址  https://cursor.com/cn/docs/context/mcp/directory
 ```
 
 参考文档：
@@ -199,3 +219,21 @@ claude mcp add context7 -- npx -y @upstash/context7-mcp
 
 参考文档
 - [lobehub Context7 MCP](https://lobehub.com/zh/mcp/upstash-context7)
+
+## 高级技巧、案例
+
+### 在 github action 中，使用 cursor-agent 做 code review
+- 文档 https://cursor.com/cn/docs/cli/cookbook/code-review
+- 这个文档有详细的工作流解释，推荐阅读
+
+### 在 github action 中，使用 cursor-agent 自动检查 CI 失败的日志
+- 文档 https://cursor.com/cn/docs/cli/cookbook/fix-ci
+- 原理：
+  - 检测CI运行失败，拉取代码库，安装 Cursor
+  - 使用 cursor-agent -p <prompt> --force --model "$MODEL" --output-format=text
+  - 在 <prompt> 使用 ${{ github.event.workflow_run.html_url }} 和 ${{ github.event.workflow_run.id }} 传入 github action 的运行记录，然后让 ai 使用  `gh run view` 等命令，抓取运行日志，然后修复，创建 PR
+
+### 其他案例：
+- github action 自动更新文档 https://cursor.com/cn/docs/cli/cookbook/update-docs
+- github action 自动翻译i18n  https://cursor.com/cn/docs/cli/cookbook/translate-keys
+- github action 自动密钥审计 https://cursor.com/cn/docs/cli/cookbook/secret-audit
