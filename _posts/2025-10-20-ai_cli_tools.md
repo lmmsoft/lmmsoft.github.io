@@ -216,6 +216,20 @@ cursor IDE 一键安装 mcp 的网址  https://cursor.com/cn/docs/context/mcp/di
 - [Playwright mcp](http://github.com/microsoft/playwright-mcp)
 - [codex mcp](https://github.com/openai/codex/blob/main/docs/config.md#mcp_servers )
 
+### chrome-devtools-mcp
+类似的 Chrome 官方的 chrome-devtools-mcp 也很好用，和 Playwright MCP 一样可以操作浏览器
+
+安装命令:
+```shell
+claude mcp add chrome-devtools npx chrome-devtools-mcp@latest
+codex mcp add chrome-devtools -- npx chrome-devtools-mcp@latest
+gemini mcp add chrome-devtools npx chrome-devtools-mcp@latest # Project wide
+gemini mcp add -s user chrome-devtools npx chrome-devtools-mcp@latest # Globally
+```
+
+参考文档
+- [chrome-devtools-mcp github](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+
 ### Context7 MCP
 据说这个 MCP 有很多文档，可以提高 AI 写代码调用接口的能力
 
