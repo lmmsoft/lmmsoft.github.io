@@ -15,6 +15,11 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 # github
 - github的官方jekyll链接 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
+## GitHub Pages 预览
+- 触发方式：提交 Pull Request 或者手动运行 `Preview site with GitHub Pages` workflow（`Actions` 里有 `Run workflow` 按钮）。
+- 查看位置：等待 CI 完成后，在对应 PR 的 Checks 里找到 **Deploy GitHub Pages preview**，链接就是预览地址。
+- 有效期：预览站点会随着 PR 的更新自动刷新，在 PR 合并或关闭、分支被删除后自动清理（无需手动下线）。
+
 ## 发布文章前的自查清单
 - yml头里的日期是否正确？不能使用未来的时间，jekyll在编译时会忽略未来时间的文章
 - 文件名是否符合规范？ 2023-03-01_xx_yy.md 就编译不出来，要用 2023-03-01-xx_yy.md 注意下划线
