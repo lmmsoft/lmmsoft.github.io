@@ -1,11 +1,11 @@
 ---
-title:  "正式把我的笔记系统迁迁移到 Obsidian，为了和AI配合"
+title:  "正式把我的笔记系统迁移到 Obsidian，为了和AI配合"
 date: 2025-11-30T12:00:00+08:00
 author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /obsidian_ai_migration/
+permalink: /migration_to_obsidian_for_ai/
 categories:
 - 挨踢生涯
 tags:
@@ -18,7 +18,7 @@ tags:
 
 ## 引子：终于把迁移提上日程
 
-今天正式决定把笔记系统迁迁移到 Obsidian，之前虽然早就知道这个工具，但一直没有下定决心系统性地用起来。<!--more-->最近频繁看到不少经验分享，再加上年底复盘，终于把迁移这件事提上了日程。
+今天正式把笔记系统迁移到了 Obsidian，之前虽然早就知道这个工具，但一直没有下定决心系统性地用起来。<!--more-->最近频繁看到不少经验分享，再加上年底复盘，终于把迁移这件事提上了日程。
 
 ## 迁移背景：OneNote 的局限让我“出逃”
 
