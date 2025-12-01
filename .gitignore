@@ -4,3 +4,7 @@ _site
 *.DS_Store
 .idea
 CLAUDE.local.md
+vendor/
+vendor/bundle/
+venv/
+node_modules/
