@@ -1,3 +1,6 @@
+@use "sass:math";
+@use "variables" as *;
+
 @charset "utf-8";
 
 /**
@@ -215,7 +218,7 @@
 
 
 .post-content {
-  p { padding:$spacing-unit/5 0; } 
+  p { padding: math.div($spacing-unit, 5) 0; } 
   //margin-bottom: $spacing-unit;
   h1 { 
     font-size: 38px;
@@ -332,4 +335,3 @@ q:after {
   color: #DD1144;
   font-weight:bold;
 }
-
