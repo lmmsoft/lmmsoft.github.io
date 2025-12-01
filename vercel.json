@@ -1,0 +1,8 @@
+{
+  "buildCommand": "export LANG=C.UTF-8 LC_ALL=C.UTF-8 && gem install bundler:2.4.19 && bundle config set path vendor/bundle && bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "env": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8"
+  }
+}
