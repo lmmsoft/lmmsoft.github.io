@@ -14,15 +14,13 @@
                 </svg>
             </a>
             <div class="trigger">
-                {% assign nav_pages = site.pages
-                  | where_exp: "p", "p.title"
-                  | reject: "pagination", true
-                  | reject: "layout", "index"
-                  | reject: "url", "/index.html"
-                  | reject: "url", "/page/1/" %}
-                {% for page in nav_pages %}
-                  {% assign nav_href = page.nav_url | default: page.url %}
-                  <a class="page-link" href="{{ nav_href | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale].[page.title] }}</a>
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% unless page.paginate or page.pagination or page.url contains "/page/" or page.url == "/index.html" or page.layout == "index" %}
+                      {% assign nav_href = page.nav_url | default: page.url %}
+                      <a class="page-link" href="{{ nav_href | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale].[page.title] }}</a>
+                    {% endunless %}
+                  {% endif %}
                 {% endfor %}
 
 
