@@ -4,6 +4,7 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 
 ## 备注
 1. 根目录里的x.md文件都会被渲染成首页的固定链接页面，用a_, b_, c_ .. 进行排序，是为了控制页面上的顺序，比如about想放第二个，就b_about
+2. `_posts/` 已按年份分子目录存放，例如 `_posts/2024/2024-05-01-play_robot_with_baby.md`，命名仍需遵循 `YYYY-MM-DD-title.md`
 
 ## Local Debug in Docker
 总是 jekyll build 失败，记录下过程和相关资料，未来再说
