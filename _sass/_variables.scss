@@ -1,0 +1,33 @@
+@use "sass:color";
+
+// Typography & spacing
+$base-font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif !important;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6em;
+$spacing-unit:     15px;
+
+// Colors
+$text-color:       #111;
+$background-color: #f9f9f9;
+$brand-color:      #2a7ae2;
+$brand-top-color:  #2583ad;
+$hover-color:      #DD1144;
+$grey-color:       #828282;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark:  color.adjust($grey-color, $lightness: -25%);
+$code-backgroud-color: #29281e;
+$code-font-color:  #eee;
+
+// Layout widths
+$content-width:    960px;
+$page-width:       1000px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Media query helper
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
