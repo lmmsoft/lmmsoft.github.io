@@ -8,6 +8,7 @@
 - 内容涵盖 ACM 竞赛、旅行、技术成长、个人随笔等，资产放在 `images/`、`attachments/`。
 
 ## 开发与运行
+- 这是个 ruby jekyll 项目， 希望在 docker 容器里运行相关的安装构建命令。
 - 本地预览：`./_preview.sh`（含草稿和未来文章，端口 4000）。
 - Docker 预览：`make serve`（Jekyll 3.8.5，端口 3000/4000）。
 - 生产构建：`make build` 或 `bundle exec jekyll build`。
