@@ -7,11 +7,13 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-#  push:
-#    branches: ["master"]
+  # 自动构建并发布 GitHub Pages
+  push:
+    branches:
+      - master
+      - jekyll
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 仍然允许手动触发
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
