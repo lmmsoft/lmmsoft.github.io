@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /start_wechat_mp/
+permalink: /start_wechat_mp_v2/
 source: https://mp.weixin.qq.com/s?__biz=MzkxMzM0MTQyNg==&mid=2247483667&idx=1&sn=69fea26f303683aec5eebf170e86072c&chksm=c17e6f8ef609e698e92c46174d8960fe0192e87b97355f971b16e6bc6d866f7302eb2945a8e0#rd
 categories:
 - 我的生活
