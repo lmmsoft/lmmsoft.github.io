@@ -5,7 +5,7 @@ author: lmm333
 layout: post
 comments: true
 published: true
-permalink: /hong_kong_diary_d26/
+permalink: /hong_kong_diary_d27/
 categories:
 - 珊瑚海兔
 tags:
