@@ -41,6 +41,15 @@ jobs:
           bundler: '2.4.19'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Cache Jekyll build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            .jekyll-cache
+            .jekyll-metadata
+          key: jekyll-cache-${{ runner.os }}-${{ hashFiles('Gemfile.lock', '_config.yml') }}
+          restore-keys: |
+            jekyll-cache-${{ runner.os }}-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
