@@ -14,10 +14,12 @@
                 </svg>
             </a>
             <div class="trigger">
+                {% assign nav_allowlist = "/,/about/,/archives/,/category/,/tags/,/guestbook/,/list/,/feed.xml,/running_page/" | split: "," %}
                 {% for page in site.pages %}
-                    {% if page.title %}
-                        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale].[page.title] }}</a>
-                    {% endif %}
+                  {% assign nav_href = page.nav_url | default: page.url %}
+                  {% if page.title and nav_allowlist contains nav_href %}
+                    <a class="page-link" href="{{ nav_href | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale].[page.title] }}</a>
+                  {% endif %}
                 {% endfor %}
 
 

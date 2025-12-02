@@ -7,11 +7,13 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-#  push:
-#    branches: ["master"]
+  # 自动构建并发布 GitHub Pages
+  push:
+    branches:
+      - master
+      - jekyll
 
-  # Allows you to run this workflow manually from the Actions tab
+  # 仍然允许手动触发
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -28,19 +30,29 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0' # Not needed with a .ruby-version file
+          ruby-version: '3.3' # Not needed with a .ruby-version file
+          bundler: '2.4.19'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Cache Jekyll build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            .jekyll-cache
+            .jekyll-metadata
+          key: jekyll-cache-${{ runner.os }}-${{ hashFiles('Gemfile.lock', '_config.yml') }}
+          restore-keys: |
+            jekyll-cache-${{ runner.os }}-
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -48,16 +60,16 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4

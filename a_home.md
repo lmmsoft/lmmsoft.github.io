@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Home
-permalink: /
+permalink: /home/
+nav_url: /
 ---
-
