@@ -22,6 +22,7 @@
 
 ## 结构与命名
 - 文章文件名：`YYYY-MM-DD-标题-使用-连字符.md`，日期不可为未来。
+- Slug 需用英文并尽量与 permalink 一致（例：`/migration_to_obsidian_for_ai/` 对应 `YYYY-MM-DD-migration_to_obsidian_for_ai.md`）。
 - YAML Front Matter：两空格缩进，至少包含 `layout`、`title`、`date`、`categories`/`tags`。
 - 布局与组件：修改放在 `_layouts/`、`_includes/`、`_sass/`，主样式在 `css/main.scss`。
 - 导航页面按前缀排序：`a_home.md`、`b_about.md`、`c_archives.md`、`d_category.md`、`e_tags.md`、`f_guestbook.md`、`f_list.md`。
