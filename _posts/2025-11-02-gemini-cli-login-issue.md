@@ -56,6 +56,10 @@ export GOOGLE_CLOUD_PROJECT_ID=gen-lang-client-0698601424
 - **需要启用 Gemini API。** 只有在 Google Cloud 项目中为账号启用了 Gemini API 后，CLI 才能继续调用，这一步有可能触发计费。一些网友反馈开启后免费额度失效，每日 200 次 Pro 模型额度和 Flash 免费调用都会被记入项目账单。
 - **账单风险不透明。** 我的账号是在之前测试 Vertex AI 时自动生成的项目，没有设置付款方式，所以暂时没有被扣费；但一旦绑定信用卡，后续费用就不再可控。
 
+下图是开启 Gemini API 后、控制台「费用」页提示“为此项目关联一个结算账号”的示意，虽然页面提示可以继续使用，但计费逻辑依旧不明朗，因此风险依旧存在：
+
+![开启 Gemini API 后的 Google Cloud 控制台费用页示意](/images/gemini-cli-gcp-cost.svg)
+
 综上，这个方法只是权宜之计，风险远大于收益。
 
 ## 最终的稳定方案：更换 Google 账号

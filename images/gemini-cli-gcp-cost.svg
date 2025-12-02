@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="100%" stop-color="#4285f4" />
+    </linearGradient>
+    <style><![CDATA[
+      .title { font: 48px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #1f1f1f; }
+      .subtitle { font: 26px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #5f6368; }
+      .tabs { font: 26px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; }
+      .tabs.inactive { fill: #5f6368; }
+      .tabs.active { fill: #1a73e8; font-weight: 600; }
+      .hint-title { font: 32px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #202124; font-weight: 600; }
+      .hint-text { font: 26px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #202124; }
+      .hint-footnote { font: 22px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #5f6368; }
+      .footer { font: 22px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #5f6368; }
+      .header-text { font: 26px 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #ffffff; }
+    ]]></style>
+  </defs>
+  <rect width="1600" height="900" fill="#f8f9fb"/>
+  <rect x="0" y="0" width="1600" height="110" fill="url(#headerGradient)"/>
+  <text x="40" y="70" class="header-text">API 和服务 &gt; 已启用的 API 和服务 &gt; Gemini for Google Cloud API</text>
+  <rect x="80" y="150" width="1440" height="670" rx="24" ry="24" fill="#ffffff" stroke="#d7d9dd" stroke-width="2"/>
+  <text x="140" y="250" class="title">Gemini for Google Cloud API</text>
+  <text x="140" y="320" class="subtitle">类型：类 API    提供方：Google</text>
+  <g transform="translate(160,360)">
+    <rect x="0" y="0" width="180" height="60" rx="16" ry="16" fill="#f1f3f4" stroke="#d7d9dd" stroke-width="1"/>
+    <text x="58" y="38" class="tabs inactive">概览</text>
+    <rect x="190" y="0" width="180" height="60" rx="16" ry="16" fill="#f1f3f4" stroke="#d7d9dd" stroke-width="1"/>
+    <text x="248" y="38" class="tabs inactive">指标</text>
+    <rect x="380" y="0" width="180" height="60" rx="16" ry="16" fill="#f1f3f4" stroke="#d7d9dd" stroke-width="1"/>
+    <text x="438" y="38" class="tabs inactive">配额</text>
+    <rect x="570" y="0" width="180" height="60" rx="16" ry="16" fill="#f1f3f4" stroke="#d7d9dd" stroke-width="1"/>
+    <text x="628" y="38" class="tabs inactive">凭据</text>
+    <rect x="760" y="0" width="180" height="60" rx="16" ry="16" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+    <text x="818" y="38" class="tabs active">费用</text>
+    <rect x="950" y="0" width="220" height="60" rx="16" ry="16" fill="#f1f3f4" stroke="#d7d9dd" stroke-width="1"/>
+    <text x="998" y="38" class="tabs inactive">服务级别协议</text>
+  </g>
+  <rect x="200" y="480" width="1200" height="260" rx="24" ry="24" fill="#fef7e0" stroke="#fbbc04" stroke-width="3"/>
+  <text x="240" y="540" class="hint-title">提示</text>
+  <text x="240" y="600" class="hint-text">为此项目关联一个结算账号，若要使用任何由该项目启用的付费功能，请为其设置结算账号。</text>
+  <text x="240" y="650" class="hint-text">· 当前项目：gen-lang-client-0698601424</text>
+  <text x="240" y="700" class="hint-text">· 状态：Gemini API 已启用，尚未关联付款方式</text>
+  <text x="240" y="750" class="hint-footnote">· 控制台路径：APIs &amp; Services &gt; Enabled APIs &amp; Services &gt; Gemini for Google Cloud API &gt; 费用</text>
+  <text x="200" y="830" class="footer">截图示意：开启 Gemini API 后控制台费用标签页显示“为此项目关联一个结算账号”。</text>
+</svg>
