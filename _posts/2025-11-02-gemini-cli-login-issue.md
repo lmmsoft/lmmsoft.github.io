@@ -20,7 +20,9 @@ Gemini CLI 升级后出现强制重新登录的流程，但在主力 Google 账�
 
 ## 背景
 
-过去几个月我一直用 Gemini CLI 写代码、发起快速问答，体验稳定。两天前升级到最新版后，命令行提示需要重新登录。照着提示打开浏览器，在 Google 的授权页面完成 OAuth 流程，回调页面显示 `Login successful`，看起来一切正常（参考官方成功回调页面示意 [auth_success_gemini](https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=zh-cn)）。
+过去几个月我一直用 Gemini CLI 写代码、发起快速问答，体验稳定。两天前升级到最新版后，命令行提示需要重新登录。照着提示打开浏览器，在 Google 的授权页面完成 OAuth 流程，回调页面显示 `Login successful`，看起来一切正常（参考官方成功回调页面示意 [auth_success_gemini](https://developers.google.com/gemini-code-assist/auth/auth_success_gemini?hl=zh-cn)）：
+
+![Google 登录成功回调页面示意](/images/2025/2025-11-02-gemini-cli-login-issue/gemini-cli-auth-success.svg)
 
 然而 CLI 这边随即抛出错误：
 
@@ -29,6 +31,8 @@ Failed to login. Message: This account requires setting the GOOGLE_CLOUD_PROJECT
 ```
 
 重复多次依旧失败，说明问题发生在本地 CLI 与账户的后续校验阶段。
+
+![Gemini CLI 登录 403 报错示意](/images/2025/2025-11-02-gemini-cli-login-issue/gemini-cli-login-error.svg)
 
 ## 排查过程
 
@@ -58,7 +62,46 @@ export GOOGLE_CLOUD_PROJECT_ID=gen-lang-client-0698601424
 
 下图是开启 Gemini API 后、控制台「费用」页提示“为此项目关联一个结算账号”的示意，虽然页面提示可以继续使用，但计费逻辑依旧不明朗，因此风险依旧存在：
 
-![开启 Gemini API 后的 Google Cloud 控制台费用页示意](/images/gemini-cli-gcp-cost.svg)
+![开启 Gemini API 后的 Google Cloud 控制台费用页示意](/images/2025/2025-11-02-gemini-cli-login-issue/gemini-cli-gcp-cost.svg)
+
+### 如果只设置 Project ID 但未启用 API，会收到 403
+
+如果只按照 issue #3001 的提示设置了 `GOOGLE_CLOUD_PROJECT` 或 `GOOGLE_CLOUD_PROJECT_ID`，但忘记在控制台里启用 Gemini API，会直接收到 403 错误：
+
+```json
+✕ [API Error: [{
+      "error": {
+        "code": 403,
+        "message": "Gemini for Google Cloud API has not been used in project gen-lang-client-0698601424 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/cloudaicompanion.googleapis.com/overview?project=gen-lang-client-0698601424 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+        "errors": [
+          {
+            "message": "Gemini for Google Cloud API has not been used in project gen-lang-client-0698601424 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/cloudaicompanion.googleapis.com/overview?project=gen-lang-client-0698601424 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+            "domain": "usageLimits",
+            "reason": "accessNotConfigured",
+            "extendedHelp": "https://console.developers.google.com"
+          }
+        ],
+        "status": "PERMISSION_DENIED",
+        "details": [
+          {
+            "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+            "reason": "SERVICE_DISABLED",
+            "domain": "googleapis.com",
+            "metadata": {
+              "containerInfo": "gen-lang-client-0698601424",
+              "activationUrl": "https://console.developers.google.com/apis/api/cloudaicompanion.googleapis.com/overview?project=gen-lang-client-0698601424",
+              "consumer": "projects/gen-lang-client-0698601424",
+              "service": "cloudaicompanion.googleapis.com",
+              "serviceTitle": "Gemini for Google Cloud API"
+            }
+          }
+        ]
+      }
+    }
+  ]
+```
+
+因此不要误以为设置变量就足够了，Google Cloud 侧的服务状态同样关键。
 
 综上，这个方法只是权宜之计，风险远大于收益。
 
@@ -71,6 +114,16 @@ export GOOGLE_CLOUD_PROJECT_ID=gen-lang-client-0698601424
 3. 回到终端执行 `gemini login`，这次没有再提示设置项目 ID，直接进入可用状态。
 
 实测表明，只要账号没有绑定旧的 Gemini API 或 Workspace 限制，登录流程就和旧版本一样顺利。对于需要继续使用主力账号的同学，目前还没有官方给出的无风险修复，需要等待 CLI 后续更新。
+
+## Codex 给出的可操作建议
+
+后续我又参考了 gpt-5-codex 给出的排查建议，步骤相对完整，也有助于理解整个登录流程的变化：
+
+1. **先确认 Project ID。** 登录 [Google Cloud Console](https://console.cloud.google.com/) 选取或新建一个项目，记录 Project ID（如 `my-gemini-playground`）。
+2. **通过环境变量告知 CLI。** 临时会话可以执行 `export GOOGLE_CLOUD_PROJECT=my-gemini-playground`（或 `GOOGLE_CLOUD_PROJECT_ID`）；若想持久保存，把同一行写进 `~/.zshrc` 等 shell 配置，必要时顺便执行 `gcloud config set project my-gemini-playground`，让 gcloud 与 CLI 保持一致。
+3. **确认变量已生效再登录。** 重新运行 `gemini login` 前先用 `echo $GOOGLE_CLOUD_PROJECT` 检查变量值。如果仍报错，再检查 403 是否与 API 未启用有关。
+4. **检查权限与 API 状态。** 第一次使用该项目时需要在控制台启用 Vertex AI / Gemini API，并确保账号至少具备 Editor 权限。多终端环境下记得每个会话都要设置相同变量。
+5. **避免误删 `.gemini` 目录。** 错误的关键不在本地缓存，而是项目上下文缺失；删目录不会带来帮助。
 
 ## 小结
 
