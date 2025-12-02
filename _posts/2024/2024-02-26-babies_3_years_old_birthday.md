@@ -38,7 +38,7 @@ tags:
 视频：海兔骑童车的可爱画面📷 
 
 <video id="video" controls="" preload="none" width="600">
-      <source id="mp4" src="../images/2024/2024-02-24-babies_3_years_old_birthday/11_bike.MP4" type="video/mp4">
+      <source id="mp4" src="/images/2024/2024-02-24-babies_3_years_old_birthday/11_bike.MP4" type="video/mp4">
 </video>
 
 ## 欢庆元宵，亲手制作花灯！
