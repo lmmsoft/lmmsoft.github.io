@@ -14,95 +14,95 @@ tags:
 - 青秀山
 - 亲子
 ---
-![04_finish.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/04_finish.JPG)
+![04_finish.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/04_finish.JPG)
 
 2025-01-30，大年初二，南宁，阴
 
 ## 早餐寻觅记
 今天是大年初二，清晨起床后，宝妈带着宝宝去享用酒店的自助早餐，我则和外婆打算出去尝尝当地特色米粉。
 <!--more-->
-![31_spw.jpeg](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/31_spw.jpeg)
+![31_spw.jpeg](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/31_spw.jpeg)
 
 来到新区，本以为大街小巷会是热闹非凡、店铺林立的景象，可现实却给了我们一个小小的“惊喜”——开业的店铺寥寥无几。我们沿着街道四处寻觅，走了好一会儿都没找到开门的米粉店。最后，还是借助美团外卖的力量，成功锁定了一家营业中的连锁米粉店——三品王。到了店门口，眼前的景象令人惊讶，这一排店铺中，只有这一家开门迎客，店门口还停满了等待取餐的外卖小哥。更有意思的是，连交警都来这儿吃早饭，这足以说明在新区，过年期间营业的店铺实在是稀缺。
 
 ## 美味牛肉粉体验
-![02_baby.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/02_baby.JPG)
+![02_baby.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/02_baby.JPG)
 
 三品王这家主打原汤牛肉粉的店可不简单，它是广西一家颇具名气的连锁品牌，在南宁拥有156家连锁店，周边的各个县市也都分布着一两家分店。我们走进店里，点一碗全家福，一碗原汤牛肉粉。端上桌后，先喝了一口汤，汤鲜味美，口感十分新鲜，喝完之后，浑身都舒畅了起来，这一趟寻觅果然没有白费。
 
 ## 创意手工：制作发财树
-![03_baby.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/03_baby.JPG)
+![03_baby.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/03_baby.JPG)
 
 吃完早餐回到酒店，刚好10点，宝宝也结束了早餐时光，酒店的新年DIY手工活动正式开启，今年的活动是制作发财树。发财树的制作步骤还挺有趣，先用金色铁丝卷成树干，再用胶将许多小铜币挂在树上，最后贴上贴画装饰。
 
 我们第一个到达活动现场，成功抢占了有利位置，工作人员也十分耐心地为我们讲解制作流程。我先帮宝宝卷好了铁丝树干，接着就开始贴发财金币。一开始用的是热熔胶，它干得快，十几秒就能固定住金币，但温度高，容易烫伤手。宝宝不小心被烫了一下，有点疼，工作人员见状，便给我们换成了普通胶水。普通胶水虽然对宝宝没有伤害，但干得慢，金币容易掉落。于是，我混用热熔胶和普通胶水，在树枝各处空白位置涂上胶水，宝宝负责把金币小心翼翼地粘上去。在我们的辅导下，两个宝宝配合得十分默契，很快就完成了两棵发财树的主体部分。
 
 ## 装饰完成，收获祝福
-![01_day_baby.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/01_day_baby.JPG)
+![01_day_baby.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/01_day_baby.JPG)
 
 到了贴贴画的环节，宝宝们自己拿起剪刀，从一大张贴画中剪出小片，涂上胶水，贴在发财树的两边进行装饰。这样两棵漂亮的新年发财树大功告成。我们完成得速度很快，一旁的工作人员看到可爱的双胞胎宝宝，喜欢得不得了，主动帮我们拍了好多照片。大年初二制作了这寓意美好的发财树，真心希望新的一年里，我们能财运亨通，步步高升，发大财！ 
 
 ## 奔赴青秀山，开启新旅程
-![13_fly.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/13_fly.JPG)
+![13_fly.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/13_fly.JPG)
 
 早上做完手工后，我们回房间收拾好行李，办理了退房手续，便启程前往青秀山。青秀山是南宁市内一个规模很大的景区，设有西门、北门、东门等多个入口，景区内还有小火车连接各个区域，十分便捷。
 
-![15_spring.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/15_spring.JPG)
+![15_spring.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/15_spring.JPG)
 
 我们此次前往的是东门，这几天这里正在举办灯会，热闹非凡。白天门票20元，晚上门票57元。由于下午还要赶路，时间有限，进入景区后，我们只是走马观花浏览了灯会，直奔东门的儿童乐园，因为宝宝一直心心念念着要去那里玩耍。
 
 ## 惊艳儿童乐园
-![17_baby_play.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/17_baby_play.JPG)
+![17_baby_play.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/17_baby_play.JPG)
 
 这个儿童乐园真是让人大开眼界，是我见过最大的无动力儿童乐园。滑滑梯足有三四层楼那么高，园内还有各种各样的梯子和玩具，丰富多样，而且乐园依山而建，爬到顶端还能看到很远的风景。
 
-![18_huati.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/18_huati.JPG)
+![18_huati.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/18_huati.JPG)
 
 不过，部分设施标注适合5岁以上的孩子游玩，我们家宝宝刚满4岁，玩起来稍显吃力，家长也得时刻在旁照看，着实费了不少力气。但不得不说，这个公园真的很棒，门票价格也很合理。
 
-![16_flower.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/16_flower.JPG)
+![16_flower.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/16_flower.JPG)
 
 在香港这样土地紧张的地方，很难见到这么大规模的无动力公园，而在南宁、深圳这些地方，春节期间宝宝们却能尽情畅玩，可见土地资源状况确实会影响孩子们的游玩体验和质量，有报道说香港的青少年比较压抑，各种问题比较多，没有大的游玩空间就是问题一角，整个社会有系统性的问题。 
 
 ## 自驾途中的亲子时光：趣味游戏点亮旅程
 
 ### 动物大王诞生记：开启创意接龙之旅
-![11_fly.jpg](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/11_fly.jpg)
+![11_fly.jpg](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/11_fly.jpg)
 
 最近自驾出行，为了给旅途增添乐趣，同时减少宝宝看车载动画片的时间，我们一家四口开启了趣味游戏时光。首先登场的是“动物大王”游戏，其实就是动物接龙。游戏规则简单，一家四口轮流说出一种小动物的名字，谁说得最多谁就是“动物大王”。本以为宝宝们认识的动物有限，没想到他们的表现出乎意料，能说出不少动物的名字。遇到卡壳想不起来的时候，我们会适时引导，比如提示“海里面有什么动物呀”“天上飞的有什么动物呢”，在我们的引导下，宝宝们总能顺利接上，玩得不亦乐乎。
 
 ### 城市大王游戏：探索地理认知的小插曲
-![12_fly.jpg](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/12_fly.jpg)
+![12_fly.jpg](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/12_fly.jpg)
 
 “动物大王”游戏玩得正酣，我们又推出了“城市大王”的新玩法，规则同样是轮流说出城市的名字。不过，这个游戏对宝宝们来说有点小挑战。他们目前对城市和一些小地名的区分还不太清楚，比如香港和坚尼地城，在他们的认知里，似乎没有大小概念的区分，都当作城市来看待。所以在游戏过程中，他们能说出的城市名字并不多。为了帮助宝宝们更好地理解，我们带他们看天气预报，学习各个省的省会名字，想着之后再玩省会接龙游戏，说不定能让他们收获更多地理知识。
 
 ### 创意不断：拓展游戏新玩法
-![14_calshen.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/14_calshen.JPG)
+![14_calshen.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/14_calshen.JPG)
 
 “动物大王”和“城市大王”游戏后，我们的创意源源不断。紧接着，我们还开展了“英文动物大王”，说出动物的英文名字，既能巩固英语知识，又能增添游戏趣味性。此外，我们还玩起了“厨房大王”“卧室大王”游戏，每人每天说一个厨房、卧室用品，锅碗瓢盆、柴米油盐都在讨论范围内。这个游戏不仅锻炼了宝宝的观察力，还能帮助他们回忆日常生活中的点滴。
 
 这次自驾途中的亲子游戏时光，不仅打发了无聊的车程，还增进了家人之间的感情，更让宝宝们在轻松愉快的氛围中学习到了新知识。
 
 ## 别具一格的北海合浦服务区
-![21_tongfengdeng.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/21_tongfengdeng.JPG)
+![21_tongfengdeng.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/21_tongfengdeng.JPG)
 
 下午从南宁到茂名自驾，在北海的合浦服务区停留，这个服务区着实给了我不少惊喜，令我眼前一亮！
 
-![26_han.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/26_han.JPG)
+![26_han.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/26_han.JPG)
 
-![24_wc.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/24_wc.JPG)
+![24_wc.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/24_wc.JPG)
 
 整个服务区的建筑与装饰皆弥漫着浓厚的汉代风格，每一处细节都透露着古朴典雅的韵味，就连看似平常的厕所🚾 也不例外，同样遵循着汉代建筑的风格打造，让人仿佛瞬间穿越回了那个辉煌的时代。服务区内设有文化墙以及展示本地景点介绍的橱窗，它们就像一扇扇了解当地文化的窗口，让来往的旅客在短暂停留的间隙，也能轻松领略到本地的独特魅力，真是贴心又有趣。
 
-![22_tongfengdeng.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/22_tongfengdeng.JPG)
+![22_tongfengdeng.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/22_tongfengdeng.JPG)
 
 在这里，最让我难以忘怀的，当属门口的铜凤灯雕塑。昨天在广西博物馆亲眼目睹它的实物时，我只知道它是广西的镇馆之宝，充满了神秘感与艺术价值。而今天在合浦服务区，我对它有了更深入的了解，原来它出土于合浦汉墓，是这片土地上孕育出的珍贵文物，承载着厚重的历史文化，着实令人赞叹不已！
 
-![23_name.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/23_name.JPG)
+![23_name.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/23_name.JPG)
 
 此外，服务区里有理想的专属充电桩，挂着渝A、沪A、浙A牌照的车辆正在有序充电，即插即充非常方便，大大优化的普通充电桩先扫码，再充值、最后还要确认成功启动的麻烦。为了提高充电效率，这里的充电桩设置为只充到90%，停止后主动APP弹出提醒，能够平和电量和充电桩使用的效率。
 
-![25_info.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/25_info.JPG)
+![25_info.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/25_info.JPG)
 
 北海的合浦服务区，不仅是旅途中的一个休息站点，更是一个融合了历史文化与现代便捷的宝藏之地~
 
@@ -115,6 +115,6 @@ tags:
 餐厅里海鲜不算丰富，但我们点了茂名特色肠粉和海鲜粥。肠粉晶莹剔透，口感爽滑，馅料鲜香；海鲜粥米粒饱满，海鲜新鲜，一口下去，鲜美无比，味道十分惊艳。
 
 ## 入住亚朵酒店
-![31_maoming.JPG](../images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/31_maoming.JPG)
+![31_maoming.JPG](/images/2025/2025-01-30-snake_spring_d6_nanning_to_maoming/31_maoming.JPG)
 
 饱餐一顿后，我们前往茂名高铁站附近的亚朵酒店入住。办理入住手续很顺利，酒店环境温馨，设施完备，给人一种舒适的感觉，入住体验相当不错，更多感受等明天再分享。

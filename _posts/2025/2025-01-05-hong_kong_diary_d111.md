@@ -13,7 +13,7 @@ tags:
 - 港岛径
 - 越野
 ---
-![08_road_running.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/08_road_running.JPG)
+![08_road_running.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/08_road_running.JPG)
 2025-01-05 周日 晴
 
 ## 赛前紧急拉练
@@ -22,89 +22,89 @@ tags:
 <!--more-->
 
 ## 装备调整
-![01_equipment.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/01_equipment.JPG)
+![01_equipment.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/01_equipment.JPG)
 
 在临出门前，意识到比赛将至，需要测试装备，毕竟我的全套装备都是7年前的旧款，沉睡多年。于是花了些时间换上全套越野比赛装备。Hoka厚底越野鞋，搭配压缩袜、skins压缩裤，速干衣，外穿slab皮肤衣和背包。
 
 ## 装备细节
 
-![10_map.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/10_map.JPG)
+![10_map.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/10_map.JPG)
 同时，带上登山杖、能量胶、手机，耳机、纸巾、电解质粉、水袋包、头灯，魔力夹片等装备。提前适应它们。
 
 ## 港岛径拉练路线
-![02_longhushan.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/02_longhushan.JPG)
+![02_longhushan.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/02_longhushan.JPG)
 
 今天计划从龙虎山晨运径进山，沿着港岛径一路前行，目标20-30公里。港岛径全程50公里，路线成熟且标识清晰，共有100个标识点。沿途有几个直饮水补给点。
 
 ## 挑战目标
-![03_trail.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/03_trail.JPG)
+![03_trail.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/03_trail.JPG)
 
 HK50比赛要求在14小时内完成56公里的赛程，平均配速需达到15分钟每公里。本次拉练主要是测试自身的体力和配速情况，为即将到来的比赛做好准备。
 
 ## 执行计划
-![05_trail.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/05_trail.JPG)
+![05_trail.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/05_trail.JPG)
 
 从龙虎山晨运径进山后，以稳定的步伐前行，硬化路面，全程不跑，就快走，平路心率120以内，爬坡心率150以内，在补给点充分补充水分，试吃不同口味的能量胶，选出最喜欢的口味🥰
 
 ## 实际路线记录
-![99_my_map.jpeg](../images/2025/2025-01-05-hong_kong_diary_d111/99_my_map.jpeg)
+![99_my_map.jpeg](/images/2025/2025-01-05-hong_kong_diary_d111/99_my_map.jpeg)
 
 ### 第一段：龙虎山至薄扶林水塘
-![04_view_kenndy_town.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/04_view_kenndy_town.JPG)
+![04_view_kenndy_town.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/04_view_kenndy_town.JPG)
 
 从龙虎山晨运径进山后，转入港岛径第一段。沿着山脊向南，道路平缓，视野开阔，玛丽医院、贝沙湾等尽收眼底。
 
-![06_water.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/06_water.JPG)
+![06_water.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/06_water.JPG)
 
 在港岛径一段与二段交界的薄扶林水塘附近，我在下山500米折返，在补水点将两升水袋灌满，并加入电解质冲剂调配运动饮料。短暂休整后，开始了港岛径第二段的征程。
 
 ### 第二段：薄扶林至贝璐道
-![09_peninsula.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/09_peninsula.JPG)
+![09_peninsula.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/09_peninsula.JPG)
 
 第二段路线从薄扶林水塘向南延伸，途经田湾，沿着奇力山方蜿蜒前行。站在山腰远眺，山下的香港仔和海怡半岛景色尽收眼底。在第二段与第三段的交界处，一度走错路线，折返后继续前进。
-![07_road.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/07_road.JPG)
+![07_road.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/07_road.JPG)
 
 ### 第三段：贝璐道至山顶广场
 
-![11_road.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/11_road.JPG)
+![11_road.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/11_road.JPG)
 
 进入第三段后，体力逐渐不支，决定改变计划。放弃前往湾仔，转而沿贝璐道、山顶道和卢吉道折返龙虎山方向。
 
-![12_lujidao.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/12_lujidao.JPG)
+![12_lujidao.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/12_lujidao.JPG)
 
 ### 收官环节
-![13_high_west_map.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/13_high_west_map.JPG)
+![13_high_west_map.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/13_high_west_map.JPG)
 
 行程最后，特意攀登西高山，600米路爬升100米，从东边台阶路上，欣赏了日落美景。随后从西边的石头野径下山，沿碧珊径回家，为这段充实的拉练画上句号。
 
-![15_high_west_peak.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/15_high_west_peak.JPG)
+![15_high_west_peak.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/15_high_west_peak.JPG)
 
 ## 拉练情况总结
 
-![16_high_west_viewing_point.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/16_high_west_viewing_point.JPG)
+![16_high_west_viewing_point.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/16_high_west_viewing_point.JPG)
 
 今天的拉练结果不容乐观。速度和体力都跟不上，平均配速达不到15m/km。原本计划沿着港岛径一直走完三段，最后力不从心，从山顶广场切回龙虎山，绕了一圈。
 
 在平路时，以较为舒适的速度行走，配速约为15分钟每公里，即每小时4公里。而有意识地快走后，配速能达到12分钟每公里，也就是每小时5公里。但遇到上下坡以及台阶路时，速度就难以维持了，大约是20-30分钟每公里。
 
 ## 体能消耗与问题
-![17_sunset.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/17_sunset.JPG)
+![17_sunset.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/17_sunset.JPG)
 大约走了15公里后，体力明显下降，身体出现虚的感觉。虽然吃了能量胶，整体问题不但仍感觉身体虚弱。另外，体重比上次参加港百时增加了30斤，这无疑增加了身体负担，使得体力消耗更快。
 
 ## 后续计划
-![19_me.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/19_me.JPG)
+![19_me.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/19_me.JPG)
 
 从今天的情况来看，想要达到HK50关门完赛的15分钟配速难度较大。
 
 来不及训练了，看能不能突击减肥，减轻身体负担🐷然后祈祷比赛时超水平发挥🙏🏻
 
 ## 其他杂谈
-![18_full.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/18_full.JPG)
+![18_full.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/18_full.JPG)
 
 一开始用谷歌地图导航，有些小路不够清晰，结果走错路线，浪费了时间。后来用strave地图，热图里能看到大众的优质路线，效果更好。
 
 路上听了不少积压的播客，比如李想的访谈，各种2024总结等，有很多启发，对自己的2025又有了很多新的想法💡
 
-![20_dark.JPG](../images/2025/2025-01-05-hong_kong_diary_d111/20_dark.JPG)
+![20_dark.JPG](/images/2025/2025-01-05-hong_kong_diary_d111/20_dark.JPG)
 
 另外今天老妈问我山里手机信号如何？我说内地是穷人逃到山里，所以信号不好。港岛是大富豪住山里，信号杠杠的📶

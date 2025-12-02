@@ -13,7 +13,7 @@ tags:
 - 泰州
 - 铁人三项
 ---
-![img.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img.png)
+![img.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img.png)
 
 ## 概况
 ```
@@ -23,7 +23,7 @@ tags:
 成绩：2h56m
 ```
 <!--more-->
-![img_1.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_1.png)
+![img_1.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_1.png)
 
 ## 流水账
 
@@ -39,7 +39,7 @@ tags:
 8. 晚上继续农家乐聚餐，然后回屋子各自收拾，我的换了脚踏电池，中间还弄错几次，今年的比赛几乎都没拍定妆照，对于比赛的新鲜感在减少，收拾好参赛包，贴号码簿，贴绩效贴，贴放水创口贴，贴水泡贴，折腾一番，也累了。
 9. 最后十一点左右就睡了，一人睡标间，没有感染，睡得很舒服，时候证明这个很重要，去年泰州太兴奋，一夜都没睡好
 
-![img_2.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_2.png)
+![img_2.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_2.png)
 
 ### 05-08 周日
 
@@ -49,18 +49,18 @@ tags:
 4. 背着大包小包，拍合影，然后进入换项区。去的路上还练习了一把赤脚上鞋，难度不大，但很不熟练，比赛吃了亏。 现在有了专用的铁三包，再加上有好几场比赛经验，收拾起来很快~
 5.  8:30离开换项区，检录，领泳帽，然后等待9点比赛开始，身边站的都是20-24年龄组的几尊大神，3个都是职业队退下来的，这一组后来的确是死亡之组，6个人完赛，最后一名2:33
 
-![img_3.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_3.png)
+![img_3.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_3.png)
 
 
 ### 游泳 47分12秒，PW, rank14/17
 - 春节后就下水三次，一次刚过完春节，上上周下太湖东山铁三训练赛，周四赛前抱佛脚，仅此而已，自由泳游不起来，蛙泳游不快，总之超级慢，最快的那些运动员基本都套了我一圈（750米一圈，一共两圈，第一圈上岸大概23分钟）
 
-![img_4.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_4.png)
+![img_4.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_4.png)
 
 ### 换项1， 3:35 rank13/17
 - 上次换项花了5分多，这次吸取教训，尤其是上了锁鞋， 把穿鞋的时间省了，感觉还不错，总之是没拖后腿，下次可以继续提高一点~
 
-![img_5.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_5.png)
+![img_5.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_5.png)
 
 ### 骑车 1h12m16s PB rank11/17 
 - 进步最大的项目， 从安亭的1:30到富阳的1:18到泰州的1:12，很开心，当然有赛道难易和距离的原因，不过还是能清晰看到买买买和技术进步带来的提高
@@ -71,12 +71,12 @@ tags:
 - 前7个5km用时的分别是10:10, 9:06 9:02 9:02 9:25 ，全程均速32.4km，从心率和功率来看差不多到顶了~
 - 总结：骑行技术还可以多增强， 功率还有多练才能有大输出啊~
 
-![img_6.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_6.png)
+![img_6.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_6.png)
 
 ### 换项2 1:24 rank9、rank 12/17
 - 下车前看到有人直接把鞋留在脚踏上，又学到一点，果然有用，省了不少时间，新技能get
 
-![img_7.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_7.png)
+![img_7.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_7.png)
 
 ### 跑步 52"04 rank13/17
 - 开跑后看了下时间， 205，还剩55分钟，只有530配速以内就能完成，应该还比较有把握，然后一直用515左右的配速跑，跑步路段风景不错，但是要穿过好几次河，所以要爬很多座小桥，桥都不高，但是坡都很陡，严重影响节奏，最后有铁友的统计是一共25座。
@@ -86,7 +86,7 @@ tags:
 - 经验： 浇水到身上降温，能够大大提升速度，天气热每个补给点都要浇
 - 数据：平均心率160，步频184，步长1.01，总配速530，触地249ms，左右平衡52.3% 47.4%,垂直7.7cm，每公里配速515,506,528,516,533,530,532,545,531,539
 
-![img_8.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_8.png)
+![img_8.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_8.png)
 
 ## 总结：
 1. 标铁终于进3了，挺开心的
@@ -96,6 +96,6 @@ tags:
 5. 下周金山就不作成绩的要求了，游泳争取全程自由泳，骑车争取不解锁，跑步看情况，少吃胶，不要拼太紧， 提升比赛经验。
 6. 下一阶段游泳得好好练，短板太严重了
 
-![img_9.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_9.png)
+![img_9.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_9.png)
 
-![img_10.png](../images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_10.png)
+![img_10.png](/images/2016-05-09-taizhou_olympic_distance_triathlon_race/img_10.png)

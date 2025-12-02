@@ -13,7 +13,7 @@ tags:
 - 铁人三项
 - 上海
 ---
-![img.png](../images/2015-09-06-my_first_olympic_distance_triathlon_race/img.png)
+![img.png](/images/2015-09-06-my_first_olympic_distance_triathlon_race/img.png)
 
 ## 报名
 本来抗战日报了宿迁生态四项（游泳，皮划艇，山地自行车，越野跑），后来发现上海安亭办了铁三，果断退了宿迁，报名安亭。

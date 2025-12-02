@@ -14,7 +14,7 @@ tags:
 - 文案
 - 短片
 ---
-![kids.JPG](../images/2024/2024-11-27-hong_kong_diary_d72/kids.JPG)
+![kids.JPG](/images/2024/2024-11-27-hong_kong_diary_d72/kids.JPG)
 
 这两天参加了宝宝学校的165周年校庆视频制作比赛，我和宝妈借助AI工具，完成了这个充满挑战与惊喜的创作之旅，以下是经验分享，包含准备过程，原始文案和最终视频。
 <!--more-->

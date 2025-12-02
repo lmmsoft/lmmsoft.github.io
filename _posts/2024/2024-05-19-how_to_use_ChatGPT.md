@@ -19,7 +19,7 @@ tags:
 ## 0. 提前准备
 欢迎大家提前下载【豆包】和【Kimi智能助手】两个手机应用，分享现场有几个实战小任务，看谁最先完成。没下载的话，【Kimi智能助手】有微信小程序，也可以直接使用。
 
-![P0.jpg](../images/2024/2024-05-19-how_to_use_ChatGPT/P0.jpg)
+![P0.jpg](/images/2024/2024-05-19-how_to_use_ChatGPT/P0.jpg)
 <!--more-->
 ## 1. 小调查（现场刚好10人参加投票）
 1. 听过 ChatGPT 的举手🙋🏻‍♀️(100%)
@@ -47,7 +47,7 @@ ChatGPT 是一种由 OpenAI 开发的先进对话模型。它基于 GPT-4 架构
 
 总之，ChatGPT 是一个功能强大的语言模型，能够在多种场景下提供帮助和支持。
 ```
-![P1.png](../images/2024/2024-05-19-how_to_use_ChatGPT/P1.png)
+![P1.png](/images/2024/2024-05-19-how_to_use_ChatGPT/P1.png)
 
 ### Kimi简介 by kimi.ai
 - 
@@ -81,7 +81,7 @@ ChatGPT 是一种由 OpenAI 开发的先进对话模型。它基于 GPT-4 架构
 ## 4. 上传文档
 - 以 Kimi 为例，可以上传 50个文件，每个100MB，接受 PDF, Word ，Excel，PPT, Txt，图片等多种格式
 - 举例：上传50个简历文件，要求筛选出计算机专业，在大厂如阿里、字节、腾讯工作过的人
-![gif2.gif](../images/2024/2024-05-19-how_to_use_ChatGPT/P4_upload.gif)
+![gif2.gif](/images/2024/2024-05-19-how_to_use_ChatGPT/P4_upload.gif)
 
 ---
 
@@ -105,8 +105,8 @@ ChatGPT 是一种由 OpenAI 开发的先进对话模型。它基于 GPT-4 架构
   - 选择刚才保存的文件
   - 输入提示词"提到了哪些类型的资产，投资建议分别是什么，请用表格总结"
 
-![Q1.PNG](../images/2024/2024-05-19-how_to_use_ChatGPT/Q1.PNG)
-![Q1_2.png](../images/2024/2024-05-19-how_to_use_ChatGPT/Q1_2.png)
+![Q1.PNG](/images/2024/2024-05-19-how_to_use_ChatGPT/Q1.PNG)
+![Q1_2.png](/images/2024/2024-05-19-how_to_use_ChatGPT/Q1_2.png)
 
 ---
 
@@ -117,7 +117,7 @@ ChatGPT 是一种由 OpenAI 开发的先进对话模型。它基于 GPT-4 架构
 
 ### Q5: 兰启昌去年投资收益如何，用表格展示各类资产投资收益和投资建议
 A5: 在【兰启昌】公众号里找到2023投资总结的文章，复制链接(https://mp.weixin.qq.com/s/fcyD3qpxLU4cAJHRmo6UNg)，发给 Kimi，输入提示词"作者提到了哪些大类资产？投资收益如何，看法如何？请用表格总结"
-![Q2.png](../images/2024/2024-05-19-how_to_use_ChatGPT/Q2.png)
+![Q2.png](/images/2024/2024-05-19-how_to_use_ChatGPT/Q2.png)
 
 ---
 
@@ -128,7 +128,7 @@ A5: 在【兰启昌】公众号里找到2023投资总结的文章，复制链接
 ### Q6: 2024年4月，上海开业了哪些五星级酒店？
 A6: 这个问题传统搜索引擎很难直接获得答案，但大模型借助搜索增强功能就很容易实现，直接询问即可，如果答案不理想，可以尝试换个问法。
 
-![Q3.png](../images/2024/2024-05-19-how_to_use_ChatGPT/Q3.png)
+![Q3.png](/images/2024/2024-05-19-how_to_use_ChatGPT/Q3.png)
 
 ---
 
@@ -147,7 +147,7 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 
 ### Q8: 请用文言文，写一篇今天分享会的日记，100字左右
 - A8: 用语言输入的方式，简单描述今天分享会的内容，要求用文言文润色后输出
-![P8_wyw.jpg](../images/2024/2024-05-19-how_to_use_ChatGPT/P8_wyw.jpg)
+![P8_wyw.jpg](/images/2024/2024-05-19-how_to_use_ChatGPT/P8_wyw.jpg)
 
 ---
 
@@ -159,32 +159,32 @@ A7: 直接问"你是哪个大模型？"，可能会受到系统提示词干扰�
 - A9: 参考提示词：用宫崎骏卡通风格，画出分享会的场景，包括主讲人、听众。听众围坐在茶桌旁，桌上有茶杯，主讲人背后有投影仪。
 
 - 下面三幅是我提前画好的参考图，前两张是 ChatGPT 的 Dalle 画的，第三张是豆包。
-![Q6_P1.jpg](../images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P1.jpg)
-![Q6_P2.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P2.JPG)
-![Q6_P3.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P3.JPG)
+![Q6_P1.jpg](/images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P1.jpg)
+![Q6_P2.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P2.JPG)
+![Q6_P3.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/Q6_P3.JPG)
 
 - 我在现场用手机拍照，然后让 Dalle 改成卡通风格，如下图，因为今天推荐的穿衣风格是紫色，又把图片改成紫色风格：
-- ![p9_1.jpg](../images/2024/2024-05-19-how_to_use_ChatGPT/p9_1.jpg)
-- ![p9_2.jpg](../images/2024/2024-05-19-how_to_use_ChatGPT/p9_2.jpg)
+- ![p9_1.jpg](/images/2024/2024-05-19-how_to_use_ChatGPT/p9_1.jpg)
+- ![p9_2.jpg](/images/2024/2024-05-19-how_to_use_ChatGPT/p9_2.jpg)
 
 - 下面是现场大家的作品，都很有创意，最后一张是大家评选出的最佳图片，奖励小礼物
-![w9_01.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_01.JPG)
-![w9_02.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_02.JPG)
-![w9_04.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_04.JPG)
-![w9_05.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_05.JPG)
-![w9_06.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_06.JPG)
-![w9_07.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_07.JPG)
-![w9_08.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_08.JPG)
-![w9_09.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_09.JPG)
-![w9_10.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_10.JPG)
-![w9_11.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_11.JPG)
-![w9_12.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_12.JPG)
-![w9_13.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_13.JPG)
-![w9_14.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_14.JPG)
-![w9_15.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_15.JPG)
-![w9_16.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_16.JPG)
-![w9_17.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_17.JPG)
+![w9_01.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_01.JPG)
+![w9_02.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_02.JPG)
+![w9_04.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_04.JPG)
+![w9_05.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_05.JPG)
+![w9_06.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_06.JPG)
+![w9_07.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_07.JPG)
+![w9_08.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_08.JPG)
+![w9_09.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_09.JPG)
+![w9_10.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_10.JPG)
+![w9_11.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_11.JPG)
+![w9_12.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_12.JPG)
+![w9_13.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_13.JPG)
+![w9_14.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_14.JPG)
+![w9_15.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_15.JPG)
+![w9_16.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_16.JPG)
+![w9_17.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_17.JPG)
 
 - 现场最佳颁奖🏆
-![w9_99_best.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_99_best.JPG)
-![w9_award.JPG](../images/2024/2024-05-19-how_to_use_ChatGPT/w9_award.JPG)
+![w9_99_best.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_99_best.JPG)
+![w9_award.JPG](/images/2024/2024-05-19-how_to_use_ChatGPT/w9_award.JPG)

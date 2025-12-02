@@ -12,7 +12,7 @@ tags:
 - beancount
 - AI
 ---
-![head_img.jpeg](../images/2024/2024-12-03-beancount_with_llm/head_img.jpeg)
+![head_img.jpeg](/images/2024/2024-12-03-beancount_with_llm/head_img.jpeg)
 
 # 记账往事
 几年前从 [byvoid](https://byvoid.com/zht/blog/beancount-bookkeeping-1/) 蒟蒟那里学到了使用 beancount 记账的方法，这是一种用文本格式进行复式记账的工具，很适合程序员，记账过程中对自身花费有了清晰认知，不记不知道，花费远超想象XD

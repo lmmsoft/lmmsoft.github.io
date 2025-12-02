@@ -20,11 +20,11 @@ tags:
 ---
 上一篇[《如何备战第一场铁人三项比赛》](http://mp.weixin.qq.com/s?__biz=MzkxMzM0MTQyNg==&mid=2247483697&idx=1&sn=3c84ee525668b873dc9a75296a329760&chksm=c17e6facf609e6bab01feb14db3efb23b5b492e4328a87f6286431edae5f3980a6286ebc4ebd&scene=21#wechat_redirect) 中写了我的主要铁三比赛经历，2015是我的铁三元年，循序渐进，依次完成了训练赛，半程奥运标准距离的中铁协比赛，奥运标准距离的商业赛，突破了自己的边界。
 
-![img.png](../images/2022-10-10-my_first_triathlon_race/img.png)
+![img.png](/images/2022-10-10-my_first_triathlon_race/img.png)
 <!--more-->
 最近计划通过连载的方式整理这些比赛的经历，这篇是我的首场铁人三项比赛：南京羊山湖训练赛的记录：
 
-![img_1.png](../images/2022-10-10-my_first_triathlon_race/img_1.png)
+![img_1.png](/images/2022-10-10-my_first_triathlon_race/img_1.png)
 
 2015年7月26日，周日，南京时而烈日炎炎，时而突降阵雨。几个月的独自训练之后，我在仙林大学城的羊山湖公园参加了人生首场铁人三项比赛。
 
@@ -46,7 +46,7 @@ tags:
 
 8:30 裁判长开始讲话，内容包括领导介绍，比赛规则介绍，一起做热身操，大合影等
 
-![img_2.png](../images/2022-10-10-my_first_triathlon_race/img_2.png)  
+![img_2.png](/images/2022-10-10-my_first_triathlon_race/img_2.png)  
 赛前热身照片
 
 ## **游泳**
@@ -55,7 +55,7 @@ tags:
 
 9:10 第三组25-36号下水，我也在里面，和我同组的很多都是仪征冬泳队的，穿着胶衣，只有三个人赤膊上阵，我是其一，我带了泳裤/骑行裤/跑步裤，感觉后面换衣服会不方便，直接穿骑行裤游泳了。提前一两分钟下水适应水温，随后裁判员哨响，比赛开始，仪征冬泳队的高手都自由泳直接划出去了，我实力不济，又怕被踢到，就等了几秒才出发，蛙泳前进，游了一会儿想换自由泳，但效果不济，膀子好累，又换回蛙泳了。
 
-![img_3.png](../images/2022-10-10-my_first_triathlon_race/img_3.png)
+![img_3.png](/images/2022-10-10-my_first_triathlon_race/img_3.png)
 
 游泳的过程平淡无奇，羊山湖的水比象山水库清澈，能见度2米左右吧（象山水库大概1米多）
 
@@ -67,13 +67,13 @@ tags:
 
 （下图中间携带蓝色跟屁虫是我）
 
-![img_4.png](../images/2022-10-10-my_first_triathlon_race/img_4.png)
+![img_4.png](/images/2022-10-10-my_first_triathlon_race/img_4.png)
 
 ## **骑车**
 
 游泳上岸后换项比较顺利，因为父母观赛，有了场外协助，上岸后立即就换上了眼镜，穿了骑行服，换了跑鞋（没锁鞋），比较遗憾的是为了节约时间没有穿袜子，回家之后双脚后侧都磨烂了。
 
-![img_5.png](../images/2022-10-10-my_first_triathlon_race/img_5.png)
+![img_5.png](/images/2022-10-10-my_first_triathlon_race/img_5.png)
 
 刚开始骑车，果然腿部没什么力量，尝试高踏频适应，效果还不错。
 
@@ -89,17 +89,17 @@ tags:
 
 换项2没花太多精力，没换快干衣，车子一扔，直接穿骑行服跑咯。
 
-![img_6.png](../images/2022-10-10-my_first_triathlon_race/img_6.png)
+![img_6.png](/images/2022-10-10-my_first_triathlon_race/img_6.png)
 
 ## **跑步**
 
 换项果然痛苦，一开始腿软得发飘，根本跑不动，不过没停下来走路，坚持跑，全程基本都是坚持跑下来的，手表上的统计只走了3秒，印象里估计是走了10米左右。
 
-![img_7.png](../images/2022-10-10-my_first_triathlon_race/img_7.png)
+![img_7.png](/images/2022-10-10-my_first_triathlon_race/img_7.png)
 
 第一圈还超了几个跑步慢的选手，也被高手超过，从第二圈开始，完全就是一个人在跑（高手都完赛了），有个姐姐一直跟在我后面10-20米，我的配速逐渐从5:30掉到6:30，一直没追上或是掉队，后来她是女子组第三，有奖杯的呢~
 
-![img_8.png](../images/2022-10-10-my_first_triathlon_race/img_8.png)
+![img_8.png](/images/2022-10-10-my_first_triathlon_race/img_8.png)
 
 ## **完赛**
 
@@ -113,9 +113,9 @@ tags:
 
 跑步5.18km 用了32min，配速6m5s，比平时自己训练跑步时稍快，跑步是我最弱的项目，能坚持下来很痛苦，不过也没拼了老命跑。
 
-![img_9.png](../images/2022-10-10-my_first_triathlon_race/img_9.png)
+![img_9.png](/images/2022-10-10-my_first_triathlon_race/img_9.png)
 
-![img_10.png](../images/2022-10-10-my_first_triathlon_race/img_10.png)
+![img_10.png](/images/2022-10-10-my_first_triathlon_race/img_10.png)
 
 ## 总结：
 
@@ -127,9 +127,9 @@ tags:
 
 4. 赛场见到了很多周边城市的铁友，当时是第一次见，但是在随后的几年里，大家经常在周末的各种赛场相遇，赛前的晚宴成为了叙旧的圣地。
 
-![img_11.png](../images/2022-10-10-my_first_triathlon_race/img_11.png)
+![img_11.png](/images/2022-10-10-my_first_triathlon_race/img_11.png)
 
-![img_12.png](../images/2022-10-10-my_first_triathlon_race/img_12.png)
+![img_12.png](/images/2022-10-10-my_first_triathlon_race/img_12.png)
 
 男子/女子组颁奖仪式（当时不认识，后来参赛多了，发现都是国内叱咤风云的铁人，颁奖台常客）
 

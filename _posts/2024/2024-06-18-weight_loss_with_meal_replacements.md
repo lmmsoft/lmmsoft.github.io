@@ -13,7 +13,7 @@ tags:
 - 代餐
 ---
 
-![compare.jpg](../images/2024/2024-06-18-weight_loss_with_meal_replacements/compare.jpg)
+![compare.jpg](/images/2024/2024-06-18-weight_loss_with_meal_replacements/compare.jpg)
 
 婚后生活状态的变化，导致体重日益增加，从苏州生活时期的140斤，到了杭州安家时期的160+斤，现在又涨到了上海工作时期的180+斤(如题图)。
 
@@ -33,7 +33,7 @@ tags:
 
 下图是当时记录的饮食和运动量。开始几天代三餐，虽然体重减得很快，但身体也很不适应，尤其是上班要做脑力劳动，感到身体无力，腿软。后来随着运动量的增大，我逐渐减少了代餐，从两顿，一顿逐渐减少到正常吃喝。
 
-![img.png](../images/2024/2024-06-18-weight_loss_with_meal_replacements/2015-weight-loss.png)
+![img.png](/images/2024/2024-06-18-weight_loss_with_meal_replacements/2015-weight-loss.png)
 
 ## 今年的减肥尝试
 
@@ -75,7 +75,7 @@ tags:
 
 综合考虑后，我决定不打斯美格鲁肽，最后在拼多多上买了广药白云山的代餐奶昔，性价比高！再配合运动。同时还用动态血糖仪收集了一些血糖数据，再去大医院的内分泌科系统得看一下。
 
-![goods.jpg](../images/2024/2024-06-18-weight_loss_with_meal_replacements/goods.jpg)
+![goods.jpg](/images/2024/2024-06-18-weight_loss_with_meal_replacements/goods.jpg)
 
 ## 工具分享
 
@@ -83,12 +83,12 @@ tags:
 
 如果家里没有榨汁机，也可以像我一样在网上买个便携榨汁杯，我买的是南极人（这货不是保暖内衣么），不到30元（大约一顿代餐的钱），两个400毫升的杯子，一个小机器，还有USB充电电池，可以带出门，真的很方便。
 
-![cup.JPG](../images/2024/2024-06-18-weight_loss_with_meal_replacements/cup.JPG)
+![cup.JPG](/images/2024/2024-06-18-weight_loss_with_meal_replacements/cup.JPG)
 
 ## 实战数据，有图有真相
 
-![weight_1844.jpg](../images/2024/2024-06-18-weight_loss_with_meal_replacements/weight_1844.jpg)
-![weight_1750.JPG](../images/2024/2024-06-18-weight_loss_with_meal_replacements/weight_1750.JPG)
+![weight_1844.jpg](/images/2024/2024-06-18-weight_loss_with_meal_replacements/weight_1844.jpg)
+![weight_1750.JPG](/images/2024/2024-06-18-weight_loss_with_meal_replacements/weight_1750.JPG)
 
 ```
 2024-04-27 我的体重是 184.4 斤

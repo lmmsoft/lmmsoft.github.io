@@ -15,7 +15,7 @@ tags:
   - 签证
 ---
 
-![korea_sea.JPG](../images/2023/2023-10-19-travel_tricks/korea_sea.JPG)
+![korea_sea.JPG](/images/2023/2023-10-19-travel_tricks/korea_sea.JPG)
 (图：济州岛的海滩)
 
 最近身边发生了两件旅行中的"曲线出国"的故事，颇有启发，分享一下。
@@ -35,7 +35,7 @@ tags:
 根据领区和材料不同，价格也略有区别，三年多次一般小几百元，五年多次大几百元。
 
 我就是办的五年多次日本签证，2500元的单次菲律宾签，够给全家四口办日本签证了，能省不少钱呢。
-![japan_visa.jpg](../images/2023/2023-10-19-travel_tricks/japan_visa.jpg)
+![japan_visa.jpg](/images/2023/2023-10-19-travel_tricks/japan_visa.jpg)
 (图：宝宝的日本签证)
 
 由此展开，持有很多大国的签证，都有附加的福利。
@@ -45,7 +45,7 @@ tags:
 再比如申根签证，除了26个申根国外，还有很多其他欧洲国家也可以免签入境，主要在巴尔干地区，包括克罗地亚🇭🇷、罗马尼亚🇷🇴、阿尔巴尼亚🇦🇱、波黑🇧🇦、北马其顿🇲🇰、塞浦路斯🇨🇾等。
 
 美国签证在拉美特方便，可以免签墨西哥🇲🇽、洪都拉斯🇭🇳、多米尼加🇩🇴、巴哈马🇧🇸、百慕大🇧🇲、哥斯达黎加🇨🇷、哥伦比亚🇨🇴、智利🇨🇱、秘鲁🇵🇪、阿根廷🇦🇷、乌拉圭🇺🇾等很多国家。亚洲的菲律宾🇵🇭新加坡🇸🇬也都能免签过境。
-![korea_parking_by_sea.JPG](../images/2023/2023-10-19-travel_tricks/korea_parking_by_sea.JPG)
+![korea_parking_by_sea.JPG](/images/2023/2023-10-19-travel_tricks/korea_parking_by_sea.JPG)
 (图：济州岛海边的停车场🅿️)
 
 ## 故事二：变相拿国际驾照
@@ -55,7 +55,7 @@ tags:
 宝妈八月底和大学同学去韩国济州岛玩，济州岛对中国人是免签的，所以不需要办签证，比较方便。（插一句，韩国的签证办理很麻烦，最麻烦的地方是要刷身份证原件，大家被迫得把身份证寄给旅行社，期间自己出行就不方便了，这让人很困扰）
 
 在济州岛怎么玩呢？大巴很难等，包车太贵，最方便的方法是租车自驾，需要有国际驾照IDP。
-![korea_parking_lot.JPG](../images/2023/2023-10-19-travel_tricks/korea_parking_lot.JPG)
+![korea_parking_lot.JPG](/images/2023/2023-10-19-travel_tricks/korea_parking_lot.JPG)
 (图：韩国自驾)
 
 而我们中国内地没有加入维也纳国际道路交通公约，导致外国人的国际驾照在大陆不能用，中国人的驾照也不能换国际驾照，网上十来块钱就可以做的驾照翻译件其实是打的擦边球，不算正规的国际驾照，只有少量国家可以凑合用。
@@ -63,20 +63,20 @@ tags:
 宝妈找到了一个迂回的办法，就是先办香港驾照🚗 可以凭借大陆驾照 + 港澳通行证/香港居民身份证先换香港的驾照，再凭香港驾照 +
 香港身份证 换IDP国际驾照。
 
-![hongkong_IDP.jpg](../images/2023/2023-10-19-travel_tricks/hongkong_IDP.jpg)
+![hongkong_IDP.jpg](/images/2023/2023-10-19-travel_tricks/hongkong_IDP.jpg)
 (图：宝妈的香港驾照+国际驾照)
 
 于是，宝妈在淘宝上找了一个代办的商家，花了 1000 元换到了香港驾照，又花了 300 元换到了香港签发的国际驾照，全程10天左右，就拿到了国际驾照。
 
 开开心心去济州岛自驾租车咯，租的是现代的SUV Santa Fe（我们以前在新西兰北岛自驾也是这个车型）。
-![korea_car.JPG](../images/2023/2023-10-19-travel_tricks/korea_car.JPG)
+![korea_car.JPG](/images/2023/2023-10-19-travel_tricks/korea_car.JPG)
 (图：韩国自驾，使用 CarPlay + 谷歌地图导航)
 
 有了驾照可以自驾之后，旅行就愉快很多。想去海滩，随时出发，非常的灵活和自由，海滨公路让她和朋友们度过了一个愉快的周末。
 
 需要注意的是，想用香港驾照换国际驾照，必须要有香港居民身份证。据说以前可以用港澳通行证换到国际驾照，现在口子被堵上了，港澳通行证只能换香港驾照。
 
-![korea_restaurant_fish.jpg](../images/2023/2023-10-19-travel_tricks/korea_restaurant_fish.jpg)
+![korea_restaurant_fish.jpg](/images/2023/2023-10-19-travel_tricks/korea_restaurant_fish.jpg)
 (图：宝妈说只有自驾才能到达的带鱼餐厅， 名叫 "갈치왕 중문점"，地址是 "1146, lljuseo-ro, Seogwipo-si, Jeju-do (Zip Code)63534")
 
 ## 总结
@@ -87,5 +87,5 @@ tags:
 
 生活中的其他领域也是如此，较高的合规成本，往往也会留下一些口子，供有想法的人去突破。
 
-![korea_road.JPG](../images/2023/2023-10-19-travel_tricks/korea_road.JPG)
+![korea_road.JPG](/images/2023/2023-10-19-travel_tricks/korea_road.JPG)
 (图：行驶在济州岛的高速公路上)

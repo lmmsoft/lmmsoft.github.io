@@ -15,7 +15,7 @@ tags:
 - 生活习惯
 - 社交
 ---
-![00_building.JPG](../images/2024/2024-09-19-hong_kong_diary_d04/00_building.JPG)
+![00_building.JPG](/images/2024/2024-09-19-hong_kong_diary_d04/00_building.JPG)
 
 2024-09-19，星期四，香港，雨
 
@@ -33,13 +33,13 @@ tags:
 
 ## 三、吃饭习惯待改进
 
-![01_eat.JPG](../images/2024/2024-09-19-hong_kong_diary_d04/01_eat.JPG)
+![01_eat.JPG](/images/2024/2024-09-19-hong_kong_diary_d04/01_eat.JPG)
 
 最近宝宝早上吃饭的习惯不太好。以前在杭州的时候，宝宝们坐在专门的宝宝座椅上吃饭，座位是固定的，宝宝不能乱动。现在没有餐椅了，坐在小板凳上吃，却一边吃一边离开座位，拿玩具或者走来走去，一点也不专注。而且现在似乎失去了自己吃饭的能力，必须得家长喂才行。之前在学校常常能自己吃，在家偶尔能自己吃，这个习惯必须慢慢改过来。
 
 ## 四、宝宝社交的思考
 
-![02_morning.JPG](../images/2024/2024-09-19-hong_kong_diary_d04/02_morning.JPG)
+![02_morning.JPG](/images/2024/2024-09-19-hong_kong_diary_d04/02_morning.JPG)
 
 早上等校车的时候，穿着同样校服的几个小朋友在一起玩耍，而我们家宝宝离她们有点距离，没有打招呼，更无法融入一起玩耍，我觉得这样不利于宝宝的社会性发展。
 

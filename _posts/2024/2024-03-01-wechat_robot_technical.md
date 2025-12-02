@@ -55,7 +55,7 @@ tags:
 
 - 深度操作系统(Deepin Linux) https://www.deepin.org/index/zh
 - https://www.chinauos.com/
-  ![img.png](../images/2024/2024-03-01-wechat-robot-technical/01_uos.png)
+  ![img.png](/images/2024/2024-03-01-wechat-robot-technical/01_uos.png)
 
 ### Q3: 国产芯片有哪些？什么指令集？
 
@@ -73,7 +73,7 @@ arm 鲲鹏、飞腾使用的ARM指令集，授权来源于英国公司ARM；
 外设，兼容主流的打印机、扫描仪、高拍仪、读卡器、Raid卡、HBA卡等外设；与超过80家外设厂商达成合作；适配超过1300款第三方外设产品
 ```
 
-![img.png](../images/2024/2024-03-01-wechat-robot-technical/02_cn_os.png)
+![img.png](/images/2024/2024-03-01-wechat-robot-technical/02_cn_os.png)
 
 微信支持：
 
@@ -118,7 +118,7 @@ https://github.com/why2lyj/ItChat-UOS
 
 A: Windows上的安全工程师，黑客，游戏外挂开发者等
 
-![img.png](../images/2024/2024-03-01-wechat-robot-technical/03_cloud_class.png)
+![img.png](/images/2024/2024-03-01-wechat-robot-technical/03_cloud_class.png)
 
 ### 参考项目：
 
@@ -154,7 +154,7 @@ A: Windows上的安全工程师，黑客，游戏外挂开发者等
 
 - https://pro.autojs.org/
 
-![img.png](../images/2024/2024-03-01-wechat-robot-technical/04_auto_js.png)
+![img.png](/images/2024/2024-03-01-wechat-robot-technical/04_auto_js.png)
 
 介绍：
 
@@ -193,9 +193,9 @@ js转dex / so中执行autojs脚本
 
 - https://hamibot.com/
 
-![img.png](../images/2024/2024-03-01-wechat-robot-technical/05_hamibot.png)
+![img.png](/images/2024/2024-03-01-wechat-robot-technical/05_hamibot.png)
 
-![img.png](../images/2024/2024-03-01-wechat-robot-technical/06_hamibot.png)
+![img.png](/images/2024/2024-03-01-wechat-robot-technical/06_hamibot.png)
 
 ## 开放问题：
 

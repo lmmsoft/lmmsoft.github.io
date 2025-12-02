@@ -12,7 +12,7 @@ links:
 - https://www.jianshu.com/p/dsohFW
 - https://blog.sina.com.cn/s/blog_8778bf620101fj3s.html
 ---
-![](../images/other/sina_blog_image2.jpeg)
+![](/images/other/sina_blog_image2.jpeg)
 
 最近有在linkedin上加同事和领导，看看大家在不同的年纪都在做什么，然后走到了今天的位置。
 

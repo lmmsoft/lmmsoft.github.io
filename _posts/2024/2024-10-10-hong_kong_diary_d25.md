@@ -12,7 +12,7 @@ tags:
 - 香港
 - 日记
 ---
-![roof.JPG](../images/2024/2024-10-10-hong_kong_diary_d25/roof.JPG)
+![roof.JPG](/images/2024/2024-10-10-hong_kong_diary_d25/roof.JPG)
 2024 年 10 月 10 日，星期四，香港晴
 
 ## 一、养成检查宝宝作业的习惯

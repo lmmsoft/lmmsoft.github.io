@@ -12,7 +12,7 @@ tags:
 - 香港
 - 英语
 ---
-![01_hailey_ground.JPG](../images/2024/2024-12-18-hong_kong_diary_d93/01_hailey_ground.JPG)
+![01_hailey_ground.JPG](/images/2024/2024-12-18-hong_kong_diary_d93/01_hailey_ground.JPG)
 2024-12-18 周三 晴
 
 ## 学以致用：宝宝变身小翻译
@@ -29,7 +29,7 @@ tags:
 
 不仅口语进步显著，宝宝的英语听力也有长足发展。日常交流中的句子，她们大多能理解，这让我们深感欣慰，也证明了语言环境对学习的重要性。 
 
-![02_hailey_gate.JPG](../images/2024/2024-12-18-hong_kong_diary_d93/02_hailey_gate.JPG)
+![02_hailey_gate.JPG](/images/2024/2024-12-18-hong_kong_diary_d93/02_hailey_gate.JPG)
 
 回忆这三个月的学习内容，主要包括学校英语课，课外辅导班，英语动画片，菲佣日常交流。
 

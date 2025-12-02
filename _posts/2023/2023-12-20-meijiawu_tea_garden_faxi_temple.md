@@ -13,7 +13,7 @@ tags:
   - 宝宝
   - 寺庙
 ---
-![03_茶园_爸爸.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/03_茶园_爸爸.JPG)
+![03_茶园_爸爸.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/03_茶园_爸爸.JPG)
 ## 出发
 寒冬降临之际，万物休憩停顿，仿佛一切都已沉睡。 然而，杭州却以其独特的美丽与气质，吸引着无数游客前往探寻她那饱含诗意的生活方式及饱蕴人文关怀的古迹风华。 
 
@@ -21,11 +21,11 @@ tags:
 <!--more-->
 
 ## 梅灵南路
-![01_梅灵南路.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/01_梅灵南路.JPG)
+![01_梅灵南路.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/01_梅灵南路.JPG)
 我和宝宝还有外婆从家出发，先绕行紫之隧道，然后从宋城拐入梅灵南路，双向两车道，缓缓前行。虽然本周末气温骤然降到了零度，但梅灵南路沿途风景依旧秀美动人。
 
 其间经过若干个别具风情的村子，村子沿着道路有很多民宿、茶社、餐馆，各具特色。行道树以深红色的水杉闻名，不过叶子已经落了很多，早几周会很好看。
-![02_水杉.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/02_水杉.JPG)
+![02_水杉.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/02_水杉.JPG)
 最南边是梵村，道路两旁的茶叶田地交错纵横，一幅幅如诗如画的美景映入眼帘，令人叹为观止。
 
 再向北行进，便是名闻遐迩的**云栖竹径**。这是一个适合登高远足的绝佳场所，上面是五云山，山顶的真际寺有财神庙，每次徒步走标毅行线、过十里琅珰，都会在真济寺补水、休息，然后分叉。
@@ -34,16 +34,16 @@ tags:
 
 ## 梅家坞
 
-![05_茶园_外婆_竖_远景.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/05_茶园_外婆_竖_远景.JPG)
+![05_茶园_外婆_竖_远景.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/05_茶园_外婆_竖_远景.JPG)
 驶过梅家坞，我们将车停在了路旁的茶园边。随后在茶园中漫步了一会儿，出乎意料的是，即便是在冬季，茶园里的茶树依然长得十分茂盛，而且茶树顶端还开了许多茶花。
-![06_茶园_外婆_横.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/06_茶园_外婆_横.JPG)
+![06_茶园_外婆_横.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/06_茶园_外婆_横.JPG)
 远处的茶山层层叠叠，景色十分美丽。我想起两侧的群山自己曾经都爬过，心里还是很开心的，于是带着宝宝一起走。
 
 这两天刚好大降温，茶树上结了许多冰霜，看上去非常有趣。一开始宝宝不愿意走路，要人抱，后来看到冰霜，又要下来拿着玩，拿起冰霜，再扔到地上，碎了一片，宝宝玩得特别开心。
-![07_茶园_冰霜.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/07_茶园_冰霜.JPG)
+![07_茶园_冰霜.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/07_茶园_冰霜.JPG)
 上车继续往前行驶，梅灵南路就到了尽头。上面是天竺山，下面是雪峰梅灵隧道，隧道后是梅灵北路。
 
-![04_茶园_外婆_竖.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/04_茶园_外婆_竖.JPG)
+![04_茶园_外婆_竖.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/04_茶园_外婆_竖.JPG)
 
 ## 梅灵北路
 
@@ -52,22 +52,22 @@ tags:
 “天竺三寺”现在的名字都是乾隆起的，各具特色，都值得一游。
 
 上天竺法喜寺自被小红书带红后，成了一座网红寺庙。寺庙内建筑风格独特，游客较多。门票10元，入口处还会免费赠送3根香火。
-![16_法喜寺.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/16_法喜寺.jpeg)
+![16_法喜寺.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/16_法喜寺.jpeg)
 
 中天竺法净寺是三寺中最安静的，不收门票，送三支香，素斋特别有特色。
-![18_法净寺.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/18_法净寺.jpeg)
+![18_法净寺.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/18_法净寺.jpeg)
 
 下天竺法镜寺是三寺中历史最悠久的，是杭州唯一的尼姑庵。寺庙内环境清幽，建筑风格古朴，是一个静心的好去处，门票10元。
-![19_法镜寺.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/19_法镜寺.jpeg)
+![19_法镜寺.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/19_法镜寺.jpeg)
 
 我们把车停在了法喜寺的停车场，边上停的是一辆墨绿色的 mini 车，我拍了一张两车合影，因为宝妈生娃之前也开墨绿色的 Mini Cooper，小巧玲珑，生了宝宝之后换成了6座理想车。
 
 ## 法喜寺
-![08_法喜寺_门.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/08_法喜寺_门.JPG)
+![08_法喜寺_门.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/08_法喜寺_门.JPG)
 
 法喜寺位于三天竺，其名字是由乾隆皇帝改的，而法喜寺大门上的“法喜讲寺”也是乾隆皇帝所题。
 
-![09_法喜寺_门_合影.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/09_法喜寺_门_合影.JPG)
+![09_法喜寺_门_合影.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/09_法喜寺_门_合影.JPG)
 
 进入法喜寺后，右侧墙上写着"晋代古刹"，因为这座寺院在晋朝的时候就已经出现了，它跟杭州灵隐寺都是同一时期所修建的。
 
@@ -75,39 +75,39 @@ tags:
 
 "入三摩地"的背面写着**莫向外求**，落款为“沙门一音”，沙门一音是著名的弘一法师李叔同。 出门时抬头看到了"莫向外求"四个字，给了我今天最多的启发，细细玩味了很久。俗世生活中，想要的太多，争来争去，很是累人，如果能向内求，心境就会完全不同吧，更加处之泰然、云淡风轻。
 
-![13_莫向外求_横.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/13_莫向外求_横.jpeg)
+![13_莫向外求_横.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/13_莫向外求_横.jpeg)
 
 法喜寺如今已跃升为网络红寺庙，据说求姻缘很灵，吸引着善男信女前来参拜。寺内景色幽静秀美，无论是绿意盎然的景致，还是古色古香的建筑，都令人流连忘返。现在又有几个极佳的取景位置，成为无数小红书博主热捧打卡之处。
-![17_法喜寺_机位.png](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/17_法喜寺_机位.png)
-![14_法喜寺.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/14_法喜寺.jpeg)
-![15_法喜寺_屋檐.jpeg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/15_法喜寺_屋檐.jpeg)
+![17_法喜寺_机位.png](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/17_法喜寺_机位.png)
+![14_法喜寺.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/14_法喜寺.jpeg)
+![15_法喜寺_屋檐.jpeg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/15_法喜寺_屋檐.jpeg)
 
 入口处可以领三支香，由义工发放，不需要钱。大雄宝殿及殿前的香炉顶上有几只白色的鸽子在嬉戏，宝宝看到后特别兴奋。
 
 我们去了右边侧的客堂，客堂的每一扇木门上都刻了不同的动物，宝宝非常喜欢，有珊瑚最喜欢的小羊、海兔最喜欢的小象等。如果不是带宝宝出来玩，我可能也不会注意到这些门上的精美雕刻，带着宝宝，我的观察力也大大提升了。
-![10_法喜寺_小羊.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/10_法喜寺_小羊.JPG)
+![10_法喜寺_小羊.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/10_法喜寺_小羊.JPG)
 
 池塘中间有一座白色童子塑像。童子手托如意，憨态可掬，与池中众多的锦鲤相映成趣。那些锦鲤又大又多，它们欢快地游动着，吸引着宝宝的目光。我却趁机教育宝宝，掉到水里面了怎么办？别慌，用老师教的游泳动作，慢慢游到岸边，爬上来就好了。
-![12_锦鲤.jpg](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/12_锦鲤.jpg)
+![12_锦鲤.jpg](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/12_锦鲤.jpg)
 
-![11_法喜寺_出.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/11_法喜寺_出.JPG)
+![11_法喜寺_出.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/11_法喜寺_出.JPG)
 
 ## 归家路途
 探访完法喜寺后，我们踏上了返程之路。在回家的途中穿过灵溪隧道，出隧道畅通无阻，和来时堵车绕行完全不同。
 
-![21_马家坞.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/21_马家坞.JPG)
+![21_马家坞.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/21_马家坞.JPG)
 
 驶出隧道后，马家坞外东侧墙上的墙画吸引了我的目光。
 
 画的是"留下"主题的内容，有着浓郁的中国传统风味，乳白墙面搭配灰黑瓦片房子构造出庄重质朴且雅致的气氛，粉红的桃花、红色的女孩衣服与扇子再添色不少，更妙的是，墙上的古诗文犹如画龙点睛之笔，意境深远，让人沉浸其中，感受到源自古老中华文化的博大精深。
-![22_马家坞.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/22_马家坞.JPG)
+![22_马家坞.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/22_马家坞.JPG)
 
 ## 感受
 
 这段冬日漫步茶园的经历让我和宝宝都感到无比愉悦。在这个寒冷的季节里，茶园中的生机和美丽让我们忘记了寒冷，而法喜寺的游览更是让我们领略到了佛教文化的庄严和宁静。
 
 我想，这就是在杭州生活的快乐，既有高速的互联网生活，也能快速远离城市的喧嚣，走进自然，看山看水，领略文化和历史。以后我会继带着宝宝们探索更多的未知世界。
-![20_马家坞.JPG](../images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/20_马家坞.JPG)
+![20_马家坞.JPG](/images/2023/2023-12-20-meijiawu_tea_garden_faxi_temple/20_马家坞.JPG)
 
 ## 参考链接
 - [法喜寺_小红书笔记](https://www.xiaohongshu.com/explore/62091dc7000000002103939a)

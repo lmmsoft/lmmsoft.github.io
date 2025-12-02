@@ -12,15 +12,15 @@ tags:
 - GPT
 - 写书
 ---
-![img.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img.png)
+![img.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img.png)
 
-![img_1.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_1.png)
+![img_1.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_1.png)
 
-![img_3.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_3.png)
+![img_3.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_3.png)
 
-![img_2.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_2.png)
+![img_2.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_2.png)
 
-![img_4.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_4.png)
+![img_4.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_4.png)
 
 近日，李笑来发布了一本免费的电子书——《美国常用俚语》，这一消息在微博上引起了不小的关注。令人惊讶的是，他声称这本书借助 GPT4o ，仅花费 18 美金和一天时间就完成了创作。
 
@@ -62,7 +62,7 @@ This phrase originates from the standard working hours, from 9 AM to 5 PM, which
 - <span lang="en">Not everyone is suited for a *9-to-5* routine.</span> <span lang="cn">并不是所有人都适合朝九晚五的作息。</span><audio controls><source src="audio/001.3.mp3" type="audio/mpeg"></audio>
 """
 ```
-![img_5.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_5.png)
+![img_5.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_5.png)
 
 
 对于音频部分，他使用的是 OpenAI 的 tts-1 模型来阅读每个俚语的三个例句。模型有 6 种不同的语音，每次随机选用一种语音进行阅读，保证了随机性。音频插入了网页，就变成了有声书，可以随时朗读例句。
@@ -71,8 +71,8 @@ This phrase originates from the standard working hours, from 9 AM to 5 PM, which
 
 更让人叫绝的是，对于每个声音文件，笑来老师还贴心地添加了元数据，包括作曲家（即他自己）、专辑音乐类型，甚至还有一张图片的封面，这让这些 MP3 文件使用起来更加方便。
 
-![img_6.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_6.png)
-![img_7.png](../images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_7.png)
+![img_6.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_6.png)
+![img_7.png](/images/2024/2024-06-28-how_did_xiaolai_write_book_with_gpt4o/img_7.png)
 
 从笑来老师的微博发布时间来看，第一天花了一小时写代码，然后用了一夜时间调用模型，生成了全书和音频，第二天早上发微博。。。。
 

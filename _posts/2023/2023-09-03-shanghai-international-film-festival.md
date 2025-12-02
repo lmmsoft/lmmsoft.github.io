@@ -13,7 +13,7 @@ tags:
   - 电影
 ---
 
-![上海影城.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/上海影城.JPG)
+![上海影城.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/上海影城.JPG)
 
 # 一、上影节是什么？明星视角 vs 平民视角
 
@@ -28,7 +28,7 @@ tags:
 
 ## 明星视角
 
-![红毯1.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/红毯1.JPG)
+![红毯1.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/红毯1.JPG)
 
 - 上影节是15个"国际A类电影节"之一
 - ABCD是电影节性质的分类，A类代表竞赛型非专门类电影节，即有竞赛单元，且无特定主题的电影节。B类有竞赛，有特定主题（比如亚洲电影🎬），C类无竞赛，D类纪录片和短片。
@@ -39,7 +39,7 @@ tags:
 
 ## 平民视角
 
-![海报.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/海报.JPG)
+![海报.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/海报.JPG)
 
 - 在全上海的41家影院，上映超过300部电影，每部电影都会在不同影院放映4场左右，包括崇明在内的上海市每个区都至少有一个电影院。这让大众有机会看到更多不同的电影。
 - 电影分几十个单元，金爵奖参赛片，主竞赛，亚洲新人，纪录片，动画片，短片，首映，致敬大师，SIFF经典，特别策划等等。
@@ -52,7 +52,7 @@ tags:
 
 ## 特殊含义
 
-![红毯2.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/红毯2.JPG)
+![红毯2.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/红毯2.JPG)
 我们国家的电影节，又有更深的含义。因为特殊的监管环境，我国每年能在电影院放映的进口电影只有30-50部，甚至还有暑期国产电影保护月，院线不放映进口电影的情况。
 
 而电影节的进口电影则不在限制当中，于是很多电影，只有在电影节期间才能搬上国内的大荧幕。
@@ -69,7 +69,7 @@ tags:
 
 ## 买票
 
-![2023上影节电影票.jpg](../images/2023/2023-09-03-shanghai-international-film-festival/2023上影节电影票.jpg)
+![2023上影节电影票.jpg](/images/2023/2023-09-03-shanghai-international-film-festival/2023上影节电影票.jpg)
 淘票票是唯一的官方指定购票平台。当我知道可以在淘票票上买票的时候，已经开票了半天了，最热门的电影和场次都被蹲点的影迷买光了。
 
 于是就搜离我比较近的电影院。虹桥艺术中心里的天山电影院离公司最近，步行五分钟，最后选了6-13晚上的《最后一夜》，因为它有见面会，见面会是盲盒，但应该能见到主创。
@@ -78,7 +78,7 @@ tags:
 
 ## [《最后一夜》](https://movie.douban.com/subject/35765343)
 
-![放映厅排片.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/放映厅排片.JPG)
+![放映厅排片.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/放映厅排片.JPG)
 这是一部小成本国产电影，讲的一个中年出轨男的糟糕情人节，太不幸了，一路意外，戏剧性拉满，现场不断地爆笑。倒数第二幕糖水店最佳，前妻和小三同时给男主做糖水，又尬又搞笑。
 
 男主说，这是个善良的渣男。
@@ -87,7 +87,7 @@ tags:
 
 ## 见面会
 
-![见面会1.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/见面会1.JPG)
+![见面会1.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/见面会1.JPG)
 见面会是盲盒，不过这一场非常惊喜！
 
 首先主持人和导演上台，接着导演告诉大家，男主和女主也在现场，坐在大家中间，于是大家左右相互寻找，最后男女主在前排的右侧站了起来，在掌声中上台。其实摄影也在现场，没有上台，导演后来点到了。
@@ -97,7 +97,7 @@ tags:
 男主和女主也是成片后第一次看这部电影，女主觉得和她想象中是一样的，而男主觉得喜剧程度比他想象中更多。
 
 最后三位主创和观众们一起合影留念。
-![见面会2.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/见面会2.JPG)
+![见面会2.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/见面会2.JPG)
 
 ## 遗憾
 
@@ -107,7 +107,7 @@ tags:
 
 ## 周边纪念品
 
-![纪念品.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/纪念品.JPG)
+![纪念品.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/纪念品.JPG)
 电影院的大厅里有官方摊位，在卖周边，分为两部分，一部分是电影节的周边，包括海报/纪念T恤/徽章盲盒等，另一部分是美少女战士的周边，因为今年电影节有美少女战士的电影放映🎬
 
 我最想买的是冰箱贴，48元，可惜已经售罄，其次想买的是电影票夹，10元，可惜也已售罄，T恤158感觉有点贵，最后买了15元的文件夹📂
@@ -126,7 +126,7 @@ tags:
 
 这才是我所热爱的生活方式啊~
 
-![电影院外景.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/电影院外景.JPG)
+![电影院外景.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/电影院外景.JPG)
 
 ## 再看一场
 
@@ -141,7 +141,7 @@ tags:
 
 ### 座位
 
-![放映厅.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/放映厅.JPG)
+![放映厅.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/放映厅.JPG)
 
 - 放映厅有上下两层，很大，买票时显示全场爆满，只剩边角的座位
 - 进场后，发现离爆满还差很远。中间排中间黄金位置全是空的，太不正常的。
@@ -152,7 +152,7 @@ tags:
 
 ### 电影
 
-![导演视频.JPG](../images/2023/2023-09-03-shanghai-international-film-festival/导演视频.JPG)
+![导演视频.JPG](/images/2023/2023-09-03-shanghai-international-film-festival/导演视频.JPG)
 
 - 开场前播放了导演为上影节专门录的视频
 - 悬疑 + 恐怖，最后也有反转。

@@ -13,7 +13,7 @@ tags:
 - 铁人三项
 - 泰州
 ---
-![img.png](../images/2015-08-31-my_first_half_olympic_distance_triathlon_ranc/img.png)
+![img.png](/images/2015-08-31-my_first_half_olympic_distance_triathlon_ranc/img.png)
 
 ## 时间：2015-08-23 周日
 
@@ -53,7 +53,7 @@ tags:
 
 【其他】这篇拖太久了，其他就不写了
 
-![img_1.png](../images/2015-08-31-my_first_half_olympic_distance_triathlon_ranc/img_1.png)
+![img_1.png](/images/2015-08-31-my_first_half_olympic_distance_triathlon_ranc/img_1.png)
 
 ## Follow up:
 

@@ -12,7 +12,7 @@ tags:
 - 双胞胎
 - 面试
 ---
-![11_chongzhen_gate.jpg](../images/2023/2023-11-14-hk_kindergarten_interview/11_chongzhen_gate.jpg)
+![11_chongzhen_gate.jpg](/images/2023/2023-11-14-hk_kindergarten_interview/11_chongzhen_gate.jpg)
 ## 面试系列文章：
 
 <!--more-->
@@ -37,7 +37,7 @@ tags:
 
 之后，六个家长带着六个小孩一起排队进入面试的教室。面试教室里有两个英文教师，他们是主要的面试官，还有两个会说普通话的中文教师在边上观察，并给宝宝们打分。面试开始时，宝宝们坐在第一排，家长们坐在第二排。
 
-![11_chongzhen_wait.jpg](../images/2023/2023-11-14-hk_kindergarten_interview/11_chongzhen_wait.jpg)
+![11_chongzhen_wait.jpg](/images/2023/2023-11-14-hk_kindergarten_interview/11_chongzhen_wait.jpg)
 
 ## 面试
 第一个活动是老师跟大家打招呼。老师拿出一个小鼓，然后要求一个一个地问宝宝，让宝宝回答“what's your name？”，然后让宝宝先敲一下鼓再回答。但是，大部分宝宝都比较紧张，不愿意说话。我们家宝宝之前练习过敲鼓，但是遇到老师之后感觉有点紧张，有点认生，所以没有弹得很好。
@@ -52,7 +52,7 @@ tags:
 
 最后，老师跟所有小朋友们说再见，然后我们就走了。走的时候，老师给每一个小朋友都送了一个礼物，是一个卡通封面的崇真幼儿园的本子，里面是几张白纸，还挺漂亮的。这是第一次最后还有礼物的面试，感觉挺好玩的。然后，我们把一个宝宝的简历最后交给了他们，我们说这是我们宝宝的简历，里面还有一些宝宝之前在托班的评估，希望老师们关注一下。老师们也还是有点惊讶的。
 
-![12_chongzhen.jpg](../images/2023/2023-11-14-hk_kindergarten_interview/12_chongzhen.jpg)
+![12_chongzhen.jpg](/images/2023/2023-11-14-hk_kindergarten_interview/12_chongzhen.jpg)
 
 ## 结果
 No offer，这个在意料之中，宝宝过于害羞，没有发挥出来。
