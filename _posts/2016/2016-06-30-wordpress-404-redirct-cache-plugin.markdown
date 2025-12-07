@@ -5,6 +5,7 @@ date: 2016-06-30 23:52:58 +0800
 comments: true
 categories: 挨踢生涯
 keywords: 404 cache wordprss link
+permalink: /wordpress-404-redirct-cache-plugin/
 ---
 
 今晚被坑了好久，最后发现是缓存问题，好好记录下过程：
