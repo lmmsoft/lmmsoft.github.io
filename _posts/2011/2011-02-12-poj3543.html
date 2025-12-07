@@ -6,5 +6,6 @@ published: true
 comments: true
 category: acm比赛
 moveForm: baidu_qing
+permalink: /poj3543/
 ---
 <div> <p><a rel="nofollow" href="http://poj.org/problem?id=3543"  >http://poj.org/problem?id=3543</a></p><p>题意是给黑、白砖块的数量，组成国际象棋棋盘那样黑白相间正方形，求最大变长。</p><p>这题看了解题报告再做就没意思了，建议先自己试试，不难的：</p><p>&nbsp;</p><p>&nbsp;</p><p>以下剧透，慎入：</p><p>看过题目就知道是一道大水题，但Total Submissions: 2130 Accepted: 919只是个小水题，</p><p>本题的特殊情况有： </p><p>1)黑色和白色的砖的个数都为0，输出impossible</p><p>2)黑色或白色的砖的个数为1，或者两者个数都为1，输出1；</p><p>剩下的就是取a,b最小值乘以二加一再开方取整输出了，但如果a==b乘以二之后不用加一，我在这里WA了</p><p>&nbsp;</p><p>此外，题目给1000ms，status里有不少0ms，但是java的最快6422MS,我不幸以8000+ac，同时贡献了3个wa（不够细心）&nbsp; 1个re（莫名其妙）&nbsp; 2个ce（拜默认g++所赐）</p><p>哈哈，最近状态不好，写出来发泄之！</p> </div>

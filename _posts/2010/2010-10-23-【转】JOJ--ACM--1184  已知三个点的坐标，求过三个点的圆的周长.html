@@ -6,5 +6,6 @@ published: false
 comments: true
 category: 默认分类
 moveForm: baidu_qing
+permalink: /joj-1184-circle-through-three-points/
 ---
 <div> <p>问题来源：<a rel="nofollow" href="http://acm.jlu.edu.cn/joj/showproblem.php?pid=1184"  >http://acm.jlu.edu.cn/joj/showproblem.php?pid=1184</a></p><p>同弧的圆周角相等，所以现将三条边a,b,c求出来，然后选择一边a，cosA=(b^2+c^2-a^2)/2bc; ，这样就算出了角度A，sinA=[(a+b+c)(a+b-c)(b+c-a)(a+c-b))^1/2]/2bc ,然后与a同弧，且一条边是直径的圆周角度就为A，半径R=abc/[(a+b+c)(a+b-c)(b+c-a)(a+c-b))^1/2]; </p><p>#include&lt;iostream&gt;<br />#include&lt;cmath&gt;<br />#define pi 3.141592653589793<br />using namespace std;<br />int main()<br />{<br /> double x1,y1,x2,y2,x3,y3,a,b,c;<br /> while(cin&gt;&gt;x1&gt;&gt;y1&gt;&gt;x2&gt;&gt;y2&gt;&gt;x3&gt;&gt;y3)<br /> {<br />&nbsp;&nbsp;  a=sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));<br />&nbsp;&nbsp;  b=sqrt((x3-x2)*(x3-x2)+(y3-y2)*(y3-y2));<br />&nbsp;&nbsp;  c=sqrt((x1-x3)*(x1-x3)+(y1-y3)*(y1-y3));<br />&nbsp;&nbsp;  printf(&quot;%.2f\n&quot;,2*pi*a*b*c/(sqrt((a+b+c)*(a+b-c)*(b+c-a)*(a+c-b))));<br /> }<br /> return 0;<br />}<br /></p> </div>

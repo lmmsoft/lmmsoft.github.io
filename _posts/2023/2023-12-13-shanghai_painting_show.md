@@ -1,18 +1,17 @@
 ---
-title: "上海博物馆：《实证中国》——崧泽·良渚文明考古大展"
+title: "上海博物馆：书画常设展"
 date: 2023-12-12T20:00:00+08:00
 author: lmm333
 layout: post
 comments: true
 published: false
-permalink: /shanghai_museum_songze_liangzhu_civilization_show/
+permalink: /shanghai_museum_qintong_writings_paintings/
 categories:
   - 我的游记
 tags:
   - 上海
   - 看展
 ---
-
 ## 一句话总结
 书接上文
 
