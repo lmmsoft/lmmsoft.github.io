@@ -24,6 +24,11 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 图片尺寸太大，是否需要压缩？ https://tinypng.com/ 调用api压缩，每个月免费500张，代码已实现
 
 ## Changelog
+- 2025-12-07
+  - 新增 `scripts/generate_content_index.py` Python 生成器，支持 emoji 状态、图片来源、相对路径列，输出根目录 `CONTENT_INDEX.md`
+  - 创建本地虚拟环境 `~/code/venv/lmmsoft.github.io`（Py3.12.2 + PyYAML）并用于生成目录
+  - 补充设计文档 `scripts/generate_content_index.md`
+  - 目录列可直接点击跳转 GitHub 文件，年份标题展示当年 post/draft 数量
 - 2023-03-30
     - 打通卡点，第一篇博客和公众号同发的文章
 - 2023-03-22
