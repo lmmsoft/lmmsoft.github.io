@@ -1,6 +1,6 @@
 ---
 title:  "2023年最后一行代码，完成了今年最想做的项目"
-date: 2034-01-01T00:00:00+08:00
+date: 2024-01-01T00:00:00+08:00
 author: lmm333
 layout: post
 comments: true
