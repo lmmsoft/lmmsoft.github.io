@@ -9,7 +9,7 @@ comments: true
 permalink: /sae-wp-codebox-highlight/
 ---
 <p><!--more--><h4>WP-CodeBox代码高亮插件，它支持多种语言、代码下载、复制到剪贴板、代码框收放及后台默认属性设置多项功能，使用起来也比较方便。</h4>
-&nbsp;</p>
+ </p>
 
 <p>具体使用方法：
 <ol>
@@ -27,7 +27,7 @@ permalink: /sae-wp-codebox-highlight/
 
 <p>代码格式</p>
 
-<p><code>&lt;pre lang="LANGUAGE" line="1" file="download.txt" colla="+"&gt;</code> 内容 <code>&lt;/pre&gt;</code></p>
+<p><code>&lt;pre lang="LANGUAGE" line="1" file="download.txt" colla="+"&gt;</code> 内容 <code>&lt;/pre&gt;</code></p>
 
 <p>解释：</p>
 
@@ -41,51 +41,51 @@ permalink: /sae-wp-codebox-highlight/
 
 <p>演示：</p>
 
-<p>1.语言为php，有行数，默认展开代码
-<blockquote>    &lt;pre lang="php"&gt;<br />
-&lt;div id="foo"&gt;<br />
-&lt;?php<br />
-function foo() {<br />
-echo "Hello World!\\n";<br />
+<p>1.语言为php，有行数，默认展开代码</p>
+<pre><code>&lt;pre lang="php"&gt;
+&lt;div id="foo"&gt;
+&lt;?php
+function foo() {
+echo "Hello World!\\n";
 }
-for (\$i = 0; \$i &lt; 10 $i++) {<br />
-foo();<br />
+for ($i = 0; $i &lt; 10 $i++) {
+foo();
 }
-?&gt;<br />
-&lt;/div&gt;<br />
-&lt;/pre&gt;</blockquote>
-效果：
+?&gt;
+&lt;/div&gt;
+&lt;/pre&gt;</code></pre>
+<p>效果：</p>
 <pre lang="php"></pre>
-&nbsp;</p>
+<p> </p>
 
-<p>2.语言为 Java，有行数，默认展开
-<blockquote>    &lt;pre lang="java" line="1" colla="-"&gt;<br />
-public class Hello {<br />
-public static void main(String[] args) {<br />
-System.out.println("Hello World!");<br />
+<p>2.语言为 Java，有行数，默认展开</p>
+<pre><code>&lt;pre lang="java" line="1" colla="-"&gt;
+public class Hello {
+public static void main(String[] args) {
+System.out.println("Hello World!");
 }
-}<br />
-&lt;/pre&gt;</blockquote>
-效果：
+}
+&lt;/pre&gt;</code></pre>
+<p>效果：</p>
 <pre lang="java">public class Hello {
 public static void main(String[] args) {
 System.out.println("Hello World!");
 }
 }</pre>
-&nbsp;</p>
+<p> </p>
 
-<p>3.语言为Ruby，有行数，从18开始，有下载，默认展开
-<blockquote>    &lt;pre lang="ruby" line="18" file="ruby.txt"&gt;<br />
-class Example<br />
-def example(arg1)<br />
-return "Hello: " + arg1.to_s<br />
-end<br />
-end<br />
-&lt;/pre&gt;</blockquote>
-效果：
+<p>3.语言为Ruby，有行数，从18开始，有下载，默认展开</p>
+<pre><code>&lt;pre lang="ruby" line="18" file="ruby.txt"&gt;
+class Example
+def example(arg1)
+return "Hello: " + arg1.to_s
+end
+end
+&lt;/pre&gt;</code></pre>
+<p>效果：</p>
 <pre lang="ruby">class Example
 def example(arg1)
 return "Hello: " + arg1.to_s
 end
 end</pre>
-&nbsp;</p>
+<p> </p>
