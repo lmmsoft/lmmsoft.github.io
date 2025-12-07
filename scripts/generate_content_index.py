@@ -2,9 +2,10 @@
 """
 生成配置（固定参数，不提供 CLI 选项）:
 - 输入目录: _posts/, _drafts/（兼容 _post/, _draft/）
+- 支持扩展名: .md/.markdown/.html
 - 输出文件: CONTENT_INDEX.md（仓库根目录）
-- 表头: 日期 | 标题 | 是否发布 | 类型(post/draft) | 有图片 | 相对路径 | 备注
-- 排序: 日期降序；按年份分组，年份降序，并展示每年 post/draft 数量
+- 表头: 日期 | 标题 | 是否发布 | 类型(post/draft) | 有图片 | 格式 | 相对路径 | 备注
+- 排序: 日期降序；按年份分组，年份降序，并展示每年 发布/待发布/草稿 数量
 """
 from __future__ import annotations
 
@@ -14,12 +15,15 @@ import re
 import sys
 from dataclasses import dataclass
 from typing import Dict, Iterable, List, Optional, Tuple, Union
+from urllib.parse import quote
 
 
 ROOT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 OUTPUT_FILE = os.path.join(ROOT_DIR, "CONTENT_INDEX.md")
 SEARCH_DIRS = ["_posts", "_drafts", "_post", "_draft"]  # 后两个用于兼容容错
 _YAML_FALLBACK_WARNED = False
+SITE_BASE = "https://lmmsoft.github.io"
+ALLOWED_EXTS = (".md", ".markdown", ".html")
 
 
 IMAGE_PATTERNS = [
@@ -39,6 +43,8 @@ class Record:
     content_type: str  # post/draft
     image_label: str  # ➖/🖼️/🌐/🔀/❓
     remark: str = ""
+    permalink_url: Optional[str] = None
+    fmt: str = ""
 
 
 def list_markdown_files() -> List[str]:
@@ -47,7 +53,8 @@ def list_markdown_files() -> List[str]:
         abs_dir = os.path.join(ROOT_DIR, rel_dir)
         for root, _, files in os.walk(abs_dir):
             for name in files:
-                if name.lower().endswith(".md"):
+                lower = name.lower()
+                if lower.endswith(ALLOWED_EXTS):
                     candidates.append(os.path.join(root, name))
     return candidates
 
@@ -204,6 +211,28 @@ def detect_type(path: str) -> str:
     return "draft"
 
 
+def resolve_published(meta: Dict, path: str) -> bool:
+    """对 _posts 缺省视为发布；显式 published: false 才视为未发布。草稿始终未发布。"""
+    content_type = detect_type(path)
+    if content_type == "draft":
+        return False
+    published_meta = meta.get("published")
+    if published_meta is False:
+        return False
+    return True
+
+
+def resolve_permalink(meta: Dict) -> Optional[str]:
+    """构造已发布 post 的站点链接，仅在 front matter 提供 permalink 时使用。"""
+    raw = meta.get("permalink")
+    if not raw:
+        return None
+    slug = str(raw).strip()
+    slug = "/" + slug.lstrip("/")
+    encoded = quote(slug, safe="/%._-~")
+    return SITE_BASE.rstrip("/") + encoded
+
+
 def build_record(path: str) -> Record:
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -211,9 +240,16 @@ def build_record(path: str) -> Record:
     meta, body = split_front_matter(content)
     date_value = derive_date(meta, path)
     title = extract_title(meta, path)
-    published = bool(meta.get("published") is True)
+    published = resolve_published(meta, path)
     content_type = detect_type(path.replace("\\", "/"))
     image_label, _ = detect_image_label(body)
+
+    has_permalink = isinstance(meta, dict) and "permalink" in meta
+    permalink_url: Optional[str] = None
+    if content_type == "post" and published and has_permalink:
+        permalink_url = resolve_permalink(meta)
+
+    fmt = os.path.splitext(path)[1].lstrip(".").lower()
 
     remark_parts: List[str] = []
     if image_label in {"🌐", "🔀"}:
@@ -222,6 +258,8 @@ def build_record(path: str) -> Record:
         remark_parts.append("图片路径需确认")
     if date_value.year == 1970:
         remark_parts.append("日期需补充")
+    if content_type == "post" and published and not has_permalink:
+        remark_parts.append("缺permalink")
 
     rel_path = os.path.relpath(path, ROOT_DIR)
 
@@ -235,6 +273,8 @@ def build_record(path: str) -> Record:
         content_type=content_type,
         image_label=image_label,
         remark="；".join(remark_parts),
+        permalink_url=permalink_url,
+        fmt=fmt,
     )
 
 
@@ -255,8 +295,8 @@ def render_markdown(grouped: Dict[int, List[Record]]) -> str:
     lines.append("- 生成：python scripts/generate_content_index.py")
     lines.append("")
 
-    header = "| 日期 | 标题 | 是否发布 | 类型 | 有图片 | 相对路径 | 备注 |"
-    separator = "| --- | --- | --- | --- | --- | --- | --- |"
+    header = "| 日期 | 标题 | 是否发布 | 类型 | 有图片 | 格式 | 相对路径 | 备注 |"
+    separator = "| --- | --- | --- | --- | --- | --- | --- | --- |"
 
     for year, recs in grouped.items():
         publish_count = sum(1 for r in recs if r.content_type == "post" and r.published)
@@ -268,11 +308,14 @@ def render_markdown(grouped: Dict[int, List[Record]]) -> str:
         for rec in recs:
             date_str = rec.date.strftime("%Y-%m-%d")
             safe_title = rec.title.replace("|", "\\|")
-            title_md = f"[{safe_title}]({rec.rel_path})"
+            if rec.permalink_url:
+                title_md = f"[{safe_title}]({rec.permalink_url})"
+            else:
+                title_md = safe_title
             path_md = f"[{rec.rel_path}]({rec.rel_path})"
             published = "✅" if rec.published else "❌"
             lines.append(
-                f"| {date_str} | {title_md} | {published} | {rec.content_type} | {rec.image_label} | {path_md} | {rec.remark} |"
+                f"| {date_str} | {title_md} | {published} | {rec.content_type} | {rec.image_label} | {rec.fmt} | {path_md} | {rec.remark} |"
             )
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
