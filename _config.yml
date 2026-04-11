@@ -14,6 +14,20 @@ locale: en_US
 twitter_username: lmm333
 github_username: lmmsoft
 disqus_shortname: lmm333
+comments_provider: giscus # giscus | disqus
+giscus:
+  repo: lmmsoft/lmmsoft.github.io
+  repo_id: "" # required, get from https://giscus.app/zh-CN
+  category: Announcements
+  category_id: "" # required, get from https://giscus.app/zh-CN
+  mapping: pathname
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: bottom
+  theme: preferred_color_scheme
+  lang: "" # optional, auto-mapped from default_locale when empty
+  loading: lazy
 linkedin_username: lmm333
 favicon: "/images/favicon.ico"
 aboutme: Hi, 我叫明明，职业是程序员，现从事研发效能、工程效率、DevOps、CICD方向的研发。业余爱好运动，主要玩铁人三项，越野和潜水~. # these are shown on aboutme-sidebar.

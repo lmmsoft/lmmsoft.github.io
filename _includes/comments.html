@@ -1,3 +1,33 @@
+{% assign comments_provider = site.comments_provider | default: 'giscus' %}
+{% assign giscus_lang = site.giscus.lang %}
+{% if giscus_lang == nil or giscus_lang == '' %}
+  {% case site.default_locale %}
+    {% when 'cn' %}{% assign giscus_lang = 'zh-CN' %}
+    {% when 'jp' %}{% assign giscus_lang = 'ja' %}
+    {% when 'kr' %}{% assign giscus_lang = 'ko' %}
+    {% else %}{% assign giscus_lang = site.default_locale | default: 'en' %}
+  {% endcase %}
+{% endif %}
+
+{% assign giscus_ready = site.giscus.repo and site.giscus.repo_id and site.giscus.category and site.giscus.category_id %}
+{% if comments_provider == 'giscus' and giscus_ready %}
+<script src="https://giscus.app/client.js"
+        data-repo="{{ site.giscus.repo }}"
+        data-repo-id="{{ site.giscus.repo_id }}"
+        data-category="{{ site.giscus.category }}"
+        data-category-id="{{ site.giscus.category_id }}"
+        data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
+        data-strict="{{ site.giscus.strict | default: '0' }}"
+        data-reactions-enabled="{{ site.giscus.reactions_enabled | default: '1' }}"
+        data-emit-metadata="{{ site.giscus.emit_metadata | default: '0' }}"
+        data-input-position="{{ site.giscus.input_position | default: 'bottom' }}"
+        data-theme="{{ site.giscus.theme | default: 'preferred_color_scheme' }}"
+        data-lang="{{ giscus_lang | default: 'en' }}"
+        data-loading="{{ site.giscus.loading | default: 'lazy' }}"
+        crossorigin="anonymous"
+        async>
+</script>
+{% elsif site.disqus_shortname %}
 <div id="disqus_thread"></div>
 
 <script type="text/javascript">
@@ -14,3 +44,4 @@ var disqus_shortname ='{{ site.disqus_shortname }}';
 </script>
 
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
