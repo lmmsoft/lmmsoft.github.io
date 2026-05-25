@@ -107,7 +107,37 @@ Codex_APP
 
 ## 方案二：只让 Codex CLI 走代理
 
-Codex CLI 可以用同样思路处理。把下面这段也放到 `~/.zshrc`：
+### 方案 2A（更省事）：用 `~/.codex/.env` 让 Codex 默认走代理（含 WebSocket 握手）
+
+如果你希望 **Codex CLI 启动时就默认带代理**（而不是先失败几次再 fallback），可以用 Codex 的 `.env` 配置文件，把代理地址固定写进去：
+
+- macOS / Linux：`~/.codex/.env`
+- Windows：`C:\Users\你的用户名\.codex\.env`
+
+> Windows 用户注意：别让系统把文件搞成 `.env.txt`（可能被隐藏后缀名坑到）。
+
+文件内容示例（以 Clash 常见的 7890 为例）：
+
+```dotenv
+HTTP_PROXY="http://127.0.0.1:7890"
+HTTPS_PROXY="http://127.0.0.1:7890"
+NO_PROXY="localhost,127.0.0.1,::1"
+```
+
+> 提示：有些工具只识别小写 `http_proxy/https_proxy`。如果你发现仍未生效，可以在同一个文件里再补两行：
+>
+> ```dotenv
+> http_proxy="http://127.0.0.1:7890"
+> https_proxy="http://127.0.0.1:7890"
+> ```
+
+这套方式的优点是：不用每次写函数/敲命令，Codex 进程一启动就拿到代理配置，**WebSocket 握手也更容易一次成功**，连接会更快。
+
+来源：<https://x.com/Suu766/status/2058765726677385338>
+
+### 方案 2B（可切换）：用 `~/.zshrc` function 只在这次启动时走代理
+
+如果你想保留「默认直连，只有需要时才走代理」的体验，或者希望一键切换直连/代理，那么用函数把代理包在子 shell 里仍然是最稳的方式。把下面这段放到 `~/.zshrc`：
 
 ```sh
 function Codex_CLI() {
@@ -146,6 +176,21 @@ codex "$@"
 ```sh
 Codex_CLI --dangerously-bypass-approvals-and-sandbox
 ```
+
+### `.env` vs `.zshrc function` 怎么选？
+
+| 维度 | `~/.codex/.env`（方案 2A） | `~/.zshrc` function（方案 2B） |
+|---|---|---|
+| 默认行为 | Codex 默认走代理 | 默认直连，按需用函数走代理 |
+| 作用范围 | 仅 Codex（持久生效） | 仅本次启动（子 shell，不污染当前终端） |
+| WebSocket 握手 | 启动即生效（更少失败/更快） | 启动即生效（但需要你用函数启动） |
+| 适用对象 | 主要是 Codex CLI | Codex CLI（以及 App 的进程级启动方式） |
+| 切换成本 | 需要改/临时改名 `.env` | 换命令调用即可 |
+
+我个人建议：
+
+- 你**长期都需要代理**，而且希望 Codex 启动“丝滑”→ 用 `.env` 作为默认方案。
+- 你**经常在直连/代理之间切换**，或者只在少数场景需要代理 → 用 `.zshrc function` 更灵活。
 
 ## 不建议默认设置 NODE_TLS_REJECT_UNAUTHORIZED=0
 
