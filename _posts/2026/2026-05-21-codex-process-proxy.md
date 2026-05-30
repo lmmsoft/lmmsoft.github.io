@@ -87,6 +87,8 @@ source ~/.zshrc
 Codex_APP
 ```
 
+> 注意：Codex App 更新很频繁，升级后通常会自带重启。**升级重启拉起的新进程不会继承你手工启动时注入的环境变量/启动参数**，所以这个函数方式更适合「这次启动就走代理」。如果你希望「升级重启之后也继续走代理」，更推荐用下文的 `~/.codex/.env`（方案 2A）让 Codex 自己在启动时加载。
+
 重点有三个：
 
 1. 外层用了 `(...)` 子 shell，所以这些代理环境变量只在本次启动 Codex App 时生效，不会污染当前终端。
@@ -116,22 +118,28 @@ Codex_APP
 
 > Windows 用户注意：别让系统把文件搞成 `.env.txt`（可能被隐藏后缀名坑到）。
 
-文件内容示例（以 Clash 常见的 7890 为例）：
+文件内容示例（以 Clash 常见的 7890 为例；这一份偏“全量”，你可以按需删减）：
 
 ```dotenv
 HTTP_PROXY="http://127.0.0.1:7890"
+http_proxy="http://127.0.0.1:7890"
+
 HTTPS_PROXY="http://127.0.0.1:7890"
+https_proxy="http://127.0.0.1:7890"
+
+all_proxy="socks5://127.0.0.1:7890"
+ALL_PROXY="socks5://127.0.0.1:7890"
+
+npm_config_proxy="http://127.0.0.1:7890"
+npm_config_https_proxy="http://127.0.0.1:7890"
+
 NO_PROXY="localhost,127.0.0.1,::1"
+no_proxy="localhost,127.0.0.1,::1"
 ```
 
-> 提示：有些工具只识别小写 `http_proxy/https_proxy`。如果你发现仍未生效，可以在同一个文件里再补两行：
->
-> ```dotenv
-> http_proxy="http://127.0.0.1:7890"
-> https_proxy="http://127.0.0.1:7890"
-> ```
-
 这套方式的优点是：不用每次写函数/敲命令，Codex 进程一启动就拿到代理配置，**WebSocket 握手也更容易一次成功**，连接会更快。
+
+另外，它也更适合「Codex 自动升级后自带重启」的场景：只要你没删这个文件，升级重启后依然会按这个默认配置继续走代理。
 
 来源：<https://x.com/Suu766/status/2058765726677385338>
 
@@ -153,7 +161,7 @@ function Codex_CLI() {
         export no_proxy="localhost,127.0.0.1,::1"
         export NO_PROXY="$no_proxy"
 
-        codex --dangerously-bypass-approvals-and-sandbox "$@"
+        codex "$@"
     )
 }
 ```
@@ -165,13 +173,7 @@ source ~/.zshrc
 Codex_CLI
 ```
 
-如果你不想默认进入 `--dangerously-bypass-approvals-and-sandbox` 模式，也可以把最后一行改成更保守的：
-
-```sh
-codex "$@"
-```
-
-或者保留函数代理能力，把运行参数留给调用时决定：
+如果你确实清楚自己在做什么，并且需要临时跳过审批/沙箱，可以在调用时显式加参数（不建议写成默认）：
 
 ```sh
 Codex_CLI --dangerously-bypass-approvals-and-sandbox
@@ -185,6 +187,7 @@ Codex_CLI --dangerously-bypass-approvals-and-sandbox
 | 作用范围 | 仅 Codex（持久生效） | 仅本次启动（子 shell，不污染当前终端） |
 | WebSocket 握手 | 启动即生效（更少失败/更快） | 启动即生效（但需要你用函数启动） |
 | 适用对象 | 主要是 Codex CLI | Codex CLI（以及 App 的进程级启动方式） |
+| 升级重启 | 升级后重启仍有效（默认配置会被重新加载） | 升级后重启可能失效（新进程不一定继承你注入的 env） |
 | 切换成本 | 需要改/临时改名 `.env` | 换命令调用即可 |
 
 我个人建议：
