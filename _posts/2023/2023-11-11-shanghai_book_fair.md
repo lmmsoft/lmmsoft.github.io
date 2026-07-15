@@ -1,6 +1,7 @@
 ---
 title:  "走进上海书展，畅游书海，感受文化盛宴"
 date: 2023-11-11T00:00:00+08:00
+travel_id: 2023-08-18-shanghai-culture
 author: lmm333
 layout: post
 comments: true

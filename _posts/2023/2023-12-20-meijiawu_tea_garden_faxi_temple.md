@@ -1,6 +1,7 @@
 ---
 title: "梅家坞茶园漫步，法喜寺寻觅禅意"
 date: 2023-12-20T20:00:00+08:00
+travel_id: 2023-12-16-meijiawu
 author: lmm333
 layout: post
 comments: true

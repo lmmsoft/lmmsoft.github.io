@@ -1,6 +1,7 @@
 ---
 title:  "人生首场铁人三项比赛记录"
 date: 2022-10-10T12:00:00+08:00
+travel_id: 2015-07-26-nanjing-triathlon
 author: lmm333
 layout: post
 comments: true

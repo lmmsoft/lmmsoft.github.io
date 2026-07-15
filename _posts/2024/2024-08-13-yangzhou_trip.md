@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /yangzhou_trip/
+travel_id: 2024-08-13-yangzhou-zhenjiang
 categories:
 - 我的游记
 tags:

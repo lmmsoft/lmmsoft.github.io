@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /hong_kong_diary_d28/
+travel_id: 2024-10-13-shenzhen
 categories:
 - 珊瑚海兔
 tags:

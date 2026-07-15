@@ -2,6 +2,7 @@
 id: 631
 title: 环阳澄湖骑行
 date: 2014-04-25T01:06:50+00:00
+travel_id: 2014-03-23-yangcheng-lake
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=631

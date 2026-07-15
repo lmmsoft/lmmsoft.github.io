@@ -1,6 +1,7 @@
 ---
 title: "见证苏州河的华丽蜕变：苏州河工业文明展示馆参观记"
 date: 2023-10-29T00:00:00+08:00
+travel_id: 2023-10-28-suzhou-creek
 author: lmm333
 layout: post
 comments: true

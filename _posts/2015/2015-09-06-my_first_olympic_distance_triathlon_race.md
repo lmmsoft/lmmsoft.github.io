@@ -1,6 +1,7 @@
 ---
 title:  "人生首次奥运标准距离铁人三项记录"
 date: 2015-09-06T12:00:00+08:00
+travel_id: 2015-09-05-shanghai-triathlon
 author: lmm333
 layout: post
 comments: true

@@ -1,6 +1,7 @@
 ---
 title:  "2016泰州标铁流水账"
 date: 2016-05-09T12:00:00+08:00
+travel_id: 2016-05-07-taizhou-triathlon
 author: lmm333
 layout: post
 comments: true

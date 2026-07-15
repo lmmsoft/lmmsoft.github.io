@@ -3,8 +3,18 @@
 Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://github.com/yulijia/freshman21) Design by Lijia Yu, A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
 
 ## 备注
-1. 根目录里的x.md文件都会被渲染成首页的固定链接页面，用a_, b_, c_ .. 进行排序，是为了控制页面上的顺序，比如about想放第二个，就b_about
+1. 根目录里的 x.md 文件会被渲染成固定链接页面；文件名前缀保留历史命名习惯，顶部导航顺序在 `_includes/header.html` 中显式维护
 2. `_posts/` 已按年份分子目录存放，例如 `_posts/2024/2024-05-01-play_robot_with_baby.md`，命名仍需遵循 `YYYY-MM-DD-title.md`
+
+## 旅行页维护
+
+- 页面入口为 `/travel/`，模板是 `f_travel.md`，公开数据维护在 `_data/travel.yml`。
+- 每条行程必须包含唯一 `id`、四位年份、`月-日` 或日期范围、城市和地点/景点列表。可选 `title` 用于“春节粤西自驾”这类行程主题，只存纯文本，页面自动加 `【】`。单日使用 `月-日`，连续行程使用 `月-日~月-日`。中国行程写城市；境外行程写成“国家-城市”。
+- 行程按年份倒序、同一年按日期正序维护。
+- 旅行文章在 frontmatter 中加入与行程一致的 `travel_id` 后，旅行页会自动显示该文章的站内相对链接；不要在 YAML 中手写文章 URL。
+- 连续日期属于同一次出行时只建一条记录，合并时间范围、城市、景点和所有相关文章；不要按每天拆分。
+- 有已发布游记且能确认实际出行日期时，必须补充行程并添加 `travel_id`。没有文章的已完成行程，只要日期、城市和旅行性质能够确认，也可以展示。
+- 外部私人记录只能作为人工审核的候选来源，不得在仓库文档中记录其本地路径，也不得在构建时读取。未来行程、住宿、家庭住址、交通班次等隐私信息不得自动发布。
 
 ## Local Debug in Docker
 总是 jekyll build 失败，记录下过程和相关资料，未来再说
@@ -22,6 +32,8 @@ Mingming's blog powered by Jekyll on Github, base on theme [Freshman21](http://g
 - 是否已使用 tekorrect -f _posts/2023-03-01-xx_yy.md 格式化文章?
 - 是否需要加入 <!--more--> 标记，用于首页文章摘要显示
 - 图片尺寸太大，是否需要压缩？ https://tinypng.com/ 调用api压缩，每个月免费500张，代码已实现
+- 如果文章是游记，是否已在 frontmatter 添加对应的 `travel_id`；若尚无行程记录，是否已人工审核并补充 `_data/travel.yml`
+- 相邻日期是否属于同一次连续行程；如果是，是否已聚合为一条并使用 `~` 表示日期范围
 
 ## Changelog
 - 2025-12-07

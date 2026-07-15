@@ -1,6 +1,7 @@
 ---
 title:  "Challenge Taiwan226km 明明的铁人三项流水账"
 date: 2017-06-30T12:00:00+08:00
+travel_id: 2017-04-27-taiwan
 author: lmm333
 layout: post
 comments: true

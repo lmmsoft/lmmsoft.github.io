@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /snake_spring_d1_shenzhen_lianhuashan/
+travel_id: 2025-01-25-spring-road-trip
 categories:
 - 珊瑚海兔
 tags:

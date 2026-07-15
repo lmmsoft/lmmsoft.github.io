@@ -2,6 +2,7 @@
 id: 1411
 title: 醉美杭州雪景，最虐比赛经历——记2015杭州西部越野
 date: 2015-12-18T23:44:17+00:00
+travel_id: 2015-12-05-hangzhou-trail
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=1411

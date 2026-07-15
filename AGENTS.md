@@ -20,12 +20,23 @@
 3. 发布：`./_publish.sh _drafts/<文件名>.md`（自动加日期前缀并移动到 `_posts/`）。
 4. 发布前运行排版工具：`pangu -f` 与 `tekorrect -f`。
 
+## 旅行页工作流
+
+- 旅行页模板为 `f_travel.md`，公开数据的单一事实源是 `_data/travel.yml`。
+- 数据必填字段为 `id`、`date`、`place`、`spots`，`title` 是可选的行程主题：只存纯文本，模板会渲染为 `【标题】`，不要把方括号写入 YAML；当 `title` 与 `place` 相同时，页面只显示标题，避免重复。年份由上层分组提供；单日使用 `月-日`，连续行程使用 `月-日~月-日`；中国行程只写城市，境外行程写“国家-城市”。
+- 创建或发布游记时，在文章 frontmatter 增加对应的 `travel_id`。旅行页会按 `travel_id` 自动发现已发布文章并生成站内相对链接。
+- 有已发布游记且能确认实际出行日期时，必须在 `_data/travel.yml` 建立或补全对应行程。没有文章的已完成行程，只要日期、城市和旅行性质能够确认，也可以展示。
+- 相邻日期属于同一次出行时，聚合为一条行程：合并日期范围、城市、景点和所有相关文章，不要逐日拆分。
+- 候选信息可来自 `f_list.md`、已发布文章和人工审核后的外部私人记录；仓库文档不得出现私人记录的本地路径，构建过程不得直接读取私人知识库。
+- 默认只公开已发生的行程。未来计划、住宿、家庭住址、交通班次和其他可推断实时位置的信息不得自动写入旅行页。
+- 修改旅行页或游记关联后，至少运行一次生产构建，并检查 `/travel/` 的桌面和手机布局、导航顺序及文章链接。
+
 ## 结构与命名
 - 文章文件名：`YYYY-MM-DD-标题-使用-连字符.md`，日期不可为未来。
 - Slug 需用英文并尽量与 permalink 一致（例：`/migration_to_obsidian_for_ai/` 对应 `YYYY-MM-DD-migration_to_obsidian_for_ai.md`）。
 - YAML Front Matter：两空格缩进，至少包含 `layout`、`title`、`date`、`categories`/`tags`。
 - 布局与组件：修改放在 `_layouts/`、`_includes/`、`_sass/`，主样式在 `css/main.scss`。
-- 导航页面按前缀排序：`a_home.md`、`b_about.md`、`c_archives.md`、`d_category.md`、`e_tags.md`、`f_guestbook.md`、`f_list.md`。
+- 导航顺序在 `_includes/header.html` 中显式维护；旅行页 `f_travel.md` 必须位于 `f_list.md`（“我的清单”）之后。
 - 媒体与附件：放入 `images/` 或 `attachments/`，按日期或主题组织。
 
 ## 内容规范

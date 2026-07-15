@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /hong_kong_diary_d14/
+travel_id: 2024-09-29-cheung-chau
 categories:
 - 珊瑚海兔
 tags:

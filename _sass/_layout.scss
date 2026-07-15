@@ -17,6 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   text-align:center;
+
   a{
     &,
     &:visited
@@ -334,4 +335,116 @@ q:after {
   content:'』';
   color: #DD1144;
   font-weight:bold;
+}
+
+/**
+ * Travel timeline
+ */
+.travel-page {
+    .travel-intro {
+        margin: 0 0 $spacing-unit;
+        padding: 14px 16px;
+        color: $grey-color-dark;
+        background: #f4f7f8;
+        border-left: 3px solid $brand-top-color;
+    }
+
+    .travel-year {
+        margin-bottom: $spacing-unit;
+
+        h2 {
+            margin-bottom: 0;
+            padding-bottom: 8px;
+            font-size: 28px;
+            border-bottom: 1px solid $grey-color-light;
+        }
+    }
+
+    .travel-entry {
+        display: grid;
+        grid-template-columns: 92px minmax(0, 1fr);
+        column-gap: 18px;
+        row-gap: 10px;
+        padding: 18px 0;
+        border-bottom: 1px solid $grey-color-light;
+    }
+
+    .travel-date {
+        margin: 0;
+        color: $grey-color;
+        font-style: normal;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+
+    .travel-heading {
+        color: $grey-color-dark;
+        font-weight: bold;
+    }
+
+    .travel-title {
+        margin-right: 6px;
+        color: $brand-top-color;
+    }
+
+    .travel-spots {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 14px;
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+
+        li::before {
+            content: '·';
+            margin-right: 5px;
+            color: $brand-top-color;
+        }
+    }
+
+    .travel-posts {
+        grid-column: 2;
+        font-size: $small-font-size;
+        text-align: left;
+    }
+
+    .travel-posts-label {
+        margin-bottom: 4px;
+        color: $grey-color;
+    }
+
+    .travel-posts-list {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            line-height: 1.55;
+        }
+
+        li + li {
+            margin-top: 4px;
+        }
+
+        li::before {
+            content: '·';
+            margin-right: 6px;
+            color: $brand-top-color;
+        }
+    }
+
+    @include media-query($on-palm) {
+        .travel-entry {
+            grid-template-columns: 1fr;
+            row-gap: 6px;
+        }
+
+        .travel-posts {
+            grid-column: 1;
+            margin-top: 4px;
+        }
+    }
 }

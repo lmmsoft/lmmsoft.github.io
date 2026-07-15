@@ -2,6 +2,7 @@
 id: 711
 title: 雨中的周庄
 date: 2014-05-04T12:36:23+00:00
+travel_id: 2014-04-27-zhouzhuang
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=711
