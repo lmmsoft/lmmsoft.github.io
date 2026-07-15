@@ -103,6 +103,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: 'Table of Contents'
   cn:
     Aboutme: "关于我"
@@ -125,6 +126,7 @@ locales:
     ReadMore: "继续阅读→"
     RunningPage: '跑步记录'
     List: '我的清单'
+    Travel: '旅行'
     TableOfContents: '文章导航'
   jp:
     Aboutme: "著者"
@@ -147,6 +149,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: '目次'
   pl:
     Aboutme: "O mnie"
@@ -169,6 +172,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: 'Spis treści'
   kr:
     Aboutme: "저자 소개"
@@ -191,6 +195,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: '목차'
   ru:
     Aboutme: "Обо мне" # = 'About me'
@@ -213,6 +218,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: 'Содержание'
   tr:
     Aboutme: "Hakkımda"
@@ -235,6 +241,7 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: 'İçindekiler'
   id:
     Aboutme: "Tentang Saya"
@@ -257,4 +264,5 @@ locales:
     ReadMore: "Continue Reading→"
     RunningPage: 'Running Page'
     List: 'My List'
+    Travel: 'Travel'
     TableOfContents: 'Daftar Isi'

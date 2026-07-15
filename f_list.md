@@ -3,6 +3,7 @@ layout: page
 title: List
 comments: yes
 permalink: /list/
+toc: true
 ---
 我喜欢做总结，盖洛普优势测评的34个才干中，排名第五的才干就是"回顾"。
 

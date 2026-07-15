@@ -1,6 +1,7 @@
 ---
 title:  "主场输国安，海港提前夺冠落空"
 date: 2023-12-11T20:00:00+08:00
+travel_id: 2023-10-20-shanghai-football
 author: lmm333
 layout: post
 comments: true

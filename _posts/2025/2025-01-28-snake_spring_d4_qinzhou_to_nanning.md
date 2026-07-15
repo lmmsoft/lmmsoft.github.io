@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /snake_spring_d4_qinzhou_to_nanning/
+travel_id: 2025-01-25-spring-road-trip
 categories:
 - 珊瑚海兔
 tags:
@@ -135,4 +136,3 @@ tags:
 ![35_grandma_big.JPG](/images/2025/2025-01-28-snake_spring_d4_qinzhou_to_nanning/35_grandma_big.JPG)
 
 由于午后没有休息，一直在开车，导致今天特别困，眼皮终是敌不过本命年小蛇的倦意，晚上九点多就睡着了，连续二十多年“守岁”记录就此打破，看来这蕴意变化的蛇年呀🐍~
-

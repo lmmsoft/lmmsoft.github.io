@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /snake_spring_d2_shenzhen_to_hailing_island/
+travel_id: 2025-01-25-spring-road-trip
 categories:
 - 珊瑚海兔
 tags:

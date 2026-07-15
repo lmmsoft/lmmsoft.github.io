@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /hong_kong_diary_d71/
+travel_id: 2024-11-23-yantian
 categories:
 - 珊瑚海兔
 tags:

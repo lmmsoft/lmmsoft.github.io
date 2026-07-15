@@ -1,6 +1,7 @@
 ---
 title: "在深圳与宝宝共度美好的一天：红树林与欢乐海岸"
 date: 2023-11-05T20:00:00+08:00
+travel_id: 2023-11-03-shenzhen
 author: lmm333
 layout: post
 comments: true

@@ -14,17 +14,19 @@
                 </svg>
             </a>
             <div class="trigger">
-                {% assign nav_allowlist = "/,/about/,/archives/,/category/,/tags/,/guestbook/,/list/,/feed.xml,/running_page/" | split: "," %}
-                {% for page in site.pages %}
-                  {% assign nav_href = page.nav_url | default: page.url %}
-                  {% if page.title and nav_allowlist contains nav_href %}
-                    <a class="page-link" href="{{ nav_href | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale].[page.title] }}</a>
-                  {% endif %}
+                {% assign nav_order = "/,/about/,/archives/,/category/,/tags/,/guestbook/,/list/,/travel/,/feed.xml,/running_page/" | split: "," %}
+                {% for nav_target in nav_order %}
+                  {% for page in site.pages %}
+                    {% assign nav_href = page.nav_url | default: page.url %}
+                    {% if page.title and nav_href == nav_target %}
+                      <a class="page-link" href="{{ nav_href | prepend: site.baseurl }}">{{ page.title | replace: page.title, site.locales[site.default_locale][page.title] }}</a>
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
 
 
                 {% for link in site.header_link %}
-                    <a class="page-link" target="_blank" href="{{ link.href | prepend: site.baseurl }}">{{ link.name | replace: link.name, site.locales[site.default_locale].[link.name] }}</a>
+                    <a class="page-link" target="_blank" href="{{ link.href | prepend: site.baseurl }}">{{ link.name | replace: link.name, site.locales[site.default_locale][link.name] }}</a>
                 {% endfor %}
 
             </div>

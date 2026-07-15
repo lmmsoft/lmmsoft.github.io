@@ -1,6 +1,7 @@
 ---
 title:  "亚运观赛记之一：游泳决赛，黄牛加价 1100 元的门票，太值了！"
 date: 2023-09-29T22:00:00+08:00
+travel_id: 2023-09-29-hangzhou-asian-games
 author: lmm333
 layout: post
 comments: true

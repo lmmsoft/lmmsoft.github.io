@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /walking_in_Hangzhou_Normal_University_with_baby/
+travel_id: 2024-05-02-hangzhou
 categories:
 - 珊瑚海兔
 tags:

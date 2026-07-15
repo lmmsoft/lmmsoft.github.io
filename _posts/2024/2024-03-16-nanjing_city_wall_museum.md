@@ -6,6 +6,7 @@ layout: post
 comments: true
 published: true
 permalink: /nanjing_city_wall_museum/
+travel_id: 2024-03-16-nanjing
 categories:
 - 我的游记
 tags:

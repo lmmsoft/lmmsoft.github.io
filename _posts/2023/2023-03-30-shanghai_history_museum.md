@@ -1,6 +1,7 @@
 ---
 title: "参观上海市历史博物馆"
 date: 2023-03-30T00:00:00+08:00
+travel_id: 2023-03-26-shanghai-history-museum
 author: lmm333
 layout: post
 permalink: /shanghai_history_museum/

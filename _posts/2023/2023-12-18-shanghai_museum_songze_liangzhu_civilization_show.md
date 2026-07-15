@@ -1,6 +1,7 @@
 ---
 title: "上海博物馆：实证中国——崧泽·良渚文明考古大展"
 date: 2023-12-18T20:00:00+08:00
+travel_id: 2023-08-18-shanghai-culture
 author: lmm333
 layout: post
 comments: true

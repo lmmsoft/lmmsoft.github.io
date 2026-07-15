@@ -2,6 +2,7 @@
 id: 1131
 title: 环澄湖骑行
 date: 2015-04-19T22:42:16+00:00
+travel_id: 2015-04-19-chenghu
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=1131

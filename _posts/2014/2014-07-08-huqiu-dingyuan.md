@@ -2,6 +2,7 @@
 id: 781
 title: 虎丘，定园游记
 date: 2014-07-08T00:32:37+00:00
+travel_id: 2014-07-06-huqiu
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=781

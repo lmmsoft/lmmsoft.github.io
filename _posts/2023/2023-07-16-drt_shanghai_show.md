@@ -1,6 +1,7 @@
 ---
 title:  "2023上海潜水展参观记"
 date: 2023-07-16T00:00:00+08:00
+travel_id: 2023-07-15-shanghai-diving-show
 author: lmm333
 layout: post
 comments: true

@@ -2,6 +2,7 @@
 id: 511
 title: 太湖西山 + 木渎古镇，观景美食游
 date: 2014-04-24T00:37:44+00:00
+travel_id: 2014-03-08-suzhou
 author: lmm333
 layout: post
 guid: http://blog.lmm333.com/?p=511

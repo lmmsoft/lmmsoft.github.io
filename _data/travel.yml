@@ -1,0 +1,504 @@
+- year: 2026
+  trips:
+    - id: 2026-01-01-da-nang-guangzhou
+      date: "01-01~01-03"
+      title: "跨年游轮"
+      place: "广州、越南-下龙湾、越南-岘港"
+      spots: [下龙湾, 五行山, 大佛, 海滩, 南沙]
+
+- year: 2025
+  trips:
+    - id: 2025-01-18-huizhou
+      date: "01-18~01-19"
+      place: "深圳、惠州、香港"
+      spots: [惠州博物馆, 惠州西湖, 深圳湾]
+    - id: 2025-01-25-spring-road-trip
+      date: "01-25~02-03"
+      title: "春节粤西自驾"
+      place: "深圳、阳江、钦州、南宁、茂名、开平、江门、顺德、东莞、香港"
+      spots: [莲花山公园, 笔架山公园, 深业上城, 海陵岛, 广东海上丝绸之路博物馆, 星辰屿海, 钦州老街, 广州会馆, 钦州城墙遗址, 三街两巷, 广西壮族自治区博物馆, 琅西夜市, 青秀山, 中国第一滩, 茂名博物馆, 仓东村, 开平碉楼, 中国侨都华侨华人博物馆, 东莞迎宾馆儿童乐园, 福田口岸]
+    - id: 2025-03-21-chiang-mai
+      date: "03-21~03-23"
+      place: "泰国-清迈"
+      spots: [清迈古城, 瀑布, 飞机展览, 大象咖啡厅]
+    - id: 2025-05-03-puning-shenzhen
+      date: "05-03~05-05"
+      place: "普宁、深圳"
+      spots: [普宁祠堂, 笔架山儿童乐园]
+    - id: 2025-05-17-zhuhai
+      date: "05-17"
+      place: "珠海"
+      spots: [珠海博物馆]
+    - id: 2025-05-30-taipei
+      date: "05-30~06-01"
+      place: "台北、新北"
+      spots: [台北市立动物园, 饶河街观光夜市, 野柳地质公园, 富贵角]
+    - id: 2025-06-07-zhengzhou
+      date: "06-07~06-09"
+      place: "郑州"
+      spots: [河南博物院, 郑州商都遗址博物馆, 二七广场]
+    - id: 2025-07-11-changsha
+      date: "07-11~07-13"
+      place: "长沙"
+      spots: [杨开慧故居, 湖南博物院, 橘子洲, 长沙非物质文化遗产馆, 长沙规划展示馆, 湖南米粉博物馆]
+    - id: 2025-08-08-guiyang-anshun
+      date: "08-08~08-10"
+      place: "贵阳、安顺"
+      spots: [贵州省博物馆, 贵州省地质博物馆, 安顺古城历史文化街区, 虹山湖, 安顺市博物馆, 华阳洞]
+    - id: 2025-08-17-huizhou
+      date: "08-17"
+      place: "惠州"
+      spots: [大亚湾, 海滨步道]
+    - id: 2025-11-07-taipei
+      date: "11-07~11-09"
+      place: "台北"
+      spots: [台北市立儿童新乐园, 台北故宫博物院, 士林官邸]
+    - id: 2025-11-19-zhuhai-hengqin
+      date: "11-19"
+      place: "珠海（横琴）"
+      spots: [横琴, 全运会网球比赛]
+
+- year: 2024
+  trips:
+    - id: 2024-03-16-nanjing
+      date: "03-16"
+      place: "南京"
+      spots: [南京城墙博物馆, 老门东]
+    - id: 2024-05-02-hangzhou
+      date: "05-02~05-04"
+      place: "杭州"
+      spots: [杭州师范大学仓前校区, 宝寿山景区, 浙江省地质博物馆]
+    - id: 2024-06-04-japan
+      date: "06-04~06-07"
+      place: "日本-下关、福冈"
+      spots: [赤间神宫, 唐户市场, 门司港, 太宰府天满宫, 九州国立博物馆, 福冈市博物馆, 福冈塔]
+    - id: 2024-06-08-shaoshan-jinggangshan
+      date: "06-08~06-12"
+      place: "韶山、井冈山"
+      spots: [韶山, 井冈山革命博物馆]
+    - id: 2024-08-13-yangzhou-zhenjiang
+      date: "08-13~08-14"
+      place: "扬州、镇江"
+      spots: [扬州博物馆, 富春茶社, 金山寺, 镇江博物馆]
+    - id: 2024-08-27-jiangxi
+      date: "08-27~08-30"
+      place: "南昌、吉安、赣州"
+      spots: [南昌汉代海昏侯国遗址博物馆, 滕王阁, 江西省博物馆, 吉安市博物馆, 赣州市博物馆]
+    - id: 2024-09-29-cheung-chau
+      date: "09-29"
+      place: "香港（长洲）"
+      spots: [长洲岛]
+    - id: 2024-10-13-shenzhen
+      date: "10-13"
+      place: "深圳"
+      spots: [万象天地]
+    - id: 2024-11-23-yantian
+      date: "11-23~11-24"
+      place: "深圳"
+      spots: [盐田海滨栈道, 灯塔图书馆, 中英街]
+
+- year: 2023
+  trips:
+    - id: 2023-02-04-jingshan
+      date: "02-04"
+      place: "杭州"
+      spots: [径山寺, 径山古道]
+    - id: 2023-03-11-liangzhu
+      date: "03-11"
+      place: "杭州"
+      spots: [良渚]
+    - id: 2023-03-26-shanghai-history-museum
+      date: "03-26"
+      place: "上海"
+      spots: [上海市历史博物馆]
+    - id: 2023-04-01-huzhou
+      date: "04-01~04-02"
+      place: "湖州、杭州"
+      spots: [湖州博物馆, 马家坞]
+    - id: 2023-04-16-anji
+      date: "04-16"
+      place: "安吉、杭州"
+      spots: [安吉竹博园, 浙江大学艺术与考古博物馆]
+    - id: 2023-05-02-luniao
+      date: "05-02"
+      place: "杭州"
+      spots: [鸬鸟山]
+    - id: 2023-06-22-qiandaohu
+      date: "06-22~06-24"
+      place: "桐庐、淳安"
+      spots: [千岛湖水上乐园, 千岛湖啤酒博物馆]
+    - id: 2023-07-15-shanghai-diving-show
+      date: "07-15"
+      place: "上海"
+      spots: [上海国际潜水暨度假观光展]
+    - id: 2023-07-22-suzhou
+      date: "07-22~07-23"
+      place: "苏州"
+      spots: [苏州博物馆西馆, 刘若英演唱会]
+    - id: 2023-07-29-nanjing
+      date: "07-29~07-30"
+      place: "南京"
+      spots: [南京科技馆]
+    - id: 2023-08-05-chengshifa
+      date: "08-05"
+      place: "上海"
+      spots: [程十发美术馆]
+    - id: 2023-08-18-shanghai-culture
+      date: "08-18~08-19"
+      place: "上海"
+      spots: [上海书展, 上海博物馆, 实证中国崧泽良渚文明考古大展]
+    - id: 2023-08-26-hong-kong
+      date: "08-26~08-27"
+      place: "香港"
+      spots: [香港大学, 铜锣湾]
+    - id: 2023-09-29-hangzhou-asian-games
+      date: "09-29~10-04"
+      place: "杭州"
+      spots: [杭州亚运会游泳决赛, 网球决赛, 田径预赛, 曲棍球, 蹦床决赛, 女排, 男足半决赛]
+    - id: 2023-10-20-shanghai-football
+      date: "10-20"
+      place: "上海"
+      spots: [浦东足球场, 上海海港对北京国安]
+    - id: 2023-10-28-suzhou-creek
+      date: "10-28"
+      place: "上海"
+      spots: [苏州河工业文明展示馆]
+    - id: 2023-11-03-shenzhen
+      date: "11-03~11-05"
+      place: "深圳、香港"
+      spots: [福田红树林生态公园, 欢乐海岸]
+    - id: 2023-12-16-meijiawu
+      date: "12-16"
+      place: "杭州"
+      spots: [梅家坞茶园, 法喜寺]
+
+- year: 2022
+  trips:
+    - id: 2022-08-07-southwest
+      date: "08-07~08-30"
+      place: "成都、雅安、大理、重庆、深圳"
+      spots: [成都博物馆, 金沙遗址博物馆, 大理西湖, 洱海, 深圳欢乐海岸, 深圳湾]
+    - id: 2022-09-23-suzhou
+      date: "09-23~09-25"
+      place: "苏州"
+      spots: [吴中博物馆, 宝带桥]
+    - id: 2022-10-23-linan
+      date: "10-23"
+      place: "杭州（临安）"
+      spots: [临安]
+    - id: 2022-11-09-qiandaohu
+      date: "11-09"
+      place: "淳安"
+      spots: [千岛湖, 儿童乐园, 日落]
+
+- year: 2021
+  trips:
+    - id: 2021-01-09-hangzhou-museums
+      date: "01-09"
+      place: "杭州"
+      spots: [曲院风荷, 中国印学博物馆, 浙江省博物馆, 黄宾虹纪念室]
+    - id: 2021-01-23-anji
+      date: "01-23~01-24"
+      place: "安吉"
+      spots: [竹博园度假村, 安吉竹博园, 大熊猫馆]
+    - id: 2021-07-07-yinchuan
+      date: "07-07~07-11"
+      place: "银川、阿拉善盟"
+      spots: [水洞沟, 宁夏博物馆, 沙湖, 镇北堡西部影城, 葡萄酒庄]
+
+- year: 2020
+  trips:
+    - id: 2020-01-01-huangshan
+      date: "01-01~01-05"
+      place: "黄山、宏村"
+      spots: [黄山, 宏村, 卢村观景台, 西递]
+    - id: 2020-01-05-japan-hokkaido-nagoya
+      date: "01-05~01-12"
+      title: "日本北海道，名古屋"
+      place: "日本-名古屋、札幌、小樽、洞爷湖、函馆、常滑"
+      spots: [白色恋人公园, 小樽, 天狗山, G8峰会纪念馆, 火山科学馆, 函馆山, 北方民族资料馆, 常滑陶瓷散步道, 丰田产业技术纪念馆, 名古屋城]
+    - id: 2020-01-17-tonglu
+      date: "01-17~01-18"
+      place: "桐庐"
+      spots: [芦茨湾, 白云源]
+    - id: 2020-05-02-taizhou
+      date: "05-02~05-05"
+      place: "三门、临海、仙居"
+      spots: [蛇蟠岛, 台州府城, 括苍山, 神仙居]
+    - id: 2020-06-21-fuyang
+      date: "06-21"
+      place: "杭州（富阳）"
+      spots: [龙门古镇]
+    - id: 2020-06-23-northern-jiangsu
+      date: "06-23~06-26"
+      title: "苏北自驾"
+      place: "淮安、连云港、盐城"
+      spots: [明祖陵, 周恩来纪念馆, 周恩来故居, 淮安府署, 中国漕运博物馆, 连云港市博物馆, 花果山, 中国海盐博物馆, 盐都区博物馆]
+    - id: 2020-07-04-ningbo
+      date: "07-04~07-05"
+      place: "宁波、余姚、慈溪"
+      spots: [严子陵祠, 宁波方特东方神画]
+    - id: 2020-08-08-jiaxing
+      date: "08-08"
+      place: "嘉兴"
+      spots: [马家浜文化博物馆, 南湖革命纪念馆, 南湖公园]
+
+- year: 2019
+  trips:
+    - id: 2019-02-06-lijiang-dali
+      date: "02-06~02-10"
+      title: "丽江、大理"
+      place: "丽江、大理"
+      spots: [玉龙雪山, 蓝月谷, 丽江古城, 束河古镇, 大理三塔, 大理古城]
+    - id: 2019-02-10-laos-road-trip
+      date: "02-10~02-17"
+      title: "老挝自驾"
+      place: "老挝-琅勃拉邦、万荣；西双版纳"
+      spots: [琅勃拉邦皇宫博物馆, 关西瀑布, 万荣皮划艇与漂流, 望天树]
+    - id: 2019-05-01-jingdezhen
+      date: "05-01~05-03"
+      place: "景德镇"
+      spots: [景德镇, 中国陶瓷博物馆]
+    - id: 2019-07-12-heilongjiang
+      date: "07-12~07-24"
+      title: "中俄皮划艇比赛"
+      place: "哈尔滨、萝北、饶河、抚远"
+      spots: [侵华日军第七三一部队罪证陈列馆, 中央大街, 黑龙江省博物馆, 珍宝岛, 黑瞎子岛, 东极宝塔, 鱼博馆, 东极广场, 乌苏镇]
+    - id: 2019-09-18-pingtan
+      date: "09-18~09-21"
+      place: "平潭、福州"
+      spots: [龙凤头海滨浴场, 平潭]
+    - id: 2019-10-01-new-zealand
+      date: "10-01~10-13"
+      title: "新西兰自驾"
+      place: "新西兰-基督城、凯库拉、皮克顿、惠灵顿、陶波、罗托鲁瓦、汉密尔顿、奥克兰"
+      spots: [凯库拉观鲸, 新西兰国家博物馆, 汤加里罗国家公园, 陶波湖, 胡卡瀑布, 怀奥塔普地热世界, 汉密尔顿花园, 热水海滩, 奥克兰动物园]
+    - id: 2019-10-25-yixing
+      date: "10-25~10-27"
+      place: "南京、宜兴"
+      spots: [宜兴竹海]
+    - id: 2019-11-16-nanxun-wuzhen
+      date: "11-16~11-17"
+      place: "湖州、嘉兴"
+      spots: [南浔古镇, 双林古镇, 费新我艺术馆, 乌镇东栅]
+    - id: 2019-11-24-huizhou-ancient-trail
+      date: "11-24"
+      place: "宣城、杭州"
+      spots: [徽杭古道]
+
+- year: 2018
+  trips:
+    - id: 2018-01-01-ningbo
+      date: "01-01~01-02"
+      place: "宁波、余姚"
+      spots: [天一阁, 河姆渡遗址博物馆]
+    - id: 2018-01-26-hk100
+      date: "01-26~01-30"
+      place: "香港"
+      spots: [麦理浩径, 香港100越野赛, 海港城, 中环]
+    - id: 2018-02-17-myanmar
+      date: "02-17~02-23"
+      place: "缅甸-曼德勒、蒲甘"
+      spots: [实皆, 乌本桥, 蒲甘, 曼德勒山, 曼德勒皇宫]
+    - id: 2018-04-19-japan
+      date: "04-19~04-25"
+      place: "日本-大阪、宫古岛、东京"
+      spots: [大阪, 宫古岛, 东京]
+    - id: 2018-05-17-xiamen
+      date: "05-17~05-20"
+      place: "厦门"
+      spots: [沙坡尾, 白石炮台, 厦门大学, 鼓浪屿, 中山路步行街, 曾厝垵, 集美学村]
+    - id: 2018-06-15-brunei-kota-kinabalu
+      date: "06-15~06-20"
+      place: "文莱-斯里巴加湾；马来西亚-亚庇"
+      spots: [潜水, 文莱博物馆, 清真寺, 亚庇]
+    - id: 2018-09-22-indonesia-timor-leste
+      date: "09-22~10-07"
+      place: "印度尼西亚-巴厘岛、日惹；东帝汶-帝力"
+      spots: [艾雅娜度假村, 帝力潜水, 佩尼达岛, 图兰本, 乌布, 水上宫殿, 婆罗浮屠, 普兰巴兰]
+    - id: 2018-12-29-shenzhen-guangzhou
+      date: "12-29~01-01"
+      place: "深圳、广州"
+      spots: [腾讯大厦, 腾讯滨海大厦, 深圳博物馆, 广州塔, 中山纪念堂, 广州博物馆, 南越王博物院, 北京路步行街]
+
+- year: 2017
+  trips:
+    - id: 2017-01-01-phuket
+      date: "01-01~01-06"
+      place: "泰国-普吉岛"
+      spots: [皇帝岛, 皮皮岛, 普吉大佛, 查龙寺, 芭东海滩, 卡塔海滩, 卡伦海滩]
+    - id: 2017-01-30-angkor
+      date: "01-30~02-01"
+      place: "柬埔寨-暹粒"
+      spots: [吴哥窟]
+    - id: 2017-03-14-japan
+      date: "03-14~03-18"
+      place: "日本-大阪、神户、京都"
+      spots: [大阪城, 万博纪念公园, 神户北野异人馆街, 南京町, 伏见稻荷大社, 三十三间堂, 清水寺]
+    - id: 2017-04-27-taiwan
+      date: "04-27~05-06"
+      place: "台东、绿岛、花莲、台北"
+      spots: [Challenge Taiwan铁人三项, 铁花村, 绿岛, 朝日温泉, 卑南文化公园, 花莲夜市, 太鲁阁, 七星潭]
+    - id: 2017-05-20-huangshan
+      date: "05-20~05-22"
+      place: "黄山"
+      spots: [黄山]
+    - id: 2017-07-22-wuzhen-zhenze
+      date: "07-22~07-23"
+      place: "嘉兴、苏州"
+      spots: [乌镇, 震泽古镇]
+    - id: 2017-10-01-malaysia-singapore
+      date: "10-01~10-14"
+      place: "马来西亚-亚庇、仙本那；新加坡-新加坡"
+      spots: [亚庇红树林, 加雅街, 军舰岛, 仙本那海洋公园, 马步岛, 卡帕莱, 诗巴丹, 新加坡植物园, 环球影城, 圣淘沙, 滨海湾, 克拉码头, 南部山脊]
+- year: 2016
+  trips:
+    - id: 2016-01-23-hk100
+      date: "01-23~01-27"
+      place: "香港"
+      spots: [香港100越野赛, 麦理浩径]
+    - id: 2016-02-11-anji
+      date: "02-11~02-13"
+      place: "安吉"
+      spots: [江南天池]
+    - id: 2016-04-09-moganshan
+      date: "04-09~04-10"
+      place: "湖州（莫干山）"
+      spots: [莫干山越野]
+    - id: 2016-05-07-taizhou-triathlon
+      date: "05-07~05-08"
+      place: "泰州"
+      spots: [泰州铁人三项亚洲杯]
+    - id: 2016-07-30-shanghai-disney
+      date: "07-30"
+      place: "上海"
+      spots: [上海迪士尼]
+    - id: 2016-09-10-weihai
+      date: "09-10~09-12"
+      place: "威海"
+      spots: [威海铁人三项]
+    - id: 2016-10-03-boracay
+      date: "10-03~10-07"
+      place: "菲律宾-长滩岛"
+      spots: [长滩岛, 鳄鱼岛, 潜水]
+
+- year: 2015
+  trips:
+    - id: 2015-01-01-shandong
+      date: "01-01"
+      place: "泰安、曲阜、济南"
+      spots: [泰山, 曲阜, 济南]
+    - id: 2015-03-07-northern-expedition
+      date: "03-07~03-15"
+      title: "重走孔明北伐路"
+      place: "成都、德阳、广元、汉中、天水、宝鸡、西安"
+      spots: [白马关, 剑门关, 昭化古城, 明月峡, 石门栈道, 勉县武侯祠, 麦积山石窟, 大地湾遗址, 宝鸡青铜器博物馆]
+    - id: 2015-04-04-baoshan
+      date: "04-04"
+      place: "马鞍山"
+      spots: [褒禅山]
+    - id: 2015-04-19-chenghu
+      date: "04-19"
+      place: "苏州"
+      spots: [澄湖]
+    - id: 2015-04-24-taihu
+      date: "04-24~04-26"
+      place: "无锡、苏州"
+      spots: [环太湖骑行]
+    - id: 2015-05-01-qiandeng
+      date: "05-01"
+      place: "昆山"
+      spots: [千灯古镇]
+    - id: 2015-06-14-hengdian
+      date: "06-14~06-15"
+      place: "金华（横店）"
+      spots: [秦王宫, 明清宫苑, 广州街香港街]
+    - id: 2015-06-20-wugongshan
+      date: "06-20~06-22"
+      place: "萍乡、吉安"
+      spots: [武功山]
+    - id: 2015-07-26-nanjing-triathlon
+      date: "07-26"
+      place: "南京"
+      spots: [羊山湖公园, 南京小铁人三项]
+    - id: 2015-07-30-shanghai-moganshan
+      date: "07-30~08-02"
+      place: "上海、湖州（莫干山）"
+      spots: [国际冠军杯, ChinaJoy, 莫干山]
+    - id: 2015-08-22-taizhou
+      date: "08-22~08-23"
+      place: "泰州"
+      spots: [溱湖国家湿地公园, 泰州铁人三项]
+    - id: 2015-09-05-shanghai-triathlon
+      date: "09-05"
+      place: "上海（安亭）"
+      spots: [奥运标准距离铁人三项]
+    - id: 2015-12-05-hangzhou-trail
+      date: "12-05"
+      place: "杭州"
+      spots: [杭州西部越野]
+
+- year: 2014
+  trips:
+    - id: 2014-03-08-suzhou
+      date: "03-08~03-09"
+      place: "苏州"
+      spots: [太湖西山, 林屋洞, 缥缈峰, 木渎古镇, 拙政园]
+    - id: 2014-03-23-yangcheng-lake
+      date: "03-23"
+      place: "苏州"
+      spots: [阳澄湖]
+    - id: 2014-04-04-taizhou
+      date: "04-04~04-06"
+      place: "台州"
+      spots: [椒江, 临海, 皤滩古镇, 公盂岩, 石塘]
+    - id: 2014-04-27-zhouzhuang
+      date: "04-27"
+      place: "昆山"
+      spots: [周庄古镇]
+    - id: 2014-07-06-huqiu
+      date: "07-06"
+      place: "苏州"
+      spots: [虎丘, 定园]
+    - id: 2014-08-17-nanjing
+      date: "08-17"
+      place: "南京"
+      spots: [青奥公园]
+
+- year: 2012
+  trips:
+    - id: 2012-03-25-nanjing-west-station
+      date: "03-25"
+      place: "南京"
+      spots: [南京西站, 7102次绿皮车]
+
+- year: 2009
+  trips:
+    - id: 2009-08-02-zhenjiang
+      date: "08-02~08-03"
+      place: "镇江"
+      spots: [焦山, 北固山, 西津渡, 金山]
+    - id: 2009-08-11-xian
+      date: "08-11~08-21"
+      place: "渭南（华山）、西安、咸阳、延安"
+      spots: [华山, 西岳庙, 陕西历史博物馆, 大雁塔, 小雁塔, 骊山, 兵马俑, 华清池, 西安城墙, 大明宫, 茂陵, 乾陵, 法门寺, 黄帝陵, 壶口瀑布, 杨家岭, 王家坪]
+    - id: 2009-10-05-nanping
+      date: "10-05"
+      place: "黄山（黟县）"
+      spots: [南屏古村]
+
+- year: 2008
+  trips:
+    - id: 2008-08-05-jiangpu
+      date: "08-05"
+      place: "南京（江浦）"
+      spots: [凤凰台, 凤凰阁]
+    - id: 2008-08-09-lin-sanzhi-museum
+      date: "08-09"
+      place: "南京"
+      spots: [林散之纪念馆]
+    - id: 2008-08-12-beijing
+      date: "08-12~08-16"
+      title: "北京奥运会"
+      place: "北京"
+      spots: [工人体育场, 王府井, 前门, 国家大剧院, 中关村, 日坛, 国子监, 孔庙, 地坛, 钟鼓楼, 什刹海, 潘家园, 天坛, 法源寺, 白云观]

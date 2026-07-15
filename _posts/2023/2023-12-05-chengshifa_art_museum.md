@@ -1,6 +1,7 @@
 ---
 title:  "程十发美术馆：不仅能看展，还有上海第一家书画自习室"
 date: 2023-12-05T20:00:00+08:00
+travel_id: 2023-08-05-chengshifa
 author: lmm333
 layout: post
 comments: true
