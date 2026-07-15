@@ -349,6 +349,39 @@ q:after {
         border-left: 3px solid $brand-top-color;
     }
 
+    .travel-stats {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0 0 $spacing-unit;
+        padding: 0;
+
+        li {
+            padding: 12px 8px;
+            list-style: none;
+            text-align: center;
+            background: #f4f7f8;
+            border-radius: 4px;
+        }
+
+        strong,
+        span {
+            display: block;
+        }
+
+        strong {
+            color: $brand-top-color;
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
+        span {
+            margin-top: 4px;
+            color: $grey-color;
+            font-size: $small-font-size;
+        }
+    }
+
     .travel-year {
         margin-bottom: $spacing-unit;
 
@@ -437,6 +470,10 @@ q:after {
     }
 
     @include media-query($on-palm) {
+        .travel-stats {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
         .travel-entry {
             grid-template-columns: 1fr;
             row-gap: 6px;
