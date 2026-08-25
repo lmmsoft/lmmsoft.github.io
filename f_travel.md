@@ -5,8 +5,33 @@ permalink: /travel/
 toc: true
 ---
 
+{% assign travel_year_count = site.data.travel | size %}
+{% assign travel_trip_count = 0 %}
+{% assign travel_spot_count = 0 %}
+{% assign travel_post_count = 0 %}
+{% for year_group in site.data.travel %}
+  {% assign year_trip_count = year_group.trips | size %}
+  {% assign travel_trip_count = travel_trip_count | plus: year_trip_count %}
+  {% for trip in year_group.trips %}
+    {% assign trip_spot_count = trip.spots | size %}
+    {% assign travel_spot_count = travel_spot_count | plus: trip_spot_count %}
+  {% endfor %}
+{% endfor %}
+{% for post in site.posts %}
+  {% if post.travel_id %}
+    {% assign travel_post_count = travel_post_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
 <div class="travel-page">
   <p class="travel-intro">世界很大，路要一步一步走。这里按时间记录我去过的城市、见过的风景，以及旅途中写下的文章。</p>
+
+  <ul class="travel-stats" aria-label="旅行统计">
+    <li><strong>{{ travel_year_count }}</strong><span>个年份</span></li>
+    <li><strong>{{ travel_trip_count }}</strong><span>段行程</span></li>
+    <li><strong>{{ travel_spot_count }}</strong><span>条地点记录</span></li>
+    <li><strong>{{ travel_post_count }}</strong><span>篇相关文章</span></li>
+  </ul>
 
   {% for year_group in site.data.travel %}
   <section class="travel-year" aria-labelledby="travel-{{ year_group.year }}">
@@ -28,7 +53,7 @@ toc: true
           </ul>
         </div>
 
-        {% assign related_posts = site.posts | where: "travel_id", trip.id %}
+        {% assign related_posts = site.posts | where: "travel_id", trip.id | sort: "date" %}
         {% if related_posts.size > 0 %}
         <div class="travel-posts">
           <div class="travel-posts-label">相关文章：</div>
