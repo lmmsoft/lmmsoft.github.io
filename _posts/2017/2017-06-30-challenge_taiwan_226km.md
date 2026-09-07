@@ -11,9 +11,19 @@ source: https://mp.weixin.qq.com/s?__biz=MzIyNDU0NzE3NA==&mid=2247483988&idx=1&s
 categories:
 - 我的比赛
 tags:
-- 铁人三项
-- 台湾
-- 台东
+  - "铁人三项"
+  - "台湾"
+  - "台东"
+  - "qzone"
+qzone_id: "1497891815"
+qzone_published_at: "2017-06-20 01:03:00 +0800"
+qzone_source: "https://user.qzone.qq.com/464124138/blog/1497891815"
+qzone_title: "434-Challenge Taiwan226km铁人三项流水账"
+qzone_date_precision: "minute"
+qzone_original_artype: 1
+qzone_original_visibility: public
+qzone_repost_status: no_repost_evidence
+qzone_repost_basis: []
 ---
 ![img.png](/images/2017-06-30-challenge_taiwan_226km/img.png)
 
@@ -265,3 +275,6 @@ T1的换项区很长，超过1km，试赛道的时候跑过一圈，所以不太
 想试试其他类型的比赛，比如长距离游泳，马自骑，百公里越野等。标铁的速度练不上去，多玩玩不同种类的比赛也不错~
 
 ![img_25.png](/images/2017-06-30-challenge_taiwan_226km/img_25.png)
+
+
+<p>原载于 QQ 空间。</p>

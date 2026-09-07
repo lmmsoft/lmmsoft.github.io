@@ -27,8 +27,8 @@ pagination:
       <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% unless post.tags.last == tag %}, {% endunless %}
       {% endfor %}
       {% endif %}
-      <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-      {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%Y-%m-%d" }}
+      <time itemprop="datePublished" datetime="{{ post.qzone_display_date | default: post.date | date: '%Y-%m-%d' }}">
+      {{ site.locales[site.default_locale].PostDate }}{{ post.qzone_display_date | default: post.date | date: "%Y-%m-%d" }}
       </time>
 
       | 本文 {{ post.content | strip_html | strip_newlines | remove: " " | size }} 字

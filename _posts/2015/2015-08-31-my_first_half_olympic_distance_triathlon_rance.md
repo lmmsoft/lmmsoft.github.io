@@ -10,8 +10,19 @@ source: https://user.qzone.qq.com/464124138/blog/1441018020
 categories:
 - 我的比赛
 tags:
-- 铁人三项
-- 泰州
+  - "铁人三项"
+  - "泰州"
+  - "qzone"
+qzone_id: "1441018020"
+qzone_published_at: "2015-08-31 18:47:00 +0800"
+qzone_source: "https://user.qzone.qq.com/464124138/blog/1441018020"
+qzone_title: "420-人生首次半铁流水账"
+qzone_date_precision: "minute"
+travel_id: "2015-08-22-taizhou"
+qzone_original_artype: 2
+qzone_original_visibility: friends
+qzone_repost_status: no_repost_evidence
+qzone_repost_basis: []
 ---
 ![img.png](/images/2015-08-31-my_first_half_olympic_distance_triathlon_ranc/img.png)
 
@@ -59,4 +70,15 @@ tags:
 
 1. 去年9月底拿到年终奖，10月去了四姑娘山，成都，重庆，一下就把钱烧掉了。今年奖金也快到手了，如果明年继续打铁的话，准备烧一辆公路/铁三车，这次比赛见到了很多好车，刺激不小，人家一个头盔就比我全套骑行装备加起来还贵。。。
 2. 仔细阅读《铁人三项训练圣经》，科学训练，提升成绩
-3. 多花精力在路跑上，今年后面至少还有一场铁三，两场马拉松，几场十公里之类的比赛。今年路跑搞好了，明年就开搞越野跑。马拉松对身体损伤太大，以后尽量只参加万米和半马吧~ 
+3. 多花精力在路跑上，今年后面至少还有一场铁三，两场马拉松，几场十公里之类的比赛。今年路跑搞好了，明年就开搞越野跑。马拉松对身体损伤太大，以后尽量只参加万米和半马吧~
+
+<!-- qzone-migration:1441018020:start -->
+<section class="qzone-migration">
+<h2>Qzone 来源记录</h2>
+<p>这篇文章也曾发表于 QQ 空间，原题为「420-人生首次半铁流水账」，原发表时间为 2015-08-31 18:47:00 +0800（北京时间）。本站保留现有版本的正文、发布时间和链接。</p>
+<h3>Qzone 版本补遗</h3>
+<ul>
+<li>之前欠的东西太多了，借着空间的宝地，能写一点是一点：</li>
+</ul>
+</section>
+<!-- qzone-migration:1441018020:end -->

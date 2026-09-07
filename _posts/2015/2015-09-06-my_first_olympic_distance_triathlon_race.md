@@ -11,8 +11,18 @@ source: https://user.qzone.qq.com/464124138/blog/1441506230
 categories:
 - 我的比赛
 tags:
-- 铁人三项
-- 上海
+  - "铁人三项"
+  - "上海"
+  - "qzone"
+qzone_id: "1441506230"
+qzone_published_at: "2015-09-06 10:23:00 +0800"
+qzone_source: "https://user.qzone.qq.com/464124138/blog/1441506230"
+qzone_title: "422-人生首次奥运标准距离铁人三项记录"
+qzone_date_precision: "minute"
+qzone_original_artype: 2
+qzone_original_visibility: friends
+qzone_repost_status: no_repost_evidence
+qzone_repost_basis: []
 ---
 ![img.png](/images/2015-09-06-my_first_olympic_distance_triathlon_race/img.png)
 
@@ -74,3 +84,14 @@ tags:
 # 后续
 1. 反正车把坏了，必须要换车了（公路车，休息把，锁鞋，头盔，骑车顶架），应该还要再买胶衣
 2. 10/26上海滴水湖刚出了70.3，还有一个月，机不可失，加紧训练，今年后面比赛的机会不多，尤其是我现在只能在江浙一带参加比赛，更需要珍惜机会，今年是我的铁三元年，如果能安全完成70.3(113km)的话，那就完美了~！
+
+<!-- qzone-migration:1441506230:start -->
+<section class="qzone-migration">
+<h2>Qzone 来源记录</h2>
+<p>这篇文章也曾发表于 QQ 空间，原题为「422-人生首次奥运标准距离铁人三项记录」，原发表时间为 2015-09-06 10:23:00 +0800（北京时间）。本站保留现有版本的正文、发布时间和链接。</p>
+<h3>Qzone 版本补遗</h3>
+<ul>
+<li>9:15 我第三组下水，前5分钟忘了按表了</li>
+</ul>
+</section>
+<!-- qzone-migration:1441506230:end -->
