@@ -15,7 +15,7 @@ permalink: /category/
 {% for cat in site.categories %}
     <li id="{{ cat[0] }}">{{ cat[0]}}</li>
     {% for post in cat[1] %}
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> &raquo;
+        <time datetime="{{ post.qzone_display_date | default: post.date | date:"%Y-%m-%d" }}">{{ post.qzone_display_date | default: post.date | date:"%Y-%m-%d" }}</time> &raquo;
         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br />
     {% endfor %}
 {% endfor %}

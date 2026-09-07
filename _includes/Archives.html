@@ -1,7 +1,7 @@
 <div class="sidebar-module">
   <h4>{{ site.locales[site.default_locale].Archives }}</h4>
 
-  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.qzone_display_date | default: post.date | date: '%Y'" %}
   
   {% for year in posts_by_year %}
     <li id="{{ year.name }}">

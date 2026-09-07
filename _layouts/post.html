@@ -20,8 +20,8 @@ layout: default
     {% endfor %}
     {% endif %}
 
-    <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%Y-%m-%d" }}
+    <time itemprop="datePublished" datetime="{{ page.qzone_display_date | default: page.date | date: '%Y-%m-%d' }}">
+    {{ site.locales[site.default_locale].PostDate }}{{ page.qzone_display_date | default: page.date | date: "%Y-%m-%d" }}
     </time>
 
     | 本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字
