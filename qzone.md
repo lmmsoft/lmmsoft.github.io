@@ -4,7 +4,7 @@ title: Qzone 日志
 permalink: /qzone/
 ---
 
-这里收录从 QQ 空间迁移的日志。文章按原始发表日期排列，每篇保留来源记录；转载文章保留原文中的作者和来源说明。文中的想法、称呼和叙述属于当时的语境。
+这里收录从 QQ 空间迁移的日志。文章按原始发表日期排列，每篇保留来源记录；已识别的转载文章暂不公开展示。文中的想法、称呼和叙述属于当时的语境。
 
 {% assign qzone_posts = site.tags.qzone | sort: "qzone_published_at" | reverse %}
 {% assign qzone_years = qzone_posts | group_by_exp: "post", "post.qzone_published_at | date: '%Y'" %}
