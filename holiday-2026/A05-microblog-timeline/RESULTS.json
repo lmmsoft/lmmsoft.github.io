@@ -1,0 +1,95 @@
+{
+  "task_id": "A05",
+  "status": "needs-review",
+  "started_at_utc": "2026-10-04T22:28:47Z",
+  "finished_at_utc": "2026-10-04T22:32:43Z",
+  "elapsed_seconds": 236,
+  "deliverables": [
+    "CLOUD_RUN_REPORT.json",
+    "DEMO.md",
+    "PRD.md",
+    "RESULTS.json",
+    "REVIEW.md",
+    "VERIFICATION.md",
+    "content/demo-code.md",
+    "content/demo-cooking.md",
+    "content/demo-draft.md",
+    "content/demo-language.md",
+    "content/demo-note.md",
+    "content/demo-reading.md",
+    "content/demo-walk.md",
+    "content/demo-welcome.md",
+    "generate.py",
+    "preview.html",
+    "tests/test_generate.py"
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 -m unittest discover -s holiday-2026/A05-microblog-timeline/tests -v",
+      "exit_code": 0,
+      "result": "4 tests passed; stable sorting, timezone rejection, duplicate IDs, draft hiding, and escaping covered."
+    },
+    {
+      "command": "python3 holiday-2026/A05-microblog-timeline/generate.py",
+      "exit_code": 0,
+      "result": "Generated 7 public entries from 8 synthetic inputs; one draft hidden."
+    },
+    {
+      "command": "python3 generate.py --source <duplicate-fixture> --output <temp>/out.html",
+      "exit_code": 2,
+      "result": "Expected failure: duplicate id demo-code rejected."
+    },
+    {
+      "command": "bundle exec jekyll build",
+      "exit_code": 127,
+      "result": "Environment limitation: Bundler reports missing jekyll executable; no package install attempted."
+    },
+    {
+      "command": "python3 -m py_compile holiday-2026/A05-microblog-timeline/generate.py holiday-2026/A05-microblog-timeline/tests/test_generate.py",
+      "exit_code": 0,
+      "result": "Python syntax compilation passed."
+    },
+    {
+      "command": "python3 <inline HTML audit>",
+      "exit_code": 0,
+      "result": "Measured 7 articles, 7 unique IDs, 6242 bytes."
+    },
+    {
+      "command": "python3 <inline Markdown frontmatter audit>",
+      "exit_code": 0,
+      "result": "All 12 Markdown files contain required review metadata and allowed status."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "No whitespace errors."
+    }
+  ],
+  "limitations": [
+    "Jekyll production build could not run because the installed bundle has no jekyll executable.",
+    "No supported browser executable was present, so responsive visual review and screenshot remain manual.",
+    "Production URL, navigation, and RSS decisions are intentionally not implemented."
+  ],
+  "next_review_actions": [
+    "Open preview.html at desktop and 320px width and review filtering, empty state, anchors, focus, and contrast.",
+    "Approve or revise the frontmatter contract and stable sort tie-breaker.",
+    "Decide whether a future Jekyll collection uses an independent RSS feed; then run the production build in the project container."
+  ],
+  "implementation_progress_percent": 90,
+  "implementation_progress_basis": {
+    "completed": 9,
+    "total": 10,
+    "pending": [
+      "Browser screenshot and manual responsive visual review"
+    ]
+  },
+  "real_acceptance_percent": 75,
+  "real_acceptance_basis": {
+    "completed": 6,
+    "total": 8,
+    "pending": [
+      "Manual 320px browser acceptance",
+      "Production integration decisions and successful Jekyll build"
+    ]
+  }
+}
