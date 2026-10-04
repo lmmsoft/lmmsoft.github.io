@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-TW"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>safe-static-preview-2026 · zh-TW</title><style>body{font:16px/1.65 system-ui;max-width:880px;margin:auto;padding:2rem;color:#243040}nav,.notice{padding:1rem;background:#eef4ff;border-radius:.5rem}nav a{margin-right:1rem}pre{overflow:auto;background:#17202a;color:#f7f7f7;padding:1rem}code{background:#edf0f3;padding:.15rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{border:1px solid #ccd5df;padding:1rem}.bad{color:#a22121;font-weight:bold}.good{color:#176b35;font-weight:bold}@media(max-width:700px){.grid{grid-template-columns:1fr}}</style><body><nav><a href="../zh-CN/">zh-CN</a><a href="../en/">en</a><a href="../zh-TW/">zh-TW</a><a href="../../review.html">差异审阅</a></nav><p class="notice"><b>synthetic demo</b> · effective status: <span class="good">reviewed</span> · publishable: true</p><h1>為靜態預覽加入安全檢查</h1>
+<p>這是一篇為示範而撰寫、內容可公開的技術短文。靜態網站的預覽流程不該因為內容尚未審閱，就把頁面混入發布目錄。最低限度的防護是先驗證中繼資料，再產生隔離的本機預覽。</p>
+<h2>一個小範例</h2>
+<p>以下命令只會啟動本機檔案伺服器，不會發布內容：</p>
+<pre><code>python3 -m http.server 8000 --directory site</code></pre>
+<p>預覽器必須保留程式碼中的 <code>Cache-Control</code>，也應保留專名 GitHub Pages。讀者可以造訪<a href="https://example.com/docs?a=1&amp;b=2">範例文件</a>，但產生 HTML 時必須跳脫連結屬性。</p>
+<h2>審閱清單</h2>
+<div class=check>1. 逐項核對引文、程式碼區塊和專名。</div>
+<div class=check>2. 確認譯文表達自然，而不是機械地替換字形。</div>
+<div class=check>3. 只有來源雜湊相符且狀態為 `reviewed` 的版本，才具備發布資格。</div>
+<blockquote>本示範只產生隔離預覽；它不會修改正式環境路由，也不會自動發布。</blockquote></body></html>

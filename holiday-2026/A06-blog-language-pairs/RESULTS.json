@@ -1,0 +1,85 @@
+{
+  "task_id": "A06-blog-language-pairs",
+  "started_at_utc": "2026-10-04T22:29:03Z",
+  "finished_at_utc": "2026-10-04T22:34:02Z",
+  "elapsed_seconds": 299,
+  "status": "needs-review",
+  "implementation_progress_percent": 100,
+  "real_acceptance_percent": 91.7,
+  "acceptance_basis": {
+    "completed": 11,
+    "total": 12,
+    "note": "all programmatic criteria and proposal are delivered; cross-device visual review remains open"
+  },
+  "deliverables": [
+    "CLOUD_RUN_REPORT.json",
+    "DEMO.md",
+    "PRD.md",
+    "RESULTS.json",
+    "REVIEW.md",
+    "VERIFICATION.md",
+    "content/safe-static-preview.en.md",
+    "content/safe-static-preview.zh-CN.md",
+    "content/safe-static-preview.zh-TW.md",
+    "language_pairs.py",
+    "pairs.json",
+    "site/index.html",
+    "site/review.html",
+    "site/safe-static-preview-2026/en/index.html",
+    "site/safe-static-preview-2026/zh-CN/index.html",
+    "site/safe-static-preview-2026/zh-TW/index.html",
+    "tests/test_language_pairs.py"
+  ],
+  "executed_checks": [
+    {
+      "command": "python3 holiday-2026/A06-blog-language-pairs/language_pairs.py validate",
+      "exit_code": 0,
+      "result": "1 group and 2 reviewed translations valid"
+    },
+    {
+      "command": "python3 -m unittest discover -s holiday-2026/A06-blog-language-pairs/tests -v",
+      "exit_code": 0,
+      "result": "9/9 tests passed"
+    },
+    {
+      "command": "python3 holiday-2026/A06-blog-language-pairs/language_pairs.py build",
+      "exit_code": 0,
+      "result": "5 static HTML files generated"
+    },
+    {
+      "command": "source-change temporary-copy validation",
+      "exit_code": 0,
+      "result": "2/2 translations became stale and non-publishable"
+    },
+    {
+      "command": "unreviewed recovery temporary-copy validation",
+      "exit_code": 0,
+      "result": "2/2 translations remained non-publishable"
+    },
+    {
+      "command": "duplicate-locale temporary-copy validation",
+      "exit_code": 1,
+      "result": "expected rejection: duplicate en and missing zh-TW"
+    },
+    {
+      "command": "python3 -m py_compile holiday-2026/A06-blog-language-pairs/language_pairs.py holiday-2026/A06-blog-language-pairs/tests/test_language_pairs.py",
+      "exit_code": 0,
+      "result": "syntax check passed"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "no whitespace errors"
+    }
+  ],
+  "limitations": [
+    "No browser binary was available for a screenshot or cross-device visual inspection.",
+    "No production Jekyll integration/build, deployment, paid translation API, or private data access was performed.",
+    "Semantic translation quality still requires a human reviewer."
+  ],
+  "next_review_actions": [
+    "Open site/index.html on desktop and mobile widths and approve visual behavior.",
+    "Decide URL locale prefix, x-default target, feed policy, and reviewer authority.",
+    "If approved for production, implement the REVIEW.md change list and run Docker Jekyll build/doctor plus URL snapshots."
+  ]
+}
