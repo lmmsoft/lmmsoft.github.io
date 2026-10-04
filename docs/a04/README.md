@@ -121,3 +121,7 @@
 1. **是否把 GitHub Pages 的实际发布源固定为 Actions？** 当前仓库已有部署工作流，但未在本环境读取仓库 Settings；review 后确认即可。
 2. **是否接受 Jekyll 4.4.1 为基线，还是将 Gemfile 收紧为 `~> 4.4.1`？** 本 PR 保持现有约束与 lock，避免额外依赖变更。
 3. **P1 的移动端验收设备**：优先指定 Chrome 375×812 + 一台真实 iOS/Android；若只做浏览器仿真，需要明确接受第三方评论的设备差异风险。
+
+### CI follow-up
+
+The first real PR build succeeded but the verification gate caught a double slash in the feed self URL. The configured site origin is now normalized without a trailing slash, matching the absolute URL contract. The updated PR CI run is the acceptance source.
