@@ -13,6 +13,12 @@ on:
       - master
       - jekyll
 
+  # PR 只构建和验证，不部署，便于在合并前发现兼容性回归。
+  pull_request:
+    branches:
+      - master
+      - jekyll
+
   # 仍然允许手动触发
   workflow_dispatch:
 
@@ -22,9 +28,9 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Keep PR validation separate from production deployment cancellation.
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'deployment' }}"
   cancel-in-progress: true
 
 jobs:
@@ -37,7 +43,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a .ruby-version file
+          ruby-version: '3.3.6'
           bundler: '2.4.19'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
@@ -58,12 +64,15 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Verify compatibility contract
+        run: python3 scripts/verify_site.py _site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

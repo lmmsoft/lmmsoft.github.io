@@ -71,6 +71,8 @@ pagination:
   sort_reverse: true
 excerpt_separator: <!--more-->
 exclude:
+  - docs
+  - tests
   - vendor
   - venv
   - node_modules
