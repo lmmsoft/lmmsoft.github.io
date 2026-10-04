@@ -1,0 +1,100 @@
+{
+  "task_id": "A05",
+  "started_at_utc": "2026-10-04T22:28:47Z",
+  "finished_at_utc": "2026-10-04T22:32:43Z",
+  "elapsed_seconds": 236,
+  "files": [
+    "DEMO.md",
+    "PRD.md",
+    "REVIEW.md",
+    "VERIFICATION.md",
+    "content/demo-code.md",
+    "content/demo-cooking.md",
+    "content/demo-draft.md",
+    "content/demo-language.md",
+    "content/demo-note.md",
+    "content/demo-reading.md",
+    "content/demo-walk.md",
+    "content/demo-welcome.md",
+    "generate.py",
+    "preview.html",
+    "tests/test_generate.py",
+    "RESULTS.json",
+    "CLOUD_RUN_REPORT.json"
+  ],
+  "demo_entry": "holiday-2026/A05-microblog-timeline/preview.html",
+  "checks": [
+    {
+      "command": "python3 -m unittest discover -s holiday-2026/A05-microblog-timeline/tests -v",
+      "exit_code": 0,
+      "result": "4 tests passed; stable sorting, timezone rejection, duplicate IDs, draft hiding, and escaping covered."
+    },
+    {
+      "command": "python3 holiday-2026/A05-microblog-timeline/generate.py",
+      "exit_code": 0,
+      "result": "Generated 7 public entries from 8 synthetic inputs; one draft hidden."
+    },
+    {
+      "command": "python3 generate.py --source <duplicate-fixture> --output <temp>/out.html",
+      "exit_code": 2,
+      "result": "Expected failure: duplicate id demo-code rejected."
+    },
+    {
+      "command": "bundle exec jekyll build",
+      "exit_code": 127,
+      "result": "Environment limitation: Bundler reports missing jekyll executable; no package install attempted."
+    },
+    {
+      "command": "python3 -m py_compile holiday-2026/A05-microblog-timeline/generate.py holiday-2026/A05-microblog-timeline/tests/test_generate.py",
+      "exit_code": 0,
+      "result": "Python syntax compilation passed."
+    },
+    {
+      "command": "python3 <inline HTML audit>",
+      "exit_code": 0,
+      "result": "Measured 7 articles, 7 unique IDs, 6242 bytes."
+    },
+    {
+      "command": "python3 <inline Markdown frontmatter audit>",
+      "exit_code": 0,
+      "result": "All 12 Markdown files contain required review metadata and allowed status."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "No whitespace errors."
+    }
+  ],
+  "milestones": [
+    {
+      "name": "isolated-static-demo",
+      "achieved": true,
+      "evidence": "preview.html contains 7 visible synthetic entries generated from 8 inputs."
+    },
+    {
+      "name": "data-safety-validation",
+      "achieved": true,
+      "evidence": "Automated tests cover draft hiding, duplicate rejection, timezone requirement, tag escaping, and script escaping."
+    },
+    {
+      "name": "production-jekyll-validation",
+      "achieved": false,
+      "evidence": "bundle exec jekyll build exited 127 because the executable is unavailable."
+    },
+    {
+      "name": "responsive-visual-review",
+      "achieved": false,
+      "evidence": "CSS breakpoint is implemented, but no supported browser executable was available for a screenshot."
+    }
+  ],
+  "real_acceptance_gaps": [
+    "Manual browser verification at desktop and 320px.",
+    "Successful containerized Jekyll production build.",
+    "Reviewer decisions for production URL, navigation, and RSS."
+  ],
+  "review_decisions": [
+    "Approve body-in-frontmatter contract or request Markdown body.",
+    "Approve ID tie-break ordering for equal instants.",
+    "Keep short content out of existing feed or add a separate feed."
+  ]
+}
