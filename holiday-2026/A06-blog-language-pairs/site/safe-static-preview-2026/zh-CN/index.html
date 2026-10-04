@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>safe-static-preview-2026 · zh-CN</title><style>body{font:16px/1.65 system-ui;max-width:880px;margin:auto;padding:2rem;color:#243040}nav,.notice{padding:1rem;background:#eef4ff;border-radius:.5rem}nav a{margin-right:1rem}pre{overflow:auto;background:#17202a;color:#f7f7f7;padding:1rem}code{background:#edf0f3;padding:.15rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{border:1px solid #ccd5df;padding:1rem}.bad{color:#a22121;font-weight:bold}.good{color:#176b35;font-weight:bold}@media(max-width:700px){.grid{grid-template-columns:1fr}}</style><body><nav><a href="../zh-CN/">zh-CN</a><a href="../en/">en</a><a href="../zh-TW/">zh-TW</a><a href="../../review.html">差异审阅</a></nav><p class="notice"><b>synthetic demo</b> · effective status: <span class="good">source</span> · publishable: true</p><h1>为静态预览增加安全检查</h1>
+<p>这是一篇自行撰写的公开安全技术短文。静态站点的预览流程不应因为内容尚未审核，就把页面混入发布目录。最小做法是先验证元数据，再生成隔离的本地预览。</p>
+<h2>一个小例子</h2>
+<p>下面的命令只启动本机文件服务器，不会发布内容：</p>
+<pre><code>python3 -m http.server 8000 --directory site</code></pre>
+<p>预览器必须保留代码中的 <code>Cache-Control</code>，也应保留专名 GitHub Pages。读者可以访问<a href="https://example.com/docs?a=1&amp;b=2">示例文档</a>，但生成 HTML 时必须转义链接属性。</p>
+<h2>审阅清单</h2>
+<div class=check>1. 逐项核对引用、代码块和专名。</div>
+<div class=check>2. 确认译文表达自然，而不是机械替换字形。</div>
+<div class=check>3. 只有来源哈希匹配且状态为 `reviewed` 的版本才具备发布资格。</div>
+<blockquote>本演示只生成隔离预览；它不会修改生产路由，也不会自动发布。</blockquote></body></html>

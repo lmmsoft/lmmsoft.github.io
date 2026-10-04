@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "supported_locales": [
+    "zh-CN",
+    "en",
+    "zh-TW"
+  ],
+  "groups": [
+    {
+      "translation_group_id": "safe-static-preview-2026",
+      "source_locale": "zh-CN",
+      "source_revision": 1,
+      "source_path": "content/safe-static-preview.zh-CN.md",
+      "translations": [
+        {
+          "locale": "en",
+          "path": "content/safe-static-preview.en.md",
+          "source_revision": 1,
+          "source_hash": "e2ae8c845f41878129247588c0f52addeb5451b84f8b2aceeca2acbdbdb7e23b",
+          "review_status": "reviewed"
+        },
+        {
+          "locale": "zh-TW",
+          "path": "content/safe-static-preview.zh-TW.md",
+          "source_revision": 1,
+          "source_hash": "e2ae8c845f41878129247588c0f52addeb5451b84f8b2aceeca2acbdbdb7e23b",
+          "review_status": "reviewed"
+        }
+      ]
+    }
+  ]
+}

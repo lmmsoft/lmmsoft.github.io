@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>safe-static-preview-2026 · en</title><style>body{font:16px/1.65 system-ui;max-width:880px;margin:auto;padding:2rem;color:#243040}nav,.notice{padding:1rem;background:#eef4ff;border-radius:.5rem}nav a{margin-right:1rem}pre{overflow:auto;background:#17202a;color:#f7f7f7;padding:1rem}code{background:#edf0f3;padding:.15rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{border:1px solid #ccd5df;padding:1rem}.bad{color:#a22121;font-weight:bold}.good{color:#176b35;font-weight:bold}@media(max-width:700px){.grid{grid-template-columns:1fr}}</style><body><nav><a href="../zh-CN/">zh-CN</a><a href="../en/">en</a><a href="../zh-TW/">zh-TW</a><a href="../../review.html">差异审阅</a></nav><p class="notice"><b>synthetic demo</b> · effective status: <span class="good">reviewed</span> · publishable: true</p><h1>Add safety checks to static previews</h1>
+<p>This public-safe technical note was written for the demo. A static-site preview pipeline must not mix an unreviewed page into its publishing directory. The smallest safeguard validates metadata first and then builds an isolated local preview.</p>
+<h2>A small example</h2>
+<p>The following command only starts a local file server; it does not publish anything:</p>
+<pre><code>python3 -m http.server 8000 --directory site</code></pre>
+<p>The previewer must preserve <code>Cache-Control</code> in code and the proper name GitHub Pages. A reader may visit the <a href="https://example.com/docs?a=1&amp;b=2">example documentation</a>, while the generator must escape HTML link attributes.</p>
+<h2>Review checklist</h2>
+<div class=check>1. Check every quotation, code block, and proper name.</div>
+<div class=check>2. Confirm that the translation reads naturally instead of mechanically replacing characters.</div>
+<div class=check>3. A version is eligible for publication only when its source hash matches and its status is `reviewed`.</div>
+<blockquote>This demo builds an isolated preview only; it does not change production routes or publish automatically.</blockquote></body></html>

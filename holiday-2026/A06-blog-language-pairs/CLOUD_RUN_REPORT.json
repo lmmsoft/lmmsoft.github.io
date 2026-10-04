@@ -1,0 +1,106 @@
+{
+  "task_id": "A06-blog-language-pairs",
+  "started_at_utc": "2026-10-04T22:29:03Z",
+  "finished_at_utc": "2026-10-04T22:34:02Z",
+  "elapsed_seconds": 299,
+  "files": [
+    "DEMO.md",
+    "PRD.md",
+    "REVIEW.md",
+    "VERIFICATION.md",
+    "content/safe-static-preview.en.md",
+    "content/safe-static-preview.zh-CN.md",
+    "content/safe-static-preview.zh-TW.md",
+    "language_pairs.py",
+    "pairs.json",
+    "site/index.html",
+    "site/review.html",
+    "site/safe-static-preview-2026/en/index.html",
+    "site/safe-static-preview-2026/zh-CN/index.html",
+    "site/safe-static-preview-2026/zh-TW/index.html",
+    "tests/test_language_pairs.py",
+    "RESULTS.json",
+    "CLOUD_RUN_REPORT.json"
+  ],
+  "demo_entry": "holiday-2026/A06-blog-language-pairs/site/index.html",
+  "checks": [
+    {
+      "command": "python3 holiday-2026/A06-blog-language-pairs/language_pairs.py validate",
+      "exit_code": 0,
+      "result": "1 group and 2 reviewed translations valid"
+    },
+    {
+      "command": "python3 -m unittest discover -s holiday-2026/A06-blog-language-pairs/tests -v",
+      "exit_code": 0,
+      "result": "9/9 tests passed"
+    },
+    {
+      "command": "python3 holiday-2026/A06-blog-language-pairs/language_pairs.py build",
+      "exit_code": 0,
+      "result": "5 static HTML files generated"
+    },
+    {
+      "command": "source-change temporary-copy validation",
+      "exit_code": 0,
+      "result": "2/2 translations became stale and non-publishable"
+    },
+    {
+      "command": "unreviewed recovery temporary-copy validation",
+      "exit_code": 0,
+      "result": "2/2 translations remained non-publishable"
+    },
+    {
+      "command": "duplicate-locale temporary-copy validation",
+      "exit_code": 1,
+      "result": "expected rejection: duplicate en and missing zh-TW"
+    },
+    {
+      "command": "python3 -m py_compile holiday-2026/A06-blog-language-pairs/language_pairs.py holiday-2026/A06-blog-language-pairs/tests/test_language_pairs.py",
+      "exit_code": 0,
+      "result": "syntax check passed"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "no whitespace errors"
+    }
+  ],
+  "milestones": [
+    {
+      "name": "language pair manifest and gate",
+      "achieved": true,
+      "evidence": "pairs.json plus 9 passing unit tests"
+    },
+    {
+      "name": "synthetic trilingual static preview",
+      "achieved": true,
+      "evidence": "5 generated HTML files with language switch and review page"
+    },
+    {
+      "name": "source drift blocks publication",
+      "achieved": true,
+      "evidence": "temporary source mutation produced stale and publishable=false for 2/2 translations"
+    },
+    {
+      "name": "production integration",
+      "achieved": false,
+      "evidence": "proposal only in REVIEW.md, intentionally not connected to production routes"
+    },
+    {
+      "name": "cross-device visual review",
+      "achieved": false,
+      "evidence": "no supported browser binary in environment"
+    }
+  ],
+  "real_acceptance_gaps": [
+    "Desktop/mobile visual review and screenshot",
+    "Human approval of translation semantics and proposed production contract",
+    "Production Jekyll integration and regression build (explicitly out of scope for this isolated task)"
+  ],
+  "review_decisions": [
+    "Approve /i18n/<locale>/<existing-slug>/ URL proposal or choose an alternative",
+    "Approve self-canonical plus reciprocal hreflang and zh-CN x-default",
+    "Choose whether translations enter the primary feed",
+    "Define reviewer identity and audit metadata"
+  ]
+}
